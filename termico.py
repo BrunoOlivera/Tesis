@@ -1,8 +1,17 @@
 class Termico:
 
-    def __init__(self, pot_max, costo):
+    def __init__(self, nombre, pot_max, costo):
+        self._nombre = nombre
         self._pot_max = pot_max
         self._costo = costo
+
+    @property
+    def nombre(self):
+        return self._nombre
+
+    @nombre.setter
+    def nombre(self, value):
+        self._nombre = value
 
     @property
     def pot_max(self):

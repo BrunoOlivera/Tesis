@@ -1,0 +1,1121 @@
+model.policy_step_size=1e-06
+model.value_step_size=0.001
+model.gamma=1.0
+model.policy.sigma=5.0
+init_lago=4100
+init_mean=0.00
+exploring_start=True
+model.state_space.sigma=1000
+env._h_fijo=1
+======================================================
+Start Time: 17:54:32
+======================================================
+Episode 0: Value: 7435165884.7 Mean: 0.7 Mean: 680.0 Mean: 316.2 Mean: 680.0 Costo: 2541961789.8 Time: 0.6m
+Episode 1: Value: 7435165884.7 Mean: 655.2 Mean: 317.2 Mean: 663.1 Mean: 665.5 Costo: 2541961789.8 Time: 1.3m
+Episode 2: Value: 7435165884.7 Mean: 426.9 Mean: 236.1 Mean: 539.5 Mean: 33.9 Costo: 2541961789.8 Time: 2.0m
+Episode 3: Value: 7435165884.7 Mean: 438.1 Mean: 680.0 Mean: 1.2 Mean: 522.5 Costo: 2541961789.8 Time: 2.6m
+Episode 4: Value: 7435165884.7 Mean: 525.8 Mean: 680.0 Mean: 0.0 Mean: 0.2 Costo: 2541961789.8 Time: 3.3m
+Episode 5: Value: 7435165884.7 Mean: 0.0 Mean: 680.0 Mean: 1.9 Mean: 680.0 Costo: 2541961789.8 Time: 4.0m
+Episode 6: Value: 7435165884.7 Mean: 68.6 Mean: 612.2 Mean: 680.0 Mean: 427.6 Costo: 2541961789.8 Time: 4.6m
+Episode 7: Value: 7435165884.7 Mean: 0.0 Mean: 573.0 Mean: 680.0 Mean: 500.9 Costo: 2541961789.8 Time: 5.3m
+Episode 8: Value: 7434626983.5 Mean: 135.5 Mean: 0.0 Mean: 638.1 Mean: 587.1 Costo: 2535583503.7 Time: 6.0m
+Episode 9: Value: 7434626983.5 Mean: 0.9 Mean: 134.7 Mean: 4.6 Mean: 25.1 Costo: 2535583503.7 Time: 6.7m
+Episode 10: Value: 7434626983.5 Mean: 0.9 Mean: 0.0 Mean: 680.0 Mean: 680.0 Costo: 2535583503.7 Time: 7.4m
+Episode 11: Value: 7434626983.5 Mean: 1.0 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2535583503.7 Time: 8.1m
+Episode 12: Value: 7434626983.5 Mean: 258.1 Mean: 23.7 Mean: 331.2 Mean: 675.1 Costo: 2535583503.7 Time: 8.7m
+Episode 13: Value: 7434626983.5 Mean: 0.1 Mean: 561.8 Mean: 201.7 Mean: 680.0 Costo: 2535583503.7 Time: 9.4m
+Episode 14: Value: 7434626983.5 Mean: 0.4 Mean: 561.8 Mean: 183.1 Mean: 2.4 Costo: 2535583503.7 Time: 10.1m
+Episode 15: Value: 7430979873.7 Mean: 122.4 Mean: 680.0 Mean: 673.0 Mean: 607.1 Costo: 2497290647.1 Time: 10.8m
+Episode 16: Value: 7430979873.7 Mean: 201.0 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2497290647.1 Time: 11.5m
+Episode 17: Value: 7432086349.4 Mean: 216.0 Mean: 680.0 Mean: 258.7 Mean: 675.2 Costo: 2484439905.1 Time: 12.1m
+Episode 18: Value: 7432086349.4 Mean: 258.8 Mean: 541.5 Mean: 435.0 Mean: 0.2 Costo: 2484439905.1 Time: 12.8m
+Episode 19: Value: 7432086349.4 Mean: 260.6 Mean: 680.0 Mean: 680.0 Mean: 0.0 Costo: 2484439905.1 Time: 13.5m
+Episode 20: Value: 7432086349.4 Mean: 217.4 Mean: 0.0 Mean: 0.1 Mean: 23.9 Costo: 2484439905.1 Time: 14.2m
+Episode 21: Value: 7432086349.4 Mean: 3.4 Mean: 6.5 Mean: 3.6 Mean: 17.7 Costo: 2484439905.1 Time: 14.9m
+Episode 22: Value: 7432086349.4 Mean: 492.2 Mean: 680.0 Mean: 0.0 Mean: 680.0 Costo: 2484439905.1 Time: 15.5m
+Episode 23: Value: 7432086349.4 Mean: 4.6 Mean: 310.6 Mean: 680.0 Mean: 0.0 Costo: 2484439905.1 Time: 16.2m
+Episode 24: Value: 7432086349.4 Mean: 680.0 Mean: 0.0 Mean: 680.0 Mean: 13.0 Costo: 2484439905.1 Time: 16.9m
+Episode 25: Value: 7432086349.4 Mean: 135.8 Mean: 508.9 Mean: 400.6 Mean: 680.0 Costo: 2484439905.1 Time: 17.6m
+Episode 26: Value: 7432086349.4 Mean: 521.2 Mean: 179.4 Mean: 680.0 Mean: 4.3 Costo: 2484439905.1 Time: 18.2m
+Episode 27: Value: 7432086349.4 Mean: 434.2 Mean: 0.3 Mean: 90.5 Mean: 64.8 Costo: 2484439905.1 Time: 18.9m
+Episode 28: Value: 7432086349.4 Mean: 680.0 Mean: 680.0 Mean: 412.1 Mean: 570.7 Costo: 2484439905.1 Time: 19.6m
+Episode 29: Value: 7432086349.4 Mean: 680.0 Mean: 161.9 Mean: 0.0 Mean: 20.7 Costo: 2484439905.1 Time: 20.2m
+Episode 30: Value: 7432086349.4 Mean: 0.0 Mean: 0.0 Mean: 235.8 Mean: 155.7 Costo: 2484439905.1 Time: 20.9m
+Episode 31: Value: 7432086349.4 Mean: 0.0 Mean: 365.5 Mean: 354.1 Mean: 652.7 Costo: 2484439905.1 Time: 21.6m
+Episode 32: Value: 7432086349.4 Mean: 534.9 Mean: 665.4 Mean: 680.0 Mean: 680.0 Costo: 2484439905.1 Time: 22.3m
+Episode 33: Value: 7432086349.4 Mean: 680.0 Mean: 57.6 Mean: 179.9 Mean: 401.1 Costo: 2484439905.1 Time: 23.0m
+Episode 34: Value: 7432086349.4 Mean: 680.0 Mean: 293.2 Mean: 680.0 Mean: 669.9 Costo: 2484439905.1 Time: 23.6m
+Episode 35: Value: 7432086349.4 Mean: 0.0 Mean: 0.0 Mean: 0.0 Mean: 278.7 Costo: 2484439905.1 Time: 24.3m
+Episode 36: Value: 7432086349.4 Mean: 433.4 Mean: 103.7 Mean: 680.0 Mean: 602.8 Costo: 2484439905.1 Time: 25.0m
+Episode 37: Value: 7432086349.4 Mean: 16.8 Mean: 283.4 Mean: 160.4 Mean: 601.4 Costo: 2484439905.1 Time: 25.7m
+Episode 38: Value: 7432086349.4 Mean: 680.0 Mean: 3.6 Mean: 10.4 Mean: 427.5 Costo: 2484439905.1 Time: 26.4m
+Episode 39: Value: 7432086349.4 Mean: 210.9 Mean: 45.6 Mean: 0.0 Mean: 680.0 Costo: 2484439905.1 Time: 27.0m
+Episode 40: Value: 7432086349.4 Mean: 680.0 Mean: 112.5 Mean: 265.7 Mean: 269.6 Costo: 2484439905.1 Time: 27.7m
+Episode 41: Value: 7432086349.4 Mean: 680.0 Mean: 101.9 Mean: 183.0 Mean: 113.4 Costo: 2484439905.1 Time: 28.4m
+Episode 42: Value: 7432086349.4 Mean: 547.3 Mean: 510.9 Mean: 680.0 Mean: 37.8 Costo: 2484439905.1 Time: 29.1m
+Episode 43: Value: 7432086349.4 Mean: 557.6 Mean: 110.4 Mean: 0.0 Mean: 537.9 Costo: 2484439905.1 Time: 29.7m
+Episode 44: Value: 7432086349.4 Mean: 557.6 Mean: 680.0 Mean: 497.5 Mean: 54.6 Costo: 2484439905.1 Time: 30.4m
+Episode 45: Value: 7432086349.4 Mean: 0.0 Mean: 0.0 Mean: 1.4 Mean: 8.1 Costo: 2484439905.1 Time: 31.1m
+Episode 46: Value: 7432086349.4 Mean: 0.0 Mean: 8.3 Mean: 266.5 Mean: 0.0 Costo: 2484439905.1 Time: 31.7m
+Episode 47: Value: 7432086349.4 Mean: 375.0 Mean: 121.6 Mean: 0.0 Mean: 0.0 Costo: 2484439905.1 Time: 32.4m
+Episode 48: Value: 7432086349.4 Mean: 7.5 Mean: 571.2 Mean: 250.9 Mean: 651.7 Costo: 2484439905.1 Time: 33.1m
+Episode 49: Value: 7432086349.4 Mean: 348.9 Mean: 680.0 Mean: 670.6 Mean: 211.9 Costo: 2484439905.1 Time: 33.8m
+Episode 50: Value: 7432086349.4 Mean: 390.8 Mean: 41.2 Mean: 13.7 Mean: 17.3 Costo: 2484439905.1 Time: 34.4m
+Episode 51: Value: 7432086349.4 Mean: 489.5 Mean: 680.0 Mean: 127.5 Mean: 370.8 Costo: 2484439905.1 Time: 35.1m
+Episode 52: Value: 7432086349.4 Mean: 680.0 Mean: 30.6 Mean: 680.0 Mean: 674.7 Costo: 2484439905.1 Time: 35.8m
+Episode 53: Value: 7432086349.4 Mean: 11.3 Mean: 680.0 Mean: 279.7 Mean: 181.8 Costo: 2484439905.1 Time: 36.5m
+Episode 54: Value: 7432086349.4 Mean: 0.0 Mean: 51.2 Mean: 219.0 Mean: 640.2 Costo: 2484439905.1 Time: 37.2m
+Episode 55: Value: 7432086349.4 Mean: 135.1 Mean: 519.5 Mean: 13.9 Mean: 7.5 Costo: 2484439905.1 Time: 37.8m
+Episode 56: Value: 7432086349.4 Mean: 249.4 Mean: 374.9 Mean: 47.5 Mean: 680.0 Costo: 2484439905.1 Time: 38.5m
+Episode 57: Value: 7432086349.4 Mean: 0.0 Mean: 85.1 Mean: 0.0 Mean: 680.0 Costo: 2484439905.1 Time: 39.2m
+Episode 58: Value: 7432086349.4 Mean: 0.1 Mean: 680.0 Mean: 134.8 Mean: 680.0 Costo: 2484439905.1 Time: 39.8m
+Episode 59: Value: 7432086349.4 Mean: 397.4 Mean: 3.2 Mean: 673.0 Mean: 613.5 Costo: 2484439905.1 Time: 40.5m
+Episode 60: Value: 7432086349.4 Mean: 4.7 Mean: 680.0 Mean: 680.0 Mean: 666.9 Costo: 2484439905.1 Time: 41.2m
+Episode 61: Value: 7432086349.4 Mean: 680.0 Mean: 3.1 Mean: 35.6 Mean: 35.1 Costo: 2484439905.1 Time: 41.8m
+Episode 62: Value: 7432086349.4 Mean: 680.0 Mean: 270.5 Mean: 399.1 Mean: 140.2 Costo: 2484439905.1 Time: 42.5m
+Episode 63: Value: 7432086349.4 Mean: 630.8 Mean: 600.0 Mean: 680.0 Mean: 0.0 Costo: 2484439905.1 Time: 43.2m
+Episode 64: Value: 7432086349.4 Mean: 673.2 Mean: 602.9 Mean: 680.0 Mean: 680.0 Costo: 2484439905.1 Time: 43.9m
+Episode 65: Value: 7432086349.4 Mean: 579.8 Mean: 679.0 Mean: 680.0 Mean: 2.2 Costo: 2484439905.1 Time: 44.6m
+Episode 66: Value: 7432086349.4 Mean: 680.0 Mean: 3.1 Mean: 11.5 Mean: 19.3 Costo: 2484439905.1 Time: 45.2m
+Episode 67: Value: 7432086349.4 Mean: 680.0 Mean: 622.8 Mean: 680.0 Mean: 394.6 Costo: 2484439905.1 Time: 45.9m
+Episode 68: Value: 7432086349.4 Mean: 571.0 Mean: 680.0 Mean: 10.1 Mean: 680.0 Costo: 2484439905.1 Time: 46.6m
+Episode 69: Value: 7432086349.4 Mean: 680.0 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2484439905.1 Time: 47.3m
+Episode 70: Value: 7432086349.4 Mean: 0.0 Mean: 680.0 Mean: 314.3 Mean: 333.7 Costo: 2484439905.1 Time: 47.9m
+Episode 71: Value: 7432086349.4 Mean: 141.6 Mean: 27.6 Mean: 268.5 Mean: 680.0 Costo: 2484439905.1 Time: 48.6m
+Episode 72: Value: 7432086349.4 Mean: 0.0 Mean: 0.0 Mean: 161.3 Mean: 0.0 Costo: 2484439905.1 Time: 49.3m
+Episode 73: Value: 7432086349.4 Mean: 680.0 Mean: 200.5 Mean: 34.7 Mean: 0.0 Costo: 2484439905.1 Time: 50.0m
+Episode 74: Value: 7432086349.4 Mean: 0.0 Mean: 13.5 Mean: 49.0 Mean: 150.1 Costo: 2484439905.1 Time: 50.6m
+Episode 75: Value: 7432086349.4 Mean: 680.0 Mean: 4.3 Mean: 22.3 Mean: 680.0 Costo: 2484439905.1 Time: 51.3m
+Episode 76: Value: 7432086349.4 Mean: 680.0 Mean: 680.0 Mean: 54.0 Mean: 50.6 Costo: 2484439905.1 Time: 52.0m
+Episode 77: Value: 7432086349.4 Mean: 680.0 Mean: 680.0 Mean: 47.8 Mean: 215.1 Costo: 2484439905.1 Time: 52.7m
+Episode 78: Value: 7432086349.4 Mean: 597.1 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2484439905.1 Time: 53.3m
+Episode 79: Value: 7432086349.4 Mean: 586.9 Mean: 680.0 Mean: 497.1 Mean: 434.8 Costo: 2484439905.1 Time: 54.0m
+Episode 80: Value: 7432086349.4 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 0.0 Costo: 2484439905.1 Time: 54.7m
+Episode 81: Value: 7432086349.4 Mean: 0.0 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2484439905.1 Time: 55.4m
+Episode 82: Value: 7432086349.4 Mean: 129.4 Mean: 0.0 Mean: 0.0 Mean: 680.0 Costo: 2484439905.1 Time: 56.1m
+Episode 83: Value: 7432086349.4 Mean: 680.0 Mean: 83.5 Mean: 89.0 Mean: 93.4 Costo: 2484439905.1 Time: 56.8m
+Episode 84: Value: 7432086349.4 Mean: 0.0 Mean: 18.7 Mean: 21.4 Mean: 132.6 Costo: 2484439905.1 Time: 57.5m
+Episode 85: Value: 7432086349.4 Mean: 523.1 Mean: 181.1 Mean: 479.3 Mean: 36.2 Costo: 2484439905.1 Time: 58.2m
+Episode 86: Value: 7432086349.4 Mean: 14.3 Mean: 32.1 Mean: 2.6 Mean: 14.4 Costo: 2484439905.1 Time: 58.9m
+Episode 87: Value: 7432086349.4 Mean: 29.2 Mean: 0.0 Mean: 0.0 Mean: 45.1 Costo: 2484439905.1 Time: 59.6m
+Episode 88: Value: 7432086349.4 Mean: 0.0 Mean: 161.2 Mean: 8.8 Mean: 30.5 Costo: 2484439905.1 Time: 60.3m
+Episode 89: Value: 7432086349.4 Mean: 1.6 Mean: 0.0 Mean: 680.0 Mean: 19.5 Costo: 2484439905.1 Time: 61.0m
+Episode 90: Value: 7432086349.4 Mean: 7.2 Mean: 651.7 Mean: 488.7 Mean: 115.3 Costo: 2484439905.1 Time: 61.7m
+Episode 91: Value: 7432086349.4 Mean: 410.1 Mean: 100.4 Mean: 680.0 Mean: 59.6 Costo: 2484439905.1 Time: 62.3m
+Episode 92: Value: 7432086349.4 Mean: 1.2 Mean: 2.7 Mean: 441.2 Mean: 680.0 Costo: 2484439905.1 Time: 63.0m
+Episode 93: Value: 7432086349.4 Mean: 680.0 Mean: 462.4 Mean: 680.0 Mean: 680.0 Costo: 2484439905.1 Time: 63.7m
+Episode 94: Value: 7432086349.4 Mean: 0.0 Mean: 0.0 Mean: 32.6 Mean: 0.0 Costo: 2484439905.1 Time: 64.4m
+Episode 95: Value: 7432086349.4 Mean: 680.0 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2484439905.1 Time: 65.1m
+Episode 96: Value: 7432086349.4 Mean: 263.7 Mean: 680.0 Mean: 680.0 Mean: 0.0 Costo: 2484439905.1 Time: 65.8m
+Episode 97: Value: 7432086349.4 Mean: 680.0 Mean: 0.0 Mean: 0.0 Mean: 27.3 Costo: 2484439905.1 Time: 66.5m
+Episode 98: Value: 7432086349.4 Mean: 680.0 Mean: 58.0 Mean: 23.5 Mean: 78.3 Costo: 2484439905.1 Time: 67.2m
+Episode 99: Value: 7432086349.4 Mean: 63.1 Mean: 468.2 Mean: 680.0 Mean: 680.0 Costo: 2484439905.1 Time: 67.9m
+Episode 100: Value: 7432086349.4 Mean: 680.0 Mean: 477.8 Mean: 680.0 Mean: 680.0 Costo: 2484439905.1 Time: 68.6m
+Episode 101: Value: 7432086349.4 Mean: 0.0 Mean: 0.0 Mean: 0.1 Mean: 451.8 Costo: 2484439905.1 Time: 69.3m
+Episode 102: Value: 7432086349.4 Mean: 199.8 Mean: 35.9 Mean: 46.2 Mean: 0.0 Costo: 2484439905.1 Time: 70.0m
+Episode 103: Value: 7432086349.4 Mean: 232.5 Mean: 94.5 Mean: 680.0 Mean: 386.7 Costo: 2484439905.1 Time: 70.7m
+Episode 104: Value: 7401125708.8 Mean: 680.0 Mean: 169.4 Mean: 88.9 Mean: 680.0 Costo: 2474156120.3 Time: 71.4m
+Episode 105: Value: 7401125708.8 Mean: 680.0 Mean: 10.7 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 72.1m
+Episode 106: Value: 7401125708.8 Mean: 680.0 Mean: 136.1 Mean: 579.8 Mean: 49.8 Costo: 2474156120.3 Time: 72.7m
+Episode 107: Value: 7401125708.8 Mean: 0.1 Mean: 0.2 Mean: 680.0 Mean: 44.7 Costo: 2474156120.3 Time: 73.4m
+Episode 108: Value: 7401125708.8 Mean: 1.1 Mean: 31.2 Mean: 163.7 Mean: 47.2 Costo: 2474156120.3 Time: 74.1m
+Episode 109: Value: 7401125708.8 Mean: 2.0 Mean: 46.3 Mean: 69.9 Mean: 450.7 Costo: 2474156120.3 Time: 74.8m
+Episode 110: Value: 7401125708.8 Mean: 2.0 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 75.5m
+Episode 111: Value: 7401125708.8 Mean: 680.0 Mean: 47.8 Mean: 608.5 Mean: 553.1 Costo: 2474156120.3 Time: 76.2m
+Episode 112: Value: 7401125708.8 Mean: 680.0 Mean: 101.1 Mean: 112.8 Mean: 128.0 Costo: 2474156120.3 Time: 76.9m
+Episode 113: Value: 7401125708.8 Mean: 680.0 Mean: 124.0 Mean: 98.9 Mean: 680.0 Costo: 2474156120.3 Time: 77.6m
+Episode 114: Value: 7401125708.8 Mean: 26.2 Mean: 110.5 Mean: 104.7 Mean: 548.0 Costo: 2474156120.3 Time: 78.3m
+Episode 115: Value: 7401125708.8 Mean: 0.0 Mean: 23.6 Mean: 680.0 Mean: 82.1 Costo: 2474156120.3 Time: 79.0m
+Episode 116: Value: 7401125708.8 Mean: 22.9 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 79.7m
+Episode 117: Value: 7401125708.8 Mean: 680.0 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 80.4m
+Episode 118: Value: 7401125708.8 Mean: 231.8 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 81.0m
+Episode 119: Value: 7401125708.8 Mean: 231.9 Mean: 65.0 Mean: 680.0 Mean: 209.6 Costo: 2474156120.3 Time: 81.7m
+Episode 120: Value: 7401125708.8 Mean: 231.9 Mean: 142.7 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 82.4m
+Episode 121: Value: 7401125708.8 Mean: 313.0 Mean: 680.0 Mean: 680.0 Mean: 2.7 Costo: 2474156120.3 Time: 83.1m
+Episode 122: Value: 7401125708.8 Mean: 665.8 Mean: 680.0 Mean: 212.8 Mean: 680.0 Costo: 2474156120.3 Time: 83.8m
+Episode 123: Value: 7401125708.8 Mean: 25.3 Mean: 452.8 Mean: 324.6 Mean: 0.0 Costo: 2474156120.3 Time: 84.5m
+Episode 124: Value: 7401125708.8 Mean: 680.0 Mean: 272.5 Mean: 0.0 Mean: 165.0 Costo: 2474156120.3 Time: 85.2m
+Episode 125: Value: 7401125708.8 Mean: 680.0 Mean: 510.9 Mean: 123.0 Mean: 386.2 Costo: 2474156120.3 Time: 85.9m
+Episode 126: Value: 7401125708.8 Mean: 680.0 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 86.6m
+Episode 127: Value: 7401125708.8 Mean: 7.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 87.2m
+Episode 128: Value: 7401125708.8 Mean: 261.9 Mean: 101.6 Mean: 680.0 Mean: 0.0 Costo: 2474156120.3 Time: 87.9m
+Episode 129: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 112.2 Mean: 328.5 Costo: 2474156120.3 Time: 88.6m
+Episode 130: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 89.3m
+Episode 131: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 0.0 Mean: 680.0 Costo: 2474156120.3 Time: 90.0m
+Episode 132: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 0.0 Mean: 680.0 Costo: 2474156120.3 Time: 90.7m
+Episode 133: Value: 7401125708.8 Mean: 680.0 Mean: 606.1 Mean: 0.0 Mean: 613.9 Costo: 2474156120.3 Time: 91.3m
+Episode 134: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 0.0 Mean: 119.6 Costo: 2474156120.3 Time: 92.1m
+Episode 135: Value: 7401125708.8 Mean: 525.7 Mean: 680.0 Mean: 0.0 Mean: 419.6 Costo: 2474156120.3 Time: 92.7m
+Episode 136: Value: 7401125708.8 Mean: 0.0 Mean: 1.0 Mean: 13.7 Mean: 170.7 Costo: 2474156120.3 Time: 93.4m
+Episode 137: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 83.8 Mean: 365.7 Costo: 2474156120.3 Time: 94.1m
+Episode 138: Value: 7401125708.8 Mean: 381.3 Mean: 680.0 Mean: 161.7 Mean: 680.0 Costo: 2474156120.3 Time: 94.8m
+Episode 139: Value: 7401125708.8 Mean: 450.9 Mean: 60.0 Mean: 167.5 Mean: 256.9 Costo: 2474156120.3 Time: 95.5m
+Episode 140: Value: 7401125708.8 Mean: 306.3 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 96.2m
+Episode 141: Value: 7401125708.8 Mean: 345.5 Mean: 680.0 Mean: 78.1 Mean: 0.0 Costo: 2474156120.3 Time: 96.9m
+Episode 142: Value: 7401125708.8 Mean: 303.9 Mean: 680.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 97.6m
+Episode 143: Value: 7401125708.8 Mean: 304.9 Mean: 680.0 Mean: 680.0 Mean: 443.9 Costo: 2474156120.3 Time: 98.2m
+Episode 144: Value: 7401125708.8 Mean: 306.4 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 98.9m
+Episode 145: Value: 7401125708.8 Mean: 599.5 Mean: 680.0 Mean: 0.8 Mean: 338.6 Costo: 2474156120.3 Time: 99.6m
+Episode 146: Value: 7401125708.8 Mean: 670.2 Mean: 0.0 Mean: 127.8 Mean: 0.0 Costo: 2474156120.3 Time: 100.3m
+Episode 147: Value: 7401125708.8 Mean: 151.4 Mean: 593.1 Mean: 281.6 Mean: 635.9 Costo: 2474156120.3 Time: 100.9m
+Episode 148: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 0.0 Mean: 15.9 Costo: 2474156120.3 Time: 101.6m
+Episode 149: Value: 7401125708.8 Mean: 680.0 Mean: 0.0 Mean: 0.0 Mean: 99.6 Costo: 2474156120.3 Time: 102.3m
+Episode 150: Value: 7401125708.8 Mean: 74.9 Mean: 430.6 Mean: 680.0 Mean: 57.8 Costo: 2474156120.3 Time: 103.0m
+Episode 151: Value: 7401125708.8 Mean: 74.9 Mean: 293.2 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 103.6m
+Episode 152: Value: 7401125708.8 Mean: 391.7 Mean: 250.7 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 104.3m
+Episode 153: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 223.5 Costo: 2474156120.3 Time: 105.0m
+Episode 154: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 105.7m
+Episode 155: Value: 7401125708.8 Mean: 1.3 Mean: 7.4 Mean: 25.1 Mean: 680.0 Costo: 2474156120.3 Time: 106.3m
+Episode 156: Value: 7401125708.8 Mean: 316.9 Mean: 680.0 Mean: 680.0 Mean: 421.6 Costo: 2474156120.3 Time: 107.0m
+Episode 157: Value: 7401125708.8 Mean: 504.1 Mean: 680.0 Mean: 680.0 Mean: 618.1 Costo: 2474156120.3 Time: 107.7m
+Episode 158: Value: 7401125708.8 Mean: 513.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 108.3m
+Episode 159: Value: 7401125708.8 Mean: 328.8 Mean: 680.0 Mean: 680.0 Mean: 359.7 Costo: 2474156120.3 Time: 109.0m
+Episode 160: Value: 7401125708.8 Mean: 328.8 Mean: 163.0 Mean: 274.0 Mean: 100.5 Costo: 2474156120.3 Time: 109.7m
+Episode 161: Value: 7401125708.8 Mean: 0.1 Mean: 680.0 Mean: 110.4 Mean: 680.0 Costo: 2474156120.3 Time: 110.3m
+Episode 162: Value: 7401125708.8 Mean: 5.1 Mean: 680.0 Mean: 680.0 Mean: 57.4 Costo: 2474156120.3 Time: 111.0m
+Episode 163: Value: 7401125708.8 Mean: 680.0 Mean: 451.5 Mean: 419.7 Mean: 680.0 Costo: 2474156120.3 Time: 111.7m
+Episode 164: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 436.5 Mean: 680.0 Costo: 2474156120.3 Time: 112.4m
+Episode 165: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 365.8 Costo: 2474156120.3 Time: 113.0m
+Episode 166: Value: 7401125708.8 Mean: 680.0 Mean: 36.6 Mean: 28.0 Mean: 680.0 Costo: 2474156120.3 Time: 113.7m
+Episode 167: Value: 7401125708.8 Mean: 0.2 Mean: 281.3 Mean: 680.0 Mean: 34.1 Costo: 2474156120.3 Time: 114.4m
+Episode 168: Value: 7401125708.8 Mean: 0.2 Mean: 360.2 Mean: 7.7 Mean: 0.4 Costo: 2474156120.3 Time: 115.1m
+Episode 169: Value: 7401125708.8 Mean: 0.0 Mean: 409.1 Mean: 578.2 Mean: 680.0 Costo: 2474156120.3 Time: 115.7m
+Episode 170: Value: 7401125708.8 Mean: 25.9 Mean: 567.5 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 116.4m
+Episode 171: Value: 7401125708.8 Mean: 317.0 Mean: 0.0 Mean: 88.6 Mean: 107.3 Costo: 2474156120.3 Time: 117.1m
+Episode 172: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 54.7 Costo: 2474156120.3 Time: 117.8m
+Episode 173: Value: 7401125708.8 Mean: 291.9 Mean: 88.6 Mean: 0.0 Mean: 680.0 Costo: 2474156120.3 Time: 118.4m
+Episode 174: Value: 7401125708.8 Mean: 493.3 Mean: 680.0 Mean: 380.7 Mean: 322.3 Costo: 2474156120.3 Time: 119.1m
+Episode 175: Value: 7401125708.8 Mean: 0.0 Mean: 31.5 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 119.8m
+Episode 176: Value: 7401125708.8 Mean: 25.8 Mean: 436.6 Mean: 680.0 Mean: 202.5 Costo: 2474156120.3 Time: 120.4m
+Episode 177: Value: 7401125708.8 Mean: 0.0 Mean: 9.7 Mean: 18.8 Mean: 41.6 Costo: 2474156120.3 Time: 121.1m
+Episode 178: Value: 7401125708.8 Mean: 174.1 Mean: 680.0 Mean: 530.6 Mean: 680.0 Costo: 2474156120.3 Time: 121.8m
+Episode 179: Value: 7401125708.8 Mean: 0.0 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 122.5m
+Episode 180: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 123.2m
+Episode 181: Value: 7401125708.8 Mean: 168.2 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 123.9m
+Episode 182: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 69.1 Mean: 223.5 Costo: 2474156120.3 Time: 124.5m
+Episode 183: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 660.6 Mean: 680.0 Costo: 2474156120.3 Time: 125.2m
+Episode 184: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 122.1 Mean: 308.8 Costo: 2474156120.3 Time: 125.9m
+Episode 185: Value: 7401125708.8 Mean: 680.0 Mean: 0.0 Mean: 0.0 Mean: 680.0 Costo: 2474156120.3 Time: 126.6m
+Episode 186: Value: 7401125708.8 Mean: 236.9 Mean: 680.0 Mean: 680.0 Mean: 0.0 Costo: 2474156120.3 Time: 127.2m
+Episode 187: Value: 7401125708.8 Mean: 236.9 Mean: 4.6 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 127.9m
+Episode 188: Value: 7401125708.8 Mean: 0.0 Mean: 9.3 Mean: 0.0 Mean: 0.1 Costo: 2474156120.3 Time: 128.6m
+Episode 189: Value: 7401125708.8 Mean: 23.7 Mean: 680.0 Mean: 680.0 Mean: 156.9 Costo: 2474156120.3 Time: 129.2m
+Episode 190: Value: 7401125708.8 Mean: 680.0 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 129.9m
+Episode 191: Value: 7401125708.8 Mean: 0.0 Mean: 680.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 130.6m
+Episode 192: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 131.3m
+Episode 193: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 0.0 Costo: 2474156120.3 Time: 131.8m
+Episode 194: Value: 7401125708.8 Mean: 396.0 Mean: 134.7 Mean: 149.4 Mean: 680.0 Costo: 2474156120.3 Time: 132.4m
+Episode 195: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 0.0 Mean: 377.3 Costo: 2474156120.3 Time: 133.0m
+Episode 196: Value: 7401125708.8 Mean: 0.2 Mean: 17.5 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 133.5m
+Episode 197: Value: 7401125708.8 Mean: 28.4 Mean: 513.2 Mean: 115.1 Mean: 680.0 Costo: 2474156120.3 Time: 134.1m
+Episode 198: Value: 7401125708.8 Mean: 0.0 Mean: 115.0 Mean: 116.9 Mean: 216.4 Costo: 2474156120.3 Time: 134.7m
+Episode 199: Value: 7401125708.8 Mean: 192.2 Mean: 680.0 Mean: 0.0 Mean: 680.0 Costo: 2474156120.3 Time: 135.3m
+Episode 200: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 519.7 Mean: 12.0 Costo: 2474156120.3 Time: 135.9m
+Episode 201: Value: 7401125708.8 Mean: 429.5 Mean: 680.0 Mean: 227.5 Mean: 680.0 Costo: 2474156120.3 Time: 136.5m
+Episode 202: Value: 7401125708.8 Mean: 0.1 Mean: 680.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 137.0m
+Episode 203: Value: 7401125708.8 Mean: 0.1 Mean: 680.0 Mean: 127.2 Mean: 680.0 Costo: 2474156120.3 Time: 137.7m
+Episode 204: Value: 7401125708.8 Mean: 487.0 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 138.3m
+Episode 205: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 138.8m
+Episode 206: Value: 7401125708.8 Mean: 24.8 Mean: 81.9 Mean: 128.5 Mean: 665.8 Costo: 2474156120.3 Time: 139.4m
+Episode 207: Value: 7401125708.8 Mean: 626.0 Mean: 0.0 Mean: 0.0 Mean: 680.0 Costo: 2474156120.3 Time: 140.0m
+Episode 208: Value: 7401125708.8 Mean: 673.7 Mean: 115.5 Mean: 103.9 Mean: 680.0 Costo: 2474156120.3 Time: 140.5m
+Episode 209: Value: 7401125708.8 Mean: 673.7 Mean: 131.1 Mean: 463.5 Mean: 680.0 Costo: 2474156120.3 Time: 141.1m
+Episode 210: Value: 7401125708.8 Mean: 676.1 Mean: 156.2 Mean: 52.0 Mean: 680.0 Costo: 2474156120.3 Time: 141.7m
+Episode 211: Value: 7401125708.8 Mean: 676.1 Mean: 156.5 Mean: 53.3 Mean: 0.0 Costo: 2474156120.3 Time: 142.2m
+Episode 212: Value: 7401125708.8 Mean: 676.1 Mean: 257.1 Mean: 3.7 Mean: 118.4 Costo: 2474156120.3 Time: 142.8m
+Episode 213: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 143.4m
+Episode 214: Value: 7401125708.8 Mean: 680.0 Mean: 3.0 Mean: 470.2 Mean: 680.0 Costo: 2474156120.3 Time: 144.0m
+Episode 215: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 421.5 Mean: 680.0 Costo: 2474156120.3 Time: 144.6m
+Episode 216: Value: 7401125708.8 Mean: 680.0 Mean: 573.1 Mean: 0.5 Mean: 145.6 Costo: 2474156120.3 Time: 145.2m
+Episode 217: Value: 7401125708.8 Mean: 680.0 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 145.8m
+Episode 218: Value: 7401125708.8 Mean: 680.0 Mean: 0.5 Mean: 33.3 Mean: 100.1 Costo: 2474156120.3 Time: 146.3m
+Episode 219: Value: 7401125708.8 Mean: 252.0 Mean: 393.3 Mean: 680.0 Mean: 672.7 Costo: 2474156120.3 Time: 146.9m
+Episode 220: Value: 7401125708.8 Mean: 28.3 Mean: 203.2 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 147.5m
+Episode 221: Value: 7401125708.8 Mean: 29.2 Mean: 207.7 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 148.0m
+Episode 222: Value: 7401125708.8 Mean: 33.8 Mean: 680.0 Mean: 680.0 Mean: 279.8 Costo: 2474156120.3 Time: 148.6m
+Episode 223: Value: 7401125708.8 Mean: 81.8 Mean: 680.0 Mean: 680.0 Mean: 218.6 Costo: 2474156120.3 Time: 149.2m
+Episode 224: Value: 7401125708.8 Mean: 0.0 Mean: 85.9 Mean: 200.6 Mean: 0.0 Costo: 2474156120.3 Time: 149.8m
+Episode 225: Value: 7401125708.8 Mean: 275.2 Mean: 680.0 Mean: 0.0 Mean: 680.0 Costo: 2474156120.3 Time: 150.3m
+Episode 226: Value: 7401125708.8 Mean: 0.0 Mean: 105.1 Mean: 209.2 Mean: 168.7 Costo: 2474156120.3 Time: 150.9m
+Episode 227: Value: 7401125708.8 Mean: 0.0 Mean: 357.4 Mean: 499.4 Mean: 0.0 Costo: 2474156120.3 Time: 151.5m
+Episode 228: Value: 7401125708.8 Mean: 0.0 Mean: 357.5 Mean: 503.4 Mean: 507.3 Costo: 2474156120.3 Time: 152.1m
+Episode 229: Value: 7401125708.8 Mean: 0.1 Mean: 411.0 Mean: 492.5 Mean: 629.4 Costo: 2474156120.3 Time: 152.6m
+Episode 230: Value: 7401125708.8 Mean: 0.1 Mean: 411.0 Mean: 492.6 Mean: 629.7 Costo: 2474156120.3 Time: 153.2m
+Episode 231: Value: 7401125708.8 Mean: 26.9 Mean: 111.6 Mean: 352.8 Mean: 631.9 Costo: 2474156120.3 Time: 153.8m
+Episode 232: Value: 7401125708.8 Mean: 653.7 Mean: 121.3 Mean: 233.8 Mean: 429.0 Costo: 2474156120.3 Time: 154.4m
+Episode 233: Value: 7401125708.8 Mean: 653.7 Mean: 133.1 Mean: 264.0 Mean: 680.0 Costo: 2474156120.3 Time: 154.9m
+Episode 234: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 0.0 Mean: 365.8 Costo: 2474156120.3 Time: 155.5m
+Episode 235: Value: 7401125708.8 Mean: 181.1 Mean: 680.0 Mean: 0.3 Mean: 680.0 Costo: 2474156120.3 Time: 156.1m
+Episode 236: Value: 7401125708.8 Mean: 321.3 Mean: 680.0 Mean: 680.0 Mean: 85.6 Costo: 2474156120.3 Time: 156.7m
+Episode 237: Value: 7401125708.8 Mean: 545.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 157.2m
+Episode 238: Value: 7401125708.8 Mean: 680.0 Mean: 431.5 Mean: 245.2 Mean: 680.0 Costo: 2474156120.3 Time: 157.8m
+Episode 239: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 0.0 Mean: 643.1 Costo: 2474156120.3 Time: 158.4m
+Episode 240: Value: 7401125708.8 Mean: 675.1 Mean: 9.7 Mean: 25.1 Mean: 60.9 Costo: 2474156120.3 Time: 159.0m
+Episode 241: Value: 7401125708.8 Mean: 680.0 Mean: 271.2 Mean: 589.6 Mean: 680.0 Costo: 2474156120.3 Time: 159.6m
+Episode 242: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 72.0 Mean: 161.1 Costo: 2474156120.3 Time: 160.1m
+Episode 243: Value: 7401125708.8 Mean: 0.5 Mean: 286.2 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 160.7m
+Episode 244: Value: 7401125708.8 Mean: 349.2 Mean: 680.0 Mean: 680.0 Mean: 0.0 Costo: 2474156120.3 Time: 161.3m
+Episode 245: Value: 7401125708.8 Mean: 349.2 Mean: 680.0 Mean: 0.1 Mean: 1.0 Costo: 2474156120.3 Time: 161.8m
+Episode 246: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 8.2 Mean: 680.0 Costo: 2474156120.3 Time: 162.4m
+Episode 247: Value: 7401125708.8 Mean: 0.0 Mean: 569.0 Mean: 680.0 Mean: 6.6 Costo: 2474156120.3 Time: 163.0m
+Episode 248: Value: 7401125708.8 Mean: 680.0 Mean: 407.1 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 163.6m
+Episode 249: Value: 7401125708.8 Mean: 28.7 Mean: 680.0 Mean: 267.4 Mean: 4.0 Costo: 2474156120.3 Time: 164.2m
+Episode 250: Value: 7401125708.8 Mean: 38.2 Mean: 680.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 164.7m
+Episode 251: Value: 7401125708.8 Mean: 163.6 Mean: 208.2 Mean: 465.1 Mean: 680.0 Costo: 2474156120.3 Time: 165.3m
+Episode 252: Value: 7401125708.8 Mean: 205.4 Mean: 680.0 Mean: 636.4 Mean: 244.4 Costo: 2474156120.3 Time: 165.9m
+Episode 253: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 464.3 Mean: 680.0 Costo: 2474156120.3 Time: 166.4m
+Episode 254: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 171.4 Costo: 2474156120.3 Time: 167.0m
+Episode 255: Value: 7401125708.8 Mean: 680.0 Mean: 0.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 167.6m
+Episode 256: Value: 7401125708.8 Mean: 680.0 Mean: 15.7 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 168.1m
+Episode 257: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 168.7m
+Episode 258: Value: 7401125708.8 Mean: 76.0 Mean: 175.0 Mean: 680.0 Mean: 531.2 Costo: 2474156120.3 Time: 169.3m
+Episode 259: Value: 7401125708.8 Mean: 674.7 Mean: 154.3 Mean: 7.1 Mean: 3.8 Costo: 2474156120.3 Time: 169.9m
+Episode 260: Value: 7401125708.8 Mean: 676.7 Mean: 523.3 Mean: 680.0 Mean: 25.9 Costo: 2474156120.3 Time: 170.4m
+Episode 261: Value: 7401125708.8 Mean: 0.0 Mean: 0.6 Mean: 1.5 Mean: 3.3 Costo: 2474156120.3 Time: 171.0m
+Episode 262: Value: 7401125708.8 Mean: 0.0 Mean: 653.9 Mean: 680.0 Mean: 215.6 Costo: 2474156120.3 Time: 171.6m
+Episode 263: Value: 7401125708.8 Mean: 0.0 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 172.2m
+Episode 264: Value: 7401125708.8 Mean: 680.0 Mean: 0.0 Mean: 630.1 Mean: 0.0 Costo: 2474156120.3 Time: 172.8m
+Episode 265: Value: 7401125708.8 Mean: 680.0 Mean: 18.6 Mean: 649.0 Mean: 92.3 Costo: 2474156120.3 Time: 173.4m
+Episode 266: Value: 7401125708.8 Mean: 680.0 Mean: 18.7 Mean: 470.6 Mean: 680.0 Costo: 2474156120.3 Time: 173.9m
+Episode 267: Value: 7401125708.8 Mean: 680.0 Mean: 19.3 Mean: 472.4 Mean: 680.0 Costo: 2474156120.3 Time: 174.5m
+Episode 268: Value: 7401125708.8 Mean: 680.0 Mean: 215.3 Mean: 0.0 Mean: 680.0 Costo: 2474156120.3 Time: 175.1m
+Episode 269: Value: 7401125708.8 Mean: 680.0 Mean: 0.0 Mean: 175.4 Mean: 141.7 Costo: 2474156120.3 Time: 175.7m
+Episode 270: Value: 7401125708.8 Mean: 0.0 Mean: 3.4 Mean: 354.7 Mean: 680.0 Costo: 2474156120.3 Time: 176.3m
+Episode 271: Value: 7401125708.8 Mean: 61.5 Mean: 0.0 Mean: 139.9 Mean: 351.8 Costo: 2474156120.3 Time: 176.9m
+Episode 272: Value: 7401125708.8 Mean: 0.0 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 177.4m
+Episode 273: Value: 7401125708.8 Mean: 2.4 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 178.0m
+Episode 274: Value: 7401125708.8 Mean: 680.0 Mean: 0.0 Mean: 275.8 Mean: 108.8 Costo: 2474156120.3 Time: 178.6m
+Episode 275: Value: 7401125708.8 Mean: 680.0 Mean: 32.5 Mean: 83.8 Mean: 680.0 Costo: 2474156120.3 Time: 179.2m
+Episode 276: Value: 7401125708.8 Mean: 680.0 Mean: 36.5 Mean: 94.8 Mean: 680.0 Costo: 2474156120.3 Time: 179.8m
+Episode 277: Value: 7401125708.8 Mean: 680.0 Mean: 341.9 Mean: 680.0 Mean: 0.0 Costo: 2474156120.3 Time: 180.3m
+Episode 278: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 0.0 Costo: 2474156120.3 Time: 180.9m
+Episode 279: Value: 7401125708.8 Mean: 255.3 Mean: 680.0 Mean: 4.0 Mean: 680.0 Costo: 2474156120.3 Time: 181.5m
+Episode 280: Value: 7401125708.8 Mean: 680.0 Mean: 321.4 Mean: 558.8 Mean: 680.0 Costo: 2474156120.3 Time: 182.1m
+Episode 281: Value: 7401125708.8 Mean: 680.0 Mean: 324.6 Mean: 567.4 Mean: 680.0 Costo: 2474156120.3 Time: 182.6m
+Episode 282: Value: 7401125708.8 Mean: 680.0 Mean: 114.2 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 183.2m
+Episode 283: Value: 7401125708.8 Mean: 0.0 Mean: 232.7 Mean: 0.0 Mean: 90.4 Costo: 2474156120.3 Time: 183.8m
+Episode 284: Value: 7401125708.8 Mean: 0.0 Mean: 232.7 Mean: 0.0 Mean: 90.6 Costo: 2474156120.3 Time: 184.4m
+Episode 285: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 184.9m
+Episode 286: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 0.0 Mean: 359.5 Costo: 2474156120.3 Time: 185.5m
+Episode 287: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 0.2 Mean: 680.0 Costo: 2474156120.3 Time: 186.1m
+Episode 288: Value: 7401125708.8 Mean: 0.0 Mean: 155.3 Mean: 680.0 Mean: 417.6 Costo: 2474156120.3 Time: 186.7m
+Episode 289: Value: 7401125708.8 Mean: 56.5 Mean: 274.4 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 187.2m
+Episode 290: Value: 7401125708.8 Mean: 56.5 Mean: 680.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 187.8m
+Episode 291: Value: 7401125708.8 Mean: 418.4 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 188.4m
+Episode 292: Value: 7401125708.8 Mean: 418.4 Mean: 341.7 Mean: 680.0 Mean: 646.6 Costo: 2474156120.3 Time: 189.0m
+Episode 293: Value: 7401125708.8 Mean: 419.9 Mean: 347.9 Mean: 0.0 Mean: 680.0 Costo: 2474156120.3 Time: 189.5m
+Episode 294: Value: 7401125708.8 Mean: 680.0 Mean: 0.0 Mean: 0.2 Mean: 0.7 Costo: 2474156120.3 Time: 190.1m
+Episode 295: Value: 7401125708.8 Mean: 0.0 Mean: 95.1 Mean: 246.4 Mean: 680.0 Costo: 2474156120.3 Time: 190.7m
+Episode 296: Value: 7401125708.8 Mean: 181.2 Mean: 559.8 Mean: 414.0 Mean: 680.0 Costo: 2474156120.3 Time: 191.3m
+Episode 297: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 0.0 Costo: 2474156120.3 Time: 191.9m
+Episode 298: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 29.9 Mean: 0.0 Costo: 2474156120.3 Time: 192.4m
+Episode 299: Value: 7401125708.8 Mean: 24.8 Mean: 498.8 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 193.0m
+Episode 300: Value: 7401125708.8 Mean: 0.0 Mean: 680.0 Mean: 471.3 Mean: 29.2 Costo: 2474156120.3 Time: 193.6m
+Episode 301: Value: 7401125708.8 Mean: 133.9 Mean: 680.0 Mean: 680.0 Mean: 193.9 Costo: 2474156120.3 Time: 194.1m
+Episode 302: Value: 7401125708.8 Mean: 133.9 Mean: 680.0 Mean: 680.0 Mean: 585.3 Costo: 2474156120.3 Time: 194.7m
+Episode 303: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 195.3m
+Episode 304: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 0.0 Mean: 680.0 Costo: 2474156120.3 Time: 195.9m
+Episode 305: Value: 7401125708.8 Mean: 680.0 Mean: 168.3 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 196.4m
+Episode 306: Value: 7401125708.8 Mean: 680.0 Mean: 160.7 Mean: 579.8 Mean: 680.0 Costo: 2474156120.3 Time: 197.0m
+Episode 307: Value: 7401125708.8 Mean: 205.2 Mean: 371.5 Mean: 551.0 Mean: 680.0 Costo: 2474156120.3 Time: 197.6m
+Episode 308: Value: 7401125708.8 Mean: 205.2 Mean: 680.0 Mean: 1.6 Mean: 239.3 Costo: 2474156120.3 Time: 198.2m
+Episode 309: Value: 7401125708.8 Mean: 579.9 Mean: 680.0 Mean: 680.0 Mean: 0.0 Costo: 2474156120.3 Time: 198.7m
+Episode 310: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 221.8 Costo: 2474156120.3 Time: 199.3m
+Episode 311: Value: 7401125708.8 Mean: 680.0 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 199.9m
+Episode 312: Value: 7401125708.8 Mean: 680.0 Mean: 0.0 Mean: 680.0 Mean: 193.8 Costo: 2474156120.3 Time: 200.5m
+Episode 313: Value: 7401125708.8 Mean: 680.0 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 201.1m
+Episode 314: Value: 7401125708.8 Mean: 680.0 Mean: 403.7 Mean: 316.5 Mean: 680.0 Costo: 2474156120.3 Time: 201.6m
+Episode 315: Value: 7401125708.8 Mean: 212.3 Mean: 0.0 Mean: 619.4 Mean: 680.0 Costo: 2474156120.3 Time: 202.2m
+Episode 316: Value: 7401125708.8 Mean: 212.3 Mean: 39.1 Mean: 673.2 Mean: 0.0 Costo: 2474156120.3 Time: 202.8m
+Episode 317: Value: 7401125708.8 Mean: 623.4 Mean: 541.3 Mean: 560.1 Mean: 680.0 Costo: 2474156120.3 Time: 203.4m
+Episode 318: Value: 7401125708.8 Mean: 631.0 Mean: 680.0 Mean: 680.0 Mean: 0.0 Costo: 2474156120.3 Time: 203.9m
+Episode 319: Value: 7401125708.8 Mean: 680.0 Mean: 0.0 Mean: 42.8 Mean: 0.0 Costo: 2474156120.3 Time: 204.5m
+Episode 320: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 205.1m
+Episode 321: Value: 7401125708.8 Mean: 680.0 Mean: 649.4 Mean: 680.0 Mean: 169.3 Costo: 2474156120.3 Time: 205.7m
+Episode 322: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 241.1 Mean: 443.3 Costo: 2474156120.3 Time: 206.3m
+Episode 323: Value: 7401125708.8 Mean: 16.3 Mean: 41.1 Mean: 197.1 Mean: 82.8 Costo: 2474156120.3 Time: 206.8m
+Episode 324: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 78.2 Mean: 680.0 Costo: 2474156120.3 Time: 207.4m
+Episode 325: Value: 7401125708.8 Mean: 34.0 Mean: 649.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 208.0m
+Episode 326: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 499.1 Mean: 151.1 Costo: 2474156120.3 Time: 208.6m
+Episode 327: Value: 7401125708.8 Mean: 255.8 Mean: 175.5 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 209.1m
+Episode 328: Value: 7401125708.8 Mean: 255.8 Mean: 680.0 Mean: 185.4 Mean: 301.9 Costo: 2474156120.3 Time: 209.7m
+Episode 329: Value: 7401125708.8 Mean: 680.0 Mean: 0.0 Mean: 0.0 Mean: 165.6 Costo: 2474156120.3 Time: 210.3m
+Episode 330: Value: 7401125708.8 Mean: 0.6 Mean: 0.0 Mean: 680.0 Mean: 0.0 Costo: 2474156120.3 Time: 210.9m
+Episode 331: Value: 7401125708.8 Mean: 1.7 Mean: 274.1 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 211.4m
+Episode 332: Value: 7401125708.8 Mean: 9.9 Mean: 680.0 Mean: 0.0 Mean: 0.2 Costo: 2474156120.3 Time: 212.0m
+Episode 333: Value: 7401125708.8 Mean: 0.0 Mean: 680.0 Mean: 680.0 Mean: 158.0 Costo: 2474156120.3 Time: 212.6m
+Episode 334: Value: 7401125708.8 Mean: 680.0 Mean: 0.6 Mean: 36.5 Mean: 85.1 Costo: 2474156120.3 Time: 213.2m
+Episode 335: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 120.7 Mean: 680.0 Costo: 2474156120.3 Time: 213.7m
+Episode 336: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 568.2 Costo: 2474156120.3 Time: 214.3m
+Episode 337: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 584.4 Costo: 2474156120.3 Time: 214.9m
+Episode 338: Value: 7401125708.8 Mean: 88.8 Mean: 81.1 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 215.5m
+Episode 339: Value: 7401125708.8 Mean: 90.3 Mean: 134.3 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 216.0m
+Episode 340: Value: 7401125708.8 Mean: 90.3 Mean: 141.1 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 216.6m
+Episode 341: Value: 7401125708.8 Mean: 680.0 Mean: 680.0 Mean: 680.0 Mean: 0.4 Costo: 2474156120.3 Time: 217.2m
+Episode 342: Value: 7401125708.8 Mean: 680.0 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 217.8m
+Episode 343: Value: 7401125708.8 Mean: 680.0 Mean: 533.9 Mean: 680.0 Mean: 205.6 Costo: 2474156120.3 Time: 218.3m
+Episode 344: Value: 7401125708.8 Mean: 0.0 Mean: 680.0 Mean: 21.1 Mean: 8.4 Costo: 2474156120.3 Time: 218.9m
+Episode 345: Value: 7401125708.8 Mean: 0.6 Mean: 680.0 Mean: 86.1 Mean: 116.2 Costo: 2474156120.3 Time: 219.5m
+Episode 346: Value: 7401125708.8 Mean: 365.1 Mean: 680.0 Mean: 661.7 Mean: 460.3 Costo: 2474156120.3 Time: 220.1m
+Episode 347: Value: 7401125708.8 Mean: 633.6 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 220.6m
+Episode 348: Value: 7401125708.8 Mean: 633.6 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 221.1m
+Episode 349: Value: 7401125708.8 Mean: 633.6 Mean: 680.0 Mean: 680.0 Mean: 680.0 Costo: 2474156120.3 Time: 221.6m
+Episode 350: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 222.1m
+Episode 351: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 0.0 Mean: 102.8 Costo: 2474156120.3 Time: 222.6m
+Episode 352: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 0.0 Mean: 102.8 Costo: 2474156120.3 Time: 223.1m
+Episode 353: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 62.0 Mean: 0.0 Costo: 2474156120.3 Time: 223.6m
+Episode 354: Value: 7401125708.8 Mean: 0.0 Mean: 0.0 Mean: 62.0 Mean: 0.0 Costo: 2474156120.3 Time: 224.1m
+Episode 355: Value: 7401125708.8 Mean: 141.2 Mean: 71.5 Mean: 335.3 Mean: 553.5 Costo: 2474156120.3 Time: 224.6m
+Episode 356: Value: 7401125708.8 Mean: 141.2 Mean: 71.5 Mean: 335.5 Mean: 556.4 Costo: 2474156120.3 Time: 225.1m
+Episode 357: Value: 7401125708.8 Mean: 141.2 Mean: 71.5 Mean: 335.5 Mean: 556.4 Costo: 2474156120.3 Time: 225.6m
+Episode 358: Value: 7401125708.8 Mean: 141.2 Mean: 71.7 Mean: 335.6 Mean: 556.7 Costo: 2474156120.3 Time: 226.1m
+Episode 359: Value: 7401125708.8 Mean: 141.2 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 226.6m
+Episode 360: Value: 7401125708.8 Mean: 145.5 Mean: 113.9 Mean: 173.4 Mean: 479.6 Costo: 2474156120.3 Time: 227.1m
+Episode 361: Value: 7401125708.8 Mean: 145.5 Mean: 113.9 Mean: 320.9 Mean: 680.0 Costo: 2474156120.3 Time: 227.6m
+Episode 362: Value: 7401125708.8 Mean: 145.5 Mean: 113.9 Mean: 320.9 Mean: 680.0 Costo: 2474156120.3 Time: 228.0m
+Episode 363: Value: 7401125708.8 Mean: 145.5 Mean: 113.9 Mean: 320.9 Mean: 680.0 Costo: 2474156120.3 Time: 228.6m
+Episode 364: Value: 7401125708.8 Mean: 145.5 Mean: 113.9 Mean: 320.9 Mean: 680.0 Costo: 2474156120.3 Time: 229.1m
+Episode 365: Value: 7401125708.8 Mean: 145.5 Mean: 113.9 Mean: 320.9 Mean: 680.0 Costo: 2474156120.3 Time: 229.5m
+Episode 366: Value: 7401125708.8 Mean: 145.8 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 230.1m
+Episode 367: Value: 7401125708.8 Mean: 145.8 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 230.5m
+Episode 368: Value: 7401125708.8 Mean: 145.8 Mean: 0.0 Mean: 0.0 Mean: 0.0 Costo: 2474156120.3 Time: 231.0m
+Episode 369: Value: 7401125708.8 Mean: 145.8 Mean: 0.1 Mean: 0.1 Mean: 0.1 Costo: 2474156120.3 Time: 231.5m
+Episode 370: Value: 7401125708.8 Mean: 145.8 Mean: 0.1 Mean: 23.7 Mean: 73.8 Costo: 2474156120.3 Time: 232.0m
+Episode 371: Value: 7401125708.8 Mean: 145.8 Mean: 0.1 Mean: 23.7 Mean: 73.8 Costo: 2474156120.3 Time: 232.5m
+Episode 372: Value: 7401125708.8 Mean: 145.8 Mean: 0.1 Mean: 194.2 Mean: 452.7 Costo: 2474156120.3 Time: 233.0m
+Episode 373: Value: 7401125708.8 Mean: 145.8 Mean: 680.0 Mean: 43.1 Mean: 0.0 Costo: 2474156120.3 Time: 233.5m
+Episode 374: Value: 7401125708.8 Mean: 145.8 Mean: 680.0 Mean: 45.2 Mean: 8.0 Costo: 2474156120.3 Time: 234.0m
+Episode 375: Value: 7401125708.8 Mean: 302.0 Mean: 680.0 Mean: 354.9 Mean: 395.3 Costo: 2474156120.3 Time: 234.5m
+Episode 376: Value: 7401125708.8 Mean: 302.0 Mean: 680.0 Mean: 354.9 Mean: 0.0 Costo: 2474156120.3 Time: 235.0m
+Episode 377: Value: 7401125708.8 Mean: 302.0 Mean: 680.0 Mean: 354.9 Mean: 0.0 Costo: 2474156120.3 Time: 235.5m
+Episode 378: Value: 7401125708.8 Mean: 302.0 Mean: 680.0 Mean: 354.9 Mean: 0.0 Costo: 2474156120.3 Time: 236.0m
+Episode 379: Value: 7401125708.8 Mean: 302.0 Mean: 680.0 Mean: 354.9 Mean: 0.3 Costo: 2474156120.3 Time: 236.5m
+Episode 380: Value: 7401125708.8 Mean: 302.0 Mean: 680.0 Mean: 358.4 Mean: 5.6 Costo: 2474156120.3 Time: 236.9m
+Episode 381: Value: 7401125708.8 Mean: 302.0 Mean: 680.0 Mean: 228.8 Mean: 649.6 Costo: 2474156120.3 Time: 237.2m
+Episode 382: Value: 7401125708.8 Mean: 302.0 Mean: 680.0 Mean: 680.0 Mean: 0.0 Costo: 2474156120.3 Time: 237.4m
+Episode 383: Value: 7401125708.8 Mean: 302.0 Mean: 680.0 Mean: 680.0 Mean: 0.0 Costo: 2474156120.3 Time: 237.6m
+Episode 384: Value: 7401125708.8 Mean: 302.0 Mean: 680.0 Mean: 680.0 Mean: 124.3 Costo: 2474156120.3 Time: 237.9m
+Total Train Time: 14272.72s
+======================================================
+model.policy_step_size=1e-06
+model.value_step_size=0.001
+model.gamma=1.0
+model.policy.sigma=5.0
+init_lago=4100
+init_mean=0.00
+exploring_start=True
+model.state_space.sigma=1000
+======================================================
+model.policy._mean_approximation.mean_weights=array([[6.80000000e+02, 6.80000000e+02, 1.77212762e-03, 1.26553397e-03,
+        6.80000000e+02, 0.00000000e+00, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 3.66923663e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        3.14954364e+02, 2.34793286e+02, 6.80000000e+02, 3.97757967e+02,
+        6.80000000e+02, 6.80000000e+02, 6.09396144e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.79993449e+02, 5.43141400e+02, 6.80000000e+02, 5.38658200e+02,
+        6.80000000e+02, 6.50798609e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.27197989e+02, 6.80000000e+02,
+        6.80000000e+02, 6.79889543e+02, 6.79987447e+02, 2.48260737e+02,
+        6.79999800e+02, 6.79968064e+02, 6.79777081e+02, 6.74039676e+02,
+        6.48836090e+02, 5.06392000e+02, 6.79940492e+02, 6.79959046e+02,
+        6.79983790e+02, 6.79997484e+02, 3.41968358e+02, 6.79998932e+02,
+        6.80000000e+02, 5.55343053e+02, 6.79999989e+02, 6.79929654e+02,
+        6.79999999e+02, 6.80000000e+02, 6.72618366e+02, 6.72597003e+02,
+        4.64974562e+02, 3.59884243e+01, 1.37293671e+02, 6.79999926e+02,
+        3.65109968e+02, 6.79999508e+02, 6.79957179e+02, 6.80000000e+02,
+        3.26268953e+02, 1.70015244e+02, 6.30429569e+01, 6.18067380e+01,
+        3.49976087e+02, 2.37811811e+02, 5.21733144e+02, 1.93001913e-02,
+        4.97844148e+02, 7.86944965e+01, 6.79999996e+02, 6.79999993e+02,
+        2.53600140e-07, 2.13289214e-08, 1.24552976e-08, 6.46100270e+02,
+        2.69121179e+02, 4.24398971e+00, 4.80268350e+02, 6.79999999e+02,
+        5.35472093e+01, 4.64422086e+02, 3.91111617e+02, 6.80000000e+02,
+        1.50990800e+02, 4.11870601e+02, 3.82277734e+02, 4.31361904e+02,
+        6.80000000e+02, 3.72764612e+02, 6.80000000e+02, 6.78852909e+02],
+       [6.80000000e+02, 6.80000000e+02, 9.94423108e-02, 8.27894413e-02,
+        5.15267554e+01, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 6.08603858e+02, 6.80000000e+02,
+        6.80000000e+02, 4.90063987e+02, 5.29919425e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        3.67851165e+02, 5.26998606e+02, 9.29233943e+01, 6.80000000e+02,
+        3.16030380e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.79769953e+02, 0.00000000e+00, 6.80000000e+02, 6.80000000e+02,
+        1.56587673e+02, 5.24618313e+01, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 5.10843898e+02, 6.80000000e+02,
+        6.80000000e+02, 6.78017803e+02, 6.79712616e+02, 6.78042133e+02,
+        4.09840268e+02, 6.78986444e+02, 6.75789179e+02, 9.28770113e+01,
+        5.61703198e+02, 6.77411685e+02, 6.78342064e+02, 6.78889542e+02,
+        6.73364161e+02, 6.79882729e+02, 1.37185958e+01, 6.79945499e+02,
+        6.79999980e+02, 7.65815460e+00, 6.79998840e+02, 6.78629913e+02,
+        6.79999834e+02, 6.79999996e+02, 3.17330510e+02, 6.07478962e+02,
+        6.80000000e+02, 2.84036746e+02, 6.80000000e+02, 6.73574034e+02,
+        3.25470062e+02, 6.79979906e+02, 5.64324402e+02, 7.76964264e+01,
+        4.31444227e+00, 6.79995896e+02, 4.71587943e-01, 1.59750566e+02,
+        1.56514573e+00, 6.79936133e+02, 6.79996612e+02, 5.81488866e-01,
+        5.70636481e+02, 6.79999903e+02, 6.79999551e+02, 6.79999354e+02,
+        4.18652801e-05, 9.31310882e-07, 2.83640852e-06, 2.68396052e+02,
+        4.35435418e+02, 2.16795728e+00, 1.89600938e+02, 3.26804968e+02,
+        9.44749632e+01, 2.20976950e+02, 5.68270665e+01, 6.80000000e+02,
+        0.00000000e+00, 4.69947024e-08, 2.34974308e-08, 1.99979599e-08,
+        1.43616464e-08, 1.57756370e+02, 1.12910716e+01, 6.15738431e+02],
+       [0.00000000e+00, 6.80000000e+02, 2.83459509e+00, 2.76180313e+00,
+        6.14517070e+02, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 6.80000000e+02, 6.30743165e+02,
+        6.80000000e+02, 6.80000000e+02, 5.55149082e+02, 4.40576146e+01,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.07053566e+02, 6.80000000e+02,
+        1.31071637e+02, 3.27348819e+02, 1.21295500e+02, 6.80000000e+02,
+        6.75952795e+02, 0.00000000e+00, 1.81221474e+02, 5.01086782e+02,
+        6.22420523e+02, 0.00000000e+00, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 3.76316620e+02, 3.10972786e+02, 9.13093796e+01,
+        4.88005824e+02, 6.64228411e+02, 6.76696838e+02, 6.54661855e+02,
+        6.79487272e+02, 1.57667362e+02, 6.39199325e+02, 6.80000000e+02,
+        0.00000000e+00, 6.55055665e+02, 3.35667392e+02, 1.75193003e+02,
+        5.95106628e+02, 6.77186671e+02, 3.69150474e+01, 6.78570994e+02,
+        6.79998254e+02, 0.00000000e+00, 6.79937142e+02, 6.69010859e+02,
+        6.79985670e+02, 6.79999608e+02, 6.79999781e+02, 2.78835682e+00,
+        6.80000000e+02, 2.29491825e+02, 6.80000000e+02, 6.79793945e+02,
+        6.72173744e+02, 6.79544320e+02, 6.64146125e+02, 6.80000000e+02,
+        5.14189257e+01, 6.79877847e+02, 6.79337871e+02, 5.20543046e+02,
+        1.40989667e+01, 4.90244685e+02, 6.79896745e+02, 4.01812454e+02,
+        1.16018437e+02, 6.79993341e+02, 6.79972950e+02, 6.79967353e+02,
+        6.43855857e+02, 6.79993002e+02, 5.17020287e+02, 3.47137416e+02,
+        3.99517935e+02, 3.52377031e-01, 2.02550217e+02, 4.53831312e+00,
+        9.84524311e+01, 2.56604410e+02, 1.59510490e+02, 6.79999974e+02,
+        6.79999954e+02, 5.86327571e+02, 5.85253581e+02, 4.50881674e+02,
+        3.74168704e+01, 1.91668584e+02, 1.33437812e+02, 6.80000000e+02],
+       [6.80000000e+02, 1.64119337e+02, 6.80000000e+02, 4.62252233e+01,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 5.07396962e+02, 0.00000000e+00,
+        0.00000000e+00, 5.58494981e+02, 0.00000000e+00, 2.55001570e+01,
+        6.46848053e+02, 0.00000000e+00, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        4.97229559e+02, 3.98000185e+02, 5.44345467e+02, 4.91348261e+02,
+        0.00000000e+00, 6.80000000e+02, 0.00000000e+00, 0.00000000e+00,
+        6.14595891e+02, 6.93806441e+00, 0.00000000e+00, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 1.57216630e+02, 0.00000000e+00,
+        0.00000000e+00, 1.26526983e+02, 6.62946057e+02, 0.00000000e+00,
+        8.22589942e+01, 0.00000000e+00, 0.00000000e+00, 6.79999385e+02,
+        1.02167327e+02, 6.05595969e+02, 0.00000000e+00, 4.19526958e+01,
+        1.52344299e+00, 1.05556327e+02, 8.07293979e+01, 6.61303046e+02,
+        1.90104789e+02, 0.00000000e+00, 2.82218137e+02, 4.44207189e+02,
+        6.79364928e+02, 6.43082961e+02, 6.79986014e+02, 1.95463845e+02,
+        6.79999985e+02, 1.63047160e+02, 6.80000000e+02, 6.75890298e+02,
+        6.20352094e+02, 6.73958400e+02, 5.73535847e+02, 6.80000000e+02,
+        6.77987793e+02, 6.78092185e+02, 6.71327769e+02, 1.54990750e+02,
+        4.04297627e+01, 1.42618178e-01, 2.01441902e+01, 1.75790895e+02,
+        2.96377972e+02, 5.22686921e+02, 6.79163190e+02, 2.15948811e+02,
+        3.22654881e+02, 6.79724917e+02, 6.79855246e+02, 4.74625439e+02,
+        6.79946459e+02, 1.92259707e+01, 6.79755151e+02, 6.72051465e+02,
+        4.74762800e+02, 6.79939033e+02, 6.34571666e+02, 6.79998016e+02,
+        6.79996686e+02, 6.80000000e+02, 6.80000000e+02, 5.73281136e+02,
+        6.69962327e+02, 6.63858898e+02, 6.68493916e+02, 6.80000000e+02],
+       [6.80000000e+02, 6.59461663e+02, 3.26022442e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        0.00000000e+00, 0.00000000e+00, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        5.93720723e+02, 0.00000000e+00, 4.83140472e+02, 0.00000000e+00,
+        2.14317468e+02, 0.00000000e+00, 1.27774214e+02, 0.00000000e+00,
+        4.15056709e+02, 6.29002683e+02, 0.00000000e+00, 2.69075532e+02,
+        0.00000000e+00, 6.80000000e+02, 0.00000000e+00, 0.00000000e+00,
+        2.64468961e+02, 2.51007116e+01, 0.00000000e+00, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 1.74290540e+02, 0.00000000e+00,
+        1.56164523e+02, 6.80000000e+02, 6.28459734e+02, 4.85905777e+01,
+        6.07102896e-01, 0.00000000e+00, 0.00000000e+00, 2.78877984e+02,
+        5.90299732e+02, 4.70975691e+02, 6.20496027e+02, 3.79131410e+01,
+        4.42398654e-01, 0.00000000e+00, 1.08858430e+02, 0.00000000e+00,
+        5.63501601e+01, 2.31549303e-01, 0.00000000e+00, 4.68501176e+02,
+        3.51078836e+02, 5.54185102e+02, 1.25911225e+02, 6.80000000e+02,
+        3.28908171e+01, 1.04021655e-02, 3.03978131e+02, 6.40109947e+02,
+        9.51023234e+01, 2.96873748e+02, 3.50897453e+01, 6.77974658e+02,
+        5.81445942e+02, 1.35883340e+02, 5.60686569e+02, 1.51464419e+02,
+        3.21772984e+02, 4.34373090e+02, 4.88988308e+02, 1.37293215e+02,
+        4.01835577e+02, 0.00000000e+00, 5.62465175e-01, 2.31307861e+01,
+        4.50548295e+02, 3.07803012e+02, 6.77394306e+02, 1.51340820e+02,
+        6.77024176e+02, 6.80000000e+02, 6.75838848e+02, 6.72868886e+02,
+        6.75830464e+02, 6.76842832e+02, 6.80000000e+02, 6.76085977e+02,
+        6.79878983e+02, 6.80000000e+02, 6.80000000e+02, 1.25850752e+02,
+        6.37644029e+02, 6.79999510e+02, 4.14978850e+02, 6.80000000e+02],
+       [6.80000000e+02, 0.00000000e+00, 0.00000000e+00, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 4.81581643e+02, 4.40547976e+01,
+        6.80000000e+02, 0.00000000e+00, 6.80000000e+02, 4.14930512e+02,
+        0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        0.00000000e+00, 2.70544324e+02, 0.00000000e+00, 0.00000000e+00,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 0.00000000e+00,
+        6.80000000e+02, 0.00000000e+00, 6.80000000e+02, 1.38890524e+02,
+        0.00000000e+00, 0.00000000e+00, 1.76695109e+02, 6.70467564e+01,
+        1.64262665e+02, 6.80000000e+02, 4.73587889e+02, 6.80000000e+02,
+        2.99138173e+02, 6.80000000e+02, 6.80000000e+02, 1.71105960e+01,
+        6.09646527e+02, 2.76803190e+02, 5.48713134e+02, 3.89990035e+00,
+        6.35949057e+02, 3.35883839e+02, 3.98999048e+01, 3.62248839e+02,
+        7.60602129e+01, 0.00000000e+00, 0.00000000e+00, 5.44687094e+02,
+        1.35581631e+00, 0.00000000e+00, 2.86061930e+00, 4.07266024e+02,
+        3.43354119e+01, 2.22346878e-01, 5.83289772e+01, 1.67827852e+00,
+        6.28955305e+02, 6.70339233e-01, 2.29961557e+00, 2.34867949e+01,
+        1.04872603e+02, 5.86095797e+00, 9.69087951e+00, 9.29952475e+01,
+        3.08053477e+02, 4.29424185e+02, 5.92717472e+02, 2.12321503e+01,
+        2.62845182e+01, 1.19275013e+02, 7.44665239e+00, 1.05759872e+01,
+        7.13916243e+01, 4.46693303e+02, 6.55880389e+02, 2.05851475e+02,
+        6.69116539e+02, 6.77432286e+02, 6.43565761e+02, 6.40190716e+02,
+        6.53577340e+02, 5.14466534e+02, 3.29930875e+02, 5.60702934e+02,
+        5.53670003e+02, 4.85130890e+02, 4.25447786e+02, 2.79406177e+02,
+        4.40638926e+02, 3.55891901e+02, 2.34941231e+00, 2.05238627e+02],
+       [1.87963537e+01, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        6.80000000e+02, 6.80000000e+02, 5.59918637e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 3.18140525e+02,
+        6.76032670e+02, 6.80000000e+02, 5.28186330e+02, 2.72542148e+01,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.77576889e+02, 0.00000000e+00, 4.63987225e+01, 0.00000000e+00,
+        2.70961291e+02, 3.29589576e+02, 0.00000000e+00, 0.00000000e+00,
+        6.80000000e+02, 6.80000000e+02, 5.68472292e+02, 6.80000000e+02,
+        5.70791075e+02, 0.00000000e+00, 5.87749753e+02, 5.79486548e+02,
+        4.01230307e+02, 6.75332452e+02, 1.01312324e+02, 6.80000000e+02,
+        6.30773718e+02, 6.44084863e+02, 3.22018832e+02, 6.80000000e+02,
+        6.32378098e+02, 6.80000000e+02, 6.80000000e+02, 8.05349791e+00,
+        6.80000000e+02, 5.99442768e+02, 6.80000000e+02, 0.00000000e+00,
+        5.63874989e+02, 5.89638452e+02, 1.02814566e+01, 5.77641102e+02,
+        3.41827774e+02, 1.25080364e+02, 4.02857495e+02, 3.48545420e+02,
+        1.54979093e+01, 0.00000000e+00, 4.22113210e+01, 5.88704698e+01,
+        2.01928517e+01, 4.27977490e-01, 7.18114297e+01, 2.53168918e+02,
+        6.15853906e+02, 1.13420155e+01, 6.76707609e+01, 2.78305111e+01,
+        6.80000000e+02, 5.17863749e+01, 6.79151565e+02, 4.04459424e+02,
+        4.19878436e+02, 3.94182352e+02, 3.00969977e+02, 4.00690694e+02,
+        6.80000000e+02, 5.23203894e+02, 2.27560589e+02, 1.88880846e+02,
+        2.48080813e+02, 3.78247866e+02, 3.54201949e+02, 6.80000000e+02,
+        6.39035759e+02, 6.11417504e+02, 1.17883302e+02, 0.00000000e+00,
+        6.72086012e+01, 0.00000000e+00, 1.66380261e+02, 1.90596006e+02,
+        3.96983531e+01, 3.03107121e+01, 4.25413243e+01, 9.20726998e+01,
+        3.27972917e+02, 2.10841605e+02, 1.71391848e+02, 5.22244360e+01],
+       [7.44104843e-01, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        3.27608571e+01, 3.97385774e+02, 4.06270636e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 2.89457358e+01,
+        8.81372783e+01, 2.18052720e+02, 1.43031109e+02, 4.97648540e+00,
+        1.84360146e+02, 2.94341361e+02, 2.65769359e+02, 6.08824476e+02,
+        4.56559304e+02, 6.78641034e+02, 3.61220334e+01, 5.01305022e+02,
+        4.99817370e+02, 3.01359106e+02, 5.85286958e+02, 2.93022012e+02,
+        6.80000000e+02, 3.08889475e+02, 7.51085479e+01, 4.03969720e+02,
+        6.80000000e+02, 0.00000000e+00, 1.21129396e+02, 2.28559198e+02,
+        1.66662556e+02, 6.80000000e+02, 3.09374619e+02, 6.80000000e+02,
+        3.28761725e+02, 1.95314396e+02, 1.67622664e+02, 5.92598246e+02,
+        4.59701565e+02, 0.00000000e+00, 6.80000000e+02, 6.35099056e+00,
+        6.80000000e+02, 3.29490266e+02, 6.80000000e+02, 1.01496171e+02,
+        6.52208655e+02, 4.13693391e+02, 3.40679384e+00, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 2.52108243e+02, 6.04999555e+02,
+        6.80000000e+02, 0.00000000e+00, 6.80000000e+02, 5.95293316e+02,
+        6.41516530e+02, 1.78018558e-04, 6.80000000e+02, 6.73395448e+02,
+        3.44926589e+02, 2.20445917e+02, 6.80000000e+02, 6.76616325e+02,
+        6.80000000e+02, 6.64871843e+02, 6.71477945e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        4.83564104e+02, 0.00000000e+00, 5.92434114e+02, 6.80000000e+02,
+        5.62898979e+02, 6.39374117e+02, 1.83986041e+02, 6.80000000e+02,
+        6.70630145e+02, 2.80491037e+02, 1.12870136e+01, 2.58941031e+02,
+        4.70873979e+02, 4.17662502e+02, 6.80000000e+02, 1.63482208e+02,
+        5.90720072e+02, 2.60055196e+02, 6.26591490e+02, 4.56755540e+02,
+        6.33057525e+02, 6.77350238e+02, 6.79195592e+02, 6.80000000e+02],
+       [1.52452930e-02, 6.80000000e+02, 0.00000000e+00, 0.00000000e+00,
+        6.80000000e+02, 1.44470560e+02, 1.45437063e+02, 6.80000000e+02,
+        7.62001161e+01, 6.80000000e+02, 2.06010984e+02, 6.80000000e+02,
+        6.80000000e+02, 1.85605506e+01, 1.40130598e+01, 4.01046698e-01,
+        1.36600854e+01, 6.80000000e+02, 2.91907827e+01, 7.14069100e+01,
+        6.80000000e+02, 1.28925403e+02, 7.59165362e+00, 6.80000000e+02,
+        1.28068486e+02, 5.70945267e+02, 3.05433981e+02, 5.72177372e+02,
+        6.30493771e+02, 6.19071112e+02, 3.04772806e+02, 6.80000000e+02,
+        2.93020244e+02, 4.80212565e+02, 1.23365773e+02, 1.43974068e+02,
+        7.71123976e+01, 1.27875104e+02, 1.25844798e+02, 6.40081967e+02,
+        7.86615290e+01, 1.90794133e+02, 0.00000000e+00, 5.88018109e+02,
+        0.00000000e+00, 0.00000000e+00, 5.87349692e+02, 2.66667185e+02,
+        6.80000000e+02, 1.49303353e+02, 6.80000000e+02, 0.00000000e+00,
+        6.07611559e+02, 0.00000000e+00, 8.99390436e+00, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 0.00000000e+00, 6.78298887e+02,
+        6.80000000e+02, 0.00000000e+00, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 4.88103401e-03, 6.80000000e+02, 6.60365006e+02,
+        3.93634830e+01, 6.80000000e+02, 6.05264166e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.26236162e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 2.00033659e+02,
+        0.00000000e+00, 1.55628819e+02, 5.33773743e+01, 1.44039668e+02,
+        3.16600227e+02, 4.29872722e+02, 5.26923938e+02, 3.39490104e+01,
+        1.02012936e+02, 0.00000000e+00, 1.16810340e+02, 5.82865576e+02,
+        5.34997774e+02, 6.80000000e+02, 5.34742367e+02, 0.00000000e+00,
+        6.80000000e+02, 6.80000000e+02, 6.51848574e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02],
+       [6.80000000e+02, 3.91148788e+02, 2.22135424e+02, 5.54444196e+02,
+        6.80000000e+02, 6.80000000e+02, 6.46352039e+02, 6.80000000e+02,
+        6.80000000e+02, 6.53720743e-03, 1.05104223e-02, 4.32008955e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 1.61079559e-02,
+        6.05843278e+02, 6.80000000e+02, 6.80000000e+02, 3.55306450e+02,
+        6.80000000e+02, 5.78468711e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 1.16853631e+02, 2.62781525e+02, 7.64418182e+01,
+        5.03658356e+02, 1.82050971e+02, 1.62825266e+02, 6.80000000e+02,
+        4.43947358e+01, 1.51385216e+02, 2.62803521e+01, 2.98901163e+01,
+        1.38144010e+01, 6.27421223e+01, 1.63330512e+02, 4.96580991e+02,
+        1.68302244e+02, 0.00000000e+00, 0.00000000e+00, 6.66466725e+02,
+        8.71824429e+01, 0.00000000e+00, 6.01174810e+02, 7.83211040e+00,
+        6.42127016e+02, 0.00000000e+00, 6.02553316e+02, 0.00000000e+00,
+        1.87325458e+02, 0.00000000e+00, 1.70372148e+01, 1.61861319e+02,
+        6.80000000e+02, 6.80000000e+02, 0.00000000e+00, 1.27755775e+02,
+        1.74145420e+02, 0.00000000e+00, 2.23084963e+02, 2.32063510e+02,
+        6.80000000e+02, 3.48832443e-02, 4.32183330e+02, 5.90369744e+01,
+        1.43733851e+01, 5.33811188e+02, 1.64109161e+01, 1.04995242e+02,
+        6.06602814e+01, 4.37087805e+02, 0.00000000e+00, 5.01816387e+02,
+        4.74320533e+02, 5.39245426e+02, 4.28825224e+02, 0.00000000e+00,
+        2.34783797e+02, 9.89301352e+01, 1.35902151e+02, 1.47655729e+01,
+        1.54039436e+01, 4.03099249e+02, 3.34564287e+01, 1.23168291e+02,
+        0.00000000e+00, 0.00000000e+00, 7.44096464e+01, 2.24307409e+02,
+        6.10871133e+00, 2.74044881e+02, 3.20362844e+02, 3.78242505e+00,
+        4.54412577e+02, 5.42327564e+02, 1.06905657e+02, 5.70536539e+02,
+        6.80000000e+02, 4.37206069e+02, 6.80000000e+02, 4.87771131e+02],
+       [3.02011957e+02, 6.80000000e+02, 6.80000000e+02, 1.24301822e+02,
+        5.89821313e+02, 6.80000000e+02, 4.67735599e+02, 4.86509947e+02,
+        6.80000000e+02, 6.80000000e+02, 1.05897401e+02, 5.18267987e+01,
+        3.23075762e+02, 6.80000000e+02, 2.07815817e+02, 1.51246199e+01,
+        1.19235500e+02, 1.11653648e+02, 6.80000000e+02, 8.44489562e+01,
+        6.37260022e+01, 9.90624759e+01, 1.62987230e+02, 6.80000000e+02,
+        1.29334314e+02, 1.79193741e+02, 2.85716276e+02, 5.31149399e+00,
+        5.63302899e+02, 6.42882545e+02, 2.34645204e+01, 8.74643122e+01,
+        1.41906515e+02, 0.00000000e+00, 2.24269003e+00, 3.19541796e+00,
+        1.10904318e+00, 1.37381165e+02, 8.51657109e+01, 1.55359738e+01,
+        6.19200079e+01, 4.90907794e+00, 0.00000000e+00, 0.00000000e+00,
+        7.78420499e+01, 9.09121692e+00, 0.00000000e+00, 1.21736754e+00,
+        0.00000000e+00, 1.72964329e+02, 0.00000000e+00, 0.00000000e+00,
+        9.61765356e-01, 0.00000000e+00, 8.29727381e+00, 0.00000000e+00,
+        6.60439461e+02, 6.80000000e+02, 0.00000000e+00, 0.00000000e+00,
+        1.46665088e+01, 0.00000000e+00, 2.51628197e+01, 1.91292920e+02,
+        6.80000000e+02, 6.49806041e-02, 0.00000000e+00, 1.59245027e+02,
+        1.48690463e+02, 0.00000000e+00, 1.98863131e+02, 1.86226836e+02,
+        1.66643551e+01, 0.00000000e+00, 5.05150209e+00, 0.00000000e+00,
+        0.00000000e+00, 2.38710857e+00, 9.81419952e+01, 2.38531188e+02,
+        6.80000000e+02, 7.55232841e+01, 6.42380807e+02, 3.42490515e+01,
+        1.23640681e+02, 3.83427978e+02, 1.86422049e+02, 4.80360901e+02,
+        6.38984471e+02, 6.06401836e+02, 1.09086199e+01, 1.47713636e+02,
+        2.66885379e+02, 9.68866600e+01, 4.90199388e+02, 0.00000000e+00,
+        2.89658310e+02, 0.00000000e+00, 3.65123714e+02, 0.00000000e+00,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 0.00000000e+00]])
+best_episode=104
+best_result=2474156120.3
+best_model=np.array([[6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 2.72825183e+02,
+        6.46146469e+02, 6.80000000e+02, 2.40045762e+01, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.78443708e-03, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 4.09761632e+02,
+        6.80000000e+02, 6.80000000e+02, 2.25688978e+02, 5.41879020e+02,
+        6.83697773e+00, 4.39581443e+02, 3.98593029e+02, 6.80000000e+02,
+        3.23100181e+02, 5.75375356e+02, 6.80000000e+02, 0.00000000e+00,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 4.90684833e+02,
+        6.80000000e+02, 6.74883736e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.79999996e+02, 5.74615426e+01,
+        3.63486520e+00, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 4.79364099e+02, 5.48653869e+02, 3.38329359e+02,
+        6.80000000e+02, 6.40804513e+02, 6.79034571e+02, 6.79999998e+02,
+        2.43116302e+01, 1.27921006e+01, 3.80094076e+02, 3.67674040e-07,
+        3.93012283e+02, 1.66904665e+02, 8.42350871e+01, 2.02784530e+02,
+        6.01596230e+01, 3.92916838e+02, 5.69912609e+02, 2.41735850e+02,
+        5.53391274e+02, 1.47941610e+02, 3.30971967e+02, 2.10258938e+02,
+        4.13062409e+01, 2.29021183e+02, 1.74508293e+02, 5.81226158e+02,
+        5.48491392e+02, 3.64992224e+02, 4.64959190e+00, 2.25762312e+02,
+        6.79999287e+02, 6.79999620e+02, 6.52975574e+02, 6.80000000e+02,
+        6.80000000e+02, 6.53080206e+02, 6.80000000e+02, 6.80000000e+02],
+       [6.80000000e+02, 0.00000000e+00, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 5.01804656e+02, 3.23428952e+02, 2.25075103e+02,
+        6.80000000e+02, 4.80762000e+02, 2.40639054e+02, 1.12809335e+02,
+        4.96320821e+01, 2.88031540e+02, 6.80000000e+02, 5.53059454e+02,
+        6.80000000e+02, 6.80000000e+02, 3.04523267e-01, 2.76356855e-01,
+        9.54890897e+01, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        9.88767327e+01, 2.25717317e+02, 2.69209513e+01, 6.80000000e+02,
+        1.34290525e+02, 2.12585603e+02, 6.80000000e+02, 0.00000000e+00,
+        6.80000000e+02, 0.00000000e+00, 6.49364995e+02, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 4.02866274e+02, 6.53914806e+02,
+        1.32896811e+02, 6.80000000e+02, 2.70301068e+02, 3.58136479e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.79999701e+02, 3.97602818e+02,
+        7.47666283e+01, 4.15583417e+02, 1.06378568e+02, 6.79999997e+02,
+        6.54928287e+02, 6.79999664e+02, 6.80000000e+02, 1.46075407e+02,
+        6.80000000e+02, 6.79999993e+02, 6.69870802e+02, 6.79999888e+02,
+        2.75593395e+02, 1.71375457e+02, 2.44626144e+01, 5.38812573e-05,
+        2.06301949e+02, 1.54522644e+01, 1.03805875e+02, 1.60402500e+02,
+        1.06120234e+01, 2.78544321e+02, 1.31581693e+02, 1.42931825e+02,
+        1.93881406e+02, 1.25171717e+02, 2.38865719e+02, 3.69717179e+01,
+        9.28556876e+01, 1.04730545e+02, 3.30367178e+02, 1.70389053e+02,
+        2.22898871e+00, 4.68803694e+02, 2.35259214e+02, 2.16558852e+02,
+        6.79978762e+02, 1.58172066e-10, 9.96788988e-03, 5.14625196e+01,
+        1.00197617e+02, 9.78935821e+01, 2.58768766e+01, 8.19206944e+01],
+       [0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 5.77497587e+00,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 3.83540910e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        4.80861342e+02, 2.43451249e+02, 1.34756044e+02, 1.52184544e+02,
+        8.24395945e+01, 8.88479001e+01, 6.95863461e+00, 6.66425314e+00,
+        7.05079552e+00, 2.56115600e+00, 8.40173533e-02, 8.51010756e-01,
+        1.89067958e-01, 6.80000000e+02, 5.57656900e+02, 2.75586642e-02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 4.62243692e+02, 2.37869311e+02, 5.43895818e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 0.00000000e+00,
+        6.80000000e+02, 0.00000000e+00, 0.00000000e+00, 1.13422187e+02,
+        0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        0.00000000e+00, 4.86136723e+02, 6.80000000e+02, 3.72043570e+02,
+        6.80000000e+02, 3.03812555e+02, 3.09543542e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.79988747e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.77559429e+02, 6.79999677e+02,
+        3.80618436e+02, 4.63244754e+01, 6.80000000e+02, 6.11387624e+02,
+        6.80000000e+02, 6.79999485e+02, 6.35627752e+02, 6.79999214e+02,
+        6.80000000e+02, 6.80000000e+02, 2.35685165e+02, 6.80000000e+02,
+        6.79999778e+02, 6.80000000e+02, 2.94399978e+02, 3.86956425e+02,
+        6.39750963e+01, 6.79999996e+02, 6.79999912e+02, 5.42892424e+02,
+        6.79999965e+02, 6.80000000e+02, 6.79999751e+02, 6.79992413e+02,
+        6.79996843e+02, 3.55546687e+02, 5.68571090e+02, 8.85767636e+01,
+        3.11652890e+01, 2.48606871e+02, 1.54501427e+02, 1.10378143e+02,
+        6.79689174e+02, 3.26803466e+02, 2.45632551e+02, 7.37794648e+01,
+        6.82683606e-02, 8.94876885e-02, 6.86995878e+00, 4.42800245e+02],
+       [0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 6.29846092e+01,
+        1.65131142e+01, 3.57625309e+00, 2.08345535e+02, 3.40157769e+02,
+        2.21637715e+02, 6.80000000e+02, 6.80000000e+02, 6.32355084e+02,
+        6.79999994e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 1.61858354e+00, 1.64056255e+01,
+        4.69665276e+00, 3.43411963e+02, 6.52730044e-01, 1.04633614e+00,
+        6.05488726e+02, 2.74556940e+02, 5.50033469e+02, 3.43258166e+02,
+        5.18919004e+02, 6.10789530e+02, 5.66509961e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 2.14777664e+02, 2.38023687e+02, 2.15434672e+02,
+        0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 1.21487195e+02, 2.36045585e+02,
+        6.80000000e+02, 6.80000000e+02, 4.78328904e+02, 6.61524156e+02,
+        4.22726876e+02, 7.80268263e+01, 6.79920000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.79983668e+02,
+        6.79994503e+02, 2.47992590e+02, 3.83894630e+02, 6.26055500e+02,
+        6.80000000e+02, 3.00861200e+01, 1.29823487e+01, 6.79954564e+02,
+        2.10615579e+02, 6.80000000e+02, 6.00104537e+02, 6.79999968e+02,
+        6.79982269e+02, 6.80000000e+02, 5.98748423e+02, 6.80000000e+02,
+        4.99474382e+02, 6.79999661e+02, 6.79994036e+02, 6.80000000e+02,
+        6.53210378e+02, 6.80000000e+02, 6.79987551e+02, 6.79702000e+02,
+        6.79846219e+02, 6.79961494e+02, 6.47022771e+02, 6.02136670e+02,
+        2.51870178e+02, 6.80000000e+02, 9.56172253e+01, 1.53922563e+02,
+        6.78325541e+02, 4.79857758e+02, 6.79999993e+02, 6.79999984e+02,
+        6.75918916e+02, 5.99599666e+02, 6.36545831e+02, 6.07900668e+02],
+       [0.00000000e+00, 5.54938339e+02, 6.80000000e+02, 6.80000000e+02,
+        1.08616137e+02, 6.80000000e+02, 6.16317443e+02, 9.48018057e+00,
+        3.45927542e+00, 4.20695386e+00, 2.61303003e+02, 1.31864333e+00,
+        0.00000000e+00, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.33231367e+02,
+        5.64803019e+01, 6.80000000e+02, 1.22048073e+01, 2.02690085e+01,
+        1.88083119e+01, 4.00511912e+00, 2.87689692e+02, 1.59748416e+02,
+        7.48702474e-01, 1.52087693e+02, 4.53066834e-01, 3.72003053e+01,
+        1.69278836e+00, 2.56888515e-01, 1.31918737e+02, 4.53845583e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 2.23858116e+02,
+        6.80000000e+02, 4.45281630e+02, 0.00000000e+00, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        5.27948033e+02, 0.00000000e+00, 4.70067182e+01, 5.54225168e+02,
+        6.80000000e+02, 4.31621344e+02, 1.43884396e+01, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.79580215e+02,
+        6.79814183e+02, 6.44482954e+02, 6.80000000e+02, 6.79969118e+02,
+        6.17038648e+02, 2.91338451e+02, 1.43497908e+02, 7.81683966e+01,
+        1.49435919e+02, 1.78958005e+02, 2.40024757e+01, 6.76652983e+01,
+        1.60146686e+02, 4.00571494e+02, 1.92681831e+02, 2.33476453e+02,
+        5.08013977e+02, 3.37240046e+02, 2.25363370e+02, 5.33946467e-01,
+        2.16140959e-02, 1.86611894e+02, 1.74231181e+02, 0.00000000e+00,
+        0.00000000e+00, 5.84646959e+02, 3.23680304e+02, 5.45618145e+02,
+        3.55455506e+02, 6.31755985e+02, 6.80000000e+02, 6.75719894e+02,
+        6.80000000e+02, 6.80000000e+02, 6.79999439e+02, 6.79998755e+02,
+        6.79999542e+02, 6.79999205e+02, 6.80000000e+02, 6.79969843e+02],
+       [0.00000000e+00, 6.80000000e+02, 4.85005187e+02, 1.61286256e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        5.94183080e+02, 1.36681478e+02, 2.56188996e+01, 3.03471375e+01,
+        0.00000000e+00, 1.94415454e+01, 3.10403976e+02, 4.02851602e+02,
+        6.80000000e+02, 0.00000000e+00, 6.80000000e+02, 6.80000000e+02,
+        0.00000000e+00, 1.08055087e+02, 2.16359259e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.62706664e+02, 1.86593721e+02,
+        6.80000000e+02, 4.48819788e+01, 1.25956493e+02, 1.05840974e+02,
+        1.56086906e+01, 1.34289513e+02, 1.14767967e+01, 4.50971261e+02,
+        2.62783899e+01, 4.85955123e+00, 5.40569441e+01, 9.97318908e+01,
+        2.13629136e+02, 1.40197184e+02, 4.06488261e+02, 4.46960928e+02,
+        3.66512755e+02, 4.09355303e+02, 6.80000000e+02, 6.80000000e+02,
+        0.00000000e+00, 1.62480960e+02, 3.89249243e+02, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        3.54689053e+02, 1.85470138e+02, 3.90493631e+02, 6.80000000e+02,
+        3.09511561e+02, 8.97767786e+01, 1.89461744e+01, 6.74727308e+02,
+        6.76852565e+02, 6.79784066e+02, 6.80000000e+02, 6.79294018e+02,
+        6.80000000e+02, 6.76628774e+02, 5.87209550e+02, 6.59067424e+02,
+        6.79948341e+02, 6.31208068e+02, 5.94893187e+01, 2.43459355e+02,
+        1.56447687e+02, 1.58927189e+02, 7.68802947e+00, 1.20585315e+02,
+        1.05764798e+02, 1.33103592e+02, 1.18188835e+02, 9.79792010e+00,
+        1.07751899e+00, 1.40309484e+02, 3.81070630e+02, 0.00000000e+00,
+        0.00000000e+00, 9.30799396e+00, 0.00000000e+00, 2.22953323e+01,
+        2.28688343e+02, 4.35958109e+02, 6.80000000e+02, 5.86670909e+02,
+        6.80000000e+02, 6.80000000e+02, 6.43005036e+02, 6.33817688e+02,
+        6.65846665e+02, 2.77987131e+02, 1.17028302e+01, 5.94920595e+01],
+       [3.33285712e+02, 6.80000000e+02, 6.80000000e+02, 0.00000000e+00,
+        0.00000000e+00, 2.34389907e+02, 1.89947112e+02, 5.72127756e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 3.39145925e+02,
+        0.00000000e+00, 2.87749426e+02, 2.74550529e+01, 9.76469438e+01,
+        9.72013482e+01, 0.00000000e+00, 7.33613289e+01, 1.68510525e+02,
+        0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        0.00000000e+00, 4.46028596e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 3.97660309e+02, 6.80000000e+02,
+        6.80000000e+02, 5.76603357e+02, 4.96610704e+02, 6.27989046e+02,
+        2.10895939e+02, 6.80000000e+02, 2.33828229e+02, 0.00000000e+00,
+        7.18585229e+01, 1.07807147e+02, 6.61203669e+02, 6.80000000e+02,
+        6.80000000e+02, 5.42343369e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 6.80000000e+02, 0.00000000e+00,
+        0.00000000e+00, 1.32350624e+02, 6.54696840e+01, 0.00000000e+00,
+        0.00000000e+00, 6.77728935e+02, 1.09965313e+01, 6.72155512e+02,
+        6.80000000e+02, 6.78238147e+02, 2.08284595e+02, 5.32706735e+02,
+        6.79053142e+02, 6.70190618e+02, 2.88003010e+02, 6.25754723e+02,
+        5.27376768e+02, 6.41329724e+02, 4.48616402e+02, 9.69401470e+01,
+        5.59481984e+02, 4.18164027e+02, 6.50506115e+02, 6.30046830e+02,
+        6.71189908e+02, 4.53994112e+02, 5.42068405e+02, 1.31655422e+02,
+        0.00000000e+00, 1.67114213e+02, 4.20951159e+01, 1.00343303e+02,
+        1.74276710e+02, 2.86681295e+02, 6.80000000e+02, 1.11847144e+02,
+        6.80000000e+02, 6.80000000e+02, 5.92358735e+02, 5.25153868e+02,
+        6.12604169e+02, 0.00000000e+00, 2.47111841e+01, 1.61314958e+01],
+       [6.80000000e+02, 1.33555387e+02, 2.28959831e+02, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 8.03117339e+01,
+        1.18357086e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.79562110e+02, 6.80000000e+02, 4.44042574e+02, 6.52468468e+02,
+        1.23809174e+02, 1.00514009e+02, 3.96984703e+02, 4.29256882e+02,
+        0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 5.00763120e+02, 0.00000000e+00,
+        0.00000000e+00, 4.12537229e+02, 6.80000000e+02, 6.47949332e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 5.04057658e+02, 6.80000000e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80000000e+02, 5.44012689e+02,
+        1.76230042e+02, 2.50097260e+02, 3.93289401e+01, 5.30284313e+02,
+        6.80000000e+02, 1.18884812e+02, 2.61867618e+02, 3.11160129e+02,
+        5.49806746e+02, 6.18173023e+02, 4.44978460e+02, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 6.80000000e+02, 0.00000000e+00,
+        0.00000000e+00, 1.46717684e+02, 0.00000000e+00, 3.19772178e+01,
+        0.00000000e+00, 4.33478179e+00, 5.71819174e+01, 0.00000000e+00,
+        7.98782749e+01, 2.79530423e+02, 0.00000000e+00, 5.60758514e+01,
+        0.00000000e+00, 7.71232581e+01, 4.38708886e+02, 1.35604922e+00,
+        2.78943399e+02, 4.10904078e+02, 1.27077861e+02, 2.72263234e+02,
+        5.91347675e+02, 4.09905510e+02, 5.87589104e+02, 6.80000000e+02,
+        6.70653540e+02, 5.09183003e+02, 4.19717341e+02, 2.39447759e+02,
+        6.80000000e+02, 5.94226161e+02, 6.80000000e+02, 2.41512162e+02,
+        3.84829658e+02, 6.80000000e+02, 6.80000000e+02, 5.17129222e+02,
+        6.80000000e+02, 6.80000000e+02, 6.67763783e+02, 2.82443009e+02,
+        6.41800159e+02, 6.25137076e+02, 6.45540123e+02, 6.74778154e+02],
+       [6.80000000e+02, 1.22965374e+01, 3.97078424e+01, 6.80000000e+02,
+        5.76927943e+02, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        2.81439062e+01, 3.66149650e+02, 0.00000000e+00, 1.99257165e+02,
+        6.80000000e+02, 3.89560038e+02, 6.80000000e+02, 6.80000000e+02,
+        4.15082160e+02, 6.71960575e+02, 5.08272004e+02, 6.40336676e+02,
+        5.67272262e+02, 1.64361647e+02, 0.00000000e+00, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 1.61480890e+01, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        1.65789844e+02, 0.00000000e+00, 6.80000000e+02, 0.00000000e+00,
+        1.67868964e+02, 0.00000000e+00, 3.40105965e+02, 5.97844896e+01,
+        6.80000000e+02, 6.80000000e+02, 6.27044293e+02, 6.21326127e+02,
+        6.80000000e+02, 6.80000000e+02, 6.80369893e+01, 6.80000000e+02,
+        6.80000000e+02, 2.34248062e+02, 2.63209217e+01, 6.80000000e+02,
+        6.63959800e+02, 6.80000000e+02, 6.24077428e+02, 4.89209436e+02,
+        6.80000000e+02, 4.00430001e+02, 6.80000000e+02, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 2.83313998e+02, 6.80000000e+02,
+        6.80000000e+02, 3.76510335e+02, 2.00235707e+01, 3.44097872e+01,
+        1.76437441e+02, 5.49760071e+02, 3.39571872e+02, 4.86769016e+02,
+        9.90023902e+01, 1.71317044e+02, 6.80000000e+02, 6.55338098e+01,
+        6.80000000e+02, 2.22088709e+02, 0.00000000e+00, 4.63793099e+02,
+        1.10572933e+01, 1.58769689e+01, 4.35722563e+01, 4.55518685e+02,
+        0.00000000e+00, 8.71413055e+00, 1.07076739e+02, 6.80000000e+02,
+        6.80000000e+02, 0.00000000e+00, 6.80000000e+02, 3.64835136e+02,
+        4.50187899e+02, 6.80000000e+02, 4.00995001e+02, 6.80000000e+02,
+        6.80000000e+02, 6.80000000e+02, 6.66731960e+02, 6.80000000e+02,
+        6.80000000e+02, 6.57582082e+02, 6.80000000e+02, 6.75514761e+02],
+       [2.58824599e+02, 5.59409052e-01, 5.95217540e+01, 6.80000000e+02,
+        1.55533813e+02, 1.29549804e+02, 0.00000000e+00, 1.65111147e+02,
+        2.21732026e+02, 2.83108810e+02, 0.00000000e+00, 0.00000000e+00,
+        5.50925573e+02, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        2.43103975e+02, 9.47892536e+01, 1.44111535e+02, 1.98067543e+02,
+        6.80000000e+02, 2.59482517e+02, 0.00000000e+00, 3.53056205e+02,
+        1.29258454e+02, 0.00000000e+00, 4.26566857e+02, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        8.63998676e+00, 0.00000000e+00, 3.29242339e+00, 0.00000000e+00,
+        0.00000000e+00, 0.00000000e+00, 1.78248512e-06, 2.01574085e-05,
+        1.55681662e+02, 3.28202692e-04, 1.10267158e-03, 6.76140908e+01,
+        1.56804922e+02, 5.59025878e+02, 1.36667499e-02, 1.13769282e+02,
+        2.06489878e+02, 3.95400417e+02, 4.75747683e+02, 6.80000000e+02,
+        6.80000000e+02, 5.62542998e+02, 6.80000000e+02, 6.80000000e+02,
+        2.05077317e+02, 4.42593869e+02, 4.58297378e+02, 3.07279596e+02,
+        4.79155361e+02, 4.32516145e+01, 5.38047797e+02, 6.80000000e+02,
+        6.80000000e+02, 6.28850074e+02, 1.74326741e+02, 6.80000000e+02,
+        5.12301611e+02, 4.71260083e+02, 6.80000000e+02, 0.00000000e+00,
+        6.80000000e+02, 8.99643025e+01, 6.80000000e+02, 6.80000000e+02,
+        5.21129455e+02, 1.09005241e+02, 0.00000000e+00, 1.06347193e+02,
+        3.67878567e+02, 7.20021233e+00, 9.16775682e+01, 3.67052252e+01,
+        0.00000000e+00, 9.93922820e+00, 6.70926141e+01, 6.80000000e+02,
+        6.80000000e+02, 0.00000000e+00, 6.80000000e+02, 0.00000000e+00,
+        2.14596055e+02, 8.77173245e+01, 0.00000000e+00, 1.12334183e+02,
+        1.23957942e+02, 9.44559754e+01, 4.55296337e+02, 6.80000000e+02,
+        6.80000000e+02, 2.93422237e+02, 4.13885603e+02, 6.80000000e+02],
+       [6.80000000e+02, 1.69402893e+02, 8.89371407e+01, 6.80000000e+02,
+        2.93441344e+01, 5.43947657e+01, 3.56947706e+02, 1.06460813e+02,
+        2.85568640e+02, 6.80000000e+02, 0.00000000e+00, 0.00000000e+00,
+        6.80000000e+02, 0.00000000e+00, 0.00000000e+00, 0.00000000e+00,
+        0.00000000e+00, 5.84113722e+00, 1.96921398e+02, 2.36877605e+01,
+        6.43962380e+02, 5.47162568e+01, 7.22435015e+00, 2.39926201e+02,
+        1.53268001e+02, 6.80000000e+02, 4.49084225e+02, 5.98565227e+02,
+        6.80000000e+02, 4.08971876e+02, 3.68939627e+02, 3.25059885e+02,
+        2.35447696e+02, 2.31935148e+02, 4.31276454e+02, 5.29500481e+01,
+        2.20477633e+02, 0.00000000e+00, 5.89573166e+02, 3.15591998e+02,
+        6.80000000e+02, 5.75863814e+02, 8.18299910e-06, 1.38569773e+01,
+        1.13179091e+02, 8.85298734e+01, 1.49636755e-04, 1.84580309e+02,
+        2.22469553e-03, 1.29001233e+02, 1.14188380e+02, 2.52449536e+02,
+        3.08990364e+02, 6.80000000e+02, 2.50691076e+02, 6.80000000e+02,
+        1.07984616e+02, 3.64623590e+02, 4.86884752e+00, 7.29257118e+01,
+        1.45394558e+02, 1.13057309e+02, 2.69114824e+02, 6.69170702e+02,
+        6.80000000e+02, 3.19203672e+02, 2.20018850e+02, 5.93504627e+02,
+        2.72944787e+02, 1.55538166e+02, 6.80000000e+02, 0.00000000e+00,
+        6.80000000e+02, 4.87810839e+02, 6.00715058e+02, 6.80000000e+02,
+        1.03358796e+01, 6.05509445e+02, 4.26887832e+00, 5.10101203e+02,
+        2.75540710e+02, 8.11292197e-01, 4.95676576e+01, 4.84521900e+02,
+        0.00000000e+00, 2.70458924e+02, 0.00000000e+00, 2.00906763e+02,
+        5.61621686e+02, 0.00000000e+00, 9.69602704e+01, 0.00000000e+00,
+        1.25436207e+02, 3.76070861e+01, 5.19729082e+02, 0.00000000e+00,
+        2.40334612e+02, 1.18586534e+02, 9.19272681e+01, 6.80000000e+02,
+        6.80000000e+02, 5.84863446e+02, 1.81218557e+02, 2.98020296e+02]])
+===============PID: 1 BEST_PID_COST: 2496971666.8548174 BEST_PID_EPISODE: 162
+===============PID: 1 COSTS: [2657543901.444154, 2635276818.7392673, 2620591844.572772, 2566551160.9040356, 2561622397.849772, 2606338737.052046, 2599538044.5288687, 2626741042.8080945, 2590615466.7415214, 2611531866.6913557, 2646946697.409764, 2588809884.837431, 2542865247.6325345, 2601870143.6036873, 2546958645.6920595, 2589919427.639762, 2606211838.7158155, 2546775400.957745, 2555506834.579207, 2630357753.3431883, 2658358024.623877, 2610612264.1269894, 2624744290.1796904, 2687237567.573114, 2649571379.683458, 2547901491.847197, 2585937653.487358, 2626272815.717045, 2588463482.2161274, 2617706507.6461387, 2655854446.600704, 2516893262.0736446, 2561021451.4146075, 2696627649.9267173, 2532954470.66267, 2626123989.2824097, 2581993054.7401485, 2569282407.2828536, 2633025907.2071404, 2607954932.1984034, 2615032245.795495, 2583297078.8496017, 2640805412.4595118, 2582722626.9817624, 2571876285.7861114, 2570715231.598445, 2590670176.445064, 2611775644.6557894, 2588728833.2558856, 2595981427.2877917, 2553377262.222383, 2620879586.1107664, 2660577515.092342, 2645343737.803937, 2597224736.607413, 2648092448.237456, 2554429167.496708, 2630872144.5122166, 2605342885.099122, 2549299787.9040155, 2609465755.956329, 2626613758.158383, 2591958950.482795, 2634503186.886377, 2565097668.0903034, 2604063701.7884207, 2598676621.065005, 2596227723.777688, 2609431477.983206, 2597131548.209001, 2587732525.1909666, 2606349473.971187, 2534226678.889125, 2547720093.8941708, 2568687023.8883996, 2592183218.6054173, 2605813948.1833367, 2608217790.9226103, 2560238009.525594, 2553525911.0215096, 2569223370.0285625, 2581548713.1049676, 2633311690.208367, 2634347743.6170087, 2556315046.0168056, 2612478193.6755214, 2544844684.1508565, 2624535667.9876504, 2623084457.185254, 2606832432.71156, 2579643473.3854766, 2624752864.9809775, 2642599295.4054027, 2626803786.104387, 2532729244.6730986, 2578622539.425542, 2657071203.3994155, 2600182265.016021, 2643837380.4146075, 2567544695.4474616, 2667180792.9901805, 2622613047.0079, 2587249494.0355177, 2553973233.8712482, 2589981498.841176, 2629209770.671602, 2621306041.1137753, 2610752679.923434, 2626682142.967062, 2610476239.7887197, 2545469487.428129, 2584078946.0506268, 2557952247.4454, 2609644968.330015, 2623971515.0657163, 2564614974.888421, 2550465517.313194, 2604597258.456515, 2626376995.814039, 2597811930.333537, 2640637920.518187, 2666376527.568665, 2663512319.5285854, 2541830742.342894, 2536321688.319885, 2647875554.5261755, 2540177141.6825595, 2633137423.714712, 2567934358.367571, 2628074570.5377245, 2574041068.024698, 2641218606.0310817, 2682799972.1686816, 2592371071.976954, 2559282675.4131513, 2565084581.9056444, 2625863990.095948, 2545750601.5317225, 2602619283.489116, 2600082975.3869867, 2612476540.350845, 2626771996.4655094, 2654163968.4544783, 2662863197.275996, 2652016465.036826, 2625409658.3364487, 2626538837.833171, 2654177152.9875712, 2560282677.9440594, 2683662797.1601443, 2593036468.0223026, 2596507180.0762467, 2621293303.1298113, 2640918776.8151703, 2634190529.7079053, 2573250085.322231, 2651718583.0241456, 2564641507.3840494, 2575539029.532327, 2677666011.1308765, 2637742611.878317, 2701083451.4896502, 2496971666.8548174, 2597506043.473072, 2613620730.676509, 2588596634.372878, 2621131259.9850917, 2605629786.1645346, 2656935829.781229, 2599888736.3209267, 2637525222.7413235, 2606592978.156753, 2638688447.3701396, 2580391613.5316114, 2655374659.43028, 2613450021.461199, 2610391514.280164, 2675243528.53889, 2593203309.2322903, 2614681857.823324, 2659240481.3417354, 2624062967.5882297, 2634025155.1005383, 2625986574.245754, 2643168617.5295324, 2632322791.397994, 2654987030.194959, 2640642704.9732127, 2615296467.7703953, 2624951864.7853227, 2555887809.1654453, 2717428334.304085, 2624722218.2315917, 2560255756.1490293, 2689303562.3875904, 2683154113.5459003, 2600952264.5248938, 2663354591.6864085, 2642349829.21375, 2633631494.6690626, 2636810100.3595195, 2671159606.3470716, 2658834854.2809362, 2608666001.751845, 2653109253.759313, 2660257480.1900444, 2640719114.052469, 2586037880.416922, 2546430263.48774, 2683940259.9735527, 2586557495.8385515, 2643455049.549553, 2658744047.8612013, 2691241061.6885405, 2616553332.5293903, 2567784836.439682, 2623608019.202482, 2620190095.012311, 2563694818.4707174, 2629162710.856184, 2741956009.00085, 2628202516.814818, 2599505425.604144, 2564692478.5580697, 2618538604.37404, 2618623782.7241125, 2699178971.7255626, 2591501666.9492006, 2597926379.1718497, 2684801631.125344, 2689241684.013793, 2748186317.1132345, 2693847101.291598, 2653174276.258846, 2634855344.412646, 2544797282.033975, 2663751462.8903074, 2679391949.7283087, 2635596772.307456, 2698476099.4900155, 2693962129.958719, 2626494083.360057, 2667945445.8048, 2606549344.317165, 2614103261.6307817, 2639021032.044783, 2649049225.9478226, 2622026697.2114277, 2694621024.9452686, 2658987600.0902476, 2636224611.2372394, 2631282456.2484775, 2709665987.772703, 2633183528.4644113, 2641732593.6987343, 2607102989.3240128, 2623834196.6471477, 2615724228.4072704, 2625331191.5145392, 2644474210.289998, 2652664742.288376, 2670455309.081366, 2657944839.3587976, 2619813556.1078615, 2631091015.2766647, 2614046091.534384, 2699351714.5898914, 2720710062.9089794, 2724897006.1548266, 2683907688.2587543, 2620523328.38367, 2624271177.850498, 2633956054.2878323, 2631145232.283298, 2734830151.6355324, 2633027317.505547, 2603571531.106575, 2608733110.157147, 2647696125.5387235, 2608051952.0189424, 2651214808.5517373, 2713691589.5450535, 2594852582.2822356, 2640228454.898917, 2625987572.6675844, 2655235598.9140334, 2676217841.5297413, 2626586536.999631, 2662932473.238724, 2692353175.7030926, 2574363666.324966, 2657576228.7057796, 2600881454.153122, 2626209170.3930283, 2642759882.363535, 2686680526.9429445, 2654671307.207864, 2675899620.871871, 2710629906.254371, 2647467360.333165, 2700263269.5017715, 2607588355.4429574, 2693597282.722303, 2679077977.2803206, 2719220289.8363643, 2693972604.63924, 2750024315.1399336, 2719610361.725305, 2645131029.706022, 2625933227.8783283, 2674130165.418619, 2616952436.098222, 2606999623.3016596, 2642701618.5375447, 2638656842.06347, 2646518816.0425067, 2656204224.2865357, 2653169108.4231815, 2645920839.1453967, 2691704089.5769777, 2635511418.3859754, 2591239627.754237, 2649144566.6288953, 2681483403.717083, 2641985902.051355, 2698457267.6719875, 2620671114.0982265, 2634474177.541781, 2637941669.209392, 2648713808.548652, 2673924107.563467, 2600953852.391255, 2616645482.675942, 2605401811.480926, 2682770289.9443817, 2644961367.1891885, 2675568845.624779, 2612779888.810576, 2743063619.4507413, 2624979627.8488545, 2625606735.168526, 2641952694.8117566, 2552398539.5224247, 2672406946.957172, 2642088566.9711084, 2618750006.149247, 2626232325.858559, 2631396279.36225, 2612655571.4715543, 2652802172.7946944, 2680936658.6983075, 2686577638.442952, 2581900543.460441, 2612505670.087041, 2607337707.922927, 2645472847.75733, 2611440492.1563506, 2655265503.714659, 2587339314.6183867, 2579544647.4571805, 2602737809.0733776, 2714608134.2743683, 2647212439.3087645, 2641755926.8068175, 2671596588.9586954, 2671621865.502007, 2589742403.060714, 2617638143.46737, 2585094813.675267, 2604885237.794213, 2675687934.428502, 2571252984.968373, 2555356973.449256, 2635917792.300648, 2685294806.7437286, 2676900027.348763, 2655799740.765183, 2661676011.8083973, 2620797528.3124194, 2642807123.199142, 2586880663.7788672, 2731377666.771952, 2670330946.203814, 2637428928.7044845, 2668587522.596205]
+===============PID: 1 COSTS_TRAIN_DATASET: []
+===============PID: 2 BEST_PID_COST: 2507916294.8913856 BEST_PID_EPISODE: 18
+===============PID: 2 COSTS: [2643851813.775031, 2586900425.391967, 2543708690.4278975, 2579578570.568948, 2672911879.209454, 2619706781.6542735, 2584973374.6900654, 2574506957.835221, 2596037887.7134647, 2645838934.055581, 2548202245.300667, 2598513410.616324, 2608291123.283374, 2552224488.5755224, 2606949890.473517, 2590863635.3721843, 2634972177.747121, 2576823792.5037117, 2507916294.8913856, 2600602872.9987473, 2572455571.5709205, 2603269256.7708254, 2612684166.8242655, 2590235786.6161795, 2621871187.6013856, 2554973570.390377, 2573083634.8930655, 2565277237.766043, 2629174343.9814305, 2621105676.541258, 2616598602.1856055, 2591120390.728382, 2589461574.431166, 2659343685.148119, 2548967897.1232333, 2563185440.605987, 2576430797.1655426, 2646708950.4522157, 2583746556.008796, 2567820006.7094307, 2530018841.080166, 2631883773.748644, 2640636535.4326797, 2518983142.8142023, 2650701220.96938, 2596560340.9152837, 2635379460.4592223, 2570652670.8684616, 2630396326.934489, 2633809673.3824005, 2641554875.4022403, 2614712710.4426045, 2592912191.595415, 2551530483.2265816, 2608021735.6960487, 2581651648.551265, 2579725835.0569687, 2620187387.9462595, 2628415628.9952126, 2598558672.168086, 2527145455.8122745, 2586691685.605497, 2572546664.649624, 2575364596.333413, 2594572612.658777, 2655235380.7181344, 2643552320.5663853, 2565924400.421572, 2552682976.575041, 2653096272.4123235, 2604299087.488109, 2569971064.490616, 2575188360.6496024, 2640130664.503198, 2547371199.0772433, 2601384786.760588, 2645879522.4922214, 2610151538.337656, 2553251649.7890105, 2566158537.710446, 2569484496.2297716, 2568087237.414054, 2584137036.469734, 2597957245.5308633, 2571831397.330053, 2705601601.5690184, 2546002686.178746, 2567039915.9168363, 2621442351.3089085, 2615793907.98511, 2573784579.1042147, 2605733567.263901, 2580436578.3739953, 2578806359.1257405, 2593859136.4439697, 2621836942.018654, 2571608271.6501155, 2576879376.1874003, 2542431240.847337, 2585030580.310888, 2611323081.611937, 2618320985.036747, 2580779490.1925564, 2593108293.3632045, 2580226478.5483303, 2649862391.5556316, 2607536107.6989746, 2626405606.123207, 2591746959.303053, 2637663506.68859, 2644788078.0218983, 2557444304.143671, 2566317108.2182455, 2653135763.416793, 2650491385.9640083, 2583890316.5728555, 2626669880.7244296, 2585932224.336375, 2680806377.928774, 2595089058.504037, 2641229908.7253094, 2619777357.4687243, 2588359731.062123, 2646800727.7084928, 2632449945.4875455, 2625901615.152351, 2619215416.351052, 2551805447.7502646, 2646752917.223624, 2634097367.3953967, 2613438310.041499, 2611639591.9171553, 2576581004.100955, 2642729070.6311674, 2546085960.434633, 2648868060.836252, 2626014998.074687, 2573876187.334342, 2568884584.383808, 2613377789.512898, 2600186405.0699754, 2627006646.289795, 2637055688.9493937, 2621592080.5480566, 2628305314.8094964, 2694738271.773485, 2582943472.143302, 2604570766.9639387, 2685080355.133331, 2632777371.810171, 2593384281.0706544, 2645760978.0127196, 2604077015.6213355, 2643597983.727131, 2609314676.5282927, 2626644249.469843, 2622989086.1090965, 2646103917.0310693, 2636254789.821575, 2691541450.803968, 2617381621.1655135, 2661458969.350972, 2583568382.057296, 2628083390.4831524, 2675633984.3658824, 2600980651.9442163, 2598370616.1566787, 2719108382.764987, 2708721555.2940373, 2569313568.315678, 2576617562.569996, 2652913638.5344315, 2585775698.6660147, 2586534158.63986, 2626854396.2199254, 2605642551.625795, 2679547429.780036, 2634026604.7689724, 2638219998.8462663, 2614751698.5763955, 2611712387.398317, 2552311854.5958595, 2682507871.050614, 2595818592.9327307, 2597932692.7131014, 2626951929.7569814, 2618248109.8604436, 2642171674.3167295, 2601718640.2967715, 2605900084.0144277, 2607153864.9130664, 2643447000.186456, 2635095444.0090594, 2644269746.706932, 2586695709.223258, 2697283234.56333, 2663724047.749267, 2599158005.98904, 2572730590.0617733, 2584008337.831171, 2641753203.992628, 2567577472.124074, 2650249963.0720806, 2634566593.786376, 2582921581.337745, 2587001953.365758, 2649506204.7324896, 2591039610.3689833, 2552428822.826544, 2604306489.2307496, 2652080658.4288487, 2641363291.318139, 2652736523.383802, 2690395771.029958, 2634556551.219333, 2657440621.2257133, 2666086102.0925307, 2676334069.3710823, 2629777982.389014, 2620854002.5310187, 2741958776.085918, 2633607941.481942, 2591717402.255354, 2649124083.9480877, 2665540335.669795, 2681089366.017934, 2625897201.0731807, 2686066839.1475635, 2613836601.3324, 2664917748.831283, 2613891750.5146227, 2647862835.8036966, 2597254689.285479, 2615099797.5834427, 2678690464.5765176, 2655883354.4322753, 2652628493.2157784, 2593614732.186914, 2689462547.7525234, 2531345773.309722, 2609277628.2079105, 2619189284.005349, 2652384659.507358, 2639659837.1019597, 2676868559.4959884, 2638210197.898633, 2657532211.536679, 2630661738.9252615, 2646837450.7057176, 2664305946.9416165, 2579135109.578747, 2634624310.621784, 2609806549.062299, 2670320779.666782, 2612507724.0797024, 2624853228.5691156, 2618351621.225691, 2663222803.7916217, 2692319722.8904867, 2653168535.140927, 2621099975.132448, 2696620748.905711, 2615133510.0880604, 2694072695.2334046, 2650606565.803124, 2646610216.3350773, 2661122941.2507586, 2613116643.8404026, 2676916631.148876, 2561664918.0648513, 2627379336.8684783, 2620161676.435898, 2642877033.921713, 2671773321.818083, 2595014874.671132, 2607343196.532481, 2623370876.3332157, 2636066227.227385, 2628214524.9526653, 2649869268.1693788, 2666206590.0030932, 2671073954.738763, 2657220607.494032, 2653409482.286438, 2672409087.1855783, 2695703411.6883054, 2673461919.3359103, 2629109788.436383, 2681509574.0435443, 2621776954.677757, 2641143640.1980066, 2622695748.9114404, 2618182482.0727797, 2585338915.0327473, 2629121324.6745663, 2619693118.1456017, 2615090831.3109818, 2707805942.4921756, 2625759159.3137913, 2640051138.655374, 2666157070.352404, 2704308561.0327077, 2694425135.4257607, 2645344124.6696076, 2619015882.2494445, 2651518769.11777, 2662819338.3359942, 2685177604.0117273, 2604171165.9634914, 2669059584.7121944, 2609939374.1042285, 2634251861.790603, 2643969503.7698975, 2675958113.4714932, 2681553715.1997023, 2626538785.6751103, 2620159592.604832, 2669679945.3299265, 2637155190.5553102, 2626233157.1764746, 2630228934.7305927, 2618291358.9265175, 2688126118.165331, 2638033177.6059065, 2623284731.2351465, 2645107861.505101, 2585345184.3904796, 2696762087.8687954, 2629855337.206801, 2631168547.6551814, 2610560755.794339, 2633096346.51535, 2589839660.4570045, 2650048063.0325675, 2763619291.21714, 2633583399.0291867, 2711169602.7604136, 2596056388.234614, 2630849080.5969725, 2623390949.21159, 2644520917.082569, 2624133938.1198506, 2625889515.8874044, 2555752588.3533983, 2621706595.585723, 2645879140.1399565, 2604822892.41203, 2712695738.5347033, 2664671022.0227723, 2608373336.764324, 2681129529.682877, 2659476469.953097, 2641616773.742636, 2607861530.3140693, 2638839216.0559025, 2680675390.020998, 2784167166.199423, 2659332083.1323524, 2663539453.457654, 2686798422.2528377, 2603025258.7621903, 2615802177.6444025, 2693075099.766472, 2615504373.1364, 2650656926.3450994, 2682075154.4369416, 2708031852.1716022, 2664448390.222499, 2672285406.7385097, 2652885558.467446, 2633798441.8365507, 2646796594.2583456, 2688652196.6595535, 2608571006.2214627, 2663986824.219924, 2666285087.317538, 2673871114.2869277, 2727048915.358679, 2672960328.3352404, 2630757956.020104, 2610295867.1611013, 2602963998.485467, 2537603153.183669, 2633246826.6130505, 2627056879.8443484]
+===============PID: 2 COSTS_TRAIN_DATASET: []
+===============PID: 3 BEST_PID_COST: 2508753747.367344 BEST_PID_EPISODE: 54
+===============PID: 3 COSTS: [2689632765.8096156, 2657364906.351697, 2650353385.9033194, 2655690713.5695987, 2621211318.270372, 2582413152.482988, 2606086690.234852, 2593172192.017146, 2611715248.5882473, 2581148961.4594812, 2614378418.8622236, 2613471868.5403295, 2653951729.9772377, 2574733194.9824076, 2555269834.754607, 2605241918.5492735, 2576452788.098319, 2611171763.5645514, 2593245199.4099913, 2609136270.6390724, 2608738210.335284, 2605222662.8542066, 2608742559.269591, 2625480067.949417, 2568317712.88289, 2592830628.7158427, 2581896288.3163295, 2604932152.530587, 2597302779.8102665, 2558065892.505415, 2558604733.2540755, 2600931131.7016516, 2662225470.6272874, 2591195408.6328526, 2609774302.6951632, 2637843156.044603, 2561482786.6638293, 2630061387.8066225, 2673332014.0556564, 2625889720.082922, 2561006376.4378624, 2633030292.033285, 2648409891.667575, 2590106238.1919007, 2525458447.1696553, 2597286440.4051275, 2572638935.2852054, 2627933842.9854417, 2591049747.5952554, 2589912660.5627947, 2633312569.126583, 2615114207.050692, 2614345426.0057364, 2646728584.600205, 2508753747.367344, 2594747892.1435714, 2611801926.000756, 2596995662.686122, 2565079061.356968, 2599240392.4647512, 2610285542.119501, 2586403917.355565, 2608484609.815289, 2605424468.7874017, 2614287935.6176805, 2604542460.0297556, 2578317824.4696302, 2589537485.526987, 2544554261.282896, 2558278586.108689, 2585719141.2210045, 2574248599.5745955, 2604644591.980178, 2690585288.0385976, 2562818264.907138, 2555190365.911896, 2528602518.4321747, 2607821421.7494073, 2591807680.677172, 2546450485.956828, 2627851473.9790854, 2598985252.6814413, 2624336008.4090285, 2526464925.7028027, 2582777015.3837833, 2573785221.8482385, 2609645290.015722, 2535611915.827884, 2603494787.229657, 2530423425.722918, 2555821839.8330574, 2631209375.1576924, 2644429195.438461, 2640720049.2591286, 2616953555.0739384, 2611155081.7846065, 2563353137.652393, 2586737253.7831273, 2596386168.9848, 2564051096.892033, 2582767468.698036, 2662663122.077082, 2593898986.3424807, 2631410920.8582716, 2612310239.7040825, 2650792922.1677704, 2578466344.9548554, 2643842299.593932, 2531939983.6087356, 2664356226.5074706, 2604931937.719075, 2536627174.327289, 2661502149.8322763, 2558461756.9095464, 2582434407.492344, 2614275723.990609, 2612737825.677806, 2640729680.952333, 2595464674.2245603, 2570016950.046592, 2573195728.6766515, 2575377191.2274814, 2646591402.1542606, 2607682619.571146, 2613178983.5692725, 2657504466.830458, 2670806928.3955865, 2601017380.864017, 2573144592.594794, 2645578570.749988, 2613334251.4408965, 2583805712.038941, 2665135998.5245094, 2567145172.259654, 2588068547.203334, 2590579014.032117, 2685035175.48979, 2624865360.538874, 2613015709.2118545, 2592985300.5371895, 2617598487.7213, 2634741102.3642807, 2623962366.1229978, 2582926163.990723, 2665474821.9273696, 2611947987.8507676, 2645182310.527967, 2603187577.368584, 2605402362.6506405, 2642676610.2116075, 2662537202.1820126, 2652206958.474247, 2537313348.5164366, 2606455418.052495, 2567548409.90094, 2677685527.1524096, 2557482836.137551, 2554476262.983267, 2707166665.508322, 2619623421.305928, 2643775308.471414, 2654329971.075944, 2619158755.839077, 2614606627.6551847, 2586555732.57562, 2598671776.325118, 2608150229.252709, 2586464192.6457124, 2622727571.858671, 2637271423.2451105, 2598668515.35272, 2651345176.2233458, 2633753416.617682, 2532148893.4509873, 2592473856.431661, 2681859295.2615204, 2574641906.5292277, 2599822893.451635, 2646242458.5599103, 2590254780.9073777, 2677462791.1382604, 2656002557.725329, 2584303092.8275185, 2611857456.3257685, 2622031159.799677, 2735968889.335306, 2611706107.963703, 2663358301.5349517, 2669290374.1378508, 2625071635.0651064, 2647426989.6228023, 2684174455.496437, 2647440376.85067, 2605657411.641705, 2670556829.5601993, 2624726392.2167773, 2634880818.081217, 2557107707.627874, 2621058643.5313306, 2646081776.2386613, 2619444082.8957314, 2610122905.1783032, 2611161184.4639606, 2640670960.4816175, 2653064123.975045, 2669223357.5251837, 2638654284.9031115, 2647331409.529322, 2677139232.6831574, 2595088384.907417, 2633791357.1981735, 2615572385.6196513, 2598384114.9453444, 2615371886.4512696, 2637160360.3395834, 2634214564.53383, 2673143382.066999, 2627406988.279406, 2715819927.6671205, 2577761331.290578, 2599893580.745742, 2602978412.4297876, 2590775691.2222443, 2626955419.893951, 2734645994.689361, 2628793747.455363, 2669819335.603899, 2641452974.061917, 2658519855.297369, 2658710039.882249, 2599784067.3660035, 2643962259.2581515, 2656185886.4482183, 2625782832.5225224, 2665270524.9046173, 2629013158.284767, 2599115300.01602, 2651219149.3203487, 2579809203.895169, 2551118299.5285883, 2665599412.215641, 2712775078.592327, 2675476528.877873, 2636729536.983878, 2638587123.5717793, 2689369388.050402, 2648769823.3151183, 2706067326.988732, 2618927044.8701296, 2635443493.625852, 2620138247.762347, 2560446202.974929, 2618225892.1681037, 2659720599.810365, 2678276604.4322286, 2682818850.231409, 2636991259.290877, 2632094593.7558427, 2666108676.862503, 2639853537.8478775, 2640613989.5983615, 2606540027.68705, 2719404949.337711, 2668468221.2526383, 2648586268.655228, 2585568141.0171404, 2578343203.1438327, 2681922016.6379776, 2661431993.947954, 2616051185.7332687, 2579994626.746869, 2643848420.7803354, 2689696516.618202, 2650298345.9172835, 2654686908.1774826, 2631804958.7904906, 2697858897.7457166, 2730083184.0441895, 2575224171.2770243, 2712041753.1394405, 2620370771.456999, 2653955161.9307075, 2659195543.472659, 2698936765.31952, 2729428298.8676267, 2692823611.3386474, 2632367873.135495, 2584740851.8637714, 2689868791.32566, 2630922648.042094, 2667277495.035336, 2655450235.93251, 2664641800.9054685, 2600124853.896203, 2632565958.972093, 2686245911.331175, 2632666355.1045527, 2617160225.999502, 2569855130.193501, 2702090299.3318563, 2655692104.9163456, 2679781902.7543087, 2623210545.972301, 2588447690.8381233, 2612592272.81253, 2687613363.1913567, 2614794158.1929355, 2633508359.7119217, 2574038343.021132, 2713600703.890311, 2665857968.6970596, 2588215948.6057987, 2662860093.8887324, 2666795861.0586543, 2659833332.157762, 2702379720.3106337, 2574708733.772836, 2648548231.526291, 2612816534.496418, 2679999228.9735765, 2650155229.3266606, 2653853376.534993, 2664702003.0670495, 2625057832.8761287, 2677655847.7482424, 2644360115.116276, 2673877466.5263133, 2628262899.419279, 2658027662.6018085, 2695812861.904184, 2634627275.6974335, 2708459495.2781773, 2582033515.7206845, 2679051312.850118, 2698324580.4375477, 2615038669.613748, 2724450773.5896277, 2696700994.8239284, 2649527310.844278, 2662882673.6064167, 2638813571.5653753, 2655434521.0742373, 2654265143.9787025, 2602555318.8263836, 2682672242.454136, 2647986142.1682687, 2672785714.7967606, 2682507922.6117234, 2646124339.6986046, 2646512343.4380784, 2670793612.1591663, 2656135917.880118, 2597728995.2872014, 2697700160.436291, 2680802310.487132, 2677820353.6270776, 2688862662.593718, 2646933103.0726533, 2672015227.9169774, 2605483550.1813035, 2619837994.982123, 2612925662.7625976, 2680328041.1564074, 2659053422.5418363, 2593942700.923758, 2630008358.3001785, 2647582142.1968875, 2589470601.5336385, 2637473649.7861953, 2624349281.1866074, 2635982614.1964154, 2649164249.338164, 2575065378.0694637, 2636719422.3473406, 2617697942.012863, 2686479718.114214, 2624719450.0951586, 2663528566.425389, 2671363816.094202, 2712075482.9620876, 2632462683.310609, 2646375818.8190646, 2618735996.574015, 2682995065.820706, 2633812142.640575]
+===============PID: 3 COSTS_TRAIN_DATASET: []
+===============PID: 4 BEST_PID_COST: 2504844218.6790347 BEST_PID_EPISODE: 61
+===============PID: 4 COSTS: [2595759660.0346923, 2589568114.5353546, 2612634297.520506, 2614341104.608529, 2544451751.619819, 2655402438.0127215, 2644472151.4059553, 2640978126.789707, 2535583503.72451, 2606479777.983339, 2557180718.825734, 2577311691.813586, 2592556168.3689027, 2622895445.9818683, 2609168941.8977823, 2605373212.942521, 2604772682.558823, 2528640312.5274844, 2550665576.2055526, 2571977536.863176, 2641643463.245887, 2569959757.310578, 2563854870.8174734, 2547009281.9034395, 2545566631.638574, 2574518999.618497, 2597238755.838747, 2576939306.561597, 2582514521.2694535, 2529156963.262922, 2550982586.825277, 2587597390.9128704, 2572698735.1287675, 2643268148.2788777, 2608523073.695466, 2626512656.0615788, 2561468717.552457, 2603904625.64421, 2644183269.420062, 2637875440.752976, 2568266881.4985557, 2551143115.0948095, 2655452659.956424, 2626568917.752392, 2575754169.248021, 2582551105.922038, 2555945897.287816, 2625874843.7637787, 2629531633.8714786, 2555975115.096253, 2528330747.708237, 2577244148.7743616, 2595385335.5117674, 2607820634.4152346, 2553491724.472668, 2616385776.1967187, 2599148026.747215, 2616893429.195882, 2610424423.650626, 2626510075.632552, 2567765005.289324, 2504844218.6790347, 2553565781.450285, 2535745363.215419, 2537374068.590583, 2530008870.3938994, 2598766489.7304387, 2596488843.0737996, 2601048466.1891103, 2592952719.934541, 2604573876.032405, 2666983985.0491424, 2532642505.5793786, 2650759117.4943886, 2642026836.8024726, 2592981172.6562743, 2590074472.097535, 2565629101.5291963, 2629191456.075365, 2679346494.850995, 2558064101.5127225, 2590985948.218842, 2623001365.613242, 2549680155.8691807, 2571461530.6422687, 2601319064.3840423, 2580456743.32774, 2550221442.4689903, 2601283664.285979, 2645517596.016602, 2591156429.1160135, 2608287888.188159, 2609358311.058182, 2584574395.460549, 2595850116.3262444, 2574749235.0409236, 2636308101.040769, 2604777960.515945, 2561097866.182316, 2599342573.634633, 2639422114.5262737, 2608357522.7413106, 2601749429.905883, 2614847604.0603175, 2550909433.147572, 2621995624.7366447, 2561683582.7408457, 2623716752.027422, 2682766329.5035176, 2597267272.295503, 2572977042.511412, 2687538784.556879, 2623762439.9213223, 2555437783.435126, 2648268895.179633, 2575089078.0024705, 2569499191.8436437, 2665147108.9940577, 2617872418.9804296, 2569880419.0052996, 2593365968.7225323, 2630185875.991032, 2592111687.629424, 2593859421.496245, 2665569562.8078785, 2568758039.5106707, 2582296056.3280244, 2612041729.7652454, 2679365476.495672, 2625669955.569287, 2549654399.657129, 2580961405.595061, 2629622619.224702, 2628092957.606737, 2622584468.26133, 2650999486.966999, 2646397203.243163, 2613667336.96096, 2618332545.922582, 2589591783.5615153, 2652519854.3548675, 2566856638.9511013, 2669758846.5393124, 2591016477.002627, 2566187057.1134806, 2622430463.218079, 2661014476.3852186, 2555030673.9459553, 2574549539.5143538, 2595760457.807116, 2635922032.4838486, 2637058833.155414, 2643827214.7174416, 2623678721.3395615, 2625138913.03429, 2665699206.0595293, 2677088899.280084, 2621733674.2154098, 2588653463.7674785, 2623100673.5985622, 2618639769.14195, 2584987002.269728, 2623245163.3070626, 2643546929.0381546, 2604073452.3044744, 2668221971.9543915, 2719710912.288111, 2549298715.87895, 2646559504.8445606, 2671355586.9449587, 2586549929.599848, 2671017581.3777165, 2616398693.3394885, 2588437154.6170106, 2548182304.4166064, 2603796169.5335746, 2598427180.8799796, 2590891471.6870313, 2681314093.5614214, 2702337880.9754405, 2587146136.777666, 2696815718.9287276, 2623610364.5379715, 2731890410.370028, 2621107471.1022205, 2699872145.3938575, 2653583404.488128, 2649236074.5466056, 2617758282.4624195, 2628876176.819083, 2606318683.833693, 2650570957.0963016, 2614163889.665093, 2581909700.0555787, 2659664052.359867, 2588838971.3783274, 2593780157.931998, 2605726756.832274, 2642913230.108395, 2617903349.7877336, 2584042096.4409375, 2620997480.809004, 2677641814.8331113, 2619961821.481642, 2615895478.998522, 2633489619.1848583, 2624875209.911006, 2682514347.156876, 2602346921.106092, 2581876839.045785, 2639045395.4432287, 2594924234.793412, 2641241331.374771, 2597112304.1699634, 2708152050.604772, 2613825222.2198224, 2602159629.7370906, 2571263480.7803664, 2646427258.829109, 2678616400.8184524, 2693617346.796537, 2543237380.7032547, 2583798377.5021906, 2625747254.1561837, 2637901975.3556113, 2684089958.9474854, 2685772742.930036, 2641106989.089665, 2606697698.5398164, 2660802722.9086165, 2609600685.619803, 2730391508.2843556, 2630176048.329767, 2644525498.727566, 2609312687.8160167, 2646632786.9509916, 2577968586.0496054, 2664072209.2519403, 2612127149.0359726, 2565951039.5422044, 2622884541.3349943, 2607506509.472469, 2687617441.7704043, 2664144098.5380588, 2651667509.9168224, 2650692594.119658, 2622373631.412216, 2611154842.8274903, 2630824907.483294, 2614442799.4204755, 2602166867.6306634, 2642034038.1370673, 2618277321.5478506, 2638850887.0780005, 2655784744.008226, 2594081388.5390563, 2664916812.8927135, 2697381225.317259, 2649560247.212703, 2588516979.7500463, 2651029199.2163463, 2672206636.6654177, 2694726302.3474727, 2637349974.15162, 2643388457.656096, 2684449765.0990376, 2615223818.961543, 2612906772.088545, 2622521441.3742557, 2643297309.918219, 2616754074.19566, 2672294818.4841914, 2677721002.8471932, 2625822767.2231154, 2649947746.2796826, 2595131562.018823, 2709757249.613733, 2620940782.795659, 2693330043.7488213, 2667477890.715389, 2567748603.314288, 2637242330.4519, 2649953912.021035, 2644357548.6835146, 2644453573.12201, 2662233216.823763, 2702070072.393386, 2596821116.610048, 2657063269.2560577, 2618657816.2969337, 2652759311.4989686, 2637112307.841062, 2628367045.7317333, 2574824650.3464985, 2742027015.567479, 2741009692.336241, 2616970473.3218026, 2670208005.6070795, 2710117113.067272, 2573740820.2181687, 2621775102.223616, 2642741314.6271014, 2621151398.536422, 2747373066.1042366, 2567762087.038264, 2598733458.549379, 2709605766.9139547, 2562958976.9964385, 2676479552.21694, 2600605288.9298553, 2690864961.6356235, 2667992794.773903, 2705445880.5107517, 2619709495.0821924, 2712925855.7202706, 2691684657.4960938, 2685476315.4659142, 2640482516.876586, 2693376045.0377274, 2604934621.5197225, 2688097961.86786, 2607794231.1284404, 2658196358.2396336, 2710371694.632493, 2602250041.6026096, 2633579561.484417, 2649162810.0922837, 2641214000.911107, 2598243849.9403014, 2719034992.754402, 2660460634.4700985, 2607963013.802314, 2632573991.041923, 2619805198.069723, 2667686225.7583427, 2652683798.044951, 2584501219.88588, 2635907482.26666, 2658127432.0769773, 2665141665.700684, 2663116855.8930864, 2624731444.3517523, 2579581132.1799464, 2675675811.804788, 2659738023.0633554, 2697446794.074053, 2643646079.0786448, 2649332729.9420896, 2691911105.1359987, 2702257892.048803, 2611836299.2443266, 2693437813.1737666, 2648776472.330951, 2593490035.6021194, 2580466668.75713, 2660408078.652092, 2649622647.1474223, 2620776414.6447897, 2693450292.298833, 2640937728.9309797, 2651682529.1406894, 2675777252.0219088, 2687864540.981788, 2607493927.22772, 2655496729.751338, 2739402580.183716, 2718970042.610579, 2654737063.745558, 2631186078.3415546, 2612229435.103873, 2620195401.2685556, 2722194897.0700808, 2642514608.8483467, 2666717674.281477, 2664867566.4976935, 2644875221.465424, 2609319391.548489, 2665984478.420086, 2666643351.772883, 2673530875.323626, 2645023416.0254474, 2603482747.6800585, 2618199271.606873, 2690092310.101986, 2639474680.154492]
+===============PID: 4 COSTS_TRAIN_DATASET: []
+===============PID: 5 BEST_PID_COST: 2498861544.1857495 BEST_PID_EPISODE: 18
+===============PID: 5 COSTS: [2582856082.7300596, 2618334472.884482, 2627631044.444838, 2661473355.866737, 2623590325.7519197, 2572450893.963422, 2584374829.9180217, 2619002388.261186, 2603567618.20096, 2582413406.1962295, 2612524757.163542, 2595515163.0820746, 2638056241.695832, 2619594017.3101497, 2565876625.4592085, 2664007810.728224, 2617353458.782427, 2626494186.7741327, 2498861544.1857495, 2546623045.68005, 2578455431.3699045, 2604077592.9866076, 2513130676.553708, 2596338252.228867, 2579236099.5439315, 2593886352.806475, 2633696828.507548, 2633530763.261571, 2613773281.01638, 2574024941.608992, 2555536806.7622776, 2582029953.14041, 2587926162.0686455, 2577197432.846678, 2531172325.693767, 2633642370.737566, 2565405751.777495, 2632527914.930527, 2558263828.598824, 2603106392.289546, 2556346170.848984, 2609545739.4804797, 2511875076.105622, 2549787554.6552067, 2559780451.136306, 2623596416.0984883, 2605573257.4934134, 2582904608.3847833, 2581613141.6772203, 2547675510.3017764, 2636520500.4337783, 2543620120.308532, 2633717219.496654, 2552472264.8915644, 2558188417.6211457, 2571707604.572261, 2660313758.5275106, 2602202275.8168297, 2549805427.175831, 2590776077.4368906, 2647445820.058354, 2524603671.9128137, 2578844138.4129286, 2611941809.0994554, 2605711437.5786395, 2609928553.5690327, 2656303145.1902466, 2600649605.090874, 2600084508.16537, 2603549908.6710153, 2548843267.188988, 2624330421.953498, 2547101223.5393667, 2589002020.8626456, 2587564086.963295, 2602156812.0550046, 2588089268.704689, 2638938683.2116632, 2588534346.3111844, 2554948571.730827, 2552809296.6263304, 2586060276.9289365, 2592554696.4699593, 2598357700.6803546, 2663080056.3742146, 2639319403.1228056, 2619751938.2166643, 2580041405.1491437, 2559639840.781564, 2598751943.9106126, 2634731285.082681, 2524925293.630003, 2576943887.248665, 2616505516.0043807, 2549883655.180717, 2603703874.803269, 2590106960.8486886, 2677302644.725546, 2664495903.172341, 2664576898.9270463, 2648934907.089707, 2612810969.687461, 2594248551.3990874, 2596532606.696606, 2635204075.914701, 2578109627.2011657, 2614827874.665781, 2614114818.833799, 2626292511.5321994, 2662443503.267615, 2654803976.6634474, 2616689148.3644543, 2647941179.3410506, 2593627098.2486825, 2614308330.0965457, 2556272404.728829, 2618712664.5661216, 2633630645.872199, 2669510229.6925955, 2616284028.4565783, 2589436748.0804358, 2618515323.54872, 2632239037.97804, 2603649731.7300878, 2627975233.7047577, 2577810347.280423, 2574976315.227241, 2655469314.360705, 2631209735.9593844, 2610637895.282198, 2620360802.4324055, 2539589620.619522, 2608993994.965323, 2594986109.6473174, 2653951468.6397276, 2614739275.095678, 2632242267.0876164, 2562577925.0228662, 2624625151.8542295, 2608536807.2663207, 2602783952.962852, 2645379910.8728924, 2617689906.8289557, 2589780076.798437, 2580995512.200643, 2684713754.2799015, 2561254420.588671, 2608603189.771833, 2609341892.9675126, 2594831706.616837, 2628312984.68861, 2653614650.0038567, 2659673996.996644, 2608937166.0565486, 2580817839.4047656, 2638193919.7430587, 2597115920.0255947, 2618379987.826554, 2604764223.5392685, 2675379420.0622754, 2644223767.437213, 2591651903.6546035, 2626696270.678955, 2616108485.4445558, 2608577077.2341366, 2604090232.898437, 2637952000.220864, 2651788323.234592, 2592496473.5350666, 2592828243.461633, 2636238367.822084, 2632971456.9360943, 2640748212.874418, 2609912991.545378, 2557286889.793745, 2601511455.4396544, 2691394261.542752, 2624521068.1394744, 2647163195.067478, 2599334556.995612, 2660320121.3914275, 2671868510.9216304, 2620707885.373703, 2658486687.002077, 2631070972.789733, 2621149802.792875, 2602486816.8852005, 2677435390.6453266, 2667122186.247185, 2608269518.1696415, 2598212955.729631, 2645564298.5232863, 2652168761.794961, 2618609066.3565655, 2661924419.4440646, 2594164874.2013116, 2563520648.3821282, 2649092748.2975283, 2648749615.5399265, 2612599937.2938256, 2634502824.666093, 2707123736.076473, 2652312812.024825, 2589418613.4795723, 2724379252.687932, 2665651430.6967325, 2599729192.709459, 2590972257.3991885, 2652555335.3063664, 2665804937.328104, 2613305644.2536893, 2632196017.03242, 2635939849.441126, 2608855070.159457, 2687896295.7134376, 2633273664.920607, 2673566928.784286, 2701418423.34041, 2670071392.5365705, 2703458041.344161, 2622829024.4615226, 2609793696.9925632, 2718007554.0784774, 2664849450.806841, 2630035088.5475707, 2593885131.960164, 2686712537.4179363, 2608942834.4559617, 2670927902.574148, 2638472903.939974, 2669913505.629925, 2594003264.1641316, 2569499789.864501, 2643272592.4870234, 2580912168.9724755, 2589232311.754901, 2659025049.8421535, 2676681247.504368, 2665237736.0153575, 2636189660.033269, 2650569231.3940926, 2681639749.565244, 2595685260.4991307, 2629539335.8443193, 2641444601.6500216, 2708837602.0091395, 2661326392.294799, 2646909082.7362247, 2583058209.795038, 2619186543.4379525, 2627333119.611011, 2606057983.9139943, 2643773634.4115987, 2624653415.090294, 2676168444.2759852, 2555322110.927197, 2700816063.8225656, 2635611656.000325, 2696254714.9980116, 2692986747.3415565, 2699520150.8919864, 2635160833.8955526, 2661572607.4094334, 2628497401.7586102, 2663177526.5438385, 2582769264.5769854, 2680314353.213892, 2595848385.899829, 2651230046.5960393, 2603226394.446391, 2638065484.079252, 2636428556.1181183, 2574500509.3858647, 2657921271.239696, 2700267734.9382334, 2625101803.9116383, 2601425439.279635, 2679540221.7240486, 2672602539.834867, 2661223619.17729, 2630201114.2575545, 2659412983.2697988, 2628883160.7741504, 2682390346.010074, 2675134184.2557235, 2665036174.2538595, 2667780011.8906155, 2626438664.97674, 2642200100.8050265, 2626577944.702753, 2620003249.7531514, 2606569157.38026, 2643449928.2936506, 2635920995.317973, 2601511381.4915357, 2670428772.7308497, 2682849991.904944, 2648795693.948287, 2626567785.6086197, 2607188177.6072717, 2627776147.183506, 2656312152.0052075, 2606681188.74223, 2550160748.379205, 2721043199.5221367, 2615740944.4342556, 2627335177.440169, 2623030314.8370714, 2673487900.2531614, 2625999375.126863, 2667060979.76822, 2591358045.1540995, 2646947838.508091, 2645322341.3985257, 2570385519.5513062, 2637626971.067944, 2551267051.908719, 2651168554.7025356, 2695712533.811303, 2674055294.416538, 2728053593.429525, 2622298562.7984767, 2648229187.511342, 2613050347.8182893, 2634702928.8280754, 2661730344.426413, 2600723299.516341, 2665850483.8310857, 2614268165.5810704, 2653651499.886792, 2597448049.9565177, 2668841359.390445, 2641697454.05113, 2676580820.3514695, 2622176852.123247, 2675234175.5094743, 2625307676.3037148, 2664541036.6438556, 2618844821.538133, 2744297774.9501696, 2616827598.0988617, 2687156619.3414335, 2655303447.8957567, 2614221082.6381073, 2612745561.300419, 2704387611.781493, 2680748245.843176, 2567314964.7763457, 2642733655.39099, 2637953631.8218827, 2725961321.097458, 2654548018.4427276, 2637759075.6870537, 2648091557.4985137, 2600165517.6401954, 2594019400.6046023, 2594258693.6981487, 2675850693.4400764, 2583922372.6668677, 2686174148.6593957, 2671955696.263836, 2659770481.536158, 2668031241.5992107, 2569957619.1340604, 2725521520.575612, 2714954662.792959, 2594968253.0489054, 2570606102.143946, 2651565171.4024863, 2686446572.2478228, 2608825359.1607175, 2714983673.913717, 2665954004.594219, 2753424976.584582, 2691879303.448589, 2653802959.765024, 2664682758.9363146, 2735887132.2636952, 2619089844.184519, 2629543842.28099, 2629083852.4839845, 2655913313.109469, 2643713180.407982, 2693400522.2747393, 2636807162.0433993]
+===============PID: 5 COSTS_TRAIN_DATASET: []
+===============PID: 6 BEST_PID_COST: 2517631857.7898827 BEST_PID_EPISODE: 110
+===============PID: 6 COSTS: [2541961789.7679257, 2574524468.077916, 2581764450.1511483, 2597873045.433385, 2617670942.0231023, 2593856957.8630233, 2603477839.041329, 2607588557.666457, 2586194351.3608723, 2634347170.7351556, 2609781403.042044, 2623676328.1492257, 2681190753.148512, 2614063775.7448087, 2643464754.4526615, 2661458642.512216, 2654028467.0881023, 2589424872.507997, 2612371542.2816415, 2606434666.2656884, 2596377375.6650596, 2580188594.691242, 2585220354.6141863, 2638814613.232217, 2531530035.93991, 2623305296.5062666, 2598483378.179952, 2606843678.7741337, 2635237588.1628895, 2595181357.228221, 2571956322.2328143, 2560900099.916535, 2566760983.917715, 2566677733.430841, 2592423859.33164, 2623527730.9631543, 2639179571.9473066, 2616383568.304367, 2601876043.3048944, 2638446913.023998, 2577560259.755915, 2567024672.365915, 2695239084.0966115, 2567000273.8407283, 2555169479.122626, 2584609741.858635, 2606888179.8278027, 2669150506.8485136, 2552617058.707295, 2550200075.859832, 2539690122.0502152, 2602164104.52984, 2593497756.8517632, 2596292162.9185185, 2556146804.319214, 2636872157.108256, 2594337881.4130507, 2612360251.272855, 2608545968.598008, 2565372471.380853, 2622381185.9752207, 2573404100.932963, 2580355720.522888, 2627418569.326588, 2666009458.760239, 2552989685.2736115, 2610047326.1870165, 2576989434.707591, 2616200061.1555305, 2549232694.611192, 2609165229.48858, 2568580071.7969213, 2596392244.880153, 2575857084.5111465, 2588207074.3277225, 2568870998.1594863, 2620671344.9517646, 2602661117.8893933, 2602537404.6817064, 2624135587.0097175, 2681380266.5216756, 2559778234.892717, 2677644962.043424, 2569321126.6568947, 2557558486.6223946, 2588852896.876877, 2623152880.00717, 2598950280.063509, 2602888509.378662, 2636745433.388048, 2594444614.9378185, 2605098522.765041, 2604477713.9054394, 2617955655.776241, 2526074259.924579, 2519252060.5179696, 2618566508.651335, 2607994663.1520724, 2653424396.9678636, 2575406588.522375, 2527378619.66441, 2613555864.9867578, 2591941876.6530676, 2546063589.579507, 2638861209.7905946, 2632461694.8868585, 2609067441.1022315, 2590013158.21287, 2625353007.5566754, 2640035093.836608, 2517631857.7898827, 2553262155.88458, 2637198619.9727397, 2632111295.8014855, 2665967555.013821, 2620976723.4897666, 2607786331.9669724, 2640349525.4396377, 2688321214.5923085, 2622188212.568556, 2594923060.3010793, 2628442309.313857, 2567658861.8392076, 2658430841.5901484, 2552091294.9099216, 2534459397.1596885, 2585185040.827492, 2659131654.019007, 2601763404.3560834, 2603899643.9116116, 2670193298.997356, 2592683642.1543856, 2552719911.063749, 2616192947.3018074, 2619690664.0095205, 2559088342.731939, 2610297835.479992, 2565247539.7735186, 2620671014.8808117, 2622567800.0082345, 2607082661.0506644, 2624475164.5457873, 2578631699.2551813, 2693171402.534454, 2627432746.8272295, 2541727816.946787, 2651682843.0951567, 2619001903.800674, 2676669141.623666, 2617244314.9033175, 2597149102.8467727, 2654736610.9154224, 2595882344.3785357, 2590295592.122435, 2576117238.9935207, 2574699251.440416, 2611809000.401621, 2630143313.0814667, 2636674442.454273, 2568900621.355829, 2660372920.7375627, 2645895950.992405, 2601710825.4269032, 2535639461.8382616, 2621059169.7579813, 2675845551.6140566, 2609609644.6657777, 2562359317.091373, 2555135010.8742733, 2614287441.3244443, 2620841606.8008246, 2645911511.048554, 2642220210.294578, 2633421721.7307105, 2572258042.9238234, 2558543323.6443644, 2603840366.1640506, 2655416939.61872, 2623936976.679342, 2596134053.847141, 2709443447.631081, 2722401488.160699, 2646453937.3600373, 2636848950.500219, 2650235322.731115, 2661928420.663883, 2644323148.0509453, 2664702983.993258, 2599590572.455234, 2667441873.9506564, 2615156471.488533, 2600793556.68099, 2626653752.661033, 2631004978.883193, 2652081037.016774, 2600805327.039317, 2610898450.6289754, 2631614296.2895427, 2628956611.4021983, 2608648883.250425, 2599091692.6931057, 2681110965.664998, 2628621872.304858, 2623728023.498131, 2672995661.806694, 2664757733.5570645, 2626721548.3055224, 2677807558.3110905, 2614462061.695508, 2656067837.6692753, 2670317946.978087, 2669387758.547626, 2661235558.3513303, 2591749976.219986, 2618479270.788871, 2648084051.4219556, 2642146134.3966484, 2632058811.138079, 2605453032.5026736, 2657664874.304852, 2650255879.7013483, 2676547500.623337, 2654719432.071939, 2652207685.6771703, 2677326789.7023406, 2586895193.914141, 2726751047.7485447, 2642532469.5045643, 2736769220.4143085, 2637719012.3844986, 2652290528.2197723, 2689761473.8431864, 2609469950.8913054, 2609168726.5995264, 2588262998.6775565, 2608419857.1049604, 2672618090.948214, 2661113394.449335, 2629730732.1585155, 2587474188.0007396, 2591461670.804052, 2578046651.361766, 2616701398.5844455, 2746468591.017916, 2633466870.910629, 2649817372.9603534, 2614560210.7460723, 2626275503.6356406, 2626922571.500937, 2659943730.913016, 2694036045.6202874, 2638684111.0136533, 2636609601.6844335, 2668757290.459989, 2598560939.93571, 2703001582.311611, 2672524752.226419, 2662377726.626305, 2672055257.4922404, 2557987061.1421394, 2609750972.6684823, 2626188313.795039, 2652470207.271149, 2669618215.3833075, 2609507489.0439887, 2679676593.833236, 2607075021.56988, 2606314077.4060793, 2694973319.1360245, 2624519403.667964, 2644840036.5603075, 2657759082.8462753, 2756683755.4428153, 2641822790.7463427, 2716693069.8967586, 2646658323.179414, 2582764721.0762606, 2679828003.5908885, 2635390526.5198736, 2604770859.6370883, 2651327687.5728126, 2651983638.807625, 2648613477.591913, 2673353007.8633566, 2642332889.909163, 2694064850.157131, 2553867563.513972, 2682079128.063372, 2654827199.268021, 2638122385.583949, 2655749931.583127, 2607970530.4153934, 2634276221.522752, 2649996336.483692, 2620734298.820454, 2679307910.166928, 2659991376.216451, 2646756152.5116663, 2594185919.946041, 2666070712.4580293, 2606525110.824164, 2667334053.370465, 2647790412.865283, 2703460565.6273155, 2680001866.752532, 2624766598.6108646, 2676405041.844262, 2672075716.7174153, 2668155760.685789, 2646126723.6556416, 2680730094.293262, 2612840014.2028146, 2677735492.8312974, 2607413205.4176474, 2620950947.973874, 2719842961.6396313, 2661933318.123566, 2609882489.4461474, 2646132459.7392197, 2682815762.1166816, 2636216354.2535243, 2640975525.6677227, 2619451698.337543, 2634578015.112135, 2581318653.824493, 2716182814.9243436, 2606570249.5778575, 2709390660.227641, 2643974326.8294454, 2625711283.8528223, 2664643884.0739307, 2623661273.0289783, 2627633534.5723033, 2609804593.4958134, 2650509971.197352, 2673225427.101786, 2656548575.098231, 2651323133.1011095, 2642067192.5355387, 2592661850.5680118, 2619897254.0721974, 2638489204.1626697, 2593191730.148339, 2621089812.143249, 2609343987.5745134, 2633458820.8686457, 2619706062.4294086, 2669378148.364041, 2632062213.3003244, 2626486097.358439, 2650497461.726711, 2609992852.060045, 2642008720.389411, 2666970900.2720933, 2713880840.011964, 2653219413.1399493, 2707426054.8974695, 2672448299.121089, 2679390408.7477055, 2595628751.33667, 2653723861.2926397, 2673194701.4949727, 2640960455.1258154, 2663854126.796121, 2626604676.295285, 2585777824.64057, 2608468756.6528583, 2753129827.7922587, 2614228840.733474, 2623241815.589173, 2652284609.3027043, 2667555202.1132126, 2721878519.87352, 2635948160.8678546, 2698792913.888525, 2634888083.100463, 2668638761.947944, 2690094885.3934894, 2639563790.8237014, 2618478326.7866554, 2696566521.215563, 2702369511.801624, 2722151154.99526, 2603087893.9869094, 2658440337.199305]
+===============PID: 6 COSTS_TRAIN_DATASET: []
+===============PID: 7 BEST_PID_COST: 2484439905.0783963 BEST_PID_EPISODE: 17
+===============PID: 7 COSTS: [2628795494.419866, 2593193566.9003525, 2644881583.4751053, 2658988246.5846972, 2652826051.329343, 2615703348.809915, 2620368018.2499495, 2661482234.0225186, 2608930794.7027187, 2603106362.1848154, 2652999540.1193047, 2588861079.0730414, 2634175576.8279366, 2590721584.2150383, 2580891943.251837, 2648515556.4190793, 2654391802.7937737, 2484439905.0783963, 2568267340.2747746, 2555498059.3143787, 2566681140.5868106, 2570836141.291756, 2618368110.6823444, 2521883938.3864636, 2614940923.958675, 2568999404.5538573, 2658303988.201179, 2554660035.3823123, 2617394542.999562, 2616383718.3475957, 2546016117.2266364, 2595151636.258522, 2632704511.400894, 2563810924.7137527, 2595766881.7720256, 2626359730.980709, 2573188316.859222, 2637391176.2155185, 2582937330.907408, 2541305632.963769, 2565617608.5558605, 2638169540.0870905, 2569648803.4075127, 2553745909.991553, 2544186731.11395, 2577991719.625407, 2573014601.3403506, 2591968041.152945, 2590813591.9906526, 2549873949.9343348, 2602665491.7733397, 2567955507.6139874, 2562529876.6926413, 2645677619.629482, 2597157646.6905003, 2672298790.9405704, 2612536309.751488, 2557232679.945376, 2669618378.892074, 2561678887.2787924, 2540000721.8831735, 2564816393.472008, 2561169567.481714, 2590542644.218919, 2574207839.0086617, 2600861741.7246456, 2610061955.4795413, 2577714678.2521186, 2606816025.7554336, 2616524455.933799, 2599912067.3991218, 2642413603.2054763, 2618226986.590879, 2582356882.0519032, 2539386943.6592813, 2586981746.8460145, 2579932971.9438953, 2560282564.575627, 2532390995.323043, 2591728351.126195, 2634817933.4135814, 2558519645.0198593, 2592041145.8254604, 2536595452.4526825, 2629616694.0609493, 2581589060.3906665, 2641630892.3649063, 2579084348.355337, 2604257130.718725, 2590633904.885502, 2637313221.6847143, 2554021727.447668, 2568198401.109989, 2613899071.1970587, 2531869767.8604326, 2665373424.8198886, 2609031598.330546, 2564719249.085246, 2616948822.9336824, 2662014427.357377, 2593816774.256667, 2686857494.8168135, 2597311564.0040946, 2646112943.9191165, 2557722952.265164, 2510301439.5091496, 2616199951.62284, 2572336503.5854363, 2591569000.867033, 2622654109.922639, 2583453154.308387, 2602252092.411885, 2623375347.0606904, 2637244207.868081, 2593605666.395872, 2611688856.2948546, 2650815944.339131, 2575646885.79181, 2579245542.1169224, 2642693450.294911, 2517911789.5671883, 2615664542.681165, 2637950766.586809, 2591671151.708346, 2579599739.974789, 2647577578.9539194, 2577890582.4631166, 2611749432.9055576, 2567975614.771441, 2620614693.5834002, 2601693369.652489, 2647372134.5499854, 2651811020.7744265, 2628073335.904844, 2602253277.711392, 2612694628.8974524, 2618184966.3087225, 2629406608.443545, 2544666553.970871, 2627768319.940789, 2615136249.592116, 2580351275.123851, 2686264291.278688, 2650503134.0332737, 2625160857.3549676, 2616652534.5970635, 2630226760.07319, 2602229864.0431943, 2657100180.3952727, 2658933055.5748453, 2662785851.638284, 2660345621.5444174, 2581384859.0671334, 2640046210.8736806, 2629574076.033623, 2573795449.3206863, 2665422138.820664, 2665252899.704705, 2615153236.1643996, 2626632142.0220075, 2611268641.224818, 2614782203.650635, 2684097972.689586, 2641730406.105585, 2583396669.0192947, 2624758132.3010077, 2594532321.753785, 2705765236.470953, 2603533409.9304185, 2640172081.315582, 2658306308.151343, 2608871454.4342065, 2625036239.6825204, 2655975015.5063496, 2667039097.944056, 2645996780.438042, 2576490623.026655, 2545484311.9206023, 2612726143.701957, 2663833857.9644074, 2643673276.5980525, 2650392270.686246, 2655098592.5242553, 2663939742.610865, 2595989164.452523, 2606497265.5132313, 2597393754.7817135, 2630208500.786414, 2599085098.4779663, 2640673144.951843, 2614523684.0290995, 2650211190.8012967, 2637950106.5323305, 2699836885.5309744, 2650143403.7408605, 2643014331.099005, 2741780796.4145007, 2614530896.2443824, 2778974064.5214086, 2606828239.8068876, 2691805195.6528635, 2632315251.1882977, 2637572772.1310844, 2662272573.2411, 2644313990.692543, 2614592026.9625535, 2520739106.568463, 2619624113.484837, 2680587398.800829, 2637836475.0484123, 2602870057.3400397, 2612035696.4066215, 2639856349.611957, 2656063196.1551104, 2581657767.414012, 2602541192.595159, 2652052821.3315387, 2704136609.5747566, 2595004349.1406507, 2657415970.174416, 2639966464.427102, 2622821016.9867907, 2624524163.433082, 2592597844.822435, 2699725051.083158, 2594828734.302969, 2555798778.3467255, 2634533639.0827603, 2684779492.353068, 2575771572.1758204, 2599475369.927127, 2703332613.5003543, 2710035032.408449, 2621124777.6193905, 2647635000.809057, 2679453763.715263, 2668864510.0900965, 2702776061.964632, 2573468839.5749793, 2600390678.702673, 2619810905.264159, 2658024339.50048, 2637428342.1975417, 2617670128.5337753, 2682409629.1419406, 2623835126.6163845, 2645831263.2057843, 2661842512.394878, 2610924037.653653, 2625722972.571047, 2648226552.063847, 2630149353.405138, 2624275249.549284, 2654175091.062407, 2665082392.2940116, 2662168805.8680196, 2608098326.7972655, 2690236782.180462, 2611120871.1811223, 2647370756.051773, 2661611339.8470078, 2620468858.235452, 2698150039.4197574, 2614186207.5262804, 2637440083.6889906, 2640826444.359539, 2669937957.624368, 2612625317.06519, 2649699414.283886, 2693798536.240621, 2564399825.7453094, 2591867134.132095, 2636251163.7323747, 2786902589.175279, 2656283199.6945653, 2641541850.014472, 2607688583.069298, 2555812646.22524, 2617447658.6749964, 2591635622.9655685, 2596064805.4547334, 2665799168.848607, 2593120833.2330565, 2636187164.3647714, 2650683593.8332396, 2664469154.0175605, 2616074415.3548603, 2599204058.0530114, 2669729546.2141986, 2626960745.7091665, 2675804218.3491535, 2731365405.4493213, 2635528042.369532, 2685439599.385411, 2569372537.602469, 2677714382.2986097, 2656743784.072478, 2697003004.935541, 2683098339.5547137, 2578493367.6003504, 2718426444.5781884, 2590153014.514807, 2695848612.2414193, 2631640509.196501, 2725209019.124397, 2649445450.5715194, 2616691567.262426, 2750740728.8389406, 2659235293.513406, 2679974027.0323744, 2674333945.9283056, 2662473934.788424, 2607156160.9596505, 2689650468.563417, 2600667940.8723845, 2680262899.620564, 2649818013.759838, 2636944620.4441524, 2640010981.924837, 2632902959.4712276, 2660356859.72624, 2701924717.4749823, 2649942519.36837, 2667728600.803203, 2648134694.0916266, 2659554926.461803, 2687610173.0578732, 2613312100.031927, 2698981691.5560627, 2695612656.37004, 2619175213.1535754, 2557495736.5923, 2655381054.675282, 2689733589.0056915, 2647315342.239462, 2740748628.8882556, 2673369536.3344603, 2712656489.837556, 2659764898.665999, 2587965183.5659895, 2643897648.44505, 2644628428.7955933, 2726274936.5901394, 2606651814.9776816, 2610136533.7853813, 2654784068.559291, 2667996267.138907, 2682874908.2747817, 2619457164.96392, 2637144665.9186063, 2691475975.178383, 2615041123.8766103, 2662100816.1463957, 2644076303.513208, 2648347732.993752, 2646371066.3117247, 2659602054.1380353, 2649592460.145364, 2632183699.2889338, 2575055295.3624496, 2712087305.4276724, 2673936230.208915, 2648807773.7265477, 2626087270.689675, 2621994419.410841, 2670140632.4335413, 2579211044.937972, 2671346180.114947, 2629601786.7836895, 2629246258.4364853, 2632135580.2534094, 2658506848.3453145, 2665366302.840982, 2742419425.9814386, 2723038875.4538593, 2647831979.6376867, 2682510022.438994, 2632294766.3191657, 2662017146.7172575, 2613803997.9031053, 2697551798.8151455, 2648569584.2955594, 2602202072.425616, 2693036706.6803675, 2638244480.252474]
+===============PID: 7 COSTS_TRAIN_DATASET: []
+===============PID: 8 BEST_PID_COST: 2528505849.852388 BEST_PID_EPISODE: 68
+===============PID: 8 COSTS: [2616294500.532648, 2594300881.004715, 2660205714.4821606, 2632102839.578906, 2633893818.5622873, 2661234429.018069, 2619037491.988167, 2556961923.213997, 2637990312.4162188, 2610893023.58201, 2555756486.764755, 2669590500.825553, 2549572592.519682, 2569021864.503465, 2628161639.648331, 2623217622.823591, 2540168029.5141153, 2701534103.252021, 2563273438.3048363, 2590049864.6494994, 2589928530.305241, 2607961834.435965, 2601422758.55042, 2610606709.0802674, 2529510642.265409, 2552457629.7574797, 2619961251.0481586, 2639825999.041718, 2627203872.8026485, 2558336470.3024874, 2577380256.010063, 2606791094.194608, 2599407503.93064, 2559213896.4798126, 2650188665.381731, 2548797875.7394276, 2584568444.986057, 2572171877.374994, 2652645374.5868907, 2565758888.6553164, 2584817014.2723956, 2571610465.9070764, 2610215073.7076263, 2656625892.621932, 2528952335.0656753, 2582644496.444203, 2557042122.755129, 2592082027.0606494, 2569384083.0205126, 2654290042.6443553, 2624367364.254502, 2559672273.402435, 2624452623.230628, 2625284731.196105, 2584019611.503892, 2564278671.1808457, 2693243102.2371144, 2566358361.626827, 2587650216.122363, 2579788029.308682, 2681060772.0395184, 2571603890.3133583, 2604862914.1482224, 2638618511.2962947, 2589587116.0010104, 2576248338.8118954, 2586482699.170625, 2561565540.566449, 2528505849.852388, 2568286037.252694, 2568945289.62084, 2632768901.8154883, 2691970200.888078, 2563696341.1543183, 2559656278.207902, 2594811611.8033223, 2545250262.441451, 2593239841.3281474, 2607712894.1508656, 2618586528.5791283, 2588880782.969711, 2609558538.82543, 2628466811.45484, 2636524896.269417, 2568368365.969602, 2590677454.239249, 2561146624.362425, 2606527515.3471293, 2536453430.181679, 2589321494.803745, 2571680110.4150233, 2580615562.078496, 2552962829.8184814, 2597016344.7548156, 2637666909.5403714, 2611908536.513912, 2574575799.8531904, 2629030624.4116015, 2578893998.923213, 2571880960.6318045, 2597510816.1793575, 2625084446.7705216, 2582888560.324002, 2555911751.4219003, 2636836529.1784496, 2562573228.9955597, 2537386604.124293, 2653032135.292712, 2626291834.723671, 2633083369.9067645, 2535729921.1170087, 2595010805.7946014, 2614334439.6034856, 2612457229.0959806, 2572333244.3691216, 2572808870.085903, 2618093903.724845, 2618010648.4247403, 2566378182.304719, 2536898818.244574, 2661036168.9694486, 2567365515.439991, 2541892722.19306, 2606351781.1193132, 2606215057.7890105, 2564001231.506058, 2610928443.4709272, 2613217101.5611377, 2597916189.40263, 2597131621.9587283, 2592261303.5235205, 2576287297.1769133, 2588547787.840946, 2669766475.7752676, 2555662958.2937226, 2600100522.513702, 2609019553.5803156, 2669677367.489527, 2717515771.8438735, 2659006325.7502937, 2664431928.4893527, 2616736008.6228924, 2566026288.0163565, 2637617068.6511083, 2640290162.4790945, 2590834678.558629, 2648037943.994584, 2636149998.9271445, 2632985327.6845512, 2571774864.2029314, 2607893012.009795, 2620953464.4185724, 2665786276.7354274, 2592043382.596945, 2664028682.8550487, 2590411684.436024, 2627984365.3862724, 2624176936.628419, 2646503479.4473495, 2543083905.0576134, 2585257587.9326415, 2585136000.8533792, 2723109386.269492, 2608227205.8018007, 2615891625.006849, 2558966373.4693065, 2610329986.431866, 2662387916.601815, 2600453601.7130647, 2667401906.128673, 2602936332.9856505, 2588982943.0898046, 2665813169.330749, 2609162722.446305, 2591098298.69086, 2567465630.0604687, 2599215428.088568, 2625417653.8399205, 2609479449.49208, 2570226691.704994, 2622312146.5547733, 2627183037.3156395, 2657131205.2123623, 2617083337.5454383, 2645150310.354071, 2642701574.4042063, 2647140670.017397, 2616468215.8067517, 2637101157.355797, 2617168895.3490887, 2660775671.2500353, 2657291078.5335917, 2671467829.3773856, 2656291875.184585, 2704562437.685152, 2666824002.889759, 2647857153.4077234, 2696397420.596059, 2588993357.616569, 2633247931.347345, 2690847367.2334867, 2614581748.301551, 2629768089.795333, 2594110369.797776, 2671725232.749499, 2650554176.7922196, 2651969519.229634, 2609400063.7047753, 2613744906.7290382, 2625530486.009712, 2602130066.9042606, 2674212791.8653283, 2678733052.769888, 2645373017.202377, 2722368485.973369, 2645345404.928002, 2584623091.486839, 2672674806.1927752, 2591077537.4145293, 2645493168.8881087, 2603762079.1402802, 2650500617.3559613, 2643364801.802525, 2655681839.0350604, 2644220811.1807327, 2627231987.6066427, 2660764862.2266536, 2595039324.755584, 2717823901.357873, 2666081014.3907566, 2663243744.8878975, 2647853520.157794, 2642231822.9382715, 2646659982.751041, 2625432867.686087, 2663712496.3575897, 2705873704.452665, 2684708921.9537067, 2637539096.4394665, 2631838062.1844664, 2688110347.9551415, 2574390606.6765585, 2687093207.041276, 2620118224.334301, 2632255660.216803, 2658469952.493674, 2690670016.161527, 2639246043.921535, 2624882100.56348, 2582381711.5248427, 2672225746.9682045, 2682304855.0145802, 2655603539.371498, 2655125039.3372283, 2628691376.7136974, 2642773324.727577, 2618155619.505099, 2685528711.6958475, 2663398511.3760486, 2739003844.4821734, 2687032234.915209, 2628491845.66284, 2618700854.1576123, 2625317014.975163, 2636210104.7996235, 2588822168.865839, 2643983971.2573495, 2642475679.014611, 2603566399.4318, 2634278595.9416485, 2610888733.8563023, 2591848465.442376, 2636895978.8596025, 2670267155.0747423, 2635363348.7236896, 2670446143.236154, 2645801948.393122, 2713148976.5461187, 2711637966.530026, 2615980111.593569, 2637468405.0034094, 2661210866.291881, 2790520843.610949, 2611406332.370746, 2637595653.6012783, 2638717081.9026546, 2672917749.9350605, 2661380890.359903, 2563417903.1085386, 2636822109.870838, 2629929804.180766, 2630286692.203171, 2626657370.824239, 2608836908.0456257, 2604328774.533252, 2664486710.7618914, 2619336876.7792177, 2669585858.0240636, 2652852337.7250485, 2639930123.3435144, 2650810994.0641093, 2642839755.9580197, 2629667369.587957, 2593590949.022367, 2713433158.08081, 2643425674.589217, 2663288408.4845743, 2639636429.3646827, 2671306148.1780705, 2672536587.3817425, 2655303897.458579, 2680082166.4173193, 2681264627.309494, 2686363959.373507, 2653965541.2588534, 2646727549.1556, 2615616140.256375, 2704712524.9406867, 2651843444.599246, 2604250383.4449644, 2662027630.296634, 2662616340.748707, 2685217209.1456523, 2653554727.9433327, 2653367945.306966, 2669855477.1845045, 2657625411.6220045, 2575032845.513098, 2627259100.0383387, 2604012563.276015, 2629482663.78292, 2636149524.3588953, 2675293566.438993, 2592788536.2993116, 2680380930.308899, 2622884319.184332, 2642758787.203537, 2605119429.16608, 2686012822.305152, 2589613584.664095, 2630898430.42745, 2637883411.8431873, 2761690410.189147, 2647187188.4197316, 2597251397.547419, 2651388801.2581744, 2662068982.084138, 2650297655.462016, 2664330964.032112, 2636874357.631357, 2698763837.7156925, 2645530359.2340884, 2712063047.643458, 2720459577.2878547, 2637843600.8131723, 2620243503.4419885, 2647381159.353594, 2663100021.3145742, 2596513710.356391, 2681988711.014267, 2623269118.541506, 2685786556.9205656, 2633386666.764358, 2630593735.8623776, 2721179240.51742, 2646737527.5824456, 2656420786.124163, 2669221167.151494, 2657745124.789749, 2661097438.7691493, 2672908548.635865, 2657004715.5909314, 2688455599.6055946, 2642169569.0208416, 2586708785.7885585, 2684681593.016374, 2719762886.273792, 2680455593.0816226, 2630838602.1875095, 2628881560.6736417, 2670581865.2556443, 2714516683.6832385, 2652315176.0000954, 2660647586.2943377, 2661624494.4873905]
+===============PID: 8 COSTS_TRAIN_DATASET: []
+===============PID: 9 BEST_PID_COST: 2497290647.1192927 BEST_PID_EPISODE: 15
+===============PID: 9 COSTS: [2630058370.083704, 2592982745.4178905, 2571133195.370924, 2568165273.1246233, 2590974059.2073655, 2548284195.055413, 2576695936.028694, 2606545165.302148, 2624805365.6227837, 2581015607.873918, 2566433625.341751, 2572789317.548314, 2588781648.92487, 2638389046.1237307, 2610529665.7207646, 2497290647.1192927, 2551708035.0794535, 2584214883.090095, 2571698949.023928, 2552412449.081473, 2628701967.8758664, 2584287011.929119, 2566805492.3982763, 2568823124.2699184, 2589688980.3792515, 2574437046.898593, 2650783765.248016, 2610358281.0476613, 2535183984.927194, 2596897018.476267, 2594756706.0524526, 2648254521.6837816, 2605360269.9430876, 2546090078.947872, 2591663161.133417, 2598273444.5413656, 2608923622.9174423, 2579501651.594236, 2615302295.9381366, 2586863037.935464, 2585099025.579878, 2550811569.5113077, 2661897958.7923126, 2586415822.6907415, 2678589947.1778455, 2595119767.7095184, 2574205648.1585827, 2617382801.205335, 2686683940.8446326, 2583623126.1461806, 2619980563.635603, 2608571922.9897833, 2610587988.6295295, 2612583767.065711, 2527054931.574199, 2637285470.8241405, 2549874894.705818, 2596223531.402096, 2654301635.363564, 2578622127.0174017, 2616331757.916345, 2584720296.3711267, 2635666339.396878, 2644325359.2537003, 2571081392.0115542, 2589234102.2509284, 2610731644.0013933, 2594548283.0654883, 2553107141.138749, 2596135989.0538144, 2558181171.163495, 2614703391.972919, 2671913000.634921, 2610433970.212669, 2597410215.2282176, 2540679749.169844, 2615867968.991507, 2631006742.8244953, 2603666527.372485, 2644846286.254294, 2577079500.5055065, 2615442552.6195674, 2603789345.1721835, 2596190993.25462, 2610955456.770703, 2670925954.999079, 2641745286.5639043, 2622842383.3497777, 2651414341.6948657, 2587197627.965414, 2618447855.989531, 2578323824.794635, 2589443595.209279, 2566349704.759471, 2561783839.863219, 2593754725.3908935, 2639382118.452937, 2643367167.523443, 2623740891.4883165, 2635495704.6975484, 2603314446.032467, 2556767205.4831414, 2579489622.2589884, 2623303043.4308763, 2575707632.0223556, 2581610242.128508, 2619598842.945274, 2623039871.406951, 2590474784.1966815, 2608995534.067501, 2568995478.6959558, 2673302258.8833437, 2539702840.1923766, 2575121246.4221916, 2652595121.9196825, 2595945757.350717, 2651183232.7780514, 2645561346.060003, 2549424023.326171, 2604615931.336987, 2652459697.5203805, 2555047635.7185135, 2596243629.2154813, 2559693773.837435, 2596515447.789419, 2654163078.8822017, 2574222077.22918, 2660583794.0829744, 2534783824.3197007, 2623656592.495258, 2612381543.476405, 2575118906.7589836, 2643657797.5426555, 2671298911.384582, 2595419492.891719, 2623983809.4672794, 2563514116.5000997, 2599268549.277636, 2586195419.4333935, 2610830711.930793, 2583798433.700609, 2586396305.007343, 2627551701.8281217, 2600488445.1449327, 2570835447.8943467, 2642415474.232774, 2565445133.044351, 2597368192.1476502, 2643743653.196097, 2602261653.188717, 2581645437.6281996, 2608628656.9144855, 2645611321.8798175, 2623002863.7113934, 2637190740.1657195, 2666102907.488277, 2575319691.629246, 2622604169.136565, 2602685148.9440556, 2597985860.054071, 2528076665.145796, 2610447363.7256875, 2684563846.172783, 2639224337.786787, 2712823035.3953915, 2688976186.112517, 2576421814.620254, 2677194761.5733986, 2553441947.9701037, 2607230893.517963, 2675359926.316532, 2577271277.469335, 2641154467.363123, 2666139058.205752, 2608737989.4131713, 2606039937.224237, 2584126135.870072, 2679891603.648223, 2584999252.3770237, 2654120479.4092116, 2672443779.817962, 2610608344.656797, 2660522113.633448, 2611928898.0547647, 2646034566.079804, 2664481439.0114455, 2551917227.0441737, 2558015128.506817, 2589897621.750225, 2633577034.0799274, 2628013276.614138, 2609035310.4758506, 2651683294.0483084, 2629797582.037756, 2586457534.7212634, 2627611692.6588287, 2629790156.5102067, 2684782007.0593653, 2690934018.336003, 2623186605.649641, 2622775150.820498, 2664539498.5818534, 2639691750.644234, 2766380038.3781347, 2603139198.2394276, 2641080399.672573, 2664576527.6225986, 2617254739.2113223, 2647004665.7167253, 2611888548.0612593, 2687290106.631807, 2562685910.6933627, 2627522283.3381386, 2644885089.4671073, 2591035397.415921, 2641326089.169003, 2603947970.7757344, 2665251226.021212, 2644793758.362028, 2563749615.237351, 2623121613.353458, 2676838982.6878934, 2580376093.955216, 2592188261.0039287, 2638560903.142296, 2658875259.7240186, 2640418414.98304, 2693497227.8944488, 2582841676.2919903, 2601883524.8846564, 2651849817.4761844, 2620552863.3055534, 2613442546.8459044, 2618838033.8633485, 2582423375.698242, 2660686704.4744344, 2630338617.898055, 2722632055.684095, 2702304297.4305997, 2659870582.905918, 2611513095.57798, 2611491564.2915053, 2632713505.8598976, 2650646071.9431787, 2645245882.722796, 2611635800.299499, 2624178376.705204, 2637026327.1467576, 2628690560.1100144, 2648369406.3724113, 2789319000.249902, 2646808353.787951, 2710274884.081495, 2656628391.9176564, 2665622891.3499694, 2666132279.5760727, 2731010158.425361, 2696078124.143376, 2640976090.935884, 2714307668.478082, 2662531792.396899, 2676296763.0017443, 2638801183.83348, 2690770686.2896075, 2610431039.233002, 2614186418.5367584, 2710705494.057178, 2631712679.3494844, 2673609580.564063, 2610217404.1871405, 2656735253.186696, 2612739021.5228276, 2651371321.208414, 2646510122.3241134, 2573403278.644986, 2643104466.8179727, 2626239380.0352383, 2649427406.101322, 2617903801.487175, 2625812567.9310207, 2687773591.550248, 2666305128.4685907, 2599560769.8131447, 2665182590.838999, 2688252338.090418, 2734103986.490156, 2687251328.1035266, 2639380009.7670417, 2626258137.2833223, 2650742820.383723, 2649669235.5074964, 2605063068.060094, 2643404744.445073, 2620128649.7830806, 2702611733.628082, 2639285296.2745314, 2600857572.2318487, 2646297119.4215903, 2692114975.5285835, 2590399866.02318, 2636859742.889693, 2651416630.6729126, 2643921510.4053035, 2670109124.690193, 2650959727.3000245, 2622315685.9856977, 2680588403.7581873, 2742651558.456843, 2638660189.3134756, 2622189777.477866, 2694073501.9259405, 2653230725.598586, 2665860913.4231334, 2590365722.4954796, 2663828452.3264666, 2687277801.6725206, 2598723523.479414, 2652474361.1035285, 2652458841.97895, 2652234488.723545, 2652767996.1172934, 2685254388.001162, 2654114411.7470403, 2611254368.6175976, 2660810660.677216, 2693222605.3828692, 2665095521.6321325, 2660887629.360034, 2623227324.669534, 2645233303.3866262, 2649077793.3348184, 2647955214.1737704, 2662092624.8768926, 2646245502.457743, 2659213046.8591156, 2656765505.025372, 2642885146.1178865, 2585299534.500804, 2649559389.7186804, 2705407470.902068, 2637632633.595727, 2637158647.323562, 2647874296.094138, 2647504390.4071956, 2669414549.7241874, 2664417008.352531, 2606288683.770013, 2653853261.1499963, 2619498859.6083837, 2601126290.6538115, 2665735722.2983823, 2638007368.382293, 2624902962.01836, 2555571422.4745173, 2610876666.4562664, 2595411188.1787543, 2583023942.896134, 2603813661.7283974, 2688030657.0941677, 2676679066.3610544, 2649914874.5865946, 2719438643.9398923, 2666005520.8735156, 2628395911.9092216, 2614864351.481508, 2574209181.092043, 2599046043.52372, 2675453271.803068, 2649908929.0231276, 2614836044.1080856, 2670358678.396959, 2618740904.300027, 2666954246.7647004, 2669001639.6443954, 2668304372.5774727, 2615806092.296217, 2673518630.0169697, 2667677928.0627522, 2655241792.7460623, 2635248827.6536317, 2653362716.513229, 2623821502.746822, 2653179902.175356, 2678694461.8116894, 2653993414.1127315]
+===============PID: 9 COSTS_TRAIN_DATASET: []
+===============PID: 10 BEST_PID_COST: 2522139717.8211565 BEST_PID_EPISODE: 75
+===============PID: 10 COSTS: [2625219760.121336, 2624626717.7979527, 2641502154.157796, 2585309409.867721, 2576899666.886001, 2719107663.531252, 2621439543.4179816, 2568538161.25679, 2564075406.0597835, 2632045016.5331187, 2540608852.2426434, 2591128124.1814075, 2604739864.5767765, 2580411097.3317122, 2573389399.793983, 2597233199.4331727, 2620759140.4354367, 2533438368.8964005, 2587324313.900398, 2623047986.5689883, 2617559003.256398, 2560183277.220581, 2678793872.9792557, 2601026861.16448, 2545152284.8455467, 2569148446.77633, 2541882011.2424717, 2578451758.965205, 2611473163.9692464, 2569363742.6632752, 2579647460.6374702, 2573314893.1719904, 2635352218.537278, 2619385886.3044925, 2551284581.8311877, 2589555685.8992057, 2602209587.948799, 2639860842.417951, 2574632168.1171746, 2571830207.862846, 2630677617.992196, 2663834694.8510265, 2660825711.586545, 2572660378.114075, 2604314267.05744, 2578622060.1783094, 2613727401.7654843, 2623351753.9327664, 2553048332.249812, 2578284988.524566, 2539594034.4392223, 2577351041.9179463, 2658715592.6122365, 2662727336.857411, 2595926276.5434346, 2615369239.8636055, 2559492731.319851, 2619650358.300252, 2570104777.630179, 2604644841.236542, 2622855928.4393096, 2628397493.641711, 2658392110.6048417, 2650666588.8916397, 2599158876.565523, 2616673437.6461153, 2616081470.5282736, 2594694781.4039707, 2655710564.049115, 2629258673.942664, 2578877616.7915864, 2569028899.247637, 2575446140.0953417, 2609279889.831419, 2563483966.5061016, 2522139717.8211565, 2539354591.845736, 2598759558.625585, 2595920188.0666122, 2557706241.0407434, 2558921377.296343, 2574190244.1032305, 2561726401.221132, 2571799848.1461296, 2559038866.37328, 2602545897.8828707, 2596047325.785757, 2586397526.136825, 2688506316.614243, 2576230413.0202146, 2665215110.3285823, 2628927813.1699724, 2620326414.9322214, 2598923807.2531505, 2673037855.8721156, 2561771152.18284, 2629263407.2151494, 2558452755.040632, 2552240292.328657, 2606606363.148371, 2556146901.2928066, 2574086418.4736924, 2574487688.8953075, 2602458761.928015, 2551324981.129144, 2618049857.6371555, 2646244086.3302217, 2613103674.2925415, 2596802006.0368457, 2619114201.217414, 2554088154.1893167, 2627955286.3980184, 2548842935.2017455, 2617212694.2881174, 2616264966.951083, 2597523636.921328, 2590826281.678533, 2611850477.1770067, 2700423692.6843643, 2588646058.2288136, 2591909509.022043, 2571771848.377246, 2658239828.8743076, 2554934928.455362, 2577651893.0716186, 2669050252.4980626, 2544221322.5878954, 2539215771.472169, 2588960956.9257793, 2692488266.5081906, 2590569715.816614, 2676295120.4072423, 2642460261.4695544, 2601832848.946485, 2559796829.1732316, 2605289876.745377, 2586165798.9590507, 2639422760.639546, 2671701593.0524135, 2645516397.493745, 2578921709.404297, 2609871173.0343194, 2648025804.69494, 2578695814.0323186, 2619031774.1167355, 2603377101.381766, 2548436599.364686, 2685264533.79584, 2551763160.556672, 2585765629.817728, 2686502615.8091145, 2607679202.2681093, 2661043929.1367927, 2618736728.2470927, 2595606032.441523, 2617067703.58007, 2596868763.7170086, 2599878788.8225765, 2587490439.251836, 2580217944.6296644, 2634437788.6899304, 2591785509.528031, 2669367492.4712777, 2723540957.283465, 2590367272.3606124, 2678534510.393521, 2642944877.2880597, 2662183913.37048, 2586570948.144168, 2626304378.1874776, 2635891786.215981, 2567087774.910803, 2632956777.1876736, 2602188578.4613037, 2644664318.808158, 2597670275.100209, 2640093431.878292, 2657164013.509483, 2682225526.492698, 2654818537.8994265, 2621242407.4836254, 2608685848.857611, 2659149359.719931, 2668114783.2470384, 2663839969.5598464, 2608596030.924841, 2637732841.313363, 2641882716.099344, 2594676195.035285, 2729277732.5610557, 2579689806.1649656, 2621503162.7627077, 2625970914.678152, 2627771109.152563, 2666677262.6742406, 2681076126.7343454, 2693201783.370547, 2564283138.95575, 2620583495.21413, 2646941302.3350205, 2637318790.0753245, 2699536547.840939, 2685108905.3528867, 2606223681.8702927, 2635486278.67115, 2663757775.9021015, 2585046153.9885497, 2696127075.8905015, 2622251960.099203, 2605401197.6829834, 2602741698.743814, 2650577259.3923273, 2649403735.169675, 2658390728.410376, 2530121308.369775, 2681757035.7014513, 2635561592.43819, 2663726774.532587, 2606333991.911215, 2685957485.1826267, 2584080004.5948625, 2622206072.888702, 2655719873.7466316, 2600228734.4241815, 2658585967.890913, 2592613948.00196, 2599723175.5833964, 2620325634.597975, 2676663753.1775084, 2700385609.466438, 2688072184.4331985, 2620304003.296916, 2696841721.9009004, 2589875029.1444345, 2633785101.028223, 2602303703.7385077, 2595823832.6215496, 2630365980.9841876, 2615611983.051045, 2640163760.973444, 2685377447.513617, 2689362995.1410174, 2635638777.0166855, 2729202497.7336416, 2583838887.0377383, 2581090046.0953536, 2576318290.943855, 2596057019.425436, 2693724826.015906, 2619519170.956181, 2707503253.965501, 2635706683.8029923, 2570468134.841582, 2668375733.3269773, 2721877893.5953083, 2686597302.041733, 2611654028.3874607, 2631103015.6598763, 2612375736.767709, 2651183147.2913966, 2651117476.170533, 2736027366.7614827, 2721705187.1796556, 2640269334.895503, 2637341267.3034716, 2586670629.747944, 2609072747.2835603, 2604067171.8934608, 2606993667.6768928, 2613051600.6975574, 2585023535.9679646, 2632752195.3092585, 2629267068.7731047, 2599044452.444035, 2672027333.03604, 2643394893.23593, 2661543486.760683, 2656683382.131859, 2631888545.369945, 2594134895.133132, 2661009788.512656, 2728202035.992383, 2630047987.8618107, 2644621628.825278, 2651088803.4130187, 2661900420.3765645, 2647567664.201363, 2614517707.7834425, 2699493817.3108573, 2640762552.1743836, 2667538321.786795, 2590373791.7764444, 2692934325.2928824, 2614727995.169732, 2667821448.1065283, 2672097395.0330234, 2644413464.1508164, 2618775125.39171, 2617649940.8645015, 2630160731.287588, 2650942871.6887364, 2604937059.7023983, 2630762516.977435, 2715403878.218112, 2672847774.1192913, 2714750188.4315515, 2696865509.567417, 2644695083.967807, 2631975116.2560644, 2683414001.1749415, 2649296352.3116193, 2594952301.2812004, 2638130265.1971064, 2607077906.161313, 2641850194.848023, 2687847886.9783816, 2591761852.4897547, 2660969096.1619678, 2654544593.4807315, 2613862157.2107635, 2599679495.483679, 2678603761.7258635, 2663170420.3436503, 2662080969.7570996, 2618752655.585924, 2660741327.7341523, 2673619701.6944823, 2603446547.2803164, 2662010398.0422907, 2671648714.429365, 2642201512.0085106, 2681488875.2274776, 2676483399.3135295, 2681311944.692419, 2647323504.216739, 2571678658.263043, 2619429472.083449, 2592647888.3952494, 2749943584.092249, 2631994077.0043583, 2661582724.346957, 2597871970.5306993, 2574291767.907464, 2652339200.406498, 2646349987.0141845, 2725207104.9748917, 2552245200.095006, 2664232481.554655, 2613721346.989179, 2564402095.1790743, 2615976798.2171054, 2670474894.2568793, 2661078609.1366453, 2657938537.8719563, 2631076267.7216153, 2630908747.748004, 2669352020.083796, 2586331505.9645567, 2631667175.4009223, 2678693014.9174395, 2667183028.591891, 2638518466.0386825, 2653389909.5777764, 2608341876.909836, 2622243682.009422, 2651053991.8771434, 2645235320.5987163, 2619583155.8110223, 2620752572.2974396, 2625333188.2614093, 2674218320.454228, 2699339151.940807, 2631123503.402247, 2637468991.567997, 2609460050.7300496, 2690816251.716676, 2639260761.769912, 2600865850.452854, 2663337462.6366215, 2702031655.2343197, 2634919546.924765, 2592467928.5143914, 2694764127.9915705, 2643462541.353287, 2619949783.823469]
+===============PID: 10 COSTS_TRAIN_DATASET: []
+===============PID: 11 BEST_PID_COST: 2510595022.962367 BEST_PID_EPISODE: 62
+===============PID: 11 COSTS: [2575580150.8103757, 2617634062.15963, 2611410719.8356013, 2626891393.9791813, 2573178676.6784296, 2582949909.853051, 2650511312.3506913, 2584592744.565211, 2655461266.549806, 2583428718.286936, 2620851058.9841647, 2562199650.667282, 2610652054.0969367, 2553248909.984199, 2574801814.693746, 2576743595.18687, 2649516214.8434825, 2650683920.0358524, 2513277667.76136, 2651685409.3265033, 2577607425.2237463, 2655334451.964488, 2539360371.1406364, 2628920207.720085, 2595934115.6067667, 2650193939.7468147, 2580813991.879772, 2553001860.911979, 2568900232.981589, 2544286487.8292046, 2629074139.783829, 2622601816.211039, 2567387523.2251945, 2611523841.398293, 2634461260.7796574, 2597321021.9354734, 2595739411.679792, 2613284082.3003683, 2595547324.984625, 2674984219.2025213, 2624574446.2682667, 2584035743.922574, 2556917911.6869755, 2608325850.108435, 2549234370.4862423, 2548940615.400789, 2592204106.2600527, 2627095706.3744807, 2571527188.4417872, 2597606513.800476, 2631807567.789539, 2551888267.6966815, 2664838699.122664, 2541963156.2661366, 2576872332.746313, 2558052609.1462054, 2579987715.5840507, 2622930716.216973, 2581416377.8624725, 2568606908.134996, 2559439478.4562254, 2572987812.795908, 2510595022.962367, 2578322500.9262676, 2618092208.6358175, 2582332025.788179, 2560155392.111795, 2602233960.449966, 2564393147.606663, 2636106593.746605, 2620792661.440466, 2587467804.649006, 2546721227.8159175, 2579115312.5614257, 2624522969.914249, 2537229632.8955874, 2575578609.3892345, 2546905995.447737, 2660206444.2168083, 2575866446.0839453, 2583881416.7372694, 2580393457.933773, 2550464994.982969, 2616097760.9741545, 2592334047.252571, 2588063289.5469503, 2572298703.375207, 2612070434.3369236, 2581050943.393492, 2563213888.9571085, 2558667831.7373943, 2579902171.688742, 2604520175.288326, 2639388603.6437345, 2606248112.634544, 2647192945.186503, 2589052271.508211, 2611134340.236447, 2594381646.1100283, 2621513142.4822607, 2552657868.3579435, 2626987920.2811365, 2604373376.313935, 2574446592.7265744, 2644541432.3361063, 2619778236.379849, 2622818035.8535857, 2596516579.2243195, 2601860486.0334644, 2657885119.9412746, 2588830275.443869, 2607860942.541587, 2636265665.089992, 2643482215.8421354, 2625034989.0871086, 2568772984.205695, 2592108528.571734, 2577864304.2274723, 2540665513.8350706, 2566501113.997352, 2624797383.8724113, 2564927295.1450343, 2635007213.052372, 2600297613.735293, 2559667957.644323, 2568546680.766063, 2656134437.2878532, 2639847159.824367, 2607772026.99378, 2612644599.375135, 2698550600.4174247, 2593023311.500713, 2665665289.572071, 2635029200.0156417, 2653254763.184318, 2626956534.0699024, 2609935035.3886952, 2636552110.3284836, 2619524236.08642, 2608253466.392331, 2603483608.1254044, 2665910592.5656915, 2619268453.413967, 2607991338.3448544, 2617390405.6390805, 2612662052.909897, 2672701537.143201, 2571970313.6332264, 2629473127.6862745, 2666641150.4192076, 2697788666.4477015, 2726516406.519289, 2587518116.6959033, 2588402673.6038194, 2585012793.048928, 2630407322.1025157, 2611170961.0800753, 2736249198.0435452, 2596192452.7681417, 2593613048.8685594, 2619592554.08825, 2624172278.942633, 2654641843.7362127, 2617821749.7797313, 2556606308.627118, 2654494956.875395, 2571645878.910872, 2648587438.31246, 2630603800.5490365, 2650873187.408624, 2673752603.424078, 2649622306.418756, 2587100623.5742264, 2626614670.203896, 2623355265.299813, 2656483346.193571, 2588506169.3679333, 2670491860.377584, 2613570679.822177, 2575557469.7499666, 2656809109.268782, 2572222339.5946198, 2599039272.2050614, 2618566967.498482, 2606962493.753244, 2634191778.0356784, 2642081965.468422, 2633277030.4189134, 2629541508.6972833, 2531343104.3978996, 2627435148.1165686, 2604092481.072298, 2716741354.205028, 2624293461.787688, 2651586296.5838985, 2620986800.274944, 2581066570.8663263, 2615857879.347453, 2635484103.539639, 2656567209.9066963, 2659861871.778249, 2630528530.799735, 2584267317.911966, 2599072406.1400595, 2651735853.7456164, 2607326848.8489785, 2665635430.237843, 2625997185.91987, 2666864903.892908, 2622519934.6861653, 2638901589.132627, 2740215197.6435113, 2636202079.865208, 2577523782.061639, 2697694848.1527934, 2662339966.1966934, 2576745724.042759, 2596927936.2336006, 2608860500.061156, 2600770189.226789, 2675404548.8801527, 2637624588.3805666, 2591624189.3330603, 2646734056.0356374, 2570541070.96883, 2660587990.206513, 2643863724.0430813, 2571134405.6758103, 2687925990.6081743, 2593254837.6855245, 2651739004.182001, 2697900529.2137413, 2619193862.3348904, 2666321788.6015596, 2617124585.6620536, 2632739638.09956, 2586092065.63733, 2679198040.49547, 2616908133.8361053, 2710919105.2323537, 2579007060.113672, 2665046968.09076, 2614086795.6375976, 2599399410.1661973, 2610498491.4206824, 2623074920.2694364, 2714496239.6799865, 2541060932.416842, 2630860048.374014, 2637217223.5837936, 2585573276.404712, 2630792653.2884684, 2645224703.246833, 2698334226.5649843, 2633589506.594475, 2677476458.233498, 2630128716.946972, 2648099024.837147, 2738452747.944839, 2725803993.519209, 2581789099.889392, 2647514759.300462, 2598388057.3673897, 2638808539.2777586, 2624835062.2287664, 2648109448.2694325, 2713370040.897446, 2628664424.0260835, 2679764343.4823174, 2701782404.8671737, 2646630433.94294, 2631169400.378042, 2753224378.8317256, 2695798035.1988263, 2678264507.161609, 2663877851.4065986, 2654721757.9255667, 2607428014.233077, 2630731232.3253593, 2662766240.702967, 2601462796.4124975, 2607559164.821825, 2630225353.342751, 2564826189.3120995, 2619157769.251012, 2687497002.498483, 2679360912.267055, 2665058804.670569, 2602315367.422181, 2681176209.387407, 2605691058.0343056, 2658159371.4797444, 2635073323.5111327, 2594345331.8466163, 2679258100.9581037, 2686634365.496719, 2674468476.9096484, 2666692996.5120983, 2652192959.170632, 2668992433.8071194, 2658604177.6982517, 2699351090.1126814, 2608552349.959909, 2685068132.237673, 2634647396.40609, 2724139714.7128778, 2633412315.9878507, 2612748092.0983243, 2640645654.831329, 2682468407.4674387, 2629876666.5029273, 2685534892.9593563, 2652821750.2465916, 2624068068.2930193, 2614186636.249264, 2702870355.9077373, 2570354701.69767, 2638274532.172252, 2613503894.1751027, 2666631934.7694745, 2638086450.7734942, 2631899569.1054034, 2561491005.7311125, 2660087679.5239863, 2684222498.2351747, 2638011314.74948, 2607206260.532256, 2679153634.0630813, 2646758190.8465195, 2577899114.523354, 2660355412.176703, 2738734900.6873813, 2683735536.7871766, 2620417348.8880816, 2609988171.752329, 2655623338.3258624, 2711499807.20907, 2623697051.0850935, 2608696187.7218614, 2553811985.875337, 2577762124.198665, 2655391941.914275, 2644361922.311162, 2765644113.6849537, 2642844188.8423686, 2704234188.6925926, 2633939972.8401346, 2590567019.3789334, 2597070785.913571, 2640236781.822237, 2603520769.4526477, 2693677783.080451, 2695061880.712363, 2689949890.3495812, 2703824819.9793377, 2720580327.97601, 2655797716.388544, 2682807512.387091, 2621770093.5086784, 2624115448.3655562, 2654098354.6131163, 2634583691.380579, 2630209058.701158, 2660794879.477046, 2599991688.568214, 2625141012.6717725, 2613349371.559807, 2645289128.377734, 2608728244.4736814, 2621185497.3451424, 2816397915.1024885, 2615277731.653614, 2624079107.420517, 2721049416.6512184, 2648754511.9145055, 2663799066.0660024, 2648641787.869814, 2642931147.962836, 2599342858.944216, 2573318078.3793674, 2636473840.638579, 2631183597.0314, 2679311994.588503, 2683498112.3317637, 2649980824.2718363]
+===============PID: 11 COSTS_TRAIN_DATASET: []
+===============PID: 12 BEST_PID_COST: 2474156120.3220243 BEST_PID_EPISODE: 104
+===============PID: 12 COSTS: [2579007669.2954803, 2652054771.413886, 2598315773.953253, 2580681313.87382, 2684720982.6551228, 2558618506.159421, 2600066324.7893105, 2574253374.1138515, 2621416769.87932, 2629535260.524226, 2537343438.7350473, 2562905727.6067886, 2667102008.4118385, 2595425550.523185, 2560740706.354336, 2592593239.0952935, 2557960662.1077695, 2592595877.240848, 2571240099.6614738, 2553298161.5521765, 2588835268.6068, 2544994751.599811, 2595296405.5663533, 2630352843.7110147, 2574252303.116947, 2585834364.8161507, 2596841686.630667, 2570018135.5828624, 2571729613.657192, 2519812190.8235965, 2532964871.1967387, 2581480956.660964, 2603611420.4425445, 2588388469.1161456, 2570927814.319131, 2530275086.889551, 2607045852.2338996, 2573295724.3363094, 2579460996.8124747, 2627686391.743318, 2624020887.797658, 2594175877.93784, 2600205725.2238674, 2565577911.3339005, 2578784624.4693613, 2614610265.5897045, 2665176479.623372, 2578240101.4700603, 2581020225.1036034, 2562843308.5976377, 2621155807.9069304, 2606977372.290426, 2581092821.345611, 2560721924.999294, 2558161825.5463953, 2589118704.2086945, 2538218657.2933517, 2582034169.771383, 2652747591.1326566, 2610828093.6461177, 2564570779.248182, 2577758049.495741, 2579480442.5980206, 2605195885.573895, 2595468127.179105, 2551171677.072076, 2545337643.219596, 2568830383.5530066, 2594306294.9056106, 2604507617.0277157, 2557021481.7326837, 2598209195.7684436, 2533559592.173353, 2598773618.169766, 2549465246.06157, 2630535276.9307213, 2567105901.884556, 2624575775.1095395, 2578215177.052286, 2581246183.4350123, 2585739245.9679217, 2602189811.960294, 2592075421.383289, 2635609972.2238116, 2587080710.2703037, 2628902687.919085, 2511359492.1364717, 2631760221.642824, 2684305890.8371325, 2552585246.1172795, 2529592308.6624475, 2634648659.5323553, 2556183911.8383846, 2604293056.1768355, 2595087835.5494933, 2520452317.3194866, 2626718420.6961346, 2577447552.6171327, 2589468649.8087754, 2536787850.570246, 2619840091.2424955, 2619839407.911866, 2613280147.647922, 2592227659.540374, 2474156120.3220243, 2612565864.37191, 2705392952.5201554, 2565004474.1613355, 2607772513.263409, 2566293439.581499, 2645484229.6743164, 2577961668.95455, 2581405915.7438583, 2567117488.9964733, 2629962210.7126265, 2619253343.8665047, 2628304956.972649, 2697610933.8131747, 2628663583.3190665, 2583277218.4183006, 2678087425.2694807, 2610571354.4496045, 2629455676.610306, 2640010898.5673428, 2617216517.967192, 2667625473.3071065, 2650685128.6375213, 2583066671.4983873, 2644020829.2412677, 2634254612.7824855, 2662383812.1471653, 2585055538.4197636, 2621766343.354042, 2607298385.5689354, 2602063862.3249197, 2627949590.995067, 2558649741.5521636, 2617162300.675791, 2578306743.1856184, 2663224823.445615, 2670793879.753174, 2597783085.1028876, 2586299525.50257, 2604744106.682847, 2616301429.727315, 2547605041.6932216, 2565332309.0652933, 2646426742.552667, 2638994257.458889, 2586717654.2818193, 2576319114.7153163, 2636804843.6513853, 2607915541.0260296, 2581246486.3169065, 2584991352.8705845, 2660808844.1761966, 2666601916.46766, 2714307309.57882, 2567020864.576038, 2633142559.6568727, 2711464843.0977364, 2610179572.1172743, 2722530250.8502545, 2670457774.343491, 2632674421.1033635, 2592909868.9212213, 2647567591.9759846, 2581866830.8108096, 2649188605.0321617, 2592719109.3296447, 2576060726.740255, 2595934161.3961086, 2660229216.588743, 2609258074.144743, 2622136894.1015987, 2605607790.474108, 2597125485.1400957, 2577512667.69156, 2661469280.7765527, 2636335307.6945176, 2692320243.7779756, 2650316245.7625966, 2671881679.842636, 2668106754.1052227, 2581452576.7772937, 2588505761.998156, 2733105983.0620165, 2640353660.2862816, 2538743311.0360665, 2592240825.911167, 2632468801.434028, 2609905000.654384, 2728737054.5234814, 2584053144.158463, 2593010639.02538, 2583412353.690717, 2604203970.1342664, 2685298573.8252635, 2648654848.138454, 2597280093.330678, 2611360278.312667, 2673841697.1129904, 2644125393.802958, 2615717780.156063, 2619583774.929109, 2597139269.1255918, 2616906554.676744, 2648207771.102051, 2657161153.8242807, 2573665742.012336, 2680636359.2971406, 2593068238.829048, 2590004131.0832314, 2577683038.2221417, 2631308248.856558, 2617424152.901356, 2608420804.8572235, 2650280393.0347977, 2653173497.553996, 2680824267.7688456, 2708789495.5334196, 2620931327.363621, 2635040535.3144207, 2598563635.434963, 2662483591.4129667, 2691861090.754337, 2620088200.0648956, 2625924287.824501, 2611155187.328368, 2608078426.383996, 2635411592.2484736, 2654549068.30822, 2682663725.4757905, 2675752256.614665, 2681026828.9316425, 2587968325.1486163, 2653503138.4334126, 2721311937.4852185, 2583835559.4610167, 2653096036.9042325, 2621014645.960243, 2549671181.454044, 2570299538.005781, 2615136994.8042393, 2649468184.0197234, 2652966614.9470353, 2596289740.528721, 2671861194.571018, 2649165953.070206, 2667137828.2069783, 2594662540.354739, 2678321392.802083, 2599076512.2006483, 2657918989.442007, 2669546636.7528057, 2666465973.9994335, 2669469413.3101735, 2627815128.9280667, 2596089484.65489, 2566706829.521924, 2644536669.4274836, 2650127565.18109, 2642727416.8556967, 2639721177.010646, 2656010311.556245, 2636759475.3619795, 2656870024.8305063, 2698277962.504754, 2603379940.536632, 2610568174.294863, 2615401517.8456135, 2656038361.082199, 2620987399.4531116, 2616291268.5930367, 2600850344.1074357, 2655403573.9221315, 2621697816.1765304, 2528853084.8733892, 2644690333.327554, 2642909457.7365694, 2584710769.9635396, 2657844958.692737, 2621459413.378456, 2594740375.720461, 2602107351.6853175, 2677507940.8783827, 2631787315.786096, 2620697208.4477105, 2733323271.4438925, 2678819903.2112246, 2568555839.8972793, 2619355951.1532526, 2630358406.14084, 2628070208.6281977, 2686663596.543435, 2723628993.215592, 2682280410.501131, 2667084130.6271377, 2631048772.3668876, 2645518277.3918543, 2657782740.83386, 2590041022.0114264, 2662631273.2000732, 2641658778.692342, 2609323695.2594357, 2630262483.3740263, 2694213939.2497196, 2653172191.7562733, 2600189029.5335293, 2632989054.6595845, 2733736714.0607743, 2656508173.612445, 2566170234.752951, 2599727219.4977207, 2599854933.725968, 2649931728.652156, 2609082702.691927, 2663379330.128477, 2613210698.572999, 2649999299.279326, 2654971601.8966017, 2611642681.56499, 2661565970.6565475, 2627411450.7210646, 2644563771.944718, 2662689023.563566, 2727860677.547705, 2605973217.629053, 2628262183.3388176, 2632751806.825251, 2659685224.6806817, 2693934225.491866, 2628804458.440848, 2600146444.9239497, 2680664197.493194, 2633019929.0438247, 2668357981.4580197, 2673293366.1054444, 2655656378.217411, 2704191202.0353055, 2715979336.820104, 2606632282.1736164, 2666297114.7140565, 2625281060.5772715, 2606819748.9785, 2680697157.8565016, 2606852739.2101464, 2590933338.156453, 2643963370.0220046, 2737422540.4474783, 2622099817.7604995, 2658011417.9731903, 2639227700.110828, 2626912775.9921474, 2606034944.1802382, 2704178538.3891172, 2671608181.2913265, 2706957314.769918, 2604615950.8382816, 2708634784.369729, 2586729079.6287994, 2656885293.095441, 2621626569.4954896, 2643547368.4928126, 2621926067.1453543, 2660636516.0176563, 2651324387.348998, 2651044243.3693037, 2612423262.3064237, 2598952272.454122, 2650904884.5033007, 2625239117.113484, 2615366219.391119, 2650531577.6886544, 2639042166.094339, 2722296414.847698, 2667953655.216204, 2643122281.4110284, 2587965233.2229013, 2705347738.5556417, 2655625833.973608, 2614403179.194004, 2689728731.0884104, 2681502438.5596366, 2596487229.7676034]
+states_RBF=[array([2.50622189e-15, 1.49006705e-12, 4.52243665e-10, 7.00679746e-08,
+       5.54175123e-06, 2.23745794e-04, 4.61150966e-03, 4.85189905e-02,
+       2.60591821e-01, 7.14480195e-01, 1.00000000e+00]), array([1.49006705e-12, 4.52243665e-10, 7.00679746e-08, 5.54175123e-06,
+       2.23745794e-04, 4.61150966e-03, 4.85189905e-02, 2.60591821e-01,
+       7.14480195e-01, 1.00000000e+00, 7.14480195e-01]), array([4.52243665e-10, 7.00679746e-08, 5.54175123e-06, 2.23745794e-04,
+       4.61150966e-03, 4.85189905e-02, 2.60591821e-01, 7.14480195e-01,
+       1.00000000e+00, 7.14480195e-01, 2.60591821e-01]), array([7.00679746e-08, 5.54175123e-06, 2.23745794e-04, 4.61150966e-03,
+       4.85189905e-02, 2.60591821e-01, 7.14480195e-01, 1.00000000e+00,
+       7.14480195e-01, 2.60591821e-01, 4.85189905e-02]), array([5.54175123e-06, 2.23745794e-04, 4.61150966e-03, 4.85189905e-02,
+       2.60591821e-01, 7.14480195e-01, 1.00000000e+00, 7.14480195e-01,
+       2.60591821e-01, 4.85189905e-02, 4.61150966e-03]), array([2.23745794e-04, 4.61150966e-03, 4.85189905e-02, 2.60591821e-01,
+       7.14480195e-01, 1.00000000e+00, 7.14480195e-01, 2.60591821e-01,
+       4.85189905e-02, 4.61150966e-03, 2.23745794e-04]), array([4.61150966e-03, 4.85189905e-02, 2.60591821e-01, 7.14480195e-01,
+       1.00000000e+00, 7.14480195e-01, 2.60591821e-01, 4.85189905e-02,
+       4.61150966e-03, 2.23745794e-04, 5.54175123e-06]), array([4.85189905e-02, 2.60591821e-01, 7.14480195e-01, 1.00000000e+00,
+       7.14480195e-01, 2.60591821e-01, 4.85189905e-02, 4.61150966e-03,
+       2.23745794e-04, 5.54175123e-06, 7.00679746e-08]), array([2.60591821e-01, 7.14480195e-01, 1.00000000e+00, 7.14480195e-01,
+       2.60591821e-01, 4.85189905e-02, 4.61150966e-03, 2.23745794e-04,
+       5.54175123e-06, 7.00679746e-08, 4.52243665e-10]), array([7.14480195e-01, 1.00000000e+00, 7.14480195e-01, 2.60591821e-01,
+       4.85189905e-02, 4.61150966e-03, 2.23745794e-04, 5.54175123e-06,
+       7.00679746e-08, 4.52243665e-10, 1.49006705e-12]), array([1.00000000e+00, 7.14480195e-01, 2.60591821e-01, 4.85189905e-02,
+       4.61150966e-03, 2.23745794e-04, 5.54175123e-06, 7.00679746e-08,
+       4.52243665e-10, 1.49006705e-12, 2.50622189e-15])]
+init_state_tensor[:,0]=array([2.23745794e-04, 4.61150966e-03, 4.85189905e-02, 2.60591821e-01,
+       7.14480195e-01, 1.00000000e+00, 7.14480195e-01, 2.60591821e-01,
+       4.85189905e-02, 4.61150966e-03, 2.23745794e-04])
+model.state_space.weights[:,0]=array([-3.66075889e+09, -2.70719579e+09, -2.47231243e+09, -2.43300928e+09,
+       -2.42933869e+09, -2.42916528e+09, -2.42933869e+09, -2.43300928e+09,
+       -2.47231243e+09, -2.70719579e+09, -3.66075889e+09])
+E_VAL: 7435153558.915966
+======================================================
+init_state_tensor[:,0]=array([2.23745794e-04, 4.61150966e-03, 4.85189905e-02, 2.60591821e-01,
+       7.14480195e-01, 1.00000000e+00, 7.14480195e-01, 2.60591821e-01,
+       4.85189905e-02, 4.61150966e-03, 2.23745794e-04])
+model.state_space.weights[:,0]=array([-3.67617862e+09, -2.69546621e+09, -2.42181595e+09, -2.36455659e+09,
+       -2.36590440e+09, -2.37843579e+09, -2.38873233e+09, -2.39139808e+09,
+       -2.41346951e+09, -2.63386441e+09, -3.60251562e+09])
+E_VAL: 7275700467.139042
+===========================================
+
+===============PID: 12 COSTS_TRAIN_DATASET: []
+eps=15%
+Costo: 2635580488.2
+env.DEBUG_volumen.mean(axis=0)=array([1.57850000e+02, 1.45255022e+02, 1.38212247e+02, 1.37117973e+02,
+       1.24618354e+02, 1.12493762e+02, 1.00181124e+02, 8.83287094e+01,
+       7.62776025e+01, 6.42781153e+01, 5.23370549e+01, 4.02994164e+01,
+       2.81982748e+01, 1.64485301e+01, 1.18343920e+01, 7.44905849e+00,
+       1.56182194e+01, 1.10536261e+01, 5.89935827e+00, 3.75936968e+00,
+       5.55115041e+00, 4.23132648e+00, 3.80060381e+00, 2.80430204e+00,
+       2.97850501e+00, 2.60342537e+00, 3.23755181e+00, 3.92233721e+00,
+       1.20535383e+01, 9.92864788e+00, 9.10789138e+00, 1.74139533e+01,
+       1.54172343e+01, 1.73253297e+01, 2.24428940e+01, 3.25068714e+01,
+       3.89274499e+01, 4.67872837e+01, 4.62831308e+01, 4.72836032e+01,
+       3.87777136e+01, 3.68573451e+01, 3.74148013e+01, 4.11629133e+01,
+       3.26344138e+01, 3.32468304e+01, 3.93586086e+01, 3.06868941e+01,
+       3.43333956e+01, 2.63779334e+01, 2.59928147e+01, 1.86953428e+01,
+       2.60588606e+01, 1.55814620e+01, 1.72305417e+01, 2.00806110e+01,
+       1.01554775e+01, 3.00590282e+00, 8.28838645e-01, 4.12067662e+00,
+       1.47556143e+00, 4.59830655e-01, 4.46240211e+00, 4.74633838e-01,
+       1.50102153e-16, 9.23705556e-17, 9.51564648e+00, 6.74544406e+00,
+       6.92430554e+00, 1.21141860e+01, 8.71168033e+00, 7.64050483e+00,
+       4.78281137e+00, 6.12796246e+00, 3.34218696e+00, 6.86731734e+00,
+       4.67002484e+00, 4.26942271e+00, 2.35082302e+00, 3.19773307e+00,
+       8.16807501e+00, 8.07757383e+00, 1.56521421e+01, 1.43432278e+01,
+       2.12527768e+01, 2.62189629e+01, 2.42712551e+01, 2.45122228e+01,
+       2.13789991e+01, 1.93166807e+01, 2.08861414e+01, 3.11736079e+01,
+       2.38012093e+01, 1.86932071e+01, 1.26993240e+01, 8.35232843e+00,
+       1.56039402e+01, 9.26294922e+00, 5.49694964e+00, 3.17196198e+00,
+       2.10119689e+00, 7.91847152e-01, 2.42667906e-01, 6.19785602e-01])
+costo_por_paso=array([ 142813.44      ,  503441.86876909, 1718885.51226135,
+        142813.44      ,  142813.44      ,  142813.44      ,
+        142813.44      ,  142813.44      ,  142813.44      ,
+        142813.44      ,  147841.90738345,  142813.44      ,
+        142813.44      ,  195946.85779017,  340024.0141617 ,
+       2673174.02386309,  301320.34336599,  496628.02695536,
+        768540.13579596,  998457.16726108,  724836.13103631,
+        772156.56896281,  862615.84930923, 1051705.43714494,
+       1003600.75749054, 1104113.15702743,  683493.0554453 ,
+       1529775.84763743,  266562.08249933,  446947.77372547,
+       1364340.38834604,  266512.84358535,  900352.88659839,
+        963000.23461515, 2012139.78121107, 1562119.8829371 ,
+       1873636.69921148,  293845.74850887,  533150.02664547,
+        142813.44      ,  689405.74844446, 1381438.41421637,
+       2273346.14508528,  142888.75763756, 1199186.84274811,
+       2453305.19763646,  144904.46723585, 1797250.54800795,
+        171157.010334  , 1126376.98527366,  189489.8736116 ,
+       2665260.42864829,  265617.80166714, 2392430.67710022,
+       2611538.411556  ,  263476.3136732 ,  702277.77772427,
+       1536084.01390394, 2673720.2147184 , 1420248.3747392 ,
+       1714286.0109612 , 2748882.58576543, 1219119.22142411,
+       1838425.76066378, 2026712.58477047, 2748441.76255282,
+        352994.50862918,  694364.17620429, 1776923.33848612,
+        310187.3909862 ,  813923.16245165,  634781.3338091 ,
+       1259794.14084824,  574358.77663676, 1611348.6743971 ,
+        492620.29169372,  600521.99541191,  784597.02581794,
+        763923.88012625, 1221221.60991279,  456026.6943765 ,
+       1718331.86171105,  297303.04243214, 1753713.2137893 ,
+        856360.2049548 ,  160251.43853399,  383570.20725341,
+        251551.65079786,  313556.20635687,  343152.84902466,
+       2018902.93086015,  232499.80909165,  391949.88339633,
+        412625.88445498,  608261.41203035, 2637830.27453589,
+        399958.59768395,  777574.67989005,  925780.75483209,
+       1007169.25008702, 1116704.87666185, 1166538.44167694,
+       1357653.37596514, 1245108.87096413])

@@ -1,0 +1,30 @@
+self.weights[:, 0]=array([-6.23266775e+09, -4.49014577e+09, -4.94637117e+09, -4.82731212e+09,
+       -4.85884975e+09, -4.84866977e+09, -4.85884975e+09, -4.82731212e+09,
+       -4.94637117e+09, -4.49014577e+09, -6.23266775e+09])
+self.weights[:, 103]=array([-59929497.55486493, -43174478.5260043 , -47561261.25088448,
+       -46416462.68256558, -46719709.11446906, -46621824.73404592,
+       -46719709.11446907, -46416462.68256556, -47561261.2508845 ,
+       -43174478.52600431, -59929497.55486493])
+model.policy_step_size=1e-06
+model.value_step_size=0.001
+model.gamma=1.0
+model.policy.sigma=5.0
+init_lago=4100
+init_mean=0.00
+exploring_start=True
+model.state_space.sigma=500
+env._h_fijo=None
+
+job aborted:
+[ranks] message
+
+[0] job terminated by the user
+
+[1-12] terminated
+
+---- error analysis -----
+
+[0] on PC151221
+ctrl-c was hit. job aborted by the user.
+
+---- error analysis -----

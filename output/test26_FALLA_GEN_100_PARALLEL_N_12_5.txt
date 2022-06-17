@@ -1,0 +1,1076 @@
+model.policy_step_size=1e-06
+model.value_step_size=0.001
+model.gamma=1.0
+model.policy.sigma=5.0
+init_lago=4100
+init_mean=0.00
+exploring_start=True
+model.state_space.sigma=1000
+======================================================
+Start Time: 09:36:38
+======================================================
+Episode 0: Value: 5020699832.2 Mean: 86.6 Mean: 297.8 Mean: 333.5 Mean: 432.2 Costo: 4747865969.2 Time: 0.4m
+Episode 1: Value: 5021025893.1 Mean: 400.4 Mean: 342.9 Mean: 345.3 Mean: 145.3 Costo: 4746277266.9 Time: 0.8m
+Episode 2: Value: 5021797699.7 Mean: 437.8 Mean: 326.4 Mean: 344.7 Mean: 326.0 Costo: 4746277266.9 Time: 1.3m
+Episode 3: Value: 5022546728.1 Mean: 348.2 Mean: 433.2 Mean: 371.3 Mean: 425.6 Costo: 4746277266.9 Time: 1.7m
+Episode 4: Value: 5023288252.6 Mean: 446.0 Mean: 425.8 Mean: 348.5 Mean: 385.7 Costo: 4745585249.4 Time: 2.2m
+Episode 5: Value: 5024043679.6 Mean: 335.5 Mean: 490.3 Mean: 353.8 Mean: 213.7 Costo: 4745585249.4 Time: 2.7m
+Episode 6: Value: 5024962479.9 Mean: 437.2 Mean: 398.4 Mean: 432.2 Mean: 461.0 Costo: 4744534252.7 Time: 3.1m
+Episode 7: Value: 5025925479.5 Mean: 483.3 Mean: 476.8 Mean: 400.5 Mean: 537.9 Costo: 4744534252.7 Time: 3.6m
+Episode 8: Value: 5026731000.7 Mean: 439.2 Mean: 494.3 Mean: 321.2 Mean: 455.7 Costo: 4744534252.7 Time: 4.0m
+Episode 9: Value: 5027621858.7 Mean: 278.6 Mean: 335.3 Mean: 281.6 Mean: 261.5 Costo: 4744534252.7 Time: 4.5m
+Episode 10: Value: 5028408820.4 Mean: 565.9 Mean: 469.7 Mean: 403.1 Mean: 557.1 Costo: 4741823072.9 Time: 4.9m
+Episode 11: Value: 5029931931.4 Mean: 445.8 Mean: 377.5 Mean: 487.2 Mean: 522.7 Costo: 4741823072.9 Time: 5.4m
+Episode 12: Value: 5030786087.1 Mean: 471.1 Mean: 491.4 Mean: 313.1 Mean: 400.7 Costo: 4741823072.9 Time: 5.8m
+Episode 13: Value: 5031629869.2 Mean: 383.9 Mean: 366.8 Mean: 494.0 Mean: 478.5 Costo: 4741823072.9 Time: 6.3m
+Episode 14: Value: 5032077450.1 Mean: 239.3 Mean: 309.0 Mean: 412.7 Mean: 278.2 Costo: 4732149674.6 Time: 6.8m
+Episode 15: Value: 5032935102.0 Mean: 413.0 Mean: 554.9 Mean: 418.9 Mean: 384.7 Costo: 4732149674.6 Time: 7.2m
+Episode 16: Value: 5033886171.5 Mean: 459.3 Mean: 312.6 Mean: 425.1 Mean: 494.1 Costo: 4732149674.6 Time: 7.7m
+Episode 17: Value: 5035138768.4 Mean: 398.0 Mean: 447.3 Mean: 383.2 Mean: 504.8 Costo: 4732149674.6 Time: 8.1m
+Episode 18: Value: 5035812005.0 Mean: 206.1 Mean: 350.2 Mean: 307.2 Mean: 421.2 Costo: 4732149674.6 Time: 8.6m
+Episode 19: Value: 5036839868.1 Mean: 430.7 Mean: 523.0 Mean: 320.5 Mean: 314.3 Costo: 4732149674.6 Time: 9.0m
+Episode 20: Value: 5037856277.2 Mean: 575.3 Mean: 458.7 Mean: 413.4 Mean: 415.4 Costo: 4732149674.6 Time: 9.4m
+Episode 21: Value: 5038549777.6 Mean: 508.5 Mean: 423.0 Mean: 427.8 Mean: 367.7 Costo: 4732149674.6 Time: 10.2m
+Episode 22: Value: 5039608163.7 Mean: 556.8 Mean: 442.8 Mean: 417.9 Mean: 293.2 Costo: 4732149674.6 Time: 11.2m
+Episode 23: Value: 5040275326.8 Mean: 431.9 Mean: 522.2 Mean: 391.2 Mean: 451.7 Costo: 4732149674.6 Time: 12.2m
+Episode 24: Value: 5041598732.4 Mean: 351.8 Mean: 296.6 Mean: 445.6 Mean: 432.3 Costo: 4732149674.6 Time: 13.1m
+Episode 25: Value: 5042501902.0 Mean: 487.6 Mean: 499.9 Mean: 576.2 Mean: 443.8 Costo: 4732149674.6 Time: 14.0m
+Episode 26: Value: 5043410677.0 Mean: 354.4 Mean: 579.9 Mean: 321.0 Mean: 424.3 Costo: 4732149674.6 Time: 14.8m
+Episode 27: Value: 5044046301.7 Mean: 520.1 Mean: 381.5 Mean: 522.6 Mean: 411.6 Costo: 4732149674.6 Time: 15.8m
+Episode 28: Value: 5045107907.8 Mean: 334.4 Mean: 238.9 Mean: 312.8 Mean: 207.5 Costo: 4732149674.6 Time: 16.6m
+Episode 29: Value: 5045740981.7 Mean: 399.5 Mean: 288.2 Mean: 401.8 Mean: 481.4 Costo: 4732149674.6 Time: 17.6m
+Episode 30: Value: 5046683198.2 Mean: 438.4 Mean: 399.8 Mean: 400.5 Mean: 295.4 Costo: 4724038941.7 Time: 18.4m
+Episode 31: Value: 5047290040.0 Mean: 403.0 Mean: 545.4 Mean: 515.9 Mean: 234.1 Costo: 4724038941.7 Time: 19.6m
+Episode 32: Value: 5047790684.5 Mean: 476.6 Mean: 471.9 Mean: 495.4 Mean: 527.9 Costo: 4724038941.7 Time: 20.4m
+Episode 33: Value: 5048633654.5 Mean: 603.4 Mean: 389.4 Mean: 414.5 Mean: 264.9 Costo: 4724038941.7 Time: 21.4m
+Episode 34: Value: 5049552296.5 Mean: 438.4 Mean: 443.1 Mean: 354.4 Mean: 425.0 Costo: 4724038941.7 Time: 22.3m
+Episode 35: Value: 5050408185.0 Mean: 477.7 Mean: 428.0 Mean: 427.6 Mean: 355.7 Costo: 4724038941.7 Time: 23.2m
+Episode 36: Value: 5051297135.9 Mean: 255.4 Mean: 409.7 Mean: 354.8 Mean: 177.1 Costo: 4724038941.7 Time: 24.3m
+Episode 37: Value: 5052125750.0 Mean: 415.8 Mean: 460.4 Mean: 396.5 Mean: 318.2 Costo: 4724038941.7 Time: 25.0m
+Episode 38: Value: 5052681021.4 Mean: 344.4 Mean: 261.0 Mean: 286.9 Mean: 377.5 Costo: 4724038941.7 Time: 26.1m
+Episode 39: Value: 5053491590.4 Mean: 392.2 Mean: 371.9 Mean: 358.7 Mean: 232.7 Costo: 4724038941.7 Time: 27.1m
+Episode 40: Value: 5054487235.3 Mean: 497.0 Mean: 428.9 Mean: 431.5 Mean: 249.5 Costo: 4724038941.7 Time: 28.1m
+Episode 41: Value: 5055017358.6 Mean: 390.8 Mean: 419.8 Mean: 434.4 Mean: 441.9 Costo: 4724038941.7 Time: 28.9m
+Episode 42: Value: 5055906626.1 Mean: 430.6 Mean: 377.5 Mean: 320.6 Mean: 376.7 Costo: 4724038941.7 Time: 29.8m
+Episode 43: Value: 5057319564.9 Mean: 382.1 Mean: 351.3 Mean: 405.6 Mean: 399.2 Costo: 4724038941.7 Time: 30.8m
+Episode 44: Value: 5058322802.8 Mean: 477.2 Mean: 517.2 Mean: 302.8 Mean: 504.4 Costo: 4724038941.7 Time: 31.7m
+Episode 45: Value: 5059391758.6 Mean: 363.3 Mean: 529.9 Mean: 511.1 Mean: 398.2 Costo: 4724038941.7 Time: 32.7m
+Episode 46: Value: 5060310238.5 Mean: 408.9 Mean: 436.0 Mean: 468.1 Mean: 346.9 Costo: 4724038941.7 Time: 33.5m
+Episode 47: Value: 5060960159.2 Mean: 305.7 Mean: 222.0 Mean: 290.5 Mean: 316.8 Costo: 4724038941.7 Time: 34.2m
+Episode 48: Value: 5062242183.7 Mean: 294.2 Mean: 366.7 Mean: 171.6 Mean: 436.0 Costo: 4724038941.7 Time: 35.2m
+Episode 49: Value: 5063272211.0 Mean: 384.7 Mean: 460.4 Mean: 390.3 Mean: 543.7 Costo: 4724038941.7 Time: 36.2m
+Episode 50: Value: 5064224626.6 Mean: 367.9 Mean: 301.4 Mean: 340.2 Mean: 285.4 Costo: 4724038941.7 Time: 37.0m
+Episode 51: Value: 5065285294.5 Mean: 396.4 Mean: 489.8 Mean: 342.3 Mean: 364.0 Costo: 4724038941.7 Time: 38.0m
+Episode 52: Value: 5065816440.7 Mean: 410.7 Mean: 365.0 Mean: 323.6 Mean: 404.8 Costo: 4721897182.4 Time: 38.7m
+Episode 53: Value: 5066782065.6 Mean: 439.9 Mean: 470.5 Mean: 567.5 Mean: 445.1 Costo: 4721897182.4 Time: 39.7m
+Episode 54: Value: 5067604135.0 Mean: 394.6 Mean: 432.8 Mean: 503.6 Mean: 300.1 Costo: 4721897182.4 Time: 40.5m
+Episode 55: Value: 5068425058.8 Mean: 362.9 Mean: 441.2 Mean: 294.7 Mean: 422.6 Costo: 4721897182.4 Time: 41.7m
+Episode 56: Value: 5069155387.4 Mean: 407.9 Mean: 453.4 Mean: 388.3 Mean: 269.9 Costo: 4721897182.4 Time: 42.4m
+Episode 57: Value: 5069963218.1 Mean: 226.6 Mean: 197.1 Mean: 261.4 Mean: 286.7 Costo: 4721897182.4 Time: 43.6m
+Episode 58: Value: 5070769219.0 Mean: 493.3 Mean: 495.4 Mean: 393.3 Mean: 365.4 Costo: 4721897182.4 Time: 44.5m
+Episode 59: Value: 5071940785.0 Mean: 596.2 Mean: 367.1 Mean: 400.1 Mean: 354.8 Costo: 4721897182.4 Time: 45.5m
+Episode 60: Value: 5072822867.8 Mean: 404.0 Mean: 558.7 Mean: 542.5 Mean: 352.3 Costo: 4721897182.4 Time: 46.6m
+Episode 61: Value: 5073435439.9 Mean: 452.6 Mean: 434.0 Mean: 399.4 Mean: 315.0 Costo: 4721897182.4 Time: 47.5m
+Episode 62: Value: 5074060394.2 Mean: 398.9 Mean: 263.2 Mean: 316.9 Mean: 363.9 Costo: 4721897182.4 Time: 48.6m
+Episode 63: Value: 5074666206.8 Mean: 434.8 Mean: 404.9 Mean: 414.3 Mean: 427.6 Costo: 4721897182.4 Time: 49.5m
+Episode 64: Value: 5075500419.2 Mean: 321.8 Mean: 284.1 Mean: 223.7 Mean: 234.1 Costo: 4721897182.4 Time: 50.4m
+Episode 65: Value: 5076641601.8 Mean: 334.2 Mean: 332.0 Mean: 384.5 Mean: 405.5 Costo: 4721897182.4 Time: 51.3m
+Episode 66: Value: 5077512783.6 Mean: 387.9 Mean: 338.7 Mean: 569.1 Mean: 397.6 Costo: 4721897182.4 Time: 52.2m
+Episode 67: Value: 5078291498.0 Mean: 409.0 Mean: 344.9 Mean: 219.4 Mean: 191.9 Costo: 4721897182.4 Time: 53.2m
+Episode 68: Value: 5078931029.4 Mean: 375.7 Mean: 347.9 Mean: 437.7 Mean: 397.6 Costo: 4721897182.4 Time: 54.0m
+Episode 69: Value: 5079625295.2 Mean: 541.9 Mean: 216.9 Mean: 178.7 Mean: 424.6 Costo: 4721897182.4 Time: 55.1m
+Episode 70: Value: 5080346350.8 Mean: 523.1 Mean: 420.4 Mean: 479.0 Mean: 360.1 Costo: 4721897182.4 Time: 55.8m
+Episode 71: Value: 5080919100.9 Mean: 399.3 Mean: 442.9 Mean: 434.7 Mean: 347.0 Costo: 4721897182.4 Time: 56.9m
+Episode 72: Value: 5081340111.6 Mean: 398.8 Mean: 388.6 Mean: 236.3 Mean: 253.4 Costo: 4721897182.4 Time: 57.7m
+Episode 73: Value: 5082077484.7 Mean: 353.6 Mean: 244.8 Mean: 132.0 Mean: 197.5 Costo: 4721897182.4 Time: 58.7m
+Episode 74: Value: 5082838807.5 Mean: 450.9 Mean: 427.0 Mean: 460.9 Mean: 407.9 Costo: 4721897182.4 Time: 59.6m
+Episode 75: Value: 5083939595.3 Mean: 520.8 Mean: 350.9 Mean: 332.8 Mean: 271.9 Costo: 4721897182.4 Time: 60.5m
+Episode 76: Value: 5084582117.7 Mean: 330.5 Mean: 369.9 Mean: 597.1 Mean: 417.8 Costo: 4721897182.4 Time: 61.5m
+Episode 77: Value: 5085482508.1 Mean: 444.6 Mean: 272.4 Mean: 241.3 Mean: 410.2 Costo: 4721897182.4 Time: 62.3m
+Episode 78: Value: 5086571008.8 Mean: 429.2 Mean: 406.2 Mean: 395.7 Mean: 314.2 Costo: 4721897182.4 Time: 63.4m
+Episode 79: Value: 5086747397.8 Mean: 345.7 Mean: 445.5 Mean: 398.1 Mean: 476.5 Costo: 4721897182.4 Time: 64.2m
+Episode 80: Value: 5087433349.7 Mean: 486.8 Mean: 259.6 Mean: 370.9 Mean: 427.7 Costo: 4721897182.4 Time: 65.2m
+Episode 81: Value: 5088316397.1 Mean: 494.1 Mean: 399.1 Mean: 396.7 Mean: 325.4 Costo: 4721897182.4 Time: 66.1m
+Episode 82: Value: 5088948474.2 Mean: 427.5 Mean: 387.9 Mean: 483.8 Mean: 351.7 Costo: 4721897182.4 Time: 67.0m
+Episode 83: Value: 5089667639.7 Mean: 512.8 Mean: 504.7 Mean: 393.9 Mean: 385.7 Costo: 4721897182.4 Time: 68.1m
+Episode 84: Value: 5090246121.9 Mean: 389.4 Mean: 416.1 Mean: 352.0 Mean: 279.0 Costo: 4721897182.4 Time: 68.8m
+Episode 85: Value: 5091233342.5 Mean: 593.9 Mean: 441.1 Mean: 422.0 Mean: 417.7 Costo: 4721897182.4 Time: 69.8m
+Episode 86: Value: 5091577671.4 Mean: 507.2 Mean: 302.1 Mean: 284.7 Mean: 306.4 Costo: 4721897182.4 Time: 70.8m
+Episode 87: Value: 5092431868.8 Mean: 518.4 Mean: 445.5 Mean: 339.4 Mean: 412.2 Costo: 4721897182.4 Time: 72.0m
+Episode 88: Value: 5093136793.3 Mean: 456.0 Mean: 514.0 Mean: 341.0 Mean: 456.4 Costo: 4721897182.4 Time: 73.0m
+Episode 89: Value: 5093801623.8 Mean: 487.8 Mean: 490.8 Mean: 410.4 Mean: 308.8 Costo: 4721897182.4 Time: 73.9m
+Episode 90: Value: 5094307331.9 Mean: 343.6 Mean: 386.4 Mean: 204.8 Mean: 300.1 Costo: 4721897182.4 Time: 74.9m
+Episode 91: Value: 5095472378.9 Mean: 575.4 Mean: 463.2 Mean: 510.2 Mean: 413.5 Costo: 4721897182.4 Time: 75.8m
+Episode 92: Value: 5096018628.2 Mean: 304.5 Mean: 371.9 Mean: 373.9 Mean: 334.6 Costo: 4721897182.4 Time: 76.9m
+Episode 93: Value: 5096798344.8 Mean: 359.0 Mean: 427.5 Mean: 378.0 Mean: 414.0 Costo: 4721897182.4 Time: 77.7m
+Episode 94: Value: 5097753377.9 Mean: 449.6 Mean: 324.1 Mean: 462.2 Mean: 374.0 Costo: 4721897182.4 Time: 78.8m
+Episode 95: Value: 5098531609.9 Mean: 416.6 Mean: 473.6 Mean: 390.8 Mean: 254.6 Costo: 4721897182.4 Time: 79.7m
+Episode 96: Value: 5099215160.4 Mean: 318.0 Mean: 359.8 Mean: 385.9 Mean: 327.6 Costo: 4721897182.4 Time: 80.6m
+Episode 97: Value: 5100357512.5 Mean: 494.9 Mean: 517.2 Mean: 516.0 Mean: 477.2 Costo: 4721897182.4 Time: 81.7m
+Episode 98: Value: 5101288519.5 Mean: 399.8 Mean: 465.5 Mean: 457.1 Mean: 590.0 Costo: 4721897182.4 Time: 82.4m
+Episode 99: Value: 5101706416.3 Mean: 391.4 Mean: 492.6 Mean: 489.8 Mean: 393.5 Costo: 4721897182.4 Time: 83.6m
+Episode 100: Value: 5102265180.0 Mean: 525.0 Mean: 280.0 Mean: 343.1 Mean: 346.4 Costo: 4721897182.4 Time: 84.4m
+Episode 101: Value: 5103147355.2 Mean: 369.1 Mean: 532.9 Mean: 493.9 Mean: 549.8 Costo: 4721897182.4 Time: 85.4m
+Episode 102: Value: 5103616829.1 Mean: 373.9 Mean: 408.9 Mean: 337.5 Mean: 318.9 Costo: 4721897182.4 Time: 86.2m
+Episode 103: Value: 5104193963.7 Mean: 287.4 Mean: 511.1 Mean: 302.1 Mean: 329.5 Costo: 4721897182.4 Time: 87.2m
+Episode 104: Value: 5104927043.0 Mean: 472.2 Mean: 497.8 Mean: 494.8 Mean: 387.3 Costo: 4721897182.4 Time: 88.0m
+Episode 105: Value: 5105364888.5 Mean: 426.4 Mean: 265.6 Mean: 458.3 Mean: 440.7 Costo: 4721897182.4 Time: 89.0m
+Episode 106: Value: 5105866881.9 Mean: 465.7 Mean: 319.7 Mean: 400.8 Mean: 396.7 Costo: 4721897182.4 Time: 89.9m
+Episode 107: Value: 5106525732.0 Mean: 482.2 Mean: 419.1 Mean: 306.5 Mean: 515.6 Costo: 4721897182.4 Time: 90.9m
+Episode 108: Value: 5107416522.5 Mean: 601.7 Mean: 424.3 Mean: 623.3 Mean: 448.0 Costo: 4721897182.4 Time: 92.0m
+Episode 109: Value: 5108033034.0 Mean: 351.7 Mean: 382.6 Mean: 487.2 Mean: 449.6 Costo: 4721897182.4 Time: 92.8m
+Episode 110: Value: 5108988653.6 Mean: 304.5 Mean: 420.0 Mean: 380.1 Mean: 279.8 Costo: 4721897182.4 Time: 93.9m
+Episode 111: Value: 5109834842.0 Mean: 567.6 Mean: 491.9 Mean: 455.6 Mean: 443.4 Costo: 4721897182.4 Time: 94.8m
+Episode 112: Value: 5110613324.5 Mean: 512.9 Mean: 375.3 Mean: 405.0 Mean: 553.5 Costo: 4721897182.4 Time: 95.7m
+Episode 113: Value: 5111892808.2 Mean: 347.0 Mean: 44.9 Mean: 304.5 Mean: 236.2 Costo: 4721897182.4 Time: 96.6m
+Episode 114: Value: 5112929070.9 Mean: 414.6 Mean: 397.2 Mean: 301.9 Mean: 309.2 Costo: 4721897182.4 Time: 97.6m
+Episode 115: Value: 5114234247.6 Mean: 519.7 Mean: 277.5 Mean: 372.2 Mean: 348.9 Costo: 4721897182.4 Time: 98.7m
+Episode 116: Value: 5114678847.7 Mean: 564.8 Mean: 529.8 Mean: 484.5 Mean: 513.5 Costo: 4721897182.4 Time: 99.6m
+Episode 117: Value: 5115384287.3 Mean: 454.2 Mean: 396.0 Mean: 393.5 Mean: 292.9 Costo: 4721897182.4 Time: 100.6m
+Episode 118: Value: 5115798550.2 Mean: 512.6 Mean: 414.7 Mean: 601.6 Mean: 360.3 Costo: 4721897182.4 Time: 101.4m
+Episode 119: Value: 5116046098.1 Mean: 338.9 Mean: 395.5 Mean: 339.3 Mean: 319.1 Costo: 4721897182.4 Time: 102.3m
+Episode 120: Value: 5116934876.6 Mean: 511.8 Mean: 460.1 Mean: 443.9 Mean: 400.5 Costo: 4721897182.4 Time: 103.3m
+Episode 121: Value: 5117685955.4 Mean: 396.7 Mean: 294.4 Mean: 224.9 Mean: 334.8 Costo: 4721897182.4 Time: 104.1m
+Episode 122: Value: 5118290671.5 Mean: 404.4 Mean: 335.6 Mean: 402.6 Mean: 424.9 Costo: 4721897182.4 Time: 105.1m
+Episode 123: Value: 5118834713.2 Mean: 253.7 Mean: 417.2 Mean: 322.5 Mean: 446.5 Costo: 4721897182.4 Time: 105.9m
+Episode 124: Value: 5119723388.9 Mean: 467.2 Mean: 346.2 Mean: 288.7 Mean: 379.3 Costo: 4721897182.4 Time: 107.0m
+Episode 125: Value: 5120534708.5 Mean: 400.4 Mean: 314.0 Mean: 312.5 Mean: 412.3 Costo: 4721897182.4 Time: 107.7m
+Episode 126: Value: 5121121228.2 Mean: 403.0 Mean: 454.3 Mean: 610.6 Mean: 551.1 Costo: 4721897182.4 Time: 108.8m
+Episode 127: Value: 5121725061.6 Mean: 339.3 Mean: 516.7 Mean: 516.4 Mean: 390.3 Costo: 4721897182.4 Time: 109.7m
+Episode 128: Value: 5122121570.6 Mean: 566.7 Mean: 523.4 Mean: 260.8 Mean: 313.2 Costo: 4721897182.4 Time: 110.7m
+Episode 129: Value: 5122435470.2 Mean: 485.6 Mean: 396.7 Mean: 394.9 Mean: 398.4 Costo: 4721897182.4 Time: 111.6m
+Episode 130: Value: 5123380590.2 Mean: 641.4 Mean: 434.1 Mean: 471.0 Mean: 339.8 Costo: 4721897182.4 Time: 112.5m
+Episode 131: Value: 5124239738.3 Mean: 514.6 Mean: 490.6 Mean: 566.7 Mean: 578.5 Costo: 4721897182.4 Time: 113.4m
+Episode 132: Value: 5124711329.8 Mean: 530.3 Mean: 427.1 Mean: 565.4 Mean: 602.6 Costo: 4721897182.4 Time: 114.3m
+Episode 133: Value: 5124894726.6 Mean: 406.9 Mean: 398.2 Mean: 394.2 Mean: 305.8 Costo: 4721897182.4 Time: 115.2m
+Episode 134: Value: 5125456547.4 Mean: 424.7 Mean: 444.3 Mean: 417.3 Mean: 491.7 Costo: 4721897182.4 Time: 116.1m
+Episode 135: Value: 5126432146.3 Mean: 289.5 Mean: 435.8 Mean: 368.4 Mean: 334.6 Costo: 4721897182.4 Time: 117.1m
+Episode 136: Value: 5127392122.9 Mean: 472.1 Mean: 425.3 Mean: 474.2 Mean: 491.0 Costo: 4721897182.4 Time: 117.9m
+Episode 137: Value: 5127777580.8 Mean: 453.3 Mean: 291.9 Mean: 434.7 Mean: 370.9 Costo: 4721897182.4 Time: 118.8m
+Episode 138: Value: 5128746778.0 Mean: 493.8 Mean: 484.7 Mean: 536.9 Mean: 459.6 Costo: 4721897182.4 Time: 119.7m
+Episode 139: Value: 5129367435.4 Mean: 510.3 Mean: 371.0 Mean: 382.8 Mean: 477.6 Costo: 4721897182.4 Time: 120.8m
+Episode 140: Value: 5130009438.1 Mean: 480.2 Mean: 437.8 Mean: 469.0 Mean: 487.4 Costo: 4721897182.4 Time: 121.8m
+Episode 141: Value: 5130533294.4 Mean: 544.8 Mean: 418.4 Mean: 504.5 Mean: 455.8 Costo: 4721897182.4 Time: 122.9m
+Episode 142: Value: 5130877661.2 Mean: 494.1 Mean: 272.5 Mean: 376.7 Mean: 341.6 Costo: 4721897182.4 Time: 123.6m
+Episode 143: Value: 5131170357.7 Mean: 509.2 Mean: 403.7 Mean: 466.1 Mean: 396.7 Costo: 4721897182.4 Time: 124.7m
+Episode 144: Value: 5131845213.5 Mean: 378.8 Mean: 462.4 Mean: 430.6 Mean: 377.3 Costo: 4721897182.4 Time: 125.5m
+Episode 145: Value: 5132395360.2 Mean: 430.3 Mean: 542.6 Mean: 443.9 Mean: 353.5 Costo: 4721897182.4 Time: 126.5m
+Episode 146: Value: 5133169705.3 Mean: 405.2 Mean: 185.1 Mean: 364.2 Mean: 420.6 Costo: 4721897182.4 Time: 127.4m
+Episode 147: Value: 5133427818.0 Mean: 303.8 Mean: 415.0 Mean: 453.3 Mean: 451.5 Costo: 4721897182.4 Time: 128.2m
+Episode 148: Value: 5134113715.7 Mean: 443.9 Mean: 347.9 Mean: 347.1 Mean: 416.7 Costo: 4721897182.4 Time: 129.3m
+Episode 149: Value: 5134856221.8 Mean: 444.3 Mean: 408.3 Mean: 198.1 Mean: 292.6 Costo: 4721897182.4 Time: 130.1m
+Episode 150: Value: 5135093407.8 Mean: 332.0 Mean: 555.3 Mean: 472.3 Mean: 453.3 Costo: 4721897182.4 Time: 131.2m
+Episode 151: Value: 5135136438.1 Mean: 458.3 Mean: 287.8 Mean: 368.8 Mean: 478.6 Costo: 4721897182.4 Time: 132.0m
+Episode 152: Value: 5135348208.4 Mean: 265.9 Mean: 542.9 Mean: 476.3 Mean: 309.7 Costo: 4721897182.4 Time: 133.1m
+Episode 153: Value: 5135962621.2 Mean: 510.0 Mean: 478.8 Mean: 479.4 Mean: 491.6 Costo: 4721897182.4 Time: 133.9m
+Episode 154: Value: 5136248697.8 Mean: 375.9 Mean: 389.8 Mean: 334.7 Mean: 411.7 Costo: 4721897182.4 Time: 134.9m
+Episode 155: Value: 5137136815.7 Mean: 395.1 Mean: 457.8 Mean: 364.9 Mean: 309.2 Costo: 4721897182.4 Time: 135.7m
+Episode 156: Value: 5137385086.7 Mean: 451.3 Mean: 256.8 Mean: 359.0 Mean: 347.4 Costo: 4721897182.4 Time: 136.6m
+Episode 157: Value: 5137794329.8 Mean: 465.8 Mean: 587.0 Mean: 585.5 Mean: 341.4 Costo: 4721897182.4 Time: 137.6m
+Episode 158: Value: 5137560869.8 Mean: 391.6 Mean: 622.2 Mean: 409.0 Mean: 519.5 Costo: 4721897182.4 Time: 138.5m
+Episode 159: Value: 5137863574.7 Mean: 295.1 Mean: 471.7 Mean: 488.9 Mean: 350.0 Costo: 4721897182.4 Time: 139.6m
+Episode 160: Value: 5137765171.2 Mean: 565.8 Mean: 584.2 Mean: 566.7 Mean: 403.2 Costo: 4721897182.4 Time: 140.4m
+Episode 161: Value: 5138152888.8 Mean: 422.1 Mean: 455.8 Mean: 504.4 Mean: 307.4 Costo: 4721897182.4 Time: 141.5m
+Episode 162: Value: 5138158008.4 Mean: 455.2 Mean: 453.4 Mean: 403.3 Mean: 309.8 Costo: 4721897182.4 Time: 142.4m
+Episode 163: Value: 5139313563.5 Mean: 581.3 Mean: 507.7 Mean: 525.2 Mean: 471.9 Costo: 4721897182.4 Time: 143.4m
+Episode 164: Value: 5139565837.2 Mean: 395.4 Mean: 511.4 Mean: 494.8 Mean: 339.9 Costo: 4721897182.4 Time: 144.4m
+Episode 165: Value: 5139620159.7 Mean: 434.5 Mean: 401.6 Mean: 454.8 Mean: 256.1 Costo: 4721897182.4 Time: 145.2m
+Episode 166: Value: 5140201920.1 Mean: 429.2 Mean: 341.1 Mean: 284.1 Mean: 316.8 Costo: 4721897182.4 Time: 146.3m
+Episode 167: Value: 5140689501.4 Mean: 476.7 Mean: 431.0 Mean: 384.8 Mean: 318.5 Costo: 4721897182.4 Time: 147.1m
+Episode 168: Value: 5140991153.1 Mean: 429.8 Mean: 295.7 Mean: 363.4 Mean: 400.4 Costo: 4721897182.4 Time: 148.3m
+Episode 169: Value: 5141334706.6 Mean: 587.3 Mean: 516.5 Mean: 452.2 Mean: 438.5 Costo: 4721897182.4 Time: 149.1m
+Episode 170: Value: 5141494275.8 Mean: 548.8 Mean: 399.6 Mean: 342.8 Mean: 297.5 Costo: 4721897182.4 Time: 150.2m
+Episode 171: Value: 5141922708.2 Mean: 453.5 Mean: 511.7 Mean: 455.3 Mean: 411.1 Costo: 4721897182.4 Time: 151.0m
+Episode 172: Value: 5142261443.4 Mean: 500.9 Mean: 289.2 Mean: 343.3 Mean: 353.1 Costo: 4721897182.4 Time: 151.9m
+Episode 173: Value: 5142436920.6 Mean: 484.7 Mean: 563.8 Mean: 387.1 Mean: 470.9 Costo: 4721897182.4 Time: 152.9m
+Episode 174: Value: 5142730084.1 Mean: 512.4 Mean: 433.6 Mean: 476.4 Mean: 496.7 Costo: 4721897182.4 Time: 153.7m
+Episode 175: Value: 5143174513.7 Mean: 591.1 Mean: 447.0 Mean: 512.2 Mean: 510.0 Costo: 4721897182.4 Time: 154.7m
+Episode 176: Value: 5143543646.8 Mean: 453.3 Mean: 556.8 Mean: 582.8 Mean: 602.2 Costo: 4721897182.4 Time: 155.5m
+Episode 177: Value: 5143615995.1 Mean: 356.7 Mean: 406.1 Mean: 353.3 Mean: 461.4 Costo: 4721897182.4 Time: 156.5m
+Episode 178: Value: 5143632569.8 Mean: 404.8 Mean: 413.5 Mean: 400.1 Mean: 470.9 Costo: 4721897182.4 Time: 157.3m
+Episode 179: Value: 5143477310.7 Mean: 292.1 Mean: 198.4 Mean: 148.6 Mean: 223.0 Costo: 4721897182.4 Time: 158.2m
+Episode 180: Value: 5143669976.9 Mean: 237.3 Mean: 267.4 Mean: 441.4 Mean: 383.5 Costo: 4721897182.4 Time: 159.0m
+Episode 181: Value: 5143795771.9 Mean: 402.2 Mean: 407.4 Mean: 299.7 Mean: 373.7 Costo: 4721897182.4 Time: 160.1m
+Episode 182: Value: 5143785693.2 Mean: 549.5 Mean: 356.5 Mean: 237.2 Mean: 380.2 Costo: 4718212448.5 Time: 160.9m
+Episode 183: Value: 5143694024.4 Mean: 413.8 Mean: 414.9 Mean: 390.4 Mean: 406.5 Costo: 4710179171.0 Time: 161.9m
+Episode 184: Value: 5143882578.7 Mean: 453.6 Mean: 420.4 Mean: 396.2 Mean: 345.2 Costo: 4710179171.0 Time: 162.8m
+Episode 185: Value: 5143737151.0 Mean: 434.2 Mean: 383.6 Mean: 500.0 Mean: 519.3 Costo: 4708120720.3 Time: 163.9m
+Episode 186: Value: 5143686196.5 Mean: 396.7 Mean: 276.6 Mean: 180.9 Mean: 332.9 Costo: 4708120720.3 Time: 164.8m
+Episode 187: Value: 5143900799.4 Mean: 309.7 Mean: 412.3 Mean: 290.8 Mean: 386.0 Costo: 4708120720.3 Time: 165.7m
+Episode 188: Value: 5143793289.2 Mean: 403.7 Mean: 356.9 Mean: 412.5 Mean: 366.3 Costo: 4708120720.3 Time: 166.5m
+Episode 189: Value: 5143923159.4 Mean: 442.6 Mean: 487.6 Mean: 448.0 Mean: 506.4 Costo: 4708120720.3 Time: 167.5m
+Episode 190: Value: 5143596793.4 Mean: 343.1 Mean: 458.3 Mean: 334.2 Mean: 377.0 Costo: 4708120720.3 Time: 168.4m
+Episode 191: Value: 5143214586.3 Mean: 368.1 Mean: 421.4 Mean: 364.8 Mean: 362.0 Costo: 4708120720.3 Time: 169.3m
+Episode 192: Value: 5143081146.8 Mean: 482.9 Mean: 559.2 Mean: 510.0 Mean: 416.1 Costo: 4708120720.3 Time: 170.4m
+Episode 193: Value: 5143178672.8 Mean: 448.6 Mean: 272.6 Mean: 451.2 Mean: 398.2 Costo: 4708120720.3 Time: 171.1m
+Episode 194: Value: 5143027358.1 Mean: 459.5 Mean: 339.6 Mean: 272.3 Mean: 428.4 Costo: 4708120720.3 Time: 172.3m
+Episode 195: Value: 5142794272.9 Mean: 523.1 Mean: 386.4 Mean: 376.8 Mean: 350.1 Costo: 4708120720.3 Time: 173.1m
+Episode 196: Value: 5142502691.5 Mean: 408.2 Mean: 459.3 Mean: 586.0 Mean: 538.6 Costo: 4708120720.3 Time: 174.1m
+Episode 197: Value: 5142315674.2 Mean: 451.6 Mean: 395.2 Mean: 264.9 Mean: 461.0 Costo: 4705926320.5 Time: 175.1m
+Episode 198: Value: 5142026401.8 Mean: 428.8 Mean: 453.4 Mean: 495.4 Mean: 417.9 Costo: 4705926320.5 Time: 176.0m
+Episode 199: Value: 5141885631.4 Mean: 427.7 Mean: 453.8 Mean: 540.4 Mean: 523.9 Costo: 4705926320.5 Time: 176.9m
+Episode 200: Value: 5141927144.5 Mean: 508.7 Mean: 532.4 Mean: 411.3 Mean: 468.7 Costo: 4705926320.5 Time: 177.7m
+Episode 201: Value: 5142170532.2 Mean: 349.0 Mean: 309.9 Mean: 308.4 Mean: 408.2 Costo: 4705926320.5 Time: 178.8m
+Episode 202: Value: 5141769157.0 Mean: 384.2 Mean: 415.3 Mean: 418.5 Mean: 344.4 Costo: 4705926320.5 Time: 179.6m
+Episode 203: Value: 5141117160.6 Mean: 320.9 Mean: 372.3 Mean: 471.6 Mean: 416.1 Costo: 4705926320.5 Time: 180.8m
+Episode 204: Value: 5140706190.9 Mean: 425.6 Mean: 357.8 Mean: 460.1 Mean: 399.0 Costo: 4705926320.5 Time: 181.7m
+Episode 205: Value: 5140359271.9 Mean: 288.0 Mean: 312.8 Mean: 370.8 Mean: 362.6 Costo: 4705926320.5 Time: 182.7m
+Episode 206: Value: 5139763003.7 Mean: 446.6 Mean: 240.8 Mean: 250.0 Mean: 243.1 Costo: 4705926320.5 Time: 183.5m
+Episode 207: Value: 5139349082.3 Mean: 505.2 Mean: 397.2 Mean: 365.8 Mean: 519.5 Costo: 4705926320.5 Time: 184.4m
+Episode 208: Value: 5139179075.5 Mean: 547.0 Mean: 586.1 Mean: 574.9 Mean: 586.3 Costo: 4705926320.5 Time: 185.3m
+Episode 209: Value: 5139067971.0 Mean: 484.6 Mean: 492.1 Mean: 459.6 Mean: 462.7 Costo: 4705926320.5 Time: 186.2m
+Episode 210: Value: 5138588745.1 Mean: 288.7 Mean: 428.3 Mean: 459.1 Mean: 512.1 Costo: 4703405914.3 Time: 187.0m
+Episode 211: Value: 5138033602.8 Mean: 501.5 Mean: 649.6 Mean: 378.3 Mean: 452.4 Costo: 4703405914.3 Time: 188.0m
+Episode 212: Value: 5137804524.7 Mean: 455.9 Mean: 439.7 Mean: 442.2 Mean: 443.9 Costo: 4703405914.3 Time: 188.9m
+Episode 213: Value: 5137804529.0 Mean: 403.2 Mean: 403.4 Mean: 407.3 Mean: 476.5 Costo: 4703405914.3 Time: 189.8m
+Episode 214: Value: 5137192969.1 Mean: 393.0 Mean: 513.0 Mean: 445.1 Mean: 441.3 Costo: 4703405914.3 Time: 190.8m
+Episode 215: Value: 5136644597.6 Mean: 510.1 Mean: 287.7 Mean: 494.6 Mean: 513.2 Costo: 4703405914.3 Time: 191.6m
+Episode 216: Value: 5136194609.1 Mean: 521.5 Mean: 364.9 Mean: 456.5 Mean: 338.1 Costo: 4695372412.9 Time: 192.6m
+Episode 217: Value: 5135527132.9 Mean: 455.2 Mean: 438.2 Mean: 359.2 Mean: 418.3 Costo: 4695372412.9 Time: 193.6m
+Episode 218: Value: 5135006385.7 Mean: 469.9 Mean: 445.6 Mean: 498.1 Mean: 387.4 Costo: 4694758713.2 Time: 194.7m
+Episode 219: Value: 5134439095.1 Mean: 448.9 Mean: 623.3 Mean: 235.3 Mean: 309.3 Costo: 4694758713.2 Time: 195.5m
+Episode 220: Value: 5134363249.7 Mean: 345.4 Mean: 474.9 Mean: 463.8 Mean: 544.8 Costo: 4694758713.2 Time: 196.5m
+Episode 221: Value: 5134075168.7 Mean: 358.0 Mean: 276.2 Mean: 335.8 Mean: 439.7 Costo: 4694758713.2 Time: 197.4m
+Episode 222: Value: 5133580157.1 Mean: 564.3 Mean: 449.1 Mean: 355.4 Mean: 303.9 Costo: 4694758713.2 Time: 198.3m
+Episode 223: Value: 5132592246.3 Mean: 396.7 Mean: 566.7 Mean: 566.7 Mean: 369.6 Costo: 4694758713.2 Time: 199.4m
+Episode 224: Value: 5132667553.9 Mean: 420.3 Mean: 415.9 Mean: 430.3 Mean: 567.5 Costo: 4694758713.2 Time: 200.2m
+Episode 225: Value: 5132148883.4 Mean: 456.2 Mean: 453.7 Mean: 523.9 Mean: 594.7 Costo: 4694758713.2 Time: 201.3m
+Episode 226: Value: 5131586671.5 Mean: 311.5 Mean: 343.9 Mean: 332.4 Mean: 395.2 Costo: 4694758713.2 Time: 202.1m
+Episode 227: Value: 5131034129.4 Mean: 540.4 Mean: 596.0 Mean: 401.7 Mean: 415.2 Costo: 4694758713.2 Time: 203.2m
+Episode 228: Value: 5130059950.4 Mean: 423.5 Mean: 520.5 Mean: 442.0 Mean: 308.0 Costo: 4694758713.2 Time: 203.9m
+Episode 229: Value: 5128866042.8 Mean: 510.1 Mean: 498.3 Mean: 480.7 Mean: 352.3 Costo: 4694758713.2 Time: 205.0m
+Episode 230: Value: 5128292546.0 Mean: 394.4 Mean: 463.7 Mean: 449.1 Mean: 482.0 Costo: 4687818221.7 Time: 205.9m
+Episode 231: Value: 5127671916.8 Mean: 376.9 Mean: 466.4 Mean: 401.9 Mean: 396.6 Costo: 4687818221.7 Time: 206.9m
+Episode 232: Value: 5126662488.9 Mean: 458.7 Mean: 429.2 Mean: 523.0 Mean: 400.7 Costo: 4687818221.7 Time: 207.9m
+Episode 233: Value: 5125438879.6 Mean: 539.8 Mean: 436.3 Mean: 466.6 Mean: 439.3 Costo: 4687818221.7 Time: 208.7m
+Episode 234: Value: 5124626060.0 Mean: 413.0 Mean: 550.7 Mean: 351.3 Mean: 440.1 Costo: 4687818221.7 Time: 209.8m
+Episode 235: Value: 5123682099.0 Mean: 508.8 Mean: 611.7 Mean: 538.6 Mean: 564.7 Costo: 4687818221.7 Time: 210.7m
+Episode 236: Value: 5122691468.5 Mean: 490.2 Mean: 434.8 Mean: 434.1 Mean: 416.3 Costo: 4685941815.8 Time: 211.6m
+Episode 237: Value: 5121847461.3 Mean: 421.7 Mean: 379.2 Mean: 391.1 Mean: 397.0 Costo: 4685941815.8 Time: 212.5m
+Episode 238: Value: 5120341265.1 Mean: 399.8 Mean: 423.9 Mean: 533.3 Mean: 501.4 Costo: 4685941815.8 Time: 213.3m
+Episode 239: Value: 5119521038.3 Mean: 477.7 Mean: 368.2 Mean: 454.4 Mean: 566.7 Costo: 4673340284.3 Time: 214.3m
+Episode 240: Value: 5118306488.1 Mean: 510.0 Mean: 415.8 Mean: 510.0 Mean: 373.7 Costo: 4673340284.3 Time: 215.0m
+Episode 241: Value: 5116909708.7 Mean: 297.7 Mean: 391.3 Mean: 355.5 Mean: 451.6 Costo: 4673340284.3 Time: 216.0m
+Episode 242: Value: 5115719639.2 Mean: 466.8 Mean: 437.5 Mean: 342.1 Mean: 351.5 Costo: 4673340284.3 Time: 216.8m
+Episode 243: Value: 5114489320.1 Mean: 324.0 Mean: 378.0 Mean: 429.5 Mean: 343.0 Costo: 4673340284.3 Time: 217.8m
+Episode 244: Value: 5112959154.6 Mean: 517.6 Mean: 527.2 Mean: 439.5 Mean: 419.9 Costo: 4673340284.3 Time: 218.5m
+Episode 245: Value: 5111863796.4 Mean: 566.7 Mean: 406.5 Mean: 414.2 Mean: 415.7 Costo: 4673340284.3 Time: 219.6m
+Episode 246: Value: 5111208434.3 Mean: 623.3 Mean: 510.1 Mean: 458.1 Mean: 305.4 Costo: 4673340284.3 Time: 220.3m
+Episode 247: Value: 5110421988.5 Mean: 341.4 Mean: 399.2 Mean: 397.3 Mean: 420.4 Costo: 4673340284.3 Time: 221.3m
+Episode 248: Value: 5109070984.7 Mean: 467.9 Mean: 459.9 Mean: 214.9 Mean: 276.7 Costo: 4673340284.3 Time: 222.1m
+Episode 249: Value: 5108039713.6 Mean: 472.3 Mean: 377.1 Mean: 330.7 Mean: 349.8 Costo: 4673340284.3 Time: 223.2m
+Episode 250: Value: 5106683059.7 Mean: 418.1 Mean: 492.6 Mean: 459.2 Mean: 449.9 Costo: 4673340284.3 Time: 223.9m
+Episode 251: Value: 5105475307.8 Mean: 530.1 Mean: 485.2 Mean: 392.7 Mean: 256.8 Costo: 4673340284.3 Time: 224.9m
+Episode 252: Value: 5103952871.0 Mean: 510.1 Mean: 556.1 Mean: 494.6 Mean: 298.3 Costo: 4673340284.3 Time: 225.7m
+Episode 253: Value: 5102033820.8 Mean: 385.1 Mean: 442.3 Mean: 290.5 Mean: 412.1 Costo: 4673340284.3 Time: 226.6m
+Episode 254: Value: 5100119464.9 Mean: 540.6 Mean: 291.5 Mean: 332.5 Mean: 296.8 Costo: 4673340284.3 Time: 227.5m
+Episode 255: Value: 5098511118.0 Mean: 452.2 Mean: 512.7 Mean: 522.5 Mean: 500.6 Costo: 4673340284.3 Time: 228.3m
+Episode 256: Value: 5097402892.2 Mean: 434.2 Mean: 504.4 Mean: 348.9 Mean: 341.2 Costo: 4673340284.3 Time: 229.3m
+Episode 257: Value: 5096492130.6 Mean: 269.7 Mean: 535.2 Mean: 527.1 Mean: 329.3 Costo: 4673340284.3 Time: 230.1m
+Episode 258: Value: 5095079954.0 Mean: 269.1 Mean: 437.6 Mean: 497.2 Mean: 339.2 Costo: 4673340284.3 Time: 231.1m
+Episode 259: Value: 5094068933.4 Mean: 669.7 Mean: 382.1 Mean: 511.9 Mean: 577.4 Costo: 4673340284.3 Time: 231.8m
+Episode 260: Value: 5092559346.6 Mean: 262.1 Mean: 310.4 Mean: 510.6 Mean: 496.5 Costo: 4673340284.3 Time: 232.9m
+Episode 261: Value: 5091426289.5 Mean: 512.6 Mean: 493.9 Mean: 449.4 Mean: 432.2 Costo: 4673340284.3 Time: 233.8m
+Episode 262: Value: 5090120089.2 Mean: 340.5 Mean: 290.0 Mean: 376.3 Mean: 438.6 Costo: 4673340284.3 Time: 234.7m
+Episode 263: Value: 5088810043.7 Mean: 466.9 Mean: 632.1 Mean: 510.1 Mean: 292.7 Costo: 4673340284.3 Time: 235.6m
+Episode 264: Value: 5086925369.1 Mean: 344.7 Mean: 435.0 Mean: 491.5 Mean: 452.9 Costo: 4673340284.3 Time: 236.5m
+Episode 265: Value: 5085366902.5 Mean: 522.5 Mean: 422.7 Mean: 397.1 Mean: 350.3 Costo: 4673340284.3 Time: 237.4m
+Episode 266: Value: 5084186943.3 Mean: 462.5 Mean: 391.0 Mean: 448.3 Mean: 442.8 Costo: 4673340284.3 Time: 238.2m
+Episode 267: Value: 5082883989.6 Mean: 407.3 Mean: 468.0 Mean: 507.9 Mean: 375.1 Costo: 4673340284.3 Time: 239.1m
+Episode 268: Value: 5081047515.3 Mean: 515.1 Mean: 366.4 Mean: 290.6 Mean: 454.3 Costo: 4673340284.3 Time: 239.9m
+Episode 269: Value: 5079120049.2 Mean: 441.6 Mean: 551.3 Mean: 512.3 Mean: 490.7 Costo: 4673340284.3 Time: 240.7m
+Episode 270: Value: 5077495066.6 Mean: 522.6 Mean: 658.0 Mean: 411.0 Mean: 427.6 Costo: 4673340284.3 Time: 241.6m
+Episode 271: Value: 5076137361.2 Mean: 533.0 Mean: 510.0 Mean: 326.1 Mean: 281.0 Costo: 4673340284.3 Time: 242.6m
+Episode 272: Value: 5075057840.6 Mean: 510.2 Mean: 421.5 Mean: 441.4 Mean: 429.3 Costo: 4673340284.3 Time: 243.3m
+Episode 273: Value: 5073815753.4 Mean: 345.2 Mean: 372.7 Mean: 393.6 Mean: 240.2 Costo: 4673340284.3 Time: 244.2m
+Episode 274: Value: 5071896334.2 Mean: 496.8 Mean: 399.1 Mean: 326.9 Mean: 251.2 Costo: 4673340284.3 Time: 245.0m
+Episode 275: Value: 5070106376.4 Mean: 438.1 Mean: 375.8 Mean: 345.5 Mean: 301.1 Costo: 4673340284.3 Time: 246.0m
+Episode 276: Value: 5068049865.9 Mean: 515.0 Mean: 564.0 Mean: 406.8 Mean: 409.3 Costo: 4673340284.3 Time: 246.8m
+Episode 277: Value: 5065452964.0 Mean: 557.1 Mean: 474.1 Mean: 415.6 Mean: 355.8 Costo: 4673340284.3 Time: 247.8m
+Episode 278: Value: 5063609536.5 Mean: 461.4 Mean: 349.0 Mean: 306.6 Mean: 247.4 Costo: 4673340284.3 Time: 248.5m
+Episode 279: Value: 5061435963.7 Mean: 604.3 Mean: 550.5 Mean: 368.6 Mean: 323.2 Costo: 4673340284.3 Time: 249.6m
+Episode 280: Value: 5059133625.8 Mean: 252.1 Mean: 307.4 Mean: 341.4 Mean: 350.8 Costo: 4673340284.3 Time: 250.4m
+Episode 281: Value: 5056918398.0 Mean: 397.6 Mean: 427.7 Mean: 467.9 Mean: 390.8 Costo: 4673340284.3 Time: 251.4m
+Episode 282: Value: 5055058336.3 Mean: 382.2 Mean: 394.5 Mean: 459.3 Mean: 401.6 Costo: 4673340284.3 Time: 252.2m
+Episode 283: Value: 5052813450.8 Mean: 507.7 Mean: 566.7 Mean: 453.4 Mean: 273.3 Costo: 4673340284.3 Time: 253.2m
+Episode 284: Value: 5051115094.3 Mean: 603.8 Mean: 511.1 Mean: 562.6 Mean: 288.1 Costo: 4673340284.3 Time: 254.0m
+Episode 285: Value: 5049516064.5 Mean: 512.0 Mean: 510.7 Mean: 373.8 Mean: 446.0 Costo: 4673340284.3 Time: 254.9m
+Episode 286: Value: 5047298790.0 Mean: 511.4 Mean: 293.2 Mean: 360.1 Mean: 310.9 Costo: 4673340284.3 Time: 255.8m
+Episode 287: Value: 5044756090.0 Mean: 382.6 Mean: 314.6 Mean: 467.9 Mean: 337.0 Costo: 4673340284.3 Time: 256.6m
+Episode 288: Value: 5042620769.7 Mean: 518.4 Mean: 575.8 Mean: 431.6 Mean: 387.7 Costo: 4673340284.3 Time: 257.6m
+Episode 289: Value: 5040717362.5 Mean: 437.5 Mean: 552.7 Mean: 368.3 Mean: 271.0 Costo: 4673340284.3 Time: 258.3m
+Episode 290: Value: 5038088770.8 Mean: 457.0 Mean: 308.6 Mean: 293.9 Mean: 249.6 Costo: 4673340284.3 Time: 259.2m
+Episode 291: Value: 5036080417.5 Mean: 445.3 Mean: 396.7 Mean: 446.3 Mean: 299.6 Costo: 4673340284.3 Time: 260.1m
+Episode 292: Value: 5033808300.9 Mean: 400.1 Mean: 307.3 Mean: 299.2 Mean: 247.9 Costo: 4673340284.3 Time: 261.3m
+Episode 293: Value: 5031481564.5 Mean: 593.1 Mean: 453.9 Mean: 316.1 Mean: 266.4 Costo: 4673340284.3 Time: 262.1m
+Episode 294: Value: 5029721684.5 Mean: 403.8 Mean: 396.8 Mean: 397.0 Mean: 149.4 Costo: 4673340284.3 Time: 263.2m
+Episode 295: Value: 5027123224.2 Mean: 412.2 Mean: 454.3 Mean: 314.9 Mean: 159.7 Costo: 4673340284.3 Time: 264.0m
+Episode 296: Value: 5024606750.6 Mean: 453.1 Mean: 444.1 Mean: 349.0 Mean: 71.3 Costo: 4673340284.3 Time: 265.0m
+Episode 297: Value: 5022101415.1 Mean: 365.7 Mean: 371.9 Mean: 315.4 Mean: 270.2 Costo: 4673340284.3 Time: 266.0m
+Episode 298: Value: 5019983849.6 Mean: 379.9 Mean: 368.0 Mean: 300.4 Mean: 123.0 Costo: 4673340284.3 Time: 266.9m
+Episode 299: Value: 5018294301.2 Mean: 593.5 Mean: 305.0 Mean: 356.4 Mean: 185.9 Costo: 4673340284.3 Time: 268.0m
+Episode 300: Value: 5015525477.8 Mean: 430.9 Mean: 408.6 Mean: 405.8 Mean: 37.9 Costo: 4673340284.3 Time: 268.7m
+Episode 301: Value: 5013563318.8 Mean: 603.5 Mean: 465.6 Mean: 265.4 Mean: 176.4 Costo: 4673340284.3 Time: 269.8m
+Episode 302: Value: 5011634342.6 Mean: 474.2 Mean: 514.1 Mean: 401.6 Mean: 104.6 Costo: 4673340284.3 Time: 270.5m
+Episode 303: Value: 5009193011.4 Mean: 497.2 Mean: 454.5 Mean: 357.0 Mean: 39.0 Costo: 4673340284.3 Time: 271.5m
+Episode 304: Value: 5006258041.6 Mean: 405.9 Mean: 347.8 Mean: 379.9 Mean: 223.2 Costo: 4673340284.3 Time: 272.3m
+Episode 305: Value: 5004156879.8 Mean: 405.4 Mean: 427.5 Mean: 409.8 Mean: 103.9 Costo: 4673340284.3 Time: 273.3m
+Episode 306: Value: 5001767271.2 Mean: 566.7 Mean: 566.7 Mean: 503.7 Mean: 127.2 Costo: 4673340284.3 Time: 274.2m
+Episode 307: Value: 5000113674.8 Mean: 454.6 Mean: 330.5 Mean: 384.7 Mean: 211.7 Costo: 4673340284.3 Time: 275.1m
+Episode 308: Value: 4996604551.4 Mean: 479.4 Mean: 510.6 Mean: 481.9 Mean: 238.0 Costo: 4673340284.3 Time: 276.0m
+Episode 309: Value: 4993985583.0 Mean: 441.3 Mean: 347.9 Mean: 408.3 Mean: 177.3 Costo: 4673340284.3 Time: 276.9m
+Episode 310: Value: 4991660246.8 Mean: 644.6 Mean: 566.7 Mean: 438.1 Mean: 118.0 Costo: 4673340284.3 Time: 277.8m
+Episode 311: Value: 4988873414.1 Mean: 356.3 Mean: 435.7 Mean: 496.8 Mean: 111.8 Costo: 4673340284.3 Time: 278.7m
+Episode 312: Value: 4986129968.6 Mean: 566.7 Mean: 396.7 Mean: 425.7 Mean: 72.0 Costo: 4673340284.3 Time: 279.8m
+Episode 313: Value: 4983278154.3 Mean: 495.2 Mean: 374.6 Mean: 367.3 Mean: 67.0 Costo: 4673340284.3 Time: 280.7m
+Episode 314: Value: 4981471809.4 Mean: 396.7 Mean: 236.3 Mean: 201.5 Mean: 83.2 Costo: 4673340284.3 Time: 281.8m
+Episode 315: Value: 4978905429.7 Mean: 461.4 Mean: 398.8 Mean: 495.3 Mean: 125.7 Costo: 4673340284.3 Time: 282.7m
+Episode 316: Value: 4976178238.3 Mean: 391.4 Mean: 470.2 Mean: 319.2 Mean: 155.5 Costo: 4673340284.3 Time: 283.6m
+Episode 317: Value: 4972478824.1 Mean: 330.3 Mean: 526.4 Mean: 499.6 Mean: 50.4 Costo: 4667952875.8 Time: 284.6m
+Episode 318: Value: 4970016217.1 Mean: 554.0 Mean: 616.7 Mean: 514.5 Mean: 108.8 Costo: 4667952875.8 Time: 285.4m
+Episode 319: Value: 4966967503.0 Mean: 287.0 Mean: 541.8 Mean: 288.5 Mean: 124.7 Costo: 4667952875.8 Time: 286.4m
+Episode 320: Value: 4964209191.4 Mean: 306.9 Mean: 382.4 Mean: 301.6 Mean: 14.3 Costo: 4667952875.8 Time: 287.1m
+Episode 321: Value: 4961394349.1 Mean: 340.5 Mean: 500.9 Mean: 388.7 Mean: 116.6 Costo: 4667952875.8 Time: 288.2m
+Episode 322: Value: 4958635123.1 Mean: 485.2 Mean: 356.2 Mean: 363.9 Mean: 81.0 Costo: 4667952875.8 Time: 288.9m
+Episode 323: Value: 4955831653.7 Mean: 554.4 Mean: 567.6 Mean: 420.1 Mean: 77.3 Costo: 4667952875.8 Time: 290.0m
+Episode 324: Value: 4952626151.1 Mean: 595.8 Mean: 395.5 Mean: 534.7 Mean: 0.0 Costo: 4667952875.8 Time: 290.8m
+Episode 325: Value: 4950180955.6 Mean: 518.0 Mean: 531.4 Mean: 522.6 Mean: 118.2 Costo: 4667952875.8 Time: 291.9m
+Episode 326: Value: 4947684963.6 Mean: 421.9 Mean: 471.3 Mean: 226.4 Mean: 3.3 Costo: 4667952875.8 Time: 292.8m
+Episode 327: Value: 4944487171.7 Mean: 376.0 Mean: 387.8 Mean: 364.0 Mean: 102.5 Costo: 4667952875.8 Time: 293.8m
+Episode 328: Value: 4941879273.0 Mean: 400.6 Mean: 397.4 Mean: 348.4 Mean: 60.1 Costo: 4667952875.8 Time: 295.0m
+Episode 329: Value: 4938814672.0 Mean: 456.2 Mean: 340.5 Mean: 260.1 Mean: 155.8 Costo: 4667952875.8 Time: 295.7m
+Episode 330: Value: 4936337511.7 Mean: 509.4 Mean: 680.0 Mean: 434.6 Mean: 68.5 Costo: 4667952875.8 Time: 296.8m
+Episode 331: Value: 4933119434.2 Mean: 443.1 Mean: 401.1 Mean: 279.1 Mean: 4.0 Costo: 4667952875.8 Time: 297.7m
+Episode 332: Value: 4930421261.5 Mean: 566.7 Mean: 263.7 Mean: 316.5 Mean: 56.7 Costo: 4667952875.8 Time: 298.7m
+Episode 333: Value: 4926763311.0 Mean: 346.6 Mean: 302.2 Mean: 160.3 Mean: 142.5 Costo: 4667952875.8 Time: 299.5m
+Episode 334: Value: 4924472305.1 Mean: 551.5 Mean: 323.4 Mean: 260.7 Mean: 43.0 Costo: 4667952875.8 Time: 300.4m
+Episode 335: Value: 4921359894.7 Mean: 503.8 Mean: 623.3 Mean: 187.1 Mean: 31.5 Costo: 4667952875.8 Time: 301.5m
+Episode 336: Value: 4918662375.2 Mean: 354.0 Mean: 352.0 Mean: 228.5 Mean: 0.0 Costo: 4667952875.8 Time: 302.5m
+Episode 337: Value: 4915091149.4 Mean: 568.1 Mean: 516.3 Mean: 270.4 Mean: 85.1 Costo: 4667952875.8 Time: 303.6m
+Episode 338: Value: 4911747704.5 Mean: 360.8 Mean: 293.4 Mean: 97.5 Mean: 0.4 Costo: 4667952875.8 Time: 304.4m
+Episode 339: Value: 4909213378.0 Mean: 495.9 Mean: 340.8 Mean: 206.8 Mean: 56.7 Costo: 4667952875.8 Time: 305.4m
+Episode 340: Value: 4906823031.8 Mean: 510.0 Mean: 509.5 Mean: 123.8 Mean: 55.4 Costo: 4667952875.8 Time: 306.4m
+Episode 341: Value: 4904257755.0 Mean: 510.0 Mean: 358.9 Mean: 125.1 Mean: 2.9 Costo: 4667952875.8 Time: 307.2m
+Episode 342: Value: 4901770096.3 Mean: 461.7 Mean: 301.1 Mean: 221.7 Mean: 107.5 Costo: 4667952875.8 Time: 308.3m
+Episode 343: Value: 4898708485.5 Mean: 510.0 Mean: 503.3 Mean: 179.9 Mean: 6.9 Costo: 4667952875.8 Time: 309.1m
+Episode 344: Value: 4895863609.4 Mean: 534.1 Mean: 535.5 Mean: 85.1 Mean: 7.1 Costo: 4667952875.8 Time: 310.2m
+Episode 345: Value: 4893578398.5 Mean: 566.7 Mean: 606.7 Mean: 86.8 Mean: 100.7 Costo: 4667952875.8 Time: 311.1m
+Episode 346: Value: 4890326221.8 Mean: 335.7 Mean: 236.3 Mean: 175.2 Mean: 177.8 Costo: 4667952875.8 Time: 312.2m
+Episode 347: Value: 4887409026.7 Mean: 322.1 Mean: 281.1 Mean: 220.8 Mean: 111.6 Costo: 4667952875.8 Time: 313.0m
+Episode 348: Value: 4884947710.1 Mean: 510.0 Mean: 398.4 Mean: 269.5 Mean: 116.2 Costo: 4667952875.8 Time: 314.1m
+Episode 349: Value: 4880827556.4 Mean: 462.0 Mean: 408.9 Mean: 199.5 Mean: 185.1 Costo: 4667952875.8 Time: 315.0m
+Episode 350: Value: 4877099537.6 Mean: 508.0 Mean: 382.4 Mean: 60.7 Mean: 134.6 Costo: 4667952875.8 Time: 315.9m
+Episode 351: Value: 4873625118.1 Mean: 606.9 Mean: 451.4 Mean: 113.8 Mean: 86.5 Costo: 4667952875.8 Time: 317.0m
+Episode 352: Value: 4870994087.1 Mean: 433.7 Mean: 307.6 Mean: 231.6 Mean: 5.3 Costo: 4667952875.8 Time: 317.9m
+Episode 353: Value: 4866757879.4 Mean: 482.6 Mean: 398.4 Mean: 182.1 Mean: 56.7 Costo: 4667952875.8 Time: 319.0m
+Episode 354: Value: 4863570841.4 Mean: 510.0 Mean: 306.1 Mean: 127.8 Mean: 147.5 Costo: 4667952875.8 Time: 319.9m
+Episode 355: Value: 4860998174.6 Mean: 546.5 Mean: 345.1 Mean: 128.6 Mean: 38.4 Costo: 4667952875.8 Time: 320.8m
+Episode 356: Value: 4857777600.1 Mean: 309.1 Mean: 417.2 Mean: 205.4 Mean: 58.1 Costo: 4667952875.8 Time: 321.8m
+Episode 357: Value: 4854758241.5 Mean: 455.0 Mean: 398.4 Mean: 132.2 Mean: 67.5 Costo: 4667952875.8 Time: 322.6m
+Episode 358: Value: 4852040268.5 Mean: 381.4 Mean: 348.6 Mean: 113.3 Mean: 58.2 Costo: 4667952875.8 Time: 323.6m
+Episode 359: Value: 4849429616.7 Mean: 607.3 Mean: 538.2 Mean: 77.8 Mean: 174.5 Costo: 4667952875.8 Time: 324.4m
+Episode 360: Value: 4845834854.8 Mean: 477.4 Mean: 571.4 Mean: 76.7 Mean: 0.0 Costo: 4667952875.8 Time: 325.4m
+Episode 361: Value: 4842161731.2 Mean: 517.4 Mean: 397.9 Mean: 112.0 Mean: 0.6 Costo: 4667952875.8 Time: 326.3m
+Episode 362: Value: 4838198627.4 Mean: 543.0 Mean: 384.6 Mean: 93.9 Mean: 161.3 Costo: 4667952875.8 Time: 327.3m
+Episode 363: Value: 4835435533.3 Mean: 475.6 Mean: 511.3 Mean: 55.6 Mean: 0.0 Costo: 4667952875.8 Time: 328.1m
+Episode 364: Value: 4832796524.2 Mean: 479.2 Mean: 497.5 Mean: 128.9 Mean: 51.6 Costo: 4667952875.8 Time: 329.3m
+Episode 365: Value: 4830033497.2 Mean: 464.8 Mean: 458.0 Mean: 85.6 Mean: 4.2 Costo: 4667952875.8 Time: 330.3m
+Episode 366: Value: 4826727584.7 Mean: 397.0 Mean: 420.1 Mean: 122.5 Mean: 41.3 Costo: 4667952875.8 Time: 331.3m
+Episode 367: Value: 4823528539.4 Mean: 650.6 Mean: 373.7 Mean: 253.7 Mean: 93.4 Costo: 4667952875.8 Time: 332.2m
+Episode 368: Value: 4820660012.3 Mean: 472.9 Mean: 415.8 Mean: 49.5 Mean: 1.2 Costo: 4667952875.8 Time: 333.0m
+Episode 369: Value: 4817010481.5 Mean: 340.9 Mean: 234.8 Mean: 44.8 Mean: 99.7 Costo: 4667952875.8 Time: 334.1m
+Episode 370: Value: 4815177107.7 Mean: 528.1 Mean: 369.3 Mean: 97.5 Mean: 14.4 Costo: 4667952875.8 Time: 334.9m
+Episode 371: Value: 4811359597.1 Mean: 563.5 Mean: 375.7 Mean: 52.6 Mean: 0.0 Costo: 4667952875.8 Time: 335.9m
+Episode 372: Value: 4808653722.0 Mean: 276.7 Mean: 303.5 Mean: 220.7 Mean: 84.3 Costo: 4667952875.8 Time: 337.0m
+Episode 373: Value: 4805006697.2 Mean: 451.7 Mean: 355.6 Mean: 76.9 Mean: 57.2 Costo: 4667952875.8 Time: 337.9m
+Episode 374: Value: 4801923157.9 Mean: 442.7 Mean: 535.8 Mean: 124.9 Mean: 123.7 Costo: 4667952875.8 Time: 338.7m
+Episode 375: Value: 4797333129.8 Mean: 343.3 Mean: 474.2 Mean: 62.3 Mean: 11.5 Costo: 4667952875.8 Time: 339.7m
+Episode 376: Value: 4794052149.3 Mean: 569.2 Mean: 451.1 Mean: 65.6 Mean: 0.0 Costo: 4667952875.8 Time: 340.5m
+Episode 377: Value: 4790070581.8 Mean: 567.7 Mean: 474.9 Mean: 56.3 Mean: 46.4 Costo: 4667952875.8 Time: 341.5m
+Episode 378: Value: 4786748071.3 Mean: 566.7 Mean: 481.6 Mean: 60.0 Mean: 27.6 Costo: 4667952875.8 Time: 342.5m
+Episode 379: Value: 4783578012.8 Mean: 453.4 Mean: 342.0 Mean: 77.6 Mean: 56.8 Costo: 4667952875.8 Time: 343.5m
+Episode 380: Value: 4781009094.1 Mean: 533.5 Mean: 413.5 Mean: 75.5 Mean: 77.2 Costo: 4667952875.8 Time: 344.7m
+Episode 381: Value: 4777964828.9 Mean: 352.9 Mean: 377.3 Mean: 6.5 Mean: 0.1 Costo: 4667952875.8 Time: 345.6m
+Episode 382: Value: 4775638965.4 Mean: 428.6 Mean: 400.9 Mean: 4.1 Mean: 56.7 Costo: 4667952875.8 Time: 346.6m
+Episode 383: Value: 4771722166.2 Mean: 502.2 Mean: 403.7 Mean: 88.8 Mean: 55.3 Costo: 4667952875.8 Time: 347.5m
+Episode 384: Value: 4768775013.1 Mean: 505.8 Mean: 454.9 Mean: 56.7 Mean: 56.7 Costo: 4667952875.8 Time: 348.3m
+Episode 385: Value: 4766140059.4 Mean: 346.0 Mean: 441.9 Mean: 89.9 Mean: 29.6 Costo: 4667952875.8 Time: 349.4m
+Episode 386: Value: 4763360792.0 Mean: 470.3 Mean: 393.7 Mean: 25.3 Mean: 5.5 Costo: 4667952875.8 Time: 350.2m
+Episode 387: Value: 4759758319.7 Mean: 362.5 Mean: 411.6 Mean: 57.3 Mean: 62.8 Costo: 4667952875.8 Time: 351.4m
+Episode 388: Value: 4755601720.4 Mean: 421.9 Mean: 365.3 Mean: 100.2 Mean: 132.5 Costo: 4667952875.8 Time: 352.2m
+Episode 389: Value: 4751979354.1 Mean: 479.3 Mean: 284.6 Mean: 58.2 Mean: 236.8 Costo: 4667952875.8 Time: 353.1m
+Episode 390: Value: 4748618907.4 Mean: 459.0 Mean: 356.3 Mean: 1.4 Mean: 22.7 Costo: 4667952875.8 Time: 353.9m
+Episode 391: Value: 4744597270.5 Mean: 534.1 Mean: 396.0 Mean: 66.0 Mean: 54.1 Costo: 4667952875.8 Time: 354.9m
+Episode 392: Value: 4741312025.5 Mean: 400.9 Mean: 273.5 Mean: 34.0 Mean: 0.0 Costo: 4667952875.8 Time: 355.8m
+Episode 393: Value: 4738414208.7 Mean: 355.9 Mean: 150.0 Mean: 8.1 Mean: 10.1 Costo: 4667952875.8 Time: 356.7m
+Episode 394: Value: 4735451029.2 Mean: 399.8 Mean: 412.1 Mean: 98.5 Mean: 24.6 Costo: 4667952875.8 Time: 357.8m
+Episode 395: Value: 4732760235.3 Mean: 421.2 Mean: 398.0 Mean: 56.7 Mean: 0.2 Costo: 4667952875.8 Time: 358.7m
+Episode 396: Value: 4729411358.8 Mean: 323.9 Mean: 294.7 Mean: 0.0 Mean: 133.1 Costo: 4667952875.8 Time: 359.7m
+Episode 397: Value: 4726737738.6 Mean: 438.6 Mean: 575.9 Mean: 21.2 Mean: 119.8 Costo: 4667952875.8 Time: 360.6m
+Episode 398: Value: 4723444315.0 Mean: 490.5 Mean: 411.3 Mean: 33.7 Mean: 24.2 Costo: 4667952875.8 Time: 361.5m
+Episode 399: Value: 4719701019.4 Mean: 505.1 Mean: 417.9 Mean: 0.0 Mean: 35.6 Costo: 4667952875.8 Time: 362.5m
+Episode 400: Value: 4716583489.7 Mean: 368.8 Mean: 455.6 Mean: 78.9 Mean: 95.2 Costo: 4667952875.8 Time: 363.3m
+Episode 401: Value: 4712906428.8 Mean: 595.3 Mean: 313.2 Mean: 6.7 Mean: 60.9 Costo: 4667952875.8 Time: 364.3m
+Episode 402: Value: 4709475474.1 Mean: 438.7 Mean: 383.2 Mean: 51.0 Mean: 84.7 Costo: 4667952875.8 Time: 365.2m
+Episode 403: Value: 4706712204.5 Mean: 469.6 Mean: 326.7 Mean: 0.0 Mean: 135.6 Costo: 4667952875.8 Time: 366.3m
+Episode 404: Value: 4704268242.8 Mean: 566.7 Mean: 264.1 Mean: 61.9 Mean: 61.1 Costo: 4667952875.8 Time: 367.1m
+Episode 405: Value: 4701234106.3 Mean: 462.5 Mean: 319.0 Mean: 86.4 Mean: 144.5 Costo: 4667952875.8 Time: 368.1m
+Episode 406: Value: 4697361342.5 Mean: 446.2 Mean: 305.3 Mean: 74.2 Mean: 142.4 Costo: 4667952875.8 Time: 369.1m
+Episode 407: Value: 4694038055.2 Mean: 353.6 Mean: 248.0 Mean: 53.8 Mean: 177.2 Costo: 4667952875.8 Time: 370.0m
+Episode 408: Value: 4690907491.0 Mean: 403.9 Mean: 270.0 Mean: 1.2 Mean: 244.9 Costo: 4667952875.8 Time: 371.0m
+Episode 409: Value: 4687611649.7 Mean: 505.0 Mean: 175.7 Mean: 11.8 Mean: 164.6 Costo: 4667952875.8 Time: 371.8m
+Episode 410: Value: 4683887499.6 Mean: 354.6 Mean: 319.2 Mean: 49.7 Mean: 60.4 Costo: 4667952875.8 Time: 372.8m
+Episode 411: Value: 4681199054.9 Mean: 404.6 Mean: 375.0 Mean: 43.2 Mean: 59.4 Costo: 4667952875.8 Time: 373.7m
+Episode 412: Value: 4678074552.8 Mean: 493.2 Mean: 216.9 Mean: 4.1 Mean: 155.0 Costo: 4667952875.8 Time: 374.8m
+Episode 413: Value: 4675654931.2 Mean: 353.3 Mean: 146.9 Mean: 97.3 Mean: 216.4 Costo: 4667952875.8 Time: 375.5m
+Episode 414: Value: 4672578372.9 Mean: 623.3 Mean: 261.8 Mean: 153.6 Mean: 206.4 Costo: 4667952875.8 Time: 376.6m
+Episode 415: Value: 4669702704.5 Mean: 516.0 Mean: 145.3 Mean: 0.0 Mean: 110.1 Costo: 4667952875.8 Time: 377.4m
+Episode 416: Value: 4665918085.6 Mean: 315.0 Mean: 157.9 Mean: 44.9 Mean: 152.1 Costo: 4667952875.8 Time: 378.4m
+Total Train Time: 22702.77s
+======================================================
+model.policy_step_size=1e-06
+model.value_step_size=0.001
+model.gamma=1.0
+model.policy.sigma=5.0
+init_lago=4100
+init_mean=0.00
+exploring_start=True
+model.state_space.sigma=1000
+======================================================
+model.policy._mean_approximation.mean_weights=array([[566.68625407, 579.94869589, 543.65119843, 442.05211513,
+        507.23791311, 429.39718881, 621.03253559, 629.40649551,
+        491.23928229, 665.3559811 , 547.50198157, 673.60796057,
+        573.11893006, 548.51810366, 592.12645781, 615.79053259,
+        667.45201108, 556.26615677, 670.2784438 , 620.96407053,
+        654.04238385, 531.90824137, 618.5273707 , 638.02691437,
+        638.13147851, 615.69665167, 615.48854719, 667.71963871,
+        600.11971238, 641.41728832, 604.28563502, 666.90363998,
+        603.14134316, 564.73759388, 629.54398905, 633.32793902,
+        589.08367735, 611.78027426, 571.58386981, 575.01798254,
+        610.49360317, 623.17358461, 664.54202907, 582.74113985,
+        576.15076087, 542.26923742, 499.7856049 , 578.56452856,
+        551.11279901, 634.39706704, 548.12421626, 557.43987785,
+        522.95733859, 608.43112774, 620.30249972, 545.88796212,
+        589.51778434, 610.66977395, 581.47547959, 578.93521941,
+        653.73811621, 656.96458605, 590.1177191 , 536.9111152 ,
+        603.08498916, 647.3987928 , 592.13942052, 645.62124872,
+        612.63958353, 599.55118711, 588.00178535, 474.33090312,
+        547.98759979, 564.92198387, 633.719803  , 522.44487029,
+        646.56973448, 587.47586179, 556.12378848, 627.1215451 ,
+        468.00204506, 664.39940414, 611.3283757 , 621.91249074,
+        600.23295597, 646.36816307, 574.67185196, 626.90913586,
+        564.39884193, 545.35128736, 488.77518311, 564.37837773,
+        615.91104052, 552.22960133, 559.20138186, 574.24481558,
+        578.28316746, 620.90472236, 556.76485671, 554.33882015,
+        433.97334861, 456.41683491, 511.82669048, 598.81166773],
+       [284.05858841, 391.52271276, 282.11484354, 382.52167228,
+        260.66412749, 267.12712394, 409.56862668, 362.05369759,
+         85.21423498, 320.77932151, 285.04905248, 433.47604889,
+        227.17530406, 137.80780684, 188.37495405, 379.62154699,
+        342.87806874, 292.16350172, 303.90290163, 489.53058957,
+        233.5051675 , 285.45415242, 129.72265243, 201.7360097 ,
+        238.83194169, 269.92626601, 234.93719688, 250.27831522,
+        249.71687446, 237.33867334, 233.5672232 , 340.8904553 ,
+        324.2792677 , 322.18587863, 382.14109484, 291.98209783,
+        279.97572926, 176.62410567, 255.94335228, 165.77540306,
+        278.28819491, 281.06729166, 265.03226708, 185.58940271,
+        229.79964999, 194.83832411, 183.23682226,  49.29777629,
+        154.82662934, 264.40789952, 151.50049963, 123.65296197,
+        264.3064699 , 122.71514526,  43.35212822,  90.53669419,
+        315.27032693, 252.0971492 , 220.86732231,  26.419923  ,
+        254.678104  , 218.97051195, 170.37789838, 177.64469876,
+        181.08694025, 247.61979067, 116.2919184 , 228.88319169,
+        132.14354891,  10.91780096,  81.81305603, 132.29831076,
+         87.26042514,  76.6243732 ,  92.45502349, 159.81474465,
+        182.81871739, 166.63400474,  84.19898978,  92.37473121,
+        162.04804585, 129.98410456,  60.69426167, 133.76177843,
+         97.39105035,  34.185814  ,  46.95390711,  41.41669135,
+        138.46267999, 163.38969937,  92.93981009,  42.68909944,
+         67.15552105,  52.78396708,  57.75877629,  27.44514797,
+         86.32239238,  64.06891418, 164.34443707, 133.64792701,
+        151.17157803, 109.30654592, 115.81780795, 349.4118319 ],
+       [319.7825308 , 220.04999039, 176.00033298, 179.00281421,
+         91.42131518,  67.7281982 , 139.8780417 , 148.20195526,
+         72.24918726, 203.74160815,  72.67222124,  37.48035963,
+         44.1083108 , 115.25909481,   8.67229126,  59.32957072,
+         63.31451326,  89.5225259 ,  40.01450733,  41.53723878,
+         52.22965131,  44.69237923,  48.97800472,  61.13790581,
+         60.35588073, 129.31273219, 104.06484871, 135.16098924,
+        199.47865632, 113.95722508,  25.0389542 ,  12.32063678,
+        102.43558281,  45.54160394, 129.53667309,  91.45060384,
+         31.86883606,  48.48003226,   9.22792243,  64.55132605,
+         44.47734971,  52.0723407 ,  74.0806781 ,  83.67959865,
+          2.37289806,  57.79484041, 105.27885415,   0.92264559,
+         23.52974661,  50.15269669, 102.52262139,  54.80713026,
+        146.83784706,  99.03935265, 161.0551663 ,  52.5321419 ,
+        162.06968461,  92.30623664,  75.77658354,  84.51440112,
+         96.27246312,  65.20741309,  53.06788758,  60.1016152 ,
+        102.53653499, 146.60818219, 136.5224833 ,  78.82963679,
+         55.6201412 ,  42.4176132 , 142.69394288,   5.76370119,
+         75.55923834, 126.30780109, 224.51029934, 129.7678036 ,
+        144.16423927, 122.63791   ,  99.80671406,  83.71720617,
+        249.68801882, 143.68657735, 108.31587875,  79.50379874,
+        152.48342359, 192.18810651, 289.82696922, 133.88754308,
+        153.77668923, 250.04983255, 260.30927233, 236.12803646,
+        176.59902132,  68.92651252, 169.21869036, 185.92020765,
+        240.36509813, 165.8432237 , 280.49538088, 419.44929215,
+        583.85947492, 519.37411497, 436.83217504, 284.88197061],
+       [398.49540332, 164.00721511, 201.44438622, 406.72148228,
+        398.23406765, 337.57170785, 275.48335914, 431.91797588,
+        509.18655941, 392.14139481, 439.22468638, 297.98996593,
+        342.1128132 , 374.48768884, 391.12621557, 451.25514655,
+        324.38386309, 454.88069653, 529.95086059, 429.50344843,
+        305.37301602, 311.56863116, 366.30742285, 482.71371836,
+        398.07403496, 466.98479403, 517.1680775 , 535.47000789,
+        444.36838253, 428.17928332, 398.17445621, 289.0413852 ,
+        243.15573085, 348.93661075, 481.02422633, 364.39436228,
+        301.3785356 , 471.19229432, 481.15479914, 351.88339312,
+        348.72155171, 407.76418676, 279.40486839, 362.03861516,
+        305.30569614, 314.12845285, 296.53105445, 439.50267874,
+        448.78090686, 421.23311392, 517.24775466, 240.85078241,
+        365.02761966, 318.28869628, 441.8586336 , 423.37435446,
+        459.19875509, 385.59586267, 460.01255514, 409.03757509,
+        425.8459552 , 462.88356235, 310.32557609, 250.47983683,
+        293.6263417 , 415.08674656, 409.40789397, 599.31726437,
+        459.04112754, 381.87460814, 443.06921595, 385.39866031,
+        420.15118971, 542.42911047, 393.74259425, 532.26553491,
+        466.85979439, 496.40329123, 456.9995361 , 509.98444008,
+        605.89068472, 514.88860771, 595.52204482, 463.05916835,
+        575.90862642, 565.26922801, 588.9104107 , 661.36334118,
+        652.35753002, 610.88084505, 676.52386745, 665.23906326,
+        665.93624106, 666.86402934, 634.21232473, 628.19749001,
+        643.77712494, 671.26957001, 643.55763559, 657.54860097,
+        648.87664898, 648.58433119, 662.69433741, 461.58774116],
+       [449.17307173, 389.42640427, 268.62209581, 464.15407238,
+        526.67535228, 663.60320078, 511.14927056, 504.7843226 ,
+        658.97255489, 603.704409  , 548.42676832, 629.22896367,
+        647.25129385, 511.16306837, 676.25429883, 650.66065908,
+        561.63574641, 640.59337359, 677.4994866 , 654.09149602,
+        615.38161186, 583.22949533, 607.95056085, 597.7962856 ,
+        598.04597915, 636.84496857, 679.55346587, 607.15550693,
+        658.01101135, 674.45958163, 642.25894966, 660.36016855,
+        658.58840867, 619.88657478, 671.1720863 , 599.92152637,
+        597.49632844, 636.25971973, 614.8360271 , 610.83793138,
+        597.99268034, 679.5185319 , 679.50157211, 574.52888015,
+        653.7932603 , 659.63902699, 640.45997309, 670.37370033,
+        663.11545852, 632.91425197, 677.97961138, 629.91443658,
+        602.53047752, 678.74863692, 590.1030273 , 619.2180153 ,
+        668.61944929, 603.58495445, 560.56048369, 596.78361795,
+        679.64407369, 678.38888431, 635.52072353, 654.30135512,
+        627.75601901, 523.74738117, 496.27968758, 634.15197446,
+        620.95414281, 577.69133276, 571.48405492, 662.98528826,
+        673.60735074, 636.15231317, 548.28288706, 639.38488517,
+        673.95351874, 653.20598877, 642.34399654, 655.38422273,
+        663.40123721, 654.48686359, 660.95331769, 573.76712756,
+        635.46421488, 633.6989015 , 632.52301293, 679.27471922,
+        633.99169426, 648.21558497, 673.95373167, 657.59972853,
+        672.45469213, 671.95944023, 677.937447  , 679.30909878,
+        678.20368699, 671.53411056, 652.25379555, 560.96532088,
+        362.71898706, 357.18409175, 548.94527098, 592.138171  ],
+       [488.11100455, 462.86643596, 500.97630401, 503.24716449,
+        553.46506649, 653.31268299, 563.82202908, 560.84695946,
+        608.12888617, 678.27119163, 586.07679857, 565.48578692,
+        668.58732673, 540.4780941 , 634.35317417, 552.87559285,
+        551.82135601, 551.36863089, 667.87004012, 679.74536243,
+        608.95023791, 554.08798502, 593.2719573 , 601.31958494,
+        573.61484935, 643.60765334, 633.86378825, 573.6004461 ,
+        623.41562923, 597.20617323, 620.35695852, 611.55846725,
+        644.8844416 , 517.69921309, 578.03792061, 535.17187514,
+        605.29458309, 579.44580321, 622.55557575, 574.23639295,
+        565.70769034, 523.39593216, 543.85608261, 440.13783531,
+        569.13290349, 595.21619399, 550.86367371, 621.51837593,
+        579.92231136, 431.387125  , 589.63906269, 524.5831049 ,
+        449.47506339, 572.26301496, 496.77098331, 534.75601984,
+        580.22706619, 601.01459828, 507.39291671, 541.35981276,
+        642.81738765, 605.58420851, 517.62522767, 543.99387773,
+        552.28870318, 355.75227539, 511.39787016, 631.56946341,
+        610.75931495, 488.21505956, 494.63192747, 513.56307841,
+        462.49161453, 445.60036266, 504.37859219, 627.38899787,
+        578.09374053, 585.94309095, 552.28902082, 557.97273197,
+        460.81100061, 547.23465586, 508.52868932, 501.29382483,
+        498.38738468, 446.74341512, 465.70383688, 496.48672244,
+        391.8587164 , 398.95984204, 320.75194249, 261.61636204,
+        315.82243896, 292.41250298, 391.80335821, 273.95091003,
+        265.29749952, 280.98641935, 201.16093178, 172.2302789 ,
+        199.44916307, 235.93213038, 134.84089008, 298.0635111 ],
+       [503.67435583, 679.14140877, 434.26109458, 515.20090908,
+        540.85262888, 538.31963469, 411.14306945, 479.92295868,
+        374.90945352, 423.27519214, 253.4907046 , 315.72889826,
+        396.83761697, 374.92516207, 407.72039222, 323.26144979,
+        198.32652066, 174.57978736, 215.58148964, 347.03004617,
+        366.05307306, 199.54354558, 329.22569171, 333.62966653,
+        270.83136665, 234.86734837, 199.40149357, 235.93988673,
+        348.03605509, 287.82794674, 213.75953677, 209.47116619,
+        136.25454603, 194.89739557, 171.47393511, 158.20566935,
+        228.11551881, 276.07068259, 238.79570337, 363.78431068,
+        284.20819315, 178.08604623, 102.45516842, 168.98344958,
+        169.61475396, 138.79608096, 190.63778448, 219.82253179,
+        253.85871651, 168.16843939, 154.35796388, 113.5894019 ,
+         42.55760754, 222.16984681, 198.5796609 , 139.04185468,
+        185.99770423,  92.38596147,  46.09220009, 192.04371607,
+        142.30551364, 149.26745522,  49.98342929, 199.57872572,
+        142.51537133, 133.94039628, 124.34067965,  75.52402389,
+         64.23422343, 130.95227005, 163.26181063, 107.26858061,
+         73.47138674, 100.72125861,  97.82843921,  51.62871514,
+        113.59632308,  44.16542411,  70.7530909 ,  53.38929306,
+         21.2899512 ,  29.13687167,  19.06722349,  42.14761596,
+        127.71846378,  56.01543023,  16.2962561 ,  15.32059501,
+         18.46838304,  47.52963592,  19.82233795,  34.97853116,
+        100.13939438,  58.99467983, 184.4074869 , 115.73037445,
+        141.57193947, 105.6661043 , 102.90830154,  61.82078913,
+        260.8430185 , 297.12731217, 235.2600427 , 168.82221658],
+       [374.90557397, 678.00880687, 246.37807602, 511.34198918,
+        387.83253153, 357.0224007 , 304.30942623, 383.56607191,
+        220.52281498, 262.05725974, 168.41241972, 194.24945785,
+        215.59360446, 206.99400061, 321.00131707, 189.86510753,
+        114.28646508,  77.16747356, 159.84078077, 140.30698679,
+        188.15485113, 163.25207705, 201.17145314, 168.86878847,
+        165.8689631 , 176.28543468, 155.76593033, 229.91797834,
+        380.45966943, 367.99932803, 119.59674349, 331.76179045,
+        271.32480337, 284.45474032, 172.34270854, 175.70377759,
+        170.01640503, 247.02753674, 174.36580368, 338.75020723,
+        147.27064564, 344.83581772, 268.1609521 , 352.65167052,
+        343.65749096, 300.41910751, 289.17678766, 165.86916857,
+        320.18017983, 256.87662989, 478.43025291, 327.03417898,
+        294.31736702, 277.30522053, 357.81283221, 404.75603782,
+        370.18503194, 276.49059077, 346.79093915, 171.66847725,
+        374.40550951, 262.9470685 , 216.45436986, 267.91844699,
+        340.90552007, 340.22258362, 382.96447288, 311.87729986,
+        127.70634706, 247.84553218, 306.34286819, 217.47133528,
+        418.89398861, 366.55337629, 278.46717288, 154.42323589,
+        324.75267959, 250.5069747 , 207.70930916, 237.63763254,
+        342.92650411, 295.88833774, 271.88966219, 301.87685477,
+        358.57068813, 338.112365  , 380.2059849 , 309.29218487,
+        496.7930631 , 484.07051296, 460.09369292, 494.18292945,
+        542.78454419, 519.79042264, 476.51999586, 615.80519118,
+        582.74637667, 614.2116018 , 611.65971019, 650.0268175 ,
+        630.45701789, 629.5744526 , 649.60146393, 646.02176887],
+       [380.72770624, 456.26909134, 226.77513897, 376.21303682,
+        182.37363972, 214.34478145,  91.62855555, 297.96093071,
+        239.85635541, 219.42945018,  98.37595563, 263.12651443,
+         87.46528903, 144.01222405, 178.80450384, 310.9046082 ,
+        377.62678009, 168.02934461, 282.89421876, 251.1538036 ,
+        291.6509394 , 504.67865541, 328.59168478, 184.07097955,
+        274.29932225, 312.27558047, 289.22020948, 335.25116042,
+        318.91053888, 369.98610501, 211.20854108, 474.78270086,
+        454.86999495, 315.82664942, 279.6205769 , 278.12547353,
+        372.36025222, 348.38571058, 315.50559418, 434.65484448,
+        299.62031974, 444.07973536, 410.25968712, 400.92939479,
+        454.27481782, 400.66135802, 438.66528393, 365.11302223,
+        368.13702924, 516.83760663, 527.7149157 , 318.97352107,
+        467.11467982, 476.79444984, 303.72924223, 515.54171977,
+        442.8534884 , 378.38485783, 536.49292477, 286.92865361,
+        431.84655   , 374.69127452, 358.76232867, 512.78335983,
+        553.2556886 , 540.60756408, 511.15882475, 584.31883556,
+        559.30108217, 466.96482256, 554.67080365, 512.00572468,
+        636.72878165, 563.8461558 , 591.92219099, 602.58192758,
+        580.22177417, 385.30893929, 597.63334781, 564.54018485,
+        662.70095235, 615.71870154, 586.85803349, 627.92572242,
+        655.35066822, 616.60000049, 663.89641362, 536.11658473,
+        654.83656098, 604.23871157, 605.95476849, 677.59117715,
+        664.571825  , 677.81875579, 578.45514016, 667.65672355,
+        660.78197768, 651.33671053, 651.20549053, 678.61086411,
+        647.32861343, 634.89073451, 657.43023137, 654.96477716],
+       [300.85547135, 217.96686781, 115.13741387,  59.35406145,
+         67.72475402, 266.99120311,  59.57544128, 244.47528117,
+        234.81553946, 303.69960766,  96.7315467 , 311.53937939,
+        314.10508617, 190.46659911, 182.64015798, 191.64753602,
+        267.60483898, 219.98251095, 290.87148701, 349.84579331,
+        385.38250419, 308.26782027, 177.87915245,  69.68172107,
+        224.83924554, 150.55241301, 183.53767874, 121.3067148 ,
+        191.29441162, 148.08668472, 130.13705002, 275.81189911,
+        401.92459269, 140.9830142 , 327.01600705, 170.09760782,
+        300.4151064 , 147.88010146, 102.75618461, 272.69202426,
+        160.22430353, 165.66459552, 189.21510935, 221.78034679,
+        237.99227615, 262.79231273, 243.4935917 , 165.33245922,
+        172.03495405, 350.64894691, 294.28954583, 142.97857638,
+        199.80760337, 245.13375742, 155.09208694, 176.25669305,
+        130.73028258,  83.37724538,  78.62283664,  81.13416562,
+        154.74009865, 117.85651659,  51.35111977, 163.38457094,
+        301.31938653, 194.75310162, 197.13884629, 178.64580095,
+        411.87649497, 231.90788615, 324.6204135 , 344.47936988,
+        346.58664198, 309.75993806, 186.49957687, 239.84016851,
+        312.44148281, 252.60605361, 253.30827708, 335.24900038,
+        406.65458665, 349.16484897, 409.66603706, 284.5783318 ,
+        393.12304112, 200.74465566, 323.60583357, 262.63818086,
+        327.96200362, 320.2309582 , 389.60944597, 430.80060281,
+        453.4354908 , 305.0461672 , 385.65460859, 314.65296432,
+        410.80996803, 437.43072091, 482.46617395, 477.82208821,
+        429.62307652, 483.99047544, 267.31035703, 328.00733908],
+       [315.00320975, 157.92525514,  44.86431348, 152.1414655 ,
+        263.02833939, 341.7876946 , 252.83058683, 373.33901427,
+        311.76804635, 438.898324  , 133.0429191 , 335.65720524,
+        324.78917348, 262.89523964, 142.62834583, 202.35005761,
+        245.90524344, 298.21359507, 306.00032884, 332.49992782,
+        396.91796354, 307.41272965, 184.27400608, 192.03337851,
+        189.37261953,  92.18089781, 220.11784784, 159.14081503,
+        266.09862863,  96.037236  , 100.81698604, 169.71613085,
+        294.62577677, 148.76443212, 289.15168388, 160.17760999,
+        189.32803935, 126.54164983,  81.56001555, 155.08777754,
+        175.34115021, 131.02048133, 230.73174587, 155.80891455,
+        151.48069433, 269.63142885, 229.97202267,  79.93874133,
+        185.71036928, 293.04032448, 223.56638407, 138.12699658,
+        109.45874509, 258.86995355, 205.1596642 , 250.26576802,
+        138.38447998,  96.1100561 ,  27.25391211,  87.18744189,
+         79.42871962, 120.00562471,  73.70565383,  87.69365348,
+        257.14704097, 179.84101937, 203.18553194, 186.51275339,
+        315.76941197, 200.46806724, 296.58566947, 185.99225942,
+        221.91311825, 357.11368917, 142.96895229, 221.52013441,
+        281.0071933 , 228.20471727, 168.531417  , 266.18638928,
+        340.68124024, 309.44482011, 308.86614319, 250.99275516,
+        350.46995906, 177.12678502, 249.35570189, 284.38234087,
+        225.52993983, 315.85764474, 325.81274387, 340.11806154,
+        386.45342099, 201.31327113, 267.21395838, 186.33503562,
+        364.67668522, 391.1605091 , 379.22104578, 371.63701121,
+        301.33105285, 398.47261627, 209.86073365, 235.36334609]])
+best_episode=317
+best_result=4667952875.8
+best_model=array([[350.19863057, 566.96231904, 580.28617111, 524.0254988 ,
+        618.97692079, 538.81439436, 552.67838696, 558.20347941,
+        581.06004475, 534.73014103, 610.50392823, 613.84234112,
+        599.47316263, 572.86589523, 648.66769922, 616.75680813,
+        643.52847076, 573.44331417, 646.05015079, 553.01760683,
+        591.16447718, 590.42758913, 588.15070716, 578.20844075,
+        550.55790239, 655.86005276, 563.07765685, 603.34777053,
+        621.16380244, 624.56758198, 651.50208011, 522.90501818,
+        615.60419665, 621.57812857, 627.00249107, 610.4196151 ,
+        488.26565077, 571.40535781, 637.75809168, 622.67328863,
+        679.47326469, 541.73877914, 584.64124022, 561.26079676,
+        513.90025195, 582.23594543, 669.84568737, 613.71969354,
+        573.68453437, 515.98278229, 633.22348332, 679.41702679,
+        665.39985513, 621.51793166, 518.51541401, 624.19634452,
+        604.45724302, 654.96767362, 555.89328473, 573.26252174,
+        576.28127001, 512.68289621, 573.71124868, 610.96436073,
+        603.00702136, 640.54500082, 551.73996327, 562.40403313,
+        578.9712619 , 582.14565217, 558.16310185, 490.49800197,
+        602.52551038, 586.13384099, 539.75433819, 522.37810341,
+        546.99514273, 573.7765193 , 483.06239959, 581.08550531,
+        488.32929738, 570.28644152, 542.52707801, 501.58482625,
+        592.95177279, 528.33071647, 616.57324622, 650.32358726,
+        554.04591364, 582.79976817, 604.65974351, 512.16694605,
+        558.40804931, 540.06076893, 595.94872867, 641.80465695,
+        608.588387  , 541.27323026, 647.22918679, 605.43271261,
+        603.18252611, 453.46759232, 501.64139696, 619.40328351],
+       [459.31707398, 484.69214096, 623.37456558, 409.50063854,
+        480.3512447 , 484.04941934, 467.87834067, 421.40867451,
+        368.61819942, 329.19753318, 410.22581274, 272.37205153,
+        293.85713339, 335.26399279, 245.059482  , 381.79549796,
+        524.1248545 , 393.29808522, 506.13217368, 249.46449892,
+        384.4174475 , 318.4548255 , 232.31168981, 377.12838248,
+        307.21666128, 395.74400596, 339.16832205, 415.5570456 ,
+        492.46443254, 464.98080028, 405.41560364, 366.92519407,
+        438.45735391, 427.57298917, 417.3941677 , 508.37639166,
+        313.46974408, 280.20152566, 288.78904461, 343.23754029,
+        531.59885876, 425.2776806 , 388.20865868, 369.74155012,
+        284.93610617, 323.33075983, 392.70827425, 462.65407906,
+        505.65937467, 273.92595626, 403.60748255, 430.03011147,
+        556.49296031, 403.22018582, 294.41462395, 346.10427851,
+        407.1934464 , 349.97370662, 401.53183458, 356.7213658 ,
+        359.47066062, 310.87119026, 249.94022495, 253.31307086,
+        240.85576325, 541.16863713, 271.79510362, 221.83963709,
+        315.25715456, 344.26434475, 310.39442162, 396.40269811,
+        318.12982429, 307.7913328 , 313.2581609 , 251.61529554,
+        240.21579965, 250.28103749, 210.66029421, 136.81686079,
+        234.25850709, 213.54615194, 149.10519885, 165.57100474,
+        224.64940974, 212.59793531, 203.01031842, 232.55508663,
+        193.21216058,  99.57494353, 202.13994799, 114.16219709,
+         65.92933702, 113.09151993,  24.95492584, 148.66529903,
+         87.26349891,  22.39140979, 121.88742124,  66.90234466,
+        189.1020373 , 234.45290179, 124.08104834, 239.65785935],
+       [396.66704692, 508.42226896, 363.66776181, 421.43084925,
+        287.0088581 , 210.40421128, 210.88083198, 185.11653539,
+         18.31477133,  94.07325276, 110.00236359,  57.0816935 ,
+         58.15449008, 123.6802232 ,  34.26043189,  88.65294957,
+        161.97378492,  41.98149176,  62.83365033,  62.14663503,
+         43.68689794,  57.49603053, 112.68110372,   4.3585872 ,
+        153.61310924, 155.33181582,  75.97564297, 118.27785007,
+         25.06770562, 120.18311361,  53.4879377 , 106.06417065,
+        113.18170472,  63.83183206, 109.25823103,  81.23053531,
+         68.07486766,  37.01316778, 125.26522768,  40.28981054,
+         20.47753506, 126.13346371,  88.99328508,  80.79905633,
+        117.56472233,  74.08363431, 108.91222919,  52.73072934,
+        144.93305227,  91.50511638,  30.78988401,  63.19174666,
+         93.12873388, 106.62206456,  56.93606947,  75.29227365,
+        132.11438187,  44.85847185,  47.73643693,  85.85549484,
+         70.58769764,  31.031842  ,  12.42246753,  87.25540695,
+         32.72496878,  58.42083043,  55.68211282,  12.10132233,
+         68.48455978,  52.60520209,  43.54363593,  28.27163603,
+         82.88880337, 101.10245087,  35.63891418,  63.78994429,
+         23.21492159,  52.22904149, 119.64574047, 186.7491303 ,
+         86.2239157 , 199.38492885, 152.6519904 , 164.2954033 ,
+        160.37441048,  23.82358287, 184.41540413, 114.25538138,
+        155.3384507 , 116.67528632, 133.13722113, 167.93650833,
+        178.54055789, 232.84433572, 163.5789328 , 173.99178283,
+        210.59510211, 203.05257717, 262.25974471, 214.85615462,
+        392.09586745, 577.1446584 , 536.29506319, 378.38839399],
+       [453.33631955, 448.66545461, 280.68437045, 155.44734145,
+        237.08735947, 236.71432265,  31.58795837, 138.2479251 ,
+        126.99663306, 237.60492764, 231.24345741, 240.76947666,
+        345.30250155, 267.71226761, 203.03319075, 197.94504252,
+        381.3411167 , 175.52957696, 164.79968075, 205.36109298,
+        225.67879154, 256.78697367, 253.56978951, 228.63547464,
+        307.33322807, 289.96571861, 248.6436761 , 265.34229234,
+        197.15444818, 121.15932778, 154.73096669, 317.72957228,
+        114.36808688, 216.71507068, 115.82484073, 160.41079625,
+        349.47664742, 401.08856142, 384.10339856, 220.48120211,
+        192.42800059, 265.04682027, 252.89037572, 299.61290778,
+        311.88310329, 145.44150961, 259.13622268, 142.49027964,
+        306.67460424, 253.86560289, 288.30135038, 172.32673358,
+        294.13047625, 209.17686563, 295.4515595 , 255.6363602 ,
+        341.9989455 , 376.20803962, 259.81072324, 150.48206895,
+        259.79673271, 203.5296863 , 313.38386669, 304.90367283,
+        261.66522583, 315.8726323 , 225.26328352, 117.68660936,
+        249.42789568, 338.45602799, 357.54400718, 197.9636589 ,
+        234.18013182, 285.61500156, 252.12220344, 302.56722758,
+        362.5735745 , 344.68307227, 266.09279763, 429.88525604,
+        339.01044277, 390.47993254, 413.96875713, 498.97676216,
+        387.28262315, 362.50188962, 500.06476914, 484.15667886,
+        431.70817633, 517.01538603, 544.16566519, 586.57658778,
+        597.51837665, 631.35418215, 665.19500042, 611.38289108,
+        657.3337999 , 628.15033734, 679.64559179, 675.44033894,
+        619.6674093 , 625.80413773, 667.0519845 , 533.08220592],
+       [410.72067619, 599.8563605 , 377.86594935,  80.86324663,
+        208.39532319, 290.18348748, 306.99561032, 570.2011954 ,
+        484.78942386, 511.86898288, 488.38420379, 434.48167813,
+        519.83565381, 494.19497071, 460.48194904, 561.13915456,
+        526.54651786, 531.76470866, 467.1631199 , 616.71756094,
+        480.68708258, 648.26410545, 573.90953706, 502.95057537,
+        601.29841133, 614.70972633, 450.72859021, 553.96330127,
+        434.77806829, 458.20080728, 518.7225429 , 509.57616967,
+        551.35065128, 478.19393206, 317.53625884, 496.57681907,
+        576.54315546, 515.87298196, 660.23649405, 582.94892958,
+        608.50738963, 551.00145558, 453.43148954, 493.62451174,
+        579.09231292, 515.14113341, 583.68311949, 402.86683213,
+        526.94713389, 565.39577046, 517.72599859, 439.82372509,
+        585.4213533 , 589.41950279, 665.08139863, 522.35830068,
+        565.36067132, 643.49717058, 557.76167769, 540.26680308,
+        573.14945965, 543.43787552, 460.38257773, 499.49485266,
+        657.81729466, 640.55813794, 596.32388876, 549.21055209,
+        514.71684946, 566.04592013, 660.96900457, 566.88685918,
+        517.01696255, 588.07633605, 575.16530278, 522.32861936,
+        649.47037457, 615.27524206, 662.56285755, 662.66908209,
+        584.04760754, 571.74462617, 644.49357381, 662.43058979,
+        678.52745498, 644.80119085, 676.9046611 , 678.30210834,
+        669.31821193, 678.11842915, 655.87431471, 676.26164901,
+        671.11312273, 677.11132274, 678.74311083, 679.32398602,
+        673.45876184, 675.44369203, 678.883142  , 668.21281093,
+        521.77331066, 368.86288523, 392.70039728, 636.43183838],
+       [571.08364153, 566.66666626, 537.8597332 , 264.7311867 ,
+        165.4126296 , 312.96982886, 352.77701233, 564.6120269 ,
+        543.37051765, 531.83461026, 585.56474446, 589.08919375,
+        672.01350961, 651.02761086, 660.97809062, 677.38598319,
+        565.58314135, 679.62898313, 661.53138679, 674.78032935,
+        621.27651272, 671.03905461, 660.75326713, 677.07852013,
+        679.91090247, 679.86082463, 568.24020202, 673.22712405,
+        669.24804618, 631.55916843, 629.62724679, 602.71522805,
+        655.40011862, 638.45784028, 544.6237494 , 677.66613775,
+        622.50069758, 574.28913612, 677.42520268, 623.34506924,
+        654.86979975, 648.70027413, 578.16331271, 627.55433873,
+        651.54936336, 612.4675408 , 665.8094843 , 563.37191284,
+        658.5426897 , 618.93671101, 574.11756427, 601.1939931 ,
+        653.78741018, 649.69051653, 672.79615891, 643.42976491,
+        617.05980671, 635.75302024, 629.00922768, 553.08712288,
+        608.96206217, 613.09905637, 530.54463544, 549.88084908,
+        613.76783333, 602.78031885, 640.52466269, 633.89604458,
+        569.4401151 , 602.9946456 , 559.63957965, 562.62284361,
+        500.88458941, 583.37155789, 595.99877265, 614.94162352,
+        625.83930616, 562.56718676, 629.12131216, 652.48037629,
+        550.14649346, 573.92589051, 569.50908824, 631.17459491,
+        623.57523722, 579.72596438, 635.05050923, 643.84662306,
+        620.49811175, 590.14815194, 567.87470025, 553.74489522,
+        481.83400924, 559.84529479, 554.1200062 , 588.70706762,
+        443.53651518, 457.02201713, 295.27668007, 230.1313447 ,
+        285.83655124, 262.12448947, 222.55242193, 204.73734911],
+       [577.84261488, 454.83199182, 458.32115811, 386.48954027,
+        156.30191372, 414.16718677, 319.38704835, 530.44748907,
+        453.10750052, 540.17224135, 497.3505637 , 566.99185485,
+        649.68238313, 576.94230834, 590.36848003, 623.63001793,
+        507.41213416, 608.70204588, 598.67788131, 609.26461696,
+        564.03698376, 509.02632043, 494.3588997 , 561.01368986,
+        639.47730104, 589.43833112, 570.72416034, 588.89224708,
+        627.58473001, 625.6429246 , 569.25933454, 428.13243363,
+        518.21629838, 558.09224092, 384.56993224, 414.62383523,
+        548.48463159, 475.39284083, 494.83560296, 448.99178627,
+        459.84410557, 462.09874293, 493.43820175, 397.33637424,
+        368.24229518, 445.65432999, 470.08371265, 502.17579288,
+        487.38669927, 425.43920012, 291.12660383, 434.19109088,
+        487.22327365, 432.9852969 , 416.18737509, 508.75864702,
+        457.94276615, 429.97483279, 568.14932849, 423.27270205,
+        400.73007896, 383.08305305, 337.16781585, 341.79300889,
+        292.08321542, 271.55051721, 291.0429066 , 249.45408691,
+        310.19263721, 270.8701512 , 131.10428224, 340.72009437,
+        269.57258333, 298.71850366, 343.79679273, 353.63300367,
+        346.1736278 , 315.52021608, 284.35455934, 376.71229204,
+        302.00875982, 204.54470768, 155.35986997, 172.93408148,
+        174.4211197 , 140.9475901 , 126.08845008, 105.34951331,
+         81.06605311,  48.30332493,  78.202878  ,  40.77939055,
+        108.73619267, 132.90707966, 130.41755616, 234.48250612,
+         55.26437018, 175.11431486, 215.91662583,  73.02876557,
+        285.31568404, 308.5621155 , 337.60908096, 118.46303214],
+       [453.33333333, 185.53955245, 256.56874472, 320.30746022,
+        172.11872992, 289.00847893, 287.09598299, 459.54054031,
+        387.29969583, 399.38331074, 288.53197891, 348.36680531,
+        435.70227798, 283.1513381 , 333.16870154, 372.89133722,
+        289.02878842, 239.22552689, 329.4689351 , 368.64680342,
+        436.18666252, 167.03052169,  70.13277362, 164.56015723,
+        392.549273  , 456.41474761, 458.1186913 , 443.63551301,
+        510.78947549, 274.8156881 , 543.46237979, 440.18111379,
+        361.53389192, 497.24217707, 466.27845704,  87.54920162,
+        392.74022959, 271.6009506 , 212.21998348, 243.13240551,
+        227.63974524, 216.62989904, 434.16172555, 426.30014637,
+        341.20003989, 411.17290344, 399.19435858, 429.75797944,
+        326.84589817, 322.10206804, 460.24561434, 295.45914253,
+        401.27740035, 402.01966102, 414.55338306, 496.48922457,
+        466.25279926, 330.53095962, 456.48952633, 433.9998438 ,
+        317.2485244 , 406.96963475, 193.31397227, 375.99646219,
+        289.6982338 , 470.84977958, 348.46289473, 292.06909039,
+        443.37486202, 402.45173459, 372.40488214, 315.57053956,
+        268.15944189, 481.02841345, 353.03045039, 398.34477886,
+        358.01610684, 383.47705931, 394.33030974, 302.21525104,
+        271.47884446, 316.80672752, 356.25278925, 323.88360516,
+        288.26559928, 336.66959598, 229.42929688, 281.14840397,
+        304.29815587, 420.55470701, 383.10182983, 401.84800519,
+        446.21625365, 553.07302341, 558.74015041, 553.41166507,
+        530.57204195, 610.40800715, 624.29790774, 627.84560352,
+        624.63295836, 645.58228017, 665.37532498, 631.44039941],
+       [435.14154568,  90.46294269, 169.73696583, 194.82863504,
+        141.57311667, 227.18530105,  79.09506864, 295.05365411,
+        162.79258385, 115.04821064, 171.00418658, 138.51794428,
+        143.26046238,  96.3993632 , 140.76153666, 134.04996765,
+        113.25811246,  15.03494759, 201.7761419 ,  92.02344066,
+        264.04185101, 103.07158096,  96.16693108, 118.94389157,
+        141.93617172, 160.18287448, 170.36466777, 319.1661199 ,
+        284.4001068 , 114.94237678, 369.96705884, 257.9903775 ,
+        243.32825666, 254.6731316 , 325.6133762 , 118.55297676,
+        199.19952101, 288.76731972, 282.00939523, 321.73443245,
+        206.9426512 , 197.75842457, 363.83429303, 278.27894692,
+        334.60921301, 466.99939839, 405.46913539, 386.76594243,
+        326.04192031, 319.61928739, 476.39609894, 202.59508415,
+        360.50219364, 285.09408212, 344.8188444 , 474.51682589,
+        435.78706856, 359.42828072, 399.54535677, 356.48273926,
+        429.92839466, 444.1568663 , 223.82468979, 517.7989104 ,
+        519.21652722, 478.70414987, 456.76945228, 344.32534999,
+        469.37954779, 433.52917475, 534.55007229, 446.36571406,
+        412.57321156, 540.67750654, 481.99019831, 419.65256132,
+        502.28954008, 432.68481564, 557.10343551, 547.19560292,
+        477.52053274, 559.55445699, 645.66589395, 624.49455911,
+        561.61281623, 625.25683817, 596.59906276, 522.30506951,
+        533.50786507, 643.72382314, 604.00794473, 651.65618111,
+        663.06837484, 666.37236178, 658.56976911, 652.65578448,
+        655.40106659, 674.21889975, 660.4319644 , 637.36987695,
+        666.43792162, 667.89845487, 676.1079743 , 665.19703732],
+       [248.49473371, 246.59096214, 162.68649151,  80.94888027,
+         57.30642514, 102.24900421,  56.66666667, 201.47341322,
+         99.06812689,  66.97752895, 125.60922106,  25.92519818,
+         77.28255286,  79.76519578,  79.51776947, 136.42192968,
+        139.25259511,  29.16533126, 162.56649504, 197.43750173,
+        135.33620467, 109.71350131, 132.11827709, 180.79683174,
+        117.62525204, 177.33178535, 101.56194213, 199.93775399,
+        133.61401588,  41.03960435, 215.52588624, 160.87957109,
+        108.1667124 , 110.91809917, 159.71675057,  53.96373831,
+         53.34942074, 131.5078074 , 169.81593473, 119.02893478,
+        246.58957449, 204.32748401, 231.79101702, 195.10048753,
+        197.62199235, 232.97070276, 322.6728345 , 206.52924536,
+        151.18611937,  44.0891561 , 236.98076176,  82.21385893,
+         95.59863252, 206.75604519, 156.44199877, 200.94565879,
+        133.59589303, 241.70658545, 157.45411764, 144.71236421,
+        232.8770866 , 120.33897957, 154.43605418, 244.50249571,
+        293.61824991, 126.4307718 , 210.37684031, 193.03985308,
+        207.79888516, 163.57147429, 185.21519884, 257.49201457,
+        127.8972722 , 273.35524067, 210.38269474, 156.03317909,
+        190.30312814,  40.61211636, 223.22710661, 212.85539972,
+        252.25943878, 167.14364852, 291.40763672, 327.24235415,
+        370.92080655, 330.09269   , 414.22515948, 334.96954772,
+        379.74527922, 344.89010255, 368.59517423, 377.73436765,
+        455.11762934, 513.25260626, 407.80456098, 392.11702119,
+        449.18485376, 342.50096928, 439.25162361, 352.49359763,
+        453.90097131, 417.00572972, 463.76252469, 446.41180193],
+       [330.2813239 , 526.4134538 , 499.56553881,  50.35353803,
+         56.83756734,  82.96696284, 111.07380884, 233.66715927,
+        234.12869825, 188.06885527, 205.73782553, 159.78683116,
+        185.09734813, 235.88773632, 130.4943289 , 235.58750483,
+        224.6318602 , 195.09257183, 354.51240015, 313.12977123,
+        254.12424861, 175.24806654, 101.08224818, 201.00987857,
+        227.45040467, 395.85441852, 252.0125473 , 306.71363176,
+        185.49055712,  70.77483432, 180.43276891, 286.52070458,
+         81.04893678, 122.2956101 , 210.93641338,  58.57710819,
+         22.55236585, 158.02430109, 229.07221404,  93.49897139,
+        183.90300772, 166.44145068, 295.35717126, 240.90011087,
+        225.98889093,  89.26826824, 378.91626109, 250.60743834,
+        235.19512384,  45.13041844, 281.43883548,  88.15355291,
+         78.92186501, 180.91804574, 115.87768585, 232.31623795,
+        197.49820909, 264.50157697, 218.35151765, 115.21491319,
+        138.18724652, 177.39195337, 233.71472635, 198.54797738,
+        238.08246259, 134.02806696, 164.48931836, 232.11930214,
+        219.95990807, 162.05156648, 202.92641781, 226.6884878 ,
+        126.91142485, 286.52134042, 226.96570823, 167.93884838,
+        145.83563627,  76.23426033, 155.89227858, 168.94531993,
+        272.71223784, 121.03391679, 314.81431073, 307.74140968,
+        390.28669447, 340.11811944, 394.14374513, 328.53575998,
+        296.33855746, 214.6058492 , 214.5198694 , 284.09100692,
+        395.19554101, 432.98583635, 339.64509291, 340.51224219,
+        378.0768977 , 310.32325872, 334.92090984, 259.50089559,
+        373.15222651, 356.99897842, 368.81901295, 324.65798495]])
+eps=15%
+Costo: 4734716531.5
+env.DEBUG_volumen.mean(axis=0)=array([1.72200000e+02, 1.59200292e+02, 1.45804672e+02, 1.32429308e+02,
+       1.18849925e+02, 1.05599918e+02, 9.31022847e+01, 8.00659633e+01,
+       6.69109752e+01, 5.38299113e+01, 4.04351289e+01, 3.55657024e+01,
+       2.23542437e+01, 9.98033064e+00, 4.62544238e+00, 2.05901163e+00,
+       6.79826448e-01, 9.10334778e-02, 1.30387842e-02, 7.10542736e-17,
+       5.86197757e-17, 8.17124146e-17, 9.05941988e-17, 5.71778786e-02,
+       4.14628075e-01, 2.61340393e-02, 1.96333625e-01, 8.68268158e-02,
+       1.97167163e-01, 1.02686567e-02, 2.16970194e-01, 5.83513448e-01,
+       4.08866319e-02, 3.26516847e-02, 9.79223529e-02, 1.74082970e-16,
+       1.12379364e-01, 1.21086072e-02, 2.33219150e-01, 2.10879232e-01,
+       1.03084893e-01, 1.03315691e-01, 8.08553167e-02, 3.37009727e-02,
+       1.84601455e-01, 5.23302910e-02, 8.52651283e-17, 1.02580337e-03,
+       2.54453780e-01, 9.72499109e-02, 8.43769499e-17, 1.24344979e-16,
+       5.76425170e-02, 4.80245132e-02, 1.83239336e-02, 7.28306304e-17,
+       4.17902178e-02, 5.91204239e-02, 1.79586827e-01, 6.04958733e-01,
+       8.67526226e-01, 3.63631297e-01, 1.53755519e-01, 2.95487642e-01,
+       1.51685566e-01, 2.43197249e-02, 7.91166867e-02, 8.52651283e-17,
+       5.83026560e-02, 3.62341764e-02, 9.88607205e-03, 9.14823772e-17,
+       7.10542736e-17, 6.39488462e-17, 7.37188088e-17, 1.10175484e-02,
+       2.10498285e-16, 9.28146449e-17, 1.51438535e-02, 2.04840124e-02,
+       1.03028697e-16, 7.01660952e-17, 8.57092175e-17, 1.42108547e-16,
+       7.42626458e-02, 8.17124146e-17, 4.44340076e-02, 3.81916720e-17,
+       1.13686838e-16, 5.84739458e-03, 7.99360578e-17, 5.68434189e-17,
+       1.13686838e-16, 1.02140518e-16, 1.31450406e-16, 7.20724431e-03,
+       8.19344592e-17, 1.07469589e-16, 2.02168654e-03, 1.17239551e-16,
+       6.92779167e-17, 8.17124146e-17, 9.25926003e-17, 4.64308741e-02])
+costo_por_paso=array([ 155796.48      ,  155796.48      ,  155796.48      ,
+        155796.48      ,  155796.48      ,  155796.48      ,
+        155994.64163188,  155796.48      ,  155796.48      ,
+        155796.48      , 1197988.10267696,  155796.48      ,
+        221525.07762529,  980656.31973677, 1680493.87696618,
+       1776519.03561308, 2090621.33181516, 2096119.5689805 ,
+       2192771.85042347, 2053575.67950205, 2182732.15323972,
+       2105684.237361  , 2136472.00584713, 2144299.44296343,
+       2037311.12503449, 2278165.51409731, 2138527.06281827,
+       2232858.88729438, 2175301.91754713, 2129358.40450129,
+       2225892.46677034, 2081005.12791507, 2080921.47814498,
+       2174249.74758509, 2132996.18932873, 2305420.37122006,
+       2132447.20334793, 2099489.90921885, 2278494.30580621,
+       2144987.25721581, 2196048.64797675, 2110841.34838521,
+       2188941.31577709, 2102467.35129245, 2187925.88286517,
+       2093156.96248438, 2138950.00684987, 2162973.16545759,
+       2170268.52334783, 2180461.71906805, 2127388.40118174,
+       2175582.3378992 , 2142606.75986556, 2010169.22353346,
+       2242604.93161741, 2065449.32724857, 2181337.82340392,
+       2293523.73052287, 2218194.96063322, 2158142.01413635,
+       2097072.63562195, 2103338.11376839, 2327970.56215814,
+       2047641.87178723, 2055519.77409227, 2115685.69548221,
+       2196046.80297306, 2180735.78956816, 2224747.28857475,
+       2105963.51875222, 2180276.54254395, 2280966.29131303,
+       2219490.19700598, 2186277.77250621, 2171535.94011914,
+       2105239.81000929, 2181305.73697003, 2156484.86528613,
+       2185831.92827975, 2179351.48313758, 2184110.97396754,
+       2131888.91132413, 2196486.93673362, 2133749.08879251,
+       2115799.25578532, 2139008.01771157, 2181522.58369122,
+       2161508.69404318, 2110121.19463697, 2155942.47137293,
+       2098472.30861464, 2076972.41562493, 2276918.1009341 ,
+       2240842.34272096, 2243835.22009984, 2250239.37473988,
+       2187133.98664328, 2230347.40549233, 2173876.75444589,
+       2290068.41517472, 2172022.85593482, 2230228.32122967,
+       2170270.11835657, 2087758.10643548])
