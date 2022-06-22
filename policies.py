@@ -286,8 +286,20 @@ class GaussianPolicy:
         # self._mean_approximation.unclipped_mean[index] += policy_step_size * gamma**time * delta * gradient_unclipped
         # unclipped mean
         # ############## #
-        gradient = state * (action - mean * state) / self._sigma**2
-        # print(f'{gradient.shape=}')
+
+        # print(f'POLICY->GRADIENT_STEP->{state[:,time]=}')
+        # print(f'POLICY->GRADIENT_STEP->{mean=}')
+        # print(f'POLICY->GRADIENT_STEP->{action=}')
+        # print(f'POLICY->GRADIENT_STEP->{action.shape=}')
+        # print(f'POLICY->GRADIENT_STEP->{(mean * state)[:,time]=}')
+        # print(f'POLICY->GRADIENT_STEP->{(mean * state).shape=}')
+
+        # gradient = state * (action - mean * state) / self._sigma**2
+        gradient = state * (action - mean) / self._sigma**2  # FORMULA CORRECTA PARA RBF  !!!
+        # print(f'{time=}')
+        # print(f'{gradient=}')
+        # print(f'{gradient_test=}')
+        # print(f'{(gradient-gradient_test).sum()=}')
         # print(f'{delta.shape=}')
         if self.verbose == 1:
             print(f'Mean antes:{mean:.1f} Delta: {delta:.1f} Gradient: {np.sum(gradient):.1f}', end=' ')

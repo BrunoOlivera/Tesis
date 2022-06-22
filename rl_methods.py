@@ -607,8 +607,8 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
     init_state_tensor = model.state_space.state([4100, 0])
     if MPI.COMM_WORLD.Get_rank() == 1:
         states_RBF = []
-        # for i in range(0, 8200, 820):
-        for i in np.linspace(0,8200,101):
+        for i in range(0, 8200, 820):
+        # for i in np.linspace(0,8200,101):
             states_RBF.append(model.state_space.state([i, 0])[:,0])
             print(f'INIT_VAL: {-model.state_space.value(model.state_space.state([i, 0]))}')
         print(f'{states_RBF=}')
