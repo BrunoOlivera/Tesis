@@ -1,7 +1,7 @@
 import numpy as np
 # import decimal
 
-
+# GRID
 class DiscreteStateSpace:
 
     def __init__(self, min_states, max_states, num_levels, verbose=0):
@@ -64,6 +64,7 @@ class DiscreteStateSpace:
             print(f'Value desp: {self._value[np.where(state == 1)][0]:.1f}')
 
 
+# RBF
 class RadialBasisFunction:
 
     def __init__(self, min_states, max_states, num_centers, sigma, verbose=0):
@@ -12778,15 +12779,15 @@ class RadialBasisFunction:
             cost -= 71_400_000  # Termico('t_barato', 250, 100),Termico('t1_caro', 250, 4000) #FALLA
             # self.weights[:, x] = cost / scaler_array[sigma]
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_250), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 250
-            self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_500), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 500
+            # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_500), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 500
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_41_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 41 101 niveles
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_82_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 82 101 niveles
-            # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_164_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 164 101 niveles
+            self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_164_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 164 101 niveles
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_328_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 328 101 niveles
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_656_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 656 101 niveles
         # print(f'{self.weights[0, :]=}')
-        print(f'{self.weights[:, 0]=}')
-        print(f'{self.weights[:, 103]=}')
+        # print(f'{self.weights[:, 0]=}')
+        # print(f'{self.weights[:, 103]=}')
         # print(f'{self.weights=}')
         # print(f'{self.weights[0, 51:56]=}')
         ##############################################

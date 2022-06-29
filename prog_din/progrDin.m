@@ -1,6 +1,6 @@
 global N M Dx Ds;
 T=2;    % Horizonte de planificación en años (52sem/año).
-N=11;  % Número de estados para el nivel del embalse
+N=101;  % Número de estados para el nivel del embalse
         % s_1=0,...,s_101=VM.
 M=11;   % Discretización del control a aplicar en cada paso
         % c_0=0,...,c_11=TM.
@@ -14,7 +14,7 @@ Ds=VM/(N-1);    % Diferencia de volumen entre estados del lago.
 Dx=TM/(M-1);    % Diferencia entre nivel de turbinado (control).
 
 % VECTOR DE APORTES ESPERADOS SEMANALES
-ANIOS_SAMPLE = 500;
+ANIOS_SAMPLE = 10000;
 sample_aps = gen_aportes(ANIOS_SAMPLE);
 EST_1_MEAN = mean(sample_aps(1:13,:)(:)');
 EST_2_MEAN = mean(sample_aps(14:26,:)(:)');
@@ -34,7 +34,8 @@ for t=52*T:-1:1,
     fBllmn=zeros(M,1);
     for x=1:M,
       if (Ds*(s-1)>=Dx*(x-1)*SegXsem),
-        prbfn=dinm(s,x,aportes(t));
+##        prbfn=dinm(s,x,aportes(t));
+        prbfn=dinm2(s,x,sample_aps(mod(t-1,52)+1,:));
         fBllmn(x)=cgen(s,x,aportes(t))+sum(prbfn.*A(:,t+1));
       else
         fBllmn(x)=inf;

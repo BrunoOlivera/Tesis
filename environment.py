@@ -2,8 +2,6 @@ import pymongo
 import random
 import math
 import numpy as np
-# from bson.decimal128 import create_decimal128_context
-# import decimal
 from mpi4py import MPI
 
 
