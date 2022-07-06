@@ -7,13 +7,13 @@ class Hidraulico:
     # def __init__(self, nombre, v_min, v_max, tur_max, coef_energ, v_inicial=decimal.Decimal(0)):
     def __init__(self, nombre, v_min, v_max, tur_max, coef_energ, v_inicial=0):
         self._nombre = nombre
-        self._v_inicial = v_inicial
-        self._v_actual = v_inicial
-        self._v_min = v_min
-        self._v_max = v_max
-        self._tur_max = tur_max
-        self._coef_energ = coef_energ
-        self._aporte = 0  # Aporte en Volumen
+        self._v_inicial = v_inicial  # hm3
+        self._v_actual = v_inicial  # hm3
+        self._v_min = v_min  # hm3
+        self._v_max = v_max  # hm3
+        self._tur_max = tur_max  # m3/s
+        self._coef_energ = coef_energ  # MW/m3s
+        self._aporte = 0  # Aporte en Volumen hm3
 
     @property
     def nombre(self):
@@ -87,7 +87,7 @@ class Hidraulico:
 
     def actuar(self, tur, horas_paso):
         self._v_actual += self._aporte
-        # self._v_actual -= decimal.Decimal(tur) * decimal.Decimal(horas_paso) * decimal.Decimal(0.0036)
+        self._aporte = 0
         self._v_actual -= tur * horas_paso * 0.0036
         vertimiento = 0
         if self._v_actual > self._v_max:

@@ -31,6 +31,9 @@ N_40: 573.66s 200K ~2.868
 
 
 mpiexec -n 13 python run.py 1e-6 0.001 1 5 5000 15 0 > output\test32_FALLA_GEN_60_PARALLEL_N_13_2.txt
+ 
+
+mpiexec -n 13 python run.py 2e-9 0.07 1 5 10000 15 0 > output\test36_FIXED_GRADIENT_12_101.txt
 
 
 mpiexec -n 2 python run.py 1e-6 0.001 1 5 1 15 0 > output\test2123testsetsets.txt

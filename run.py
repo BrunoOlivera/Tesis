@@ -81,7 +81,7 @@ def main(pss, vss, gamma, sigma, num_episodes, eps, verbose=0):
     policy = GaussianPolicy(mean_approximation, sigma, eps / 100, verbose)
 
     # env = Environment(linea_tiempo, hidraulicos, termicos, demanda, state_space, aportes, historico=True)
-    # env = Environment(linea_tiempo, hidraulicos, termicos, demanda, state_space, aportes, generador=True)
+    # env = Environment(linea_tiempo, hidraulicos, termicos, demanda, state_space, aportes, generador=True) <---- NO USAR SIN REVISAR EL CODIGO GENERACION
     # env = Environment(linea_tiempo, hidraulicos, termicos, demanda, state_space, aportes, gen_aportes_fijos=100)
     env = Environment(linea_tiempo, hidraulicos, termicos, demanda, state_space, aportes, gen_aportes_fijos=60, h_fijo=1)  # MS
     # env = Environment(linea_tiempo, hidraulicos, termicos, demanda, state_space, aportes, {52: 0, 53: 0, 54: 0}, historico=True)

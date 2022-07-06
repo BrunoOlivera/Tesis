@@ -608,8 +608,8 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
     if MPI.COMM_WORLD.Get_rank() == 1:
         states_RBF = []
         # for i in range(0, 8200, 820):
-        for i in np.linspace(0,8200,101):
-            states_RBF.append(model.state_space.state([i, 0])[:,0])
+        for i in np.linspace(0, 8200, 101):
+            states_RBF.append(model.state_space.state([i, 0])[:, 0])
             print(f'INIT_VAL: {-model.state_space.value(model.state_space.state([i, 0]))}')
         print(f'{states_RBF=}')
         print(f'{init_state_tensor[:,0]=}')
@@ -631,6 +631,7 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
         print(f'{model.state_space.sigma=}')
         print(f'{env._h_fijo=}')
         # print(f'{env._gen_aportes_fijos_cant=}')
+        print(f'{model.policy.epsilon=}')
         print(f'======================================================')
         print(f'Start Time: {time.strftime("%H:%M:%S", time.localtime())}')
         print(f'======================================================')
@@ -800,6 +801,7 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
         print(f'{init_mean=:.2f}')
         print(f'{exploring_start=}')
         print(f'{model.state_space.sigma=}')
+        print(f'{model.policy.epsilon=}')
         print(f'======================================================')
         np.set_printoptions(threshold=np.inf)
         print(f'{model.policy._mean_approximation.mean_weights=}')

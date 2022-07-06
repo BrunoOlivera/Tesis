@@ -237,30 +237,17 @@ class GaussianPolicy:
         return self._sigma
 
     def act(self, state, current_max_turs):
-        # print(f'{state=}')
-        # index = self._mean_approximation.getIndex(state)
-        # mean = self._mean_approximation.mean[:,:,state[-1]] * state[-1]
-        # print(f'{state.shape=}')
         mean = self._mean_approximation.mean_from_state(state)
-        # if mean.size == 1:
-        # print(f'{mean.ndim=}')
         if mean.ndim == 0:
-            # action = np.array(decimal.Decimal(np.random.normal(mean[0], self._sigma))).reshape(1,)
-            self.total += 1
+            # self.total += 1
             if self.train and random.random() < self.epsilon:
-                # action = np.array(current_max_turs[0])  # max_tur eps-greedy
-                # action = np.array([680])
-                action = np.array(current_max_turs[0] * random.random())  #random eps-greedy
-                self.eps += 1
+                action = np.array(current_max_turs[0] * random.random())  # random eps-greedy
+                # self.eps += 1
             elif self.train:
-                # action = np.array(np.random.normal(mean[0], self._sigma)).reshape(1,)
                 action = np.array(np.random.normal(mean, self._sigma)).reshape(1,)
             else:
-                # action = np.array(mean[0])
                 action = np.array(mean)
-            # action = np.array([680])
             action = np.array(np.clip(action, 0, current_max_turs[0]))
-            # action = np.array(np.clip(action, decimal.Decimal(0), current_max_turs[0]))
         else:
             if self.train and random.random() < .10:
                 action = np.array(current_max_turs)
@@ -268,7 +255,6 @@ class GaussianPolicy:
                 cov = np.zeros((mean.size, mean.size))
                 np.fill_diagonal(cov, self._sigma**2)
                 action = np.random.multivariate_normal(mean, cov)
-            # np.clip(action, decimal.Decimal(0), current_max_turs, action)
             np.clip(action, 0, current_max_turs, action)
         return action
 
@@ -312,7 +298,9 @@ class GaussianPolicy:
         # self._mean_approximation.mean[index] += policy_step_size * delta * gradient
         # self._mean_approximation.mean[index] = np.clip(self._mean_approximation.mean[index], decimal.Decimal(0), decimal.Decimal(680))
         # TODO: clips?????????
-        self._mean_approximation.mean_weights = np.clip(self._mean_approximation.mean_weights, 0, 680)
+        ################
+        # self._mean_approximation.mean_weights = np.clip(self._mean_approximation.mean_weights, 0, 680)  # INCORRECTO EN RBF !!!
+        ################
         # self._mean_approximation.mean[index] -= decimal.Decimal(policy_step_size) * decimal.Decimal(gamma**time) * delta * gradient
         if self.verbose == 1:
             print(f'Mean desp:{self._mean_approximation.mean_from_state(state):.1f}')

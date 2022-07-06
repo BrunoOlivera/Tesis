@@ -131,17 +131,6 @@ class Environment:
         # state, volume_state = self.state()
         # return state, volume_state, reward, False, self.current_max_tur()
 
-    # def sortearAportes(self):
-    #     semana = self._linea_tiempo.paso_actual % self._linea_tiempo.pasos_por_anio + 1
-    #     if semana not in self._lista_aportes:
-    #         self._lista_aportes[semana] = self.get_lista_aportes(semana, self._hidraulicos.keys())
-    #     for nombre, hidraulico in self._hidraulicos.items():
-    #         with decimal.localcontext(create_decimal128_context()):
-    #             aporte = random.choice(self._lista_aportes[semana][nombre])
-    #             # hidraulico.v_actual += aporte.to_decimal() * decimal.Decimal(self._linea_tiempo.horas_paso) * decimal.Decimal(0.0036)
-    #             hidraulico.aporte = aporte.to_decimal() * decimal.Decimal(self._linea_tiempo.horas_paso) * decimal.Decimal(0.0036)
-    #             # hidraulico.aporte = decimal.Decimal(681) * decimal.Decimal(self._linea_tiempo.horas_paso) * decimal.Decimal(0.0036)
-
     def sortearAportes(self):
         semana = self._linea_tiempo.paso_actual % self._linea_tiempo.pasos_por_anio + 1
         # print(f'{self._linea_tiempo.paso_actual=}')
@@ -154,10 +143,14 @@ class Environment:
                 aportes_dataset = self._gen_aportes_fijos if self._train_dataset else self._lista_aportes[nombre]
                 if semana == 1 and self._anio_actual != -1:
                     self._anio_actual += 1
-                    # if self._anio_actual == 2019:
-                    #     self._anio_actual = 1909
-                    if self._anio_actual == self._max_anios:
-                        self._anio_actual = self._first_year
+                    ########################################
+                    # INNECESARIO EN VERSION ANIOS DISJUNTOS
+                    ########################################
+                    # if self._anio_actual == self._max_anios:
+                    #     self._anio_actual = self._first_year
+                    ########################################
+                    # INNECESARIO EN VERSION ANIOS DISJUNTOS
+                    ########################################
                 if self._anio_actual == -1:
                     if self.anio_simulacion is not None:
                         self._anio_actual = self.anio_simulacion
@@ -182,6 +175,9 @@ class Environment:
                 # aporte = self._lista_aportes[nombre][self._anio_actual, semana]
                 aporte = aportes_dataset[self._anio_actual, semana]
             elif self._generador:
+                #################################
+                # TODO: REVISAR CODIGO INCORRECTO
+                #################################
                 # if self._anio_actual == -1:
                 #     if self.anio_simulacion is not None:
                 #         self._anio_actual = self.anio_simulacion
@@ -194,6 +190,9 @@ class Environment:
                 # else:
                 #     self._estado_hidrologico_actual = self.newH(self._estado_hidrologico_actual)
                 # aporte = self.generar_aporte(self._estado_hidrologico_actual, estacion)
+                #################################
+                # TODO: REVISAR CODIGO INCORRECTO
+                #################################
                 aporte = [154.3, 403.2, 537.4, 320.2][estacion]  # PRUEBA APORTE MEDIO
             elif len(self._gen_aportes_fijos) > 0:
                 # if self._anio_actual == -1:
@@ -213,7 +212,13 @@ class Environment:
                 #     self._gen_fijos_anio_actual %= self._gen_aportes_fijos_cant
                 elif semana == 1:
                     self._gen_fijos_anio_actual += 1
-                    self._gen_fijos_anio_actual %= self._gen_aportes_fijos_cant
+                    ########################################
+                    # INNECESARIO EN VERSION ANIOS DISJUNTOS
+                    ########################################
+                    # self._gen_fijos_anio_actual %= self._gen_aportes_fijos_cant
+                    ########################################
+                    # INNECESARIO EN VERSION ANIOS DISJUNTOS
+                    ########################################
                 # print(f'{self._gen_fijos_anio_actual=}')
                 aporte = self._gen_aportes_fijos[(self._gen_fijos_anio_actual, semana)]
             else:
@@ -226,19 +231,10 @@ class Environment:
             #     print(f'{self._linea_tiempo.paso_actual=}')
             # print(f'======================================================')
 
-    # def state(self, inicial=False):
-    #     if inicial:
-    #         l = list(map(lambda x: x.v_inicial, self._hidraulicos.values()))
-    #     else:
-    #         l = list(map(lambda x: x.v_actual, self._hidraulicos.values()))
-    #     l.append(decimal.Decimal(self._linea_tiempo.paso_actual))
-    #     return self._state_discretization.state(l)
-
     def state(self):
         if self._linea_tiempo.paso_actual == self._linea_tiempo.total_pasos:
             return None
         volume_state = list(map(lambda x: x.v_actual, self._hidraulicos.values()))
-        # volume_state.append(decimal.Decimal(self._linea_tiempo.paso_actual))
         volume_state.append(self._linea_tiempo.paso_actual)
         # print(f't: {self._linea_tiempo.paso_actual}')
         # print(f'{volume_state[0]:.1f}', end='\t')

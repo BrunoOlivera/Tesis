@@ -14,12 +14,18 @@ Ds=VM/(N-1);    % Diferencia de volumen entre estados del lago.
 Dx=TM/(M-1);    % Diferencia entre nivel de turbinado (control).
 
 % VECTOR DE APORTES ESPERADOS SEMANALES
-ANIOS_SAMPLE = 10000;
+ANIOS_SAMPLE = 20;
 sample_aps = gen_aportes(ANIOS_SAMPLE);
 EST_1_MEAN = mean(sample_aps(1:13,:)(:)');
 EST_2_MEAN = mean(sample_aps(14:26,:)(:)');
 EST_3_MEAN = mean(sample_aps(27:39,:)(:)');
 EST_4_MEAN = mean(sample_aps(40:52,:)(:)');
+
+##EST_1_APS = sample_aps(1:13,:)(:)';
+##EST_2_APS = sample_aps(14:26,:)(:)';
+##EST_3_APS = sample_aps(27:39,:)(:)';
+##EST_4_APS = sample_aps(40:52,:)(:)';
+
 ##aptsan=[154.3*ones(13,1); 403.2*ones(13,1); 537.4*ones(13,1); 320.2*ones(13,1)];
 aptsan=[EST_1_MEAN*ones(13,1); EST_2_MEAN*ones(13,1); EST_3_MEAN*ones(13,1); EST_4_MEAN*ones(13,1)];
 aportes=[];
@@ -35,6 +41,14 @@ for t=52*T:-1:1,
     for x=1:M,
       if (Ds*(s-1)>=Dx*(x-1)*SegXsem),
 ##        prbfn=dinm(s,x,aportes(t));
+##        if idivide(max(0,t-52)-1,13,"floor") == 0:
+##            prbfn=dinm2(s,x,EST_1_APS);
+##        elseif idivide(max(0,t-52)-1,13,"floor") == 1:
+##            prbfn=dinm2(s,x,EST_2_APS);
+##        elseif idivide(max(0,t-52)-1,13,"floor") == 2:
+##            prbfn=dinm2(s,x,EST_3_APS);
+##        elseif idivide(max(0,t-52)-1,13,"floor") == 3:
+##            prbfn=dinm2(s,x,EST_3_APS);
         prbfn=dinm2(s,x,sample_aps(mod(t-1,52)+1,:));
         fBllmn(x)=cgen(s,x,aportes(t))+sum(prbfn.*A(:,t+1));
       else

@@ -22,7 +22,8 @@ for i=idx:(length(limsEmb)-2);
 ##for i=idx:(length(limsEmb)-1);
   p=(limsEmb(i+1)-S)/(3600*24*7);
   q=(limsEmb(i+2)-S)/(3600*24*7);
-  prbfn(i+1)=sum(q > aportes >= p) / length(aportes);
+##  prbfn(i+1)=sum(q > aportes >= p) / length(aportes);
+  prbfn(i+1)=sum((q > aportes) .* (aportes >= p)) / length(aportes);
 ##  prbfn(i+1)=(1+a*p)*exp(-a*p)-(1+a*q)*exp(-a*q);
 end
 
