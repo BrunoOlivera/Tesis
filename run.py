@@ -57,9 +57,9 @@ def main(pss, vss, gamma, sigma, num_episodes, eps, verbose=0):
     # RBF
     ###### 101 centros ######
     num_centers = ([101] * len(hidraulicos)) + [linea_tiempo.total_pasos]
-    # sigmaRBF = 41
+    sigmaRBF = 41
     # sigmaRBF = 82
-    sigmaRBF = 164
+    # sigmaRBF = 164
     # sigmaRBF = 328
     # sigmaRBF = 656
 

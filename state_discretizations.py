@@ -12780,9 +12780,9 @@ class RadialBasisFunction:
             # self.weights[:, x] = cost / scaler_array[sigma]
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_250), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 250
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_500), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 500
-            # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_41_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 41 101 niveles
+            self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_41_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 41 101 niveles
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_82_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 82 101 niveles
-            self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_164_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 164 101 niveles
+            # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_164_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 164 101 niveles
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_328_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 328 101 niveles
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_656_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 656 101 niveles
         # print(f'{self.weights[0, :]=}')

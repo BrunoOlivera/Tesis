@@ -265,7 +265,7 @@ class GaussianPolicy:
         # print(f'{delta=}')
         # gradient = ((action - self._mean_approximation.mean[index]) / decimal.Decimal(self._sigma**2))
         mean = self._mean_approximation.mean_from_state(state)
-        mean_before = mean
+        # mean_before = mean
         # ############## #
         # unclipped mean #
         # gradient_unclipped = (action - self._mean_approximation.unclipped_mean[index]) / self._sigma**2
@@ -304,6 +304,6 @@ class GaussianPolicy:
         # self._mean_approximation.mean[index] -= decimal.Decimal(policy_step_size) * decimal.Decimal(gamma**time) * delta * gradient
         if self.verbose == 1:
             print(f'Mean desp:{self._mean_approximation.mean_from_state(state):.1f}')
-        mean_after = self._mean_approximation.mean_from_state(state)
+        # mean_after = self._mean_approximation.mean_from_state(state)
         # return mean_after != mean_before
         return True
