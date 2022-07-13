@@ -26,7 +26,7 @@ RUN pip install --proxy=$https_proxy mpi4py
 # COPY docker_test.py ./docker_test.py
 # RUN mkdir Prototipo
 # COPY ../Prototipo/ Prototipo/
-COPY * Prototipo/
+COPY / Prototipo/
 RUN cd Prototipo
 
 # CMD python docker_test.py

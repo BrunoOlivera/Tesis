@@ -601,6 +601,7 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
     best_pid_episode = -1
     pid_costs = []
     pid_costs_train_dataset = []
+    best_costos_por_escenarios = []
     best_values = np.zeros_like(model.state_space.value)
     exploring_start = True
 
@@ -608,7 +609,8 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
     if MPI.COMM_WORLD.Get_rank() == 1:
         states_RBF = []
         # for i in range(0, 8200, 820):
-        for i in np.linspace(0, 8200, 101):
+        # for i in np.linspace(0, 8200, 101):
+        for i in np.linspace(0, 8200, model.state_space.num_centers[0]):
             states_RBF.append(model.state_space.state([i, 0])[:, 0])
             print(f'INIT_VAL: {-model.state_space.value(model.state_space.state([i, 0]))}')
         print(f'{states_RBF=}')
@@ -662,7 +664,7 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
                     # rewards.append(reward)
                     state = next_state
 
-            pid_cost, _ = test(env, model)
+            pid_cost, _, costos_por_escenario = test(env, model)
             # pid_cost_train_dataset, _ = test(env, model, train_dataset=True)
             # print(f'{model.policy.train=}')
             # print(f'{env.anio_simulacion=}')
@@ -687,6 +689,7 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
             MPI.COMM_WORLD.Send(model.policy._mean_approximation.mean_weights, 0)
             MPI.COMM_WORLD.send(-model.state_space.value(init_state_tensor), dest=0)
             MPI.COMM_WORLD.Send(model.state_space.weights, 0)
+            MPI.COMM_WORLD.send(costos_por_escenario, dest=0)
         else:
             for i in range(1, MPI.COMM_WORLD.Get_size()):
                 # recv pid_cost
@@ -697,12 +700,14 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
                 MPI.COMM_WORLD.Recv(model.policy._mean_approximation.mean_weights, i)
                 expected_val = MPI.COMM_WORLD.recv(source=i)
                 MPI.COMM_WORLD.Recv(model.state_space.weights, i)
+                costos_por_escenario = MPI.COMM_WORLD.recv(source=i)
                 if costo < best_result:
                     best_result = costo
                     best_model = np.copy(model.policy._mean_approximation.mean_weights)
                     best_episode = n
                     best_expected_val = expected_val
                     best_value = np.copy(model.state_space.weights)
+                    best_costos_por_escenarios = costos_por_escenario
             # print(f'Episode {n}: Value: {-model.state_space.value(init_state_tensor):.1f} Mean: {model.policy._mean_approximation.mean_weights[10][0]:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][1]:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][2]:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][3]:.1f} Costo: {best_result:.1f} Time: {(time.time() - train_start_time) / 60:.1f}m')
             print(f'Episode {n}: Value: {best_expected_val:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][0]:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][1]:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][2]:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][3]:.1f} Costo: {best_result:.1f} Time: {(time.time() - train_start_time) / 60:.1f}m')
         # if MPI.COMM_WORLD.Get_size() > 1:
@@ -809,6 +814,7 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
         print(f'{best_result=:.1f}')
         print(f'{best_model=}')
         print(f'{best_value=}')
+        print(f'{best_costos_por_escenarios=}')
         #######################################################
         for i in range(1, MPI.COMM_WORLD.Get_size()):
             best_pid_cost = MPI.COMM_WORLD.recv(source=i)
@@ -878,7 +884,7 @@ def test(env, model, sorteos=1000, train_dataset=False):
     # return res
     # np.set_printoptions(threshold=np.inf)
     # print(f'{volumen=}')
-    return np.mean(costo_total), costo_por_paso.mean(axis=0)
+    return np.mean(costo_total), costo_por_paso.mean(axis=0), costo_total
 
 
 def test_parallel(env, model, sorteos=1000):

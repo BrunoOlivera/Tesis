@@ -7,7 +7,6 @@ from termico import *
 from demanda import *
 from linea_tiempo import *
 from constantes import *
-# import decimal
 import pandas as pd
 # import matplotlib.pyplot as plt
 import sys
@@ -24,11 +23,12 @@ from mpi4py import MPI
 
 # MS - ONLY
 # data = pd.read_csv("C:\\Users\\D255728\\Documents\\Prototipo\\data\\ap_gen_2000_MS.csv", header=None)
-data = pd.read_csv("C:\\Users\\D255728\\Documents\\Prototipo\\data\\ap_gen_2000_MS_FIXED.csv", header=None)
+# data = pd.read_csv("C:\\Users\\D255728\\Documents\\Prototipo\\data\\ap_gen_2000_MS_FIXED.csv", header=None)
+data = pd.read_csv("data/ap_gen_2000_MS_FIXED.csv", header=None)
 aportes = {"bonete": {(int(col), i + 1): row for col in data for i, row in data[col].iteritems()}}
 
 
-def main(pss, vss, gamma, sigma, num_episodes, eps, verbose=0):
+def main(pss, vss, gamma, sigma, num_episodes, eps, niveles_RBF, sigma_RBF, verbose=0):
     linea_tiempo = LineaTiempo(constantes.PASO_SEMANAL, 2020, 2021)
     bonete = Hidraulico("bonete", 0, 8200, 680.0, 0.19, v_inicial=4100)
     # bonete = Hidraulico("bonete", 0, 8200, 680.0, 0.19, v_inicial=8200)
@@ -56,8 +56,8 @@ def main(pss, vss, gamma, sigma, num_episodes, eps, verbose=0):
 
     # RBF
     ###### 101 centros ######
-    num_centers = ([101] * len(hidraulicos)) + [linea_tiempo.total_pasos]
-    sigmaRBF = 41
+    # num_centers = ([101] * len(hidraulicos)) + [linea_tiempo.total_pasos]
+    # sigmaRBF = 41
     # sigmaRBF = 82
     # sigmaRBF = 164
     # sigmaRBF = 328
@@ -70,7 +70,11 @@ def main(pss, vss, gamma, sigma, num_episodes, eps, verbose=0):
     # sigmaRBF = 820
     # sigmaRBF = 1000
     # sigmaRBF = 1200
-    state_space = RadialBasisFunction(min_states, max_states, num_centers, sigmaRBF, verbose)
+
+
+    num_centers = ([niveles_RBF] * len(hidraulicos)) + [linea_tiempo.total_pasos]
+
+    state_space = RadialBasisFunction(min_states, max_states, num_centers, sigma_RBF, verbose)
 
     policy_step_size = pss
     value_step_size = vss
@@ -176,6 +180,12 @@ def main(pss, vss, gamma, sigma, num_episodes, eps, verbose=0):
 
 
 if __name__ == '__main__':
-    # sys.stdout = open(sys.argv[8], 'w')
-    main(float(sys.argv[1]), float(sys.argv[2]), float(sys.argv[3]), float(sys.argv[4]), int(sys.argv[5]), int(sys.argv[6]), int(sys.argv[7]))
-    # sys.stdout.close()
+    main(pss          = float(sys.argv[1]),
+         vss          = float(sys.argv[2]),
+         gamma        = float(sys.argv[3]),
+         sigma        = float(sys.argv[4]),
+         num_episodes =   int(sys.argv[5]),
+         eps          =   int(sys.argv[6]),
+         niveles_RBF  =   int(sys.argv[7]),
+         sigma_RBF    =   int(sys.argv[8]),
+         verbose      =   int(sys.argv[9]))

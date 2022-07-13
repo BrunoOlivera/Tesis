@@ -1,67 +1,66 @@
 import numpy as np
-# import decimal
 
 # GRID
-class DiscreteStateSpace:
+# class DiscreteStateSpace:
 
-    def __init__(self, min_states, max_states, num_levels, verbose=0):
-        self.min_states = min_states
-        self.max_states = max_states
-        self.num_levels = num_levels
-        self._value = np.zeros((num_levels))
-        self._temp_state = np.zeros_like(self._value)
-        self._DEBUG_value = np.zeros((num_levels))
-        # print(self._temp_state.shape)
-        self.verbose = verbose
+#     def __init__(self, min_states, max_states, num_levels, verbose=0):
+#         self.min_states = min_states
+#         self.max_states = max_states
+#         self.num_levels = num_levels
+#         self._value = np.zeros((num_levels))
+#         self._temp_state = np.zeros_like(self._value)
+#         self._DEBUG_value = np.zeros((num_levels))
+#         # print(self._temp_state.shape)
+#         self.verbose = verbose
 
-        # -- DESHARDCODEAR -- #
-        # dos termicos
-        init_cost = [(self._value.shape[-1] - v) * -5_880_000 for v in range(self._value.shape[-1])]
-        # init_cost = [(self._value.shape[-1] - v) * -12_600_000 for v in range(self._value.shape[-1])]
-        # init_cost = [(self._value.shape[-1] - v) * -4_200_000 for v in range(self._value.shape[-1])]
-        # init_cost = [(self._value.shape[-1] - v) * -4.2 for v in range(self._value.shape[-1])]
-        # init_cost = [(self._value.shape[-1] - v) * -42 for v in range(self._value.shape[-1])]
-        # init_cost = [(self._value.shape[-1] - v) * -420 for v in range(self._value.shape[-1])]
-        # init_cost = [(self._value.shape[-1] - v) * -4200 for v in range(self._value.shape[-1])]
-        # init_cost = [(self._value.shape[-1] - v) * -42_000 for v in range(self._value.shape[-1])]
-        # init_cost = [(self._value.shape[-1] - v) * -420_000 for v in range(self._value.shape[-1])]
-        for x in range(len(init_cost)):
-            # self._value[:, x] = decimal.Decimal(init_cost[x])
-            self._value[:, x] = init_cost[x]
-            self._DEBUG_value[:, x] = init_cost[x]
-        # -- DESHARDCODEAR -- #
+#         # -- DESHARDCODEAR -- #
+#         # dos termicos
+#         init_cost = [(self._value.shape[-1] - v) * -5_880_000 for v in range(self._value.shape[-1])]
+#         # init_cost = [(self._value.shape[-1] - v) * -12_600_000 for v in range(self._value.shape[-1])]
+#         # init_cost = [(self._value.shape[-1] - v) * -4_200_000 for v in range(self._value.shape[-1])]
+#         # init_cost = [(self._value.shape[-1] - v) * -4.2 for v in range(self._value.shape[-1])]
+#         # init_cost = [(self._value.shape[-1] - v) * -42 for v in range(self._value.shape[-1])]
+#         # init_cost = [(self._value.shape[-1] - v) * -420 for v in range(self._value.shape[-1])]
+#         # init_cost = [(self._value.shape[-1] - v) * -4200 for v in range(self._value.shape[-1])]
+#         # init_cost = [(self._value.shape[-1] - v) * -42_000 for v in range(self._value.shape[-1])]
+#         # init_cost = [(self._value.shape[-1] - v) * -420_000 for v in range(self._value.shape[-1])]
+#         for x in range(len(init_cost)):
+#             # self._value[:, x] = decimal.Decimal(init_cost[x])
+#             self._value[:, x] = init_cost[x]
+#             self._DEBUG_value[:, x] = init_cost[x]
+#         # -- DESHARDCODEAR -- #
 
-    @property
-    def value(self):
-        return self._value
+#     @property
+#     def value(self):
+#         return self._value
 
-    @value.setter
-    def value(self, value):
-        self._value = value
+#     @value.setter
+#     def value(self, value):
+#         self._value = value
 
-    @property
-    def shape(self):
-        return self._value.shape
+#     @property
+#     def shape(self):
+#         return self._value.shape
 
-    # def state(self, env_state):
-    #     res = np.zeros_like(self._value)
-    #     res[tuple([min(self.num_levels[i] - 1, int((env_state[i] // ((self.max_states[i] - self.min_states[i]) / self.num_levels[i])))) for i in range(len(env_state))])] = 1
-    #     return res
+#     # def state(self, env_state):
+#     #     res = np.zeros_like(self._value)
+#     #     res[tuple([min(self.num_levels[i] - 1, int((env_state[i] // ((self.max_states[i] - self.min_states[i]) / self.num_levels[i])))) for i in range(len(env_state))])] = 1
+#     #     return res
 
-    def state(self, env_state):
-        self._temp_state.fill(0)
-        self._temp_state[tuple([min(self.num_levels[i] - 1, int((env_state[i] // ((self.max_states[i] - self.min_states[i]) / self.num_levels[i])))) for i in range(len(env_state))])] = 1
-        return np.copy(self._temp_state)
+#     def state(self, env_state):
+#         self._temp_state.fill(0)
+#         self._temp_state[tuple([min(self.num_levels[i] - 1, int((env_state[i] // ((self.max_states[i] - self.min_states[i]) / self.num_levels[i])))) for i in range(len(env_state))])] = 1
+#         return np.copy(self._temp_state)
 
-    def gradient_step(self, state, delta, value_step_size):
-        # self._value += decimal.Decimal(value_step_size) * delta * state
-        # self._value[np.where(state == 1)] += decimal.Decimal(value_step_size) * delta
-        if self.verbose == 1:
-            print(f'Value antes: {self._value[np.where(state == 1)][0]:.1f}', end=' ')
-        self._value[np.where(state == 1)] += value_step_size * delta
-        # print(f'{np.sum(self._value > self._DEBUG_value)}')
-        if self.verbose == 1:
-            print(f'Value desp: {self._value[np.where(state == 1)][0]:.1f}')
+#     def gradient_step(self, state, delta, value_step_size):
+#         # self._value += decimal.Decimal(value_step_size) * delta * state
+#         # self._value[np.where(state == 1)] += decimal.Decimal(value_step_size) * delta
+#         if self.verbose == 1:
+#             print(f'Value antes: {self._value[np.where(state == 1)][0]:.1f}', end=' ')
+#         self._value[np.where(state == 1)] += value_step_size * delta
+#         # print(f'{np.sum(self._value > self._DEBUG_value)}')
+#         if self.verbose == 1:
+#             print(f'Value desp: {self._value[np.where(state == 1)][0]:.1f}')
 
 
 # RBF
@@ -12761,6 +12760,15 @@ class RadialBasisFunction:
        1.91547895e-29, 4.51425555e-30, 1.04739150e-30, 2.39246779e-31,
        5.38018616e-32, 1.19113958e-32, 2.59622397e-33, 5.57103393e-34,
        1.17691094e-34]])
+
+        states_RBF = {}
+        states_RBF[(250, 11)] = states_RBF_250
+        states_RBF[(500, 11)] = states_RBF_500
+        states_RBF[(41, 101)] = states_RBF_41_101
+        states_RBF[(82, 101)] = states_RBF_82_101
+        states_RBF[(164, 101)] = states_RBF_164_101
+        states_RBF[(328, 101)] = states_RBF_328_101
+        states_RBF[(656, 101)] = states_RBF_656_101
         ##############################################
 
 
@@ -12780,11 +12788,12 @@ class RadialBasisFunction:
             # self.weights[:, x] = cost / scaler_array[sigma]
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_250), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 250
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_500), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 500
-            self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_41_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 41 101 niveles
+            # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_41_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 41 101 niveles
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_82_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 82 101 niveles
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_164_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 164 101 niveles
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_328_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 328 101 niveles
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_656_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 656 101 niveles
+            self.weights[:, x] = np.dot(np.linalg.inv(states_RBF[(sigma, num_centers[0])]), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # generic
         # print(f'{self.weights[0, :]=}')
         # print(f'{self.weights[:, 0]=}')
         # print(f'{self.weights[:, 103]=}')
@@ -12821,22 +12830,9 @@ class RadialBasisFunction:
         self._temp_state.fill(0)
         ind = [slice(None)] * self._temp_state.ndim
         ind[-1] = env_state[-1]
-        # print(np.array([np.exp(-np.linalg.norm(tuple(env_state[:-1]) - ci)**2 / (2 * self.sigma**2)) for ci in self.centers]).shape)
-        # print(f'{self.num_centers[:-1]=}')
-        # print(f'{self.centers[:-1]=}')
-        # print(f'{env_state=}')
-        # print(f'{ind=}')
-        # print(f'{tuple(ind)=}')
         # self._temp_state[ind] = np.array([np.exp(-np.linalg.norm(env_state[:-1][0] - ci)**2 / (2 * self.sigma**2)) for ci in self.centers[:-1]]).reshape(tuple(self.num_centers[:-1]))
         self._temp_state[tuple(ind)] = np.array([np.exp(-np.linalg.norm(env_state[:-1][0] - ci)**2 / (2 * self.sigma**2)) for ci in self.centers]).reshape(tuple(self.num_centers[:-1]))
         # self._temp_state[ind] = np.array([np.exp(-np.linalg.norm(tuple(env_state[:-1]) - ci)**2 / (2 * self.sigma**2)) for ci in self.centers]).reshape(tuple(self.num_centers[:-1]))
-        np.set_printoptions(threshold=np.inf)
-        # print(f'env_state: ', end=' ')
-        # print([f'{v:.1f}' for v in env_state])
-        # print(f'{self._temp_state[:,ind[-1]]=}')
-        # print(f'{self._temp_state[0,0]=}')
-        # print(f'{self.weights=}')
-        # print(f'value: {self.value(self._temp_state):.1f}')
         return np.copy(self._temp_state)
 
     def gradient_step(self, state, delta, weights_step_size):

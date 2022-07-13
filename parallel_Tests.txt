@@ -36,7 +36,7 @@ mpiexec -n 13 python run.py 1e-6 0.001 1 5 5000 15 0 > output\test32_FALLA_GEN_6
 mpiexec -n 13 python run.py 2e-9 0.07 1 5 10000 35 0 > output\test36_FIXED_GRADIENT_13_101.txt
 
 
-mpiexec -n 2 python run.py 1e-6 0.001 1 5 1 15 0 > output\test2123testsetsets.txt
+mpiexec -n 2 python run.py 1e-6 0.001 1 5 1 15 101 82 0 > output\test2123testsetsets.txt
 
 
 docker build -t docker-prototipo -f Dockerfile --build-arg HTTP_PROXY=http://D255728:Koala2153Qute1@proxysis:8080 --build-arg HTTPS_PROXY=http://D255728:Koala2153Qute1@proxysis:8080 --network host .

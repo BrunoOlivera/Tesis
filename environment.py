@@ -1,4 +1,4 @@
-import pymongo
+# import pymongo
 import random
 import math
 import numpy as np
@@ -279,24 +279,24 @@ class Environment:
     #         res[lago] = [elem[lago] for elem in listaAportes]
     #     return res
 
-    def get_lista_aportes(self, lagos):
+    # def get_lista_aportes(self, lagos):
 
-        mongo = pymongo.MongoClient("mongodb://localhost:27017/", connect=False)
+    #     mongo = pymongo.MongoClient("mongodb://localhost:27017/", connect=False)
 
-        db = mongo["prototipo"]
-        coll = db["aportesConAnio"]
+    #     db = mongo["prototipo"]
+    #     coll = db["aportesConAnio"]
 
-        listaAportes = list(coll.find({}, {"_id": 0}))
-        mongo.close()
+    #     listaAportes = list(coll.find({}, {"_id": 0}))
+    #     mongo.close()
 
-        # print(f'{listaAportes=}')
+    #     # print(f'{listaAportes=}')
 
-        res = {}
-        for lago in lagos:
-            res[lago] = {}
-            for elem in listaAportes:
-                res[lago][elem["anio"], elem["semana"]] = elem[lago]
-        return res
+    #     res = {}
+    #     for lago in lagos:
+    #         res[lago] = {}
+    #         for elem in listaAportes:
+    #             res[lago][elem["anio"], elem["semana"]] = elem[lago]
+    #     return res
 
     ############################################################################
     ################             GENERADOR APORTES              ################
