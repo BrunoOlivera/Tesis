@@ -300,6 +300,13 @@ class GaussianPolicy:
         # TODO: clips?????????
         ################
         # self._mean_approximation.mean_weights = np.clip(self._mean_approximation.mean_weights, 0, 680)  # INCORRECTO EN RBF !!!
+        # mean_after = self._mean_approximation.mean_from_state(state)
+        # # min_cap = min(0, mean_after)
+        # if mean_after > 680:
+        #     # self._mean_approximation.mean_weights *= state * 680 / mean_after
+        #     self._mean_approximation.mean_weights *= np.divide(state, state, where=state != 0) * 680 / mean_after
+        # if mean_after < 0:
+        #     self._mean_approximation.mean_weights *= np.divide(state, state, where=state != 0) * 680 / mean_after
         ################
         # self._mean_approximation.mean[index] -= decimal.Decimal(policy_step_size) * decimal.Decimal(gamma**time) * delta * gradient
         if self.verbose == 1:
