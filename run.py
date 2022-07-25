@@ -50,9 +50,9 @@ def main(pss, vss, gamma, sigma, num_episodes, eps, niveles_RBF, sigma_RBF, verb
     max_states = [h.v_max for h in hidraulicos.values()] + [linea_tiempo.total_pasos - 1]
 
     # GRID
-    # num_levels = ([100] * len(hidraulicos)) + [linea_tiempo.total_pasos]
+    num_levels = ([100] * len(hidraulicos)) + [linea_tiempo.total_pasos]
     # # num_levels = ([10] * len(hidraulicos)) + [linea_tiempo.total_pasos]
-    # state_space = DiscreteStateSpace(min_states, max_states, num_levels, verbose)
+    state_space = DiscreteStateSpace(min_states, max_states, num_levels, verbose)
 
     # RBF
     ###### 101 centros ######
@@ -72,9 +72,9 @@ def main(pss, vss, gamma, sigma, num_episodes, eps, niveles_RBF, sigma_RBF, verb
     # sigmaRBF = 1200
 
 
-    num_centers = ([niveles_RBF] * len(hidraulicos)) + [linea_tiempo.total_pasos]
+    # num_centers = ([niveles_RBF] * len(hidraulicos)) + [linea_tiempo.total_pasos]
 
-    state_space = RadialBasisFunction(min_states, max_states, num_centers, sigma_RBF, verbose)
+    # state_space = RadialBasisFunction(min_states, max_states, num_centers, sigma_RBF, verbose)
 
     policy_step_size = pss
     value_step_size = vss

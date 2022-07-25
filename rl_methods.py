@@ -17,41 +17,39 @@ class ActorCritic:
         return self.policy.act(state_disc, state_cont)
 
     # GRID
-    # def gradient_step(self, state, action, reward, next_state, time):
-    #     # delta = reward + decimal.Decimal(self.gamma) * decimal.Decimal(self.state_space.value[np.array(next_state, dtype=bool)][0]) - decimal.Decimal(self.state_space.value[np.array(state, dtype=bool)][0])
-    #     if next_state is None:
-    #         delta = reward - self.state_space.value[np.array(state, dtype=bool)][0]
-    #         # if abs(delta) > 4_200_000:
-    #         #     print(f'{np.where(state==1)=} {reward=:.1f} state_value={self.state_space.value[np.array(state, dtype=bool)][0]:.1f} next_sate_value={next_state} {delta=:.1f}')
-    #     else:
-    #         delta = reward + self.gamma * self.state_space.value[np.array(next_state, dtype=bool)][0] - self.state_space.value[np.array(state, dtype=bool)][0]
-    #         # if abs(delta) > 4_200_000:
-    #         #     print(f'{np.where(state==1)=} {reward=:.1f} state_value={self.state_space.value[np.array(state, dtype=bool)][0]:.1f} next_sate_value={self.state_space.value[np.array(next_state, dtype=bool)][0]:.1f} {delta=:.1f}')
-    #     # delta = reward - decimal.Decimal(self.gamma) * decimal.Decimal(self.state_space.value[np.array(next_state, dtype=bool)][0]) + decimal.Decimal(self.state_space.value[np.array(state, dtype=bool)][0])
-    #     changed = self.policy.gradient_step(state, action, delta, self.gamma, self.policy_step_size, time)
-    #     if changed:
-    #         self.state_space.gradient_step(state, delta, self.value_step_size)
-    #     # return self.policy.gradient_step(state, action, delta, self.gamma, self.policy_step_size, time)
-    #     return delta
-
-    # RBF
     def gradient_step(self, state, action, reward, next_state, time):
-        # delta = reward + decimal.Decimal(self.gamma) * decimal.Decimal(self.state_space.value[np.array(next_state, dtype=bool)][0]) - decimal.Decimal(self.state_space.value[np.array(state, dtype=bool)][0])
         if next_state is None:
-            delta = reward - self.state_space.value(state)
+            delta = reward - self.state_space.value[np.array(state, dtype=bool)][0]
             # if abs(delta) > 4_200_000:
             #     print(f'{np.where(state==1)=} {reward=:.1f} state_value={self.state_space.value[np.array(state, dtype=bool)][0]:.1f} next_sate_value={next_state} {delta=:.1f}')
         else:
-            delta = reward + self.gamma * self.state_space.value(next_state) - self.state_space.value(state)
+            delta = reward + self.gamma * self.state_space.value[np.array(next_state, dtype=bool)][0] - self.state_space.value[np.array(state, dtype=bool)][0]
             # if abs(delta) > 4_200_000:
             #     print(f'{np.where(state==1)=} {reward=:.1f} state_value={self.state_space.value[np.array(state, dtype=bool)][0]:.1f} next_sate_value={self.state_space.value[np.array(next_state, dtype=bool)][0]:.1f} {delta=:.1f}')
-        # delta = reward - decimal.Decimal(self.gamma) * decimal.Decimal(self.state_space.value[np.array(next_state, dtype=bool)][0]) + decimal.Decimal(self.state_space.value[np.array(state, dtype=bool)][0])
-        # print(f'{delta=}')
         changed = self.policy.gradient_step(state, action, delta, self.gamma, self.policy_step_size, time)
         if changed:
             self.state_space.gradient_step(state, delta, self.value_step_size)
         # return self.policy.gradient_step(state, action, delta, self.gamma, self.policy_step_size, time)
         return delta
+
+    # RBF
+    # def gradient_step(self, state, action, reward, next_state, time):
+    #     # delta = reward + decimal.Decimal(self.gamma) * decimal.Decimal(self.state_space.value[np.array(next_state, dtype=bool)][0]) - decimal.Decimal(self.state_space.value[np.array(state, dtype=bool)][0])
+    #     if next_state is None:
+    #         delta = reward - self.state_space.value(state)
+    #         # if abs(delta) > 4_200_000:
+    #         #     print(f'{np.where(state==1)=} {reward=:.1f} state_value={self.state_space.value[np.array(state, dtype=bool)][0]:.1f} next_sate_value={next_state} {delta=:.1f}')
+    #     else:
+    #         delta = reward + self.gamma * self.state_space.value(next_state) - self.state_space.value(state)
+    #         # if abs(delta) > 4_200_000:
+    #         #     print(f'{np.where(state==1)=} {reward=:.1f} state_value={self.state_space.value[np.array(state, dtype=bool)][0]:.1f} next_sate_value={self.state_space.value[np.array(next_state, dtype=bool)][0]:.1f} {delta=:.1f}')
+    #     # delta = reward - decimal.Decimal(self.gamma) * decimal.Decimal(self.state_space.value[np.array(next_state, dtype=bool)][0]) + decimal.Decimal(self.state_space.value[np.array(state, dtype=bool)][0])
+    #     # print(f'{delta=}')
+    #     changed = self.policy.gradient_step(state, action, delta, self.gamma, self.policy_step_size, time)
+    #     if changed:
+    #         self.state_space.gradient_step(state, delta, self.value_step_size)
+    #     # return self.policy.gradient_step(state, action, delta, self.gamma, self.policy_step_size, time)
+    #     return delta
 
 
 
@@ -594,7 +592,8 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
     # best_result = 350_084_468  # dos termicos, nuevo modelo, RBF
     # best_result = 1_135_680_000  # Termico('t_barato', 250, 100),Termico('t1_caro', 100, 400)
     best_result = 7_425_600_000  # Termico('t_barato', 250, 100),Termico('t1_caro', 100, 4000) #FALLA
-    best_model = np.zeros_like(model.policy._mean_approximation.mean_weights)
+    # best_model = np.zeros_like(model.policy._mean_approximation.mean_weights)
+    best_model = np.zeros_like(model.policy._mean_approximation._mean_discretization)
     # best_unclipped_model = np.zeros_like(model.policy._mean_approximation.mean_weights)
     best_episode = 0
     best_pid_cost = best_result
@@ -610,16 +609,19 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
         states_RBF = []
         # for i in range(0, 8200, 820):
         # for i in np.linspace(0, 8200, 101):
-        for i in np.linspace(0, 8200, model.state_space.num_centers[0]):
-            states_RBF.append(model.state_space.state([i, 0])[:, 0])
-            print(f'INIT_VAL: {-model.state_space.value(model.state_space.state([i, 0]))}')
+        # for i in np.linspace(0, 8200, model.state_space.num_centers[0]):
+        #     states_RBF.append(model.state_space.state([i, 0])[:, 0])
+        #     print(f'INIT_VAL: {-model.state_space.value(model.state_space.state([i, 0]))}')
         print(f'{states_RBF=}')
         print(f'{init_state_tensor[:,0]=}')
-        print(f'{model.state_space.weights[:,0]=}')
+        # print(f'{model.state_space.weights[:,0]=}')
+        print(f'{model.state_space._value[:,0]=}')
         # print(f'{model.state_space.weights=}')
-        print(f'E_VAL: {-model.state_space.value(init_state_tensor)}')
+        # print(f'E_VAL: {-model.state_space.value(init_state_tensor)}')
         print(f'======================================================')
-    init_mean = model.policy._mean_approximation.mean_weights[0][0]
+    # init_mean = model.policy._mean_approximation.mean_weights[0][0]
+    print(f'ASD=>{model.policy._mean_approximation._mean_discretization.shape}')
+    init_mean = model.policy._mean_approximation._mean_discretization[0]
 
     if MPI.COMM_WORLD.Get_rank() == 0:
         print(f'{model.policy_step_size=}')
@@ -630,7 +632,7 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
         print(f'{init_mean=:.2f}')
         # print(f'{model.policy._mean_approximation.mean_weights.shape}')
         print(f'{exploring_start=}')
-        print(f'{model.state_space.sigma=}')
+        # print(f'{model.state_space.sigma=}')
         print(f'{env._h_fijo=}')
         # print(f'{env._gen_aportes_fijos_cant=}')
         print(f'{model.policy.epsilon=}')
@@ -686,9 +688,12 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
             # send pid_cost
             MPI.COMM_WORLD.Send(np.array([pid_cost]), 0)
             # send policy
-            MPI.COMM_WORLD.Send(model.policy._mean_approximation.mean_weights, 0)
-            MPI.COMM_WORLD.send(-model.state_space.value(init_state_tensor), dest=0)
-            MPI.COMM_WORLD.Send(model.state_space.weights, 0)
+            # MPI.COMM_WORLD.Send(model.policy._mean_approximation.mean_weights, 0)
+            MPI.COMM_WORLD.Send(model.policy._mean_approximation._mean_discretization, 0)
+            # MPI.COMM_WORLD.send(-model.state_space.value(init_state_tensor), dest=0)
+            MPI.COMM_WORLD.send(np.sum(-model.state_space.value * init_state_tensor), dest=0)
+            # MPI.COMM_WORLD.Send(model.state_space.weights, 0)
+            MPI.COMM_WORLD.Send(model.state_space._value, 0)
             MPI.COMM_WORLD.send(costos_por_escenario, dest=0)
         else:
             for i in range(1, MPI.COMM_WORLD.Get_size()):
@@ -697,19 +702,25 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
                 MPI.COMM_WORLD.Recv(costo_np, i)
                 costo = costo_np[0]
                 # recv policy
-                MPI.COMM_WORLD.Recv(model.policy._mean_approximation.mean_weights, i)
+                # MPI.COMM_WORLD.Recv(model.policy._mean_approximation.mean_weights, i)
+                MPI.COMM_WORLD.Recv(model.policy._mean_approximation._mean_discretization, i)
                 expected_val = MPI.COMM_WORLD.recv(source=i)
-                MPI.COMM_WORLD.Recv(model.state_space.weights, i)
+                # MPI.COMM_WORLD.Recv(model.state_space.weights, i)
+                MPI.COMM_WORLD.Recv(model.state_space.value, i)
                 costos_por_escenario = MPI.COMM_WORLD.recv(source=i)
                 if costo < best_result:
                     best_result = costo
-                    best_model = np.copy(model.policy._mean_approximation.mean_weights)
+                    # best_model = np.copy(model.policy._mean_approximation.mean_weights)
+                    best_model = np.copy(model.policy._mean_approximation._mean_discretization)
                     best_episode = n
                     best_expected_val = expected_val
-                    best_value = np.copy(model.state_space.weights)
+                    # best_value = np.copy(model.state_space.weights)
+                    best_value = np.copy(model.state_space._value)
                     best_costos_por_escenarios = costos_por_escenario
             # print(f'Episode {n}: Value: {-model.state_space.value(init_state_tensor):.1f} Mean: {model.policy._mean_approximation.mean_weights[10][0]:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][1]:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][2]:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][3]:.1f} Costo: {best_result:.1f} Time: {(time.time() - train_start_time) / 60:.1f}m')
-            print(f'Episode {n}: Value: {best_expected_val:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][0]:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][1]:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][2]:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][3]:.1f} Costo: {best_result:.1f} Time: {(time.time() - train_start_time) / 60:.1f}m')
+            # print(f'Episode {n}: Value: {best_expected_val:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][0]:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][1]:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][2]:.1f} Mean: {model.policy._mean_approximation.mean_weights[10][3]:.1f} Costo: {best_result:.1f} Time: {(time.time() - train_start_time) / 60:.1f}m')
+            # print(f'Episode {n}: Value: {best_expected_val:.1f} Mean: {model.policy._mean_approximation._mean_discretization[10][0]:.1f} Mean: {model.policy._mean_approximation._mean_discretization[10][1]:.1f} Mean: {model.policy._mean_approximation._mean_discretization[10][2]:.1f} Mean: {model.policy._mean_approximation._mean_discretization[10][3]:.1f} Costo: {best_result:.1f} Time: {(time.time() - train_start_time) / 60:.1f}m')
+            print(f'Episode {n}: Value: {best_expected_val:.1f} Mean: ----- Mean: ----- Mean: ----- Mean: ----- Costo: {best_result:.1f} Time: {(time.time() - train_start_time) / 60:.1f}m')
         # if MPI.COMM_WORLD.Get_size() > 1:
         #     model.policy._mean_approximation.mean_weights /= MPI.COMM_WORLD.Get_size()
         #     model.state_space.weights /= MPI.COMM_WORLD.Get_size()
@@ -792,8 +803,9 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
     MPI.COMM_WORLD.Barrier()
     if MPI.COMM_WORLD.Get_rank() == 1:
         print(f'{init_state_tensor[:,0]=}')
-        print(f'{model.state_space.weights[:,0]=}')
-        print(f'E_VAL: {-model.state_space.value(init_state_tensor)}')
+        # print(f'{model.state_space.weights[:,0]=}')
+        print(f'{model.state_space._value[:,0]=}')
+        # print(f'E_VAL: {-model.state_space.value(init_state_tensor)}')
         print(f'===========================================')
     if MPI.COMM_WORLD.Get_rank() == 0:
         print(f'Total Train Time: {time.time() - train_start_time:.2f}s')
@@ -805,11 +817,12 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
         print(f'init_lago={env._hidraulicos["bonete"].v_inicial}')
         print(f'{init_mean=:.2f}')
         print(f'{exploring_start=}')
-        print(f'{model.state_space.sigma=}')
+        # print(f'{model.state_space.sigma=}')
         print(f'{model.policy.epsilon=}')
         print(f'======================================================')
         np.set_printoptions(threshold=np.inf)
-        print(f'{model.policy._mean_approximation.mean_weights=}')
+        # print(f'{model.policy._mean_approximation.mean_weights=}')
+        print(f'{model.policy._mean_approximation._mean_discretization=}')
         print(f'{best_episode=}')
         print(f'{best_result=:.1f}')
         print(f'{best_model=}')
