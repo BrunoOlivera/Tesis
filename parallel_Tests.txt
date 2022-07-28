@@ -41,6 +41,11 @@ mpiexec -n 2 python run.py 1e-6 0.001 1 5 1 15 11 250 0 > output\test2123testset
 
 docker build -t docker-prototipo -f Dockerfile --build-arg HTTP_PROXY=http://D255728:Koala2153Qute1@proxysis:8080 --build-arg HTTPS_PROXY=http://D255728:Koala2153Qute1@proxysis:8080 --network host .
 
+docker build -t docker-prototipo -f Dockerfile --build-arg HTTP_PROXY=http://D255728:Koala2153Qute1@proxysis:8080 --build-arg HTTPS_PROXY=http://D255728:Koala2153Qute1@proxysis:8080 --network=host .
+
+
+docker run -v /var/run/docker.sock:/var/run/docker.sock -v /Singularity:/output --privileged -t --rm quay.io/singularity/docker2singularity --name singularity-prototipo docker-prototipo
+
 
 2.02843187
 2.74291207

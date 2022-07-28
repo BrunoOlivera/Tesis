@@ -604,6 +604,8 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
     best_costos_por_escenarios = []
     best_values = np.zeros_like(model.state_space.value)
     exploring_start = True
+    best_expected_val = best_result
+    best_value = None
 
     init_state_tensor = model.state_space.state([4100, 0])
     if MPI.COMM_WORLD.Get_rank() == 1:
