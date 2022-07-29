@@ -639,6 +639,9 @@ def train_parallel_2(env, model, num_episodes=1000, verbose=0, exploring_start=F
         print(f'======================================================')
         print(f'Start Time: {time.strftime("%H:%M:%S", time.localtime())}')
         print(f'======================================================')
+        print(f'{num_episodes=}')
+        print(f'{MPI.COMM_WORLD.Get_size()=}')
+        print(f'NUM_EPISODES: {num_episodes // (MPI.COMM_WORLD.Get_size() - 1 // 2) + 1}')
 
     # num_episodes_before_reduce = 1000
     num_episodes_before_reduce = 500

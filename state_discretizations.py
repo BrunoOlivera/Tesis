@@ -12786,6 +12786,9 @@ class RadialBasisFunction:
             # self.weights[:, x] = cost
             cost -= 71_400_000  # Termico('t_barato', 250, 100),Termico('t1_caro', 250, 4000) #FALLA
             # self.weights[:, x] = cost / scaler_array[sigma]
+            ##############################################
+            # indexes_RBF^-1 * costo --> para calcular el factor de escalamiento en cada nivel
+            ##############################################
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_250), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 250
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_500), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 500
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_41_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 41 101 niveles
@@ -12793,7 +12796,12 @@ class RadialBasisFunction:
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_164_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 164 101 niveles
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_328_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 328 101 niveles
             # self.weights[:, x] = np.dot(np.linalg.inv(states_RBF_656_101), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # sigmaRBF 656 101 niveles
-            self.weights[:, x] = np.dot(np.linalg.inv(states_RBF[(sigma, num_centers[0])]), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # generic
+            self.weights[:, x] = np.dot(np.linalg.inv(states_RBF[(sigma, num_centers[0])]), cost * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, x].shape)  # TODO: generalizar
+        ###################################################
+        ##### FACTOR DE ESCALAMIENTO PARA LA POLITICA #####
+        ###################################################
+        self.policy_scale_factor = np.dot(np.linalg.inv(states_RBF[(sigma, num_centers[0])]), 680 * np.ones((self.weights.shape[0], 1))).reshape(self.weights[:, 0].shape)  # TODO: generalizar
+        ###################################################
         # print(f'{self.weights[0, :]=}')
         # print(f'{self.weights[:, 0]=}')
         # print(f'{self.weights[:, 103]=}')

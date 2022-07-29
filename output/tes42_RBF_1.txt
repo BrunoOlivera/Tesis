@@ -1,0 +1,102 @@
+model.policy_step_size=1e-06
+model.value_step_size=0.2
+model.gamma=1.0
+model.policy.sigma=5.0
+init_lago=4100
+init_mean=0.00
+exploring_start=True
+model.state_space.sigma=250
+env._h_fijo=1
+model.policy.epsilon=0.0
+======================================================
+Start Time: 09:44:22
+======================================================
+num_episodes=10000
+MPI.COMM_WORLD.Get_size()=13
+NUM_EPISODES: 770
+Episode 0: Value: 7449408219.1 Mean: -0.0 Mean: -0.0 Mean: -0.0 Mean: 13.5 Costo: 4524709051.1 Time: 0.6m
+Episode 1: Value: 7241805145.9 Mean: 24.7 Mean: 156.1 Mean: 334.6 Mean: 2362205.4 Costo: 4002765555.3 Time: 1.3m
+Episode 2: Value: 7241805145.9 Mean: -19.3 Mean: 137300.6 Mean: 28054414632397.8 Mean: -1762774569092087040.0 Costo: 4002765555.3 Time: 2.0m
+Episode 3: Value: 7241805145.9 Mean: 135725.4 Mean: 28454237961.6 Mean: -166450750455755040.0 Mean: 5600410096721454436450304.0 Costo: 4002765555.3 Time: 2.6m
+Episode 4: Value: 7388684469.0 Mean: 135725.4 Mean: -16012190786.3 Mean: -3719955210415734784.0 Mean: -52558634101368999888551936.0 Costo: 3981006558.3 Time: 3.3m
+Episode 5: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 3.9m
+Episode 6: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 4.6m
+Episode 7: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 5.2m
+Episode 8: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 5.9m
+Episode 9: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 6.5m
+Episode 10: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 7.2m
+Episode 11: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 7.8m
+Episode 12: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 8.5m
+Episode 13: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 9.1m
+Episode 14: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 9.8m
+Episode 15: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 10.4m
+Episode 16: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 11.1m
+Episode 17: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 11.7m
+Episode 18: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 12.4m
+Episode 19: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 13.0m
+Episode 20: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 13.6m
+Episode 21: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 14.3m
+Episode 22: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 15.1m
+Episode 23: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 15.7m
+Episode 24: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 16.4m
+Episode 25: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 17.0m
+Episode 26: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 17.7m
+Episode 27: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 18.3m
+Episode 28: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 18.9m
+Episode 29: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 19.6m
+Episode 30: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 20.2m
+Episode 31: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 20.8m
+Episode 32: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 21.5m
+Episode 33: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 22.1m
+Episode 34: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 22.7m
+Episode 35: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 23.4m
+Episode 36: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 24.0m
+Episode 37: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 24.7m
+Episode 38: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 25.3m
+Episode 39: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 25.9m
+Episode 40: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 26.6m
+Episode 41: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 27.2m
+Episode 42: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 27.9m
+Episode 43: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 28.5m
+Episode 44: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 29.2m
+Episode 45: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 29.8m
+Episode 46: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 30.4m
+Episode 47: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 31.0m
+Episode 48: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 31.7m
+Episode 49: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 32.3m
+Episode 50: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 32.9m
+Episode 51: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 33.6m
+Episode 52: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 34.2m
+Episode 53: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 34.8m
+Episode 54: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 35.5m
+Episode 55: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 36.1m
+Episode 56: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 36.8m
+Episode 57: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 37.4m
+Episode 58: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 38.1m
+Episode 59: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 38.7m
+Episode 60: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 39.3m
+Episode 61: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 40.0m
+Episode 62: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 40.6m
+Episode 63: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 41.3m
+Episode 64: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 42.0m
+Episode 65: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 42.6m
+Episode 66: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 43.3m
+Episode 67: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 43.9m
+Episode 68: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 44.5m
+Episode 69: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 45.1m
+Episode 70: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 45.8m
+Episode 71: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 46.4m
+Episode 72: Value: 7388684469.0 Mean: nan Mean: nan Mean: nan Mean: nan Costo: 3981006558.3 Time: 47.0m
+job aborted:
+[ranks] message
+
+[0] job terminated by the user
+
+[1-12] terminated
+
+---- error analysis -----
+
+[0] on PC151221
+ctrl-c was hit. job aborted by the user.
+
+---- error analysis -----

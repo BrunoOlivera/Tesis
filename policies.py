@@ -86,6 +86,7 @@ class LinearMeanApproximation:
         # aa[9][0] = 1
         # print(f'{self._state_index[aa.tobytes()]}')
         # self._unclipped_mean = np.zeros_like(self._mean_discretization)
+        self.state_discretization = state_discretization
         ####################################################################
         # self.mean_weights = np.zeros_like(state_discretization.shape)
         self.mean_weights = np.zeros(state_discretization.shape) + inits[0]  # TODO: generalizar
@@ -300,6 +301,7 @@ class GaussianPolicy:
         # TODO: clips?????????
         ################
         # self._mean_approximation.mean_weights = np.clip(self._mean_approximation.mean_weights, 0, 680)  # INCORRECTO EN RBF !!!
+        self._mean_approximation.mean_weights = np.clip(self._mean_approximation.mean_weights, 0, self._mean_approximation.state_discretization.policy_scale_factor.reshape((self._mean_approximation.mean_weights.shape[0], 1)))
         # mean_after = self._mean_approximation.mean_from_state(state)
         # # min_cap = min(0, mean_after)
         # if mean_after > 680:
