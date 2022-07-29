@@ -2,11 +2,19 @@
 datos <- read.csv("C:/Users/D255728/Documents/Prototipo/data/demanda_residual_horaria.csv", header = TRUE, , sep = ';')
 
 #fit <- auto.arima(datos$Demanda[0:3287], max.p = 50, max.q = 50, max.d = 5)
-fit <- auto.arima(datos$DEMANDA_RESIDUAL_POSITIVA, max.p = 50, max.q = 50, max.d = 5)
+fit <- auto.arima(datos$DEMANDA_RESIDUAL[0:35064], max.p = 50, max.q = 50, max.d = 5)
 
 
-plot(datos$DEMANDA_RESIDUAL_POSITIVA, type = "l", lwd = 2)
+# plot(datos$DEMANDA_RESIDUAL_POSITIVA, type = "l", lwd = 2)
+plot(datos$DEMANDA_RESIDUAL, type = "l", lwd = 2)
 lines(fit$fitted, type = "l", col = "red", , lwd = 2)
+
+plot(datos$DEMANDA_RESIDUAL[35064:43824], type = "l", lwd = 2)
+preds <- forecast(fit,8760)
+lines(preds$mean, type = "l", col = "red", , lwd = 2)
+
+plot(preds$mean)
+
 
 d2 <- datos
 d2$arima <- fit$fitted
